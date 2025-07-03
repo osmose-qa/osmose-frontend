@@ -57,54 +57,49 @@ async def issues(
     db: Connection = Depends(database.db),
     langs: LangsNegociation = Depends(langs.langs),
     params=Depends(commons_params.params),
+    i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> Dict[Literal["issues"], List[Dict[str, Any]]]:
-    params.limit = min(params.limit, 100000)
-    results = await query._gets(db, params)
 
-    out = []
-    for res in results:
-        i = {
-            "lat": float(res["lat"]),
-            "lon": float(res["lon"]),
-            "id": res["uuid"],
-            "item": str(res["item"]),
-        }
+    title, issues = await _issues(db, langs, params, i18n)
+
+    outprops = {"lat", "lon", "id", "item"}
+    if params.full:
+        outprops = None
+        
+    #Left here for retrocompat
+    for issue in issues:
+        issue["id"]: issue["uuid"]
+
+        issue.pop("uuid", None)
+
         if params.full:
-            i.update(
-                {
-                    "lat": float(res["lat"]),
-                    "lon": float(res["lon"]),
-                    "id": res["uuid"],
-                    "item": str(res["item"]),
-                    "source": res["source_id"],
-                    "class": res["class"],
-                    "subtitle": utils.i10n_select(res["subtitle"], langs),
-                    "title": utils.i10n_select(res["title"], langs),
-                    "level": res["level"],
-                    "update": str(res["timestamp"]),
-                    "usernames": list(
-                        map(
-                            lambda elem: "username" in elem and elem["username"] or "",
-                            res["elems"] or [],
-                        )
-                    ),
-                    "osm_ids": dict(
-                        map(
-                            lambda k_g: (
-                                {"N": "nodes", "W": "ways", "R": "relations"}[k_g[0]],
-                                list(map(lambda g: g["id"], k_g[1])),
-                            ),
-                            groupby(
-                                sorted(res["elems"] or [], key=lambda e: e["type"]),
-                                lambda e: e["type"],
-                            ),
-                        )
-                    ),
-                }
+            issue["update"]: str(issue["timestamp"])
+            issue["usernames"]: list(
+                map(
+                    lambda elem: "username" in elem and elem["username"] or "",
+                    issue["elems"] or [],
+                )
             )
-        out.append(i)
+            issue["osm_ids"]: dict(
+                map(
+                    lambda k_g: (
+                        {"N": "nodes", "W": "ways", "R": "relations"}[k_g[0]],
+                        list(map(lambda g: g["id"], k_g[1])),
+                    ),
+                    groupby(
+                        sorted(issue["elems"] or [], key=lambda e: e["type"]),
+                        lambda e: e["type"],
+                    ),
+                )
+            )
+            issue.pop("timestamp", None)
 
-    return {"issues": out}
+    return {"issues":[
+        {
+            k: v for k, v in issue.items() if outprops==None or k in outprops
+        }
+        for issue in issues
+    ]}
 
 
 @router.get("/0.3/issues.josm", tags=["issues"])
@@ -135,38 +130,6 @@ async def issues_josm(
     )
 
 
-async def _issues(
-    db: Connection,
-    langs: LangsNegociation,
-    params: commons_params.Params,
-    _: i18n.Translator,
-) -> Tuple[str, List[Any]]:
-    if params.status == "false":
-        title = _("False positives")
-    elif params.status == "done":
-        title = _("Fixed issues")
-    else:
-        title = _("Open issues")
-
-    items = await query_meta._items_menu(db, langs)
-    for res in items:
-        if params.item == str(res["item"]):
-            menu_auto = i10n_select_auto(res["menu"], langs)
-            if menu_auto:
-                title += " - " + menu_auto
-
-    params.full = True
-    params.limit = min(params.limit, 100000)
-    issues = await query._gets(db, params)
-
-    for issue in issues:
-        issue["subtitle"] = i10n_select_auto(issue["subtitle"], langs)
-        issue["title"] = i10n_select_auto(issue["title"], langs)
-        issue["menu"] = i10n_select_auto(issue["menu"], langs)
-
-    return (title, issues)
-
-
 @router.get("/0.3/issues.rss", response_class=RSSResponse, tags=["issues"])
 async def issues_rss(
     request: Request,
@@ -175,6 +138,7 @@ async def issues_rss(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> RSSResponse:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return RSSResponse(
         rss(
@@ -199,6 +163,7 @@ async def issues_gpx(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> GPXResponse:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return GPXResponse(
         gpx(
@@ -223,6 +188,7 @@ async def issues_kml(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> KMLResponse:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return KMLResponse(
         kml(
@@ -247,6 +213,7 @@ async def issues_csv(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> str:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return csv(
         title=title,
@@ -268,6 +235,7 @@ async def issues_geojson(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> GeoJSONFeatureCollection:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return {
         "type": "FeatureCollection",
@@ -301,6 +269,7 @@ async def issues_maproulette_jsonl(
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> List[Any]:
     params.limit = 100000
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     type_map = {"N": "node", "W": "way", "R": "relation"}
     return [
