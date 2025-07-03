@@ -184,7 +184,9 @@ async def issues(
         
     #Left here for retrocompat
     for issue in issues:
-        issue["id"]: res["uuid"]
+        issue["id"]: issue["uuid"]
+
+        issue.pop("uuid", None)
 
         if params.full:
             issue["update"]: str(issue["timestamp"])
