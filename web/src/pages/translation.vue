@@ -21,7 +21,7 @@
         <translate-slot>
           <span translate>Translation is done on {Transifex}</span>
           <template #Transifex>
-            <a href="http://www.transifex.com/projects/p/osmose/">Transifex</a>
+            <a href="https://explore.transifex.com/openstreetmap-france/osmose/">Transifex</a>
           </template>
         </translate-slot>
       </li>
@@ -30,20 +30,20 @@
       <a
         target="_blank"
         style="text-decoration: none; color: black; font-size: 66%"
-        href="https://www.transifex.com/projects/p/osmose"
+        href="https://explore.transifex.com/openstreetmap-france/osmose/"
         title="See more information on Transifex.com"
       >
         <translate>Translation progress: osmose</translate>
       </a>
       <br />
-      <a target="_blank" href="https://www.transifex.com/projects/p/osmose/">
+      <a target="_blank" href="https://explore.transifex.com/openstreetmap-france/osmose/">
         <img
           border="0"
           src="https://www.transifex.com/projects/p/osmose/chart/image_png"
         />
       </a>
       <br />
-      <a target="_blank" href="https://www.transifex.com/projects/p/osmose/">
+      <a target="_blank" href="https://explore.transifex.com/openstreetmap-france/osmose/">
         <img
           border="0"
           src="https://ds0k0en9abmn1.cloudfront.net/static/charts/images/tx-logo-micro.646b0065fce6.png"
@@ -68,7 +68,7 @@
             You can create a new language directly on {Transifex}.
           </span>
           <template #Transifex>
-            <a href="http://www.transifex.com/projects/p/osmose/">Transifex</a>
+            <a href="https://explore.transifex.com/openstreetmap-france/osmose/">Transifex</a>
           </template>
         </translate-slot>
       </li>
@@ -95,7 +95,7 @@
             {osmose-frontend} can be used to report any issue with translations.
           </span>
           <template #osmose-frontend>
-            <a href="https://github.com/osm-fr/osmose-frontend/issues">
+            <a href="https://github.com/osmose-qa/osmose-frontend/issues">
               osmose-frontend
             </a>
           </template>

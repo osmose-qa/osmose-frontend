@@ -4,7 +4,7 @@ This is the part of [Osmose-QA](http://osmose.openstreetmap.fr) that shows issue
 
 ## Translation
 
-Interested in helping translate Osmose? Contribute on [Transifex](https://www.transifex.com/openstreetmap-france/osmose/).
+Interested in helping translate Osmose? Contribute on [Transifex](https://explore.transifex.com/openstreetmap-france/osmose/).
 
 ## Contribution
 
