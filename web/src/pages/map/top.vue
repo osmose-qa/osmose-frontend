@@ -113,7 +113,7 @@
             </router-link>
           </li>
           <li>
-            <a href="https://github.com/osm-fr?q=osmose">
+            <a href="https://github.com/osmose-qa">
               <translate>Sources</translate>
             </a>
           </li>

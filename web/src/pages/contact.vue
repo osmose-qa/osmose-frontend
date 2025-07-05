@@ -9,12 +9,12 @@
           OSM data, or for suggestion about analyses.
         </span>
         <template #osmose-frontend>
-          <a href="https://github.com/osm-fr/osmose-frontend/issues">
+          <a href="https://github.com/osmose-qa/osmose-frontend/issues">
             osmose-frontend
           </a>
         </template>
         <template #osmose-backend>
-          <a href="https://github.com/osm-fr/osmose-backend/issues">
+          <a href="https://github.com/osmose-qa/osmose-backend/issues">
             osmose-backend
           </a>
         </template>
@@ -30,10 +30,10 @@
     </p>
     <ul>
       <li>
-        <a href="https://github.com/osm-fr/osmose-backend">backend</a>
+        <a href="https://github.com/osmose-qa/osmose-backend">backend</a>
       </li>
       <li>
-        <a href="https://github.com/osm-fr/osmose-frontend">frontend</a>
+        <a href="https://github.com/osmose-qa/osmose-frontend">frontend</a>
       </li>
     </ul>
 

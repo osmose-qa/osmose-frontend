@@ -21,7 +21,7 @@
           Feel free to report any problem, idea or new open data you want to add
           to Osmose on our Github:
         </translate>
-        <a href="https://github.com/osm-fr?q=osmose" target="_blank"
+        <a href="https://github.com/osmose-qa" target="_blank"
           >Osmose-QA</a
         >
       </p>
