@@ -4,8 +4,8 @@
   "description": "Frontend part of Osmose QA tool - Sprites",
   "main": "index.js",
   "devDependencies": {
-    "postcss": "^8.3.6",
-    "postcss-cli": "^8.3.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
     "postcss-sprites": "^4.2.1",
     "spritezero-webpack-plugin": "^0.1.1",
     "webpack": "^5.91.0",
