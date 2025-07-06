@@ -1,6 +1,7 @@
 import os
 
 from fastapi import Depends, FastAPI, HTTPException, Request, Response, responses
+from fastapi.middleware.cors import CORSMiddleware
 
 from api import app as api
 from control import app as control
@@ -11,6 +12,23 @@ from web_api import app as web_api
 
 app = FastAPI()
 
+origins = [
+    "https://osmose.openstreetmap.fr",
+    "http://localhost",
+    "http://localhost:8080",
+    "http://localhost:20009",
+    "http://127.0.0.1",
+    "http://127.0.0.1:8080",
+    "http://127.0.0.1:20009"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 async def startup():
@@ -56,6 +74,16 @@ def sprites_css():
 @app.get("/assets/sprite.png")
 def sprite_png():
     return Response(open("web_api/public/assets/sprite.png", "rb").read())
+
+
+@app.get("/assets/marker-gl-sprite.json")
+def sprite_png():
+    return Response(open("web_api/public/assets/marker-gl-sprite.json", "rb").read())
+
+
+@app.get("/assets/marker-gl-sprite.png")
+def sprite_png():
+    return Response(open("web_api/public/assets/marker-gl-sprite.png", "rb").read())
 
 
 @app.get("/images/markers/{filename:path}.png")
