@@ -35,7 +35,7 @@ osmose-frontend.pot: python.pot vue.pot
 	rm $@.nofiles
 
 %.po:
-	tx pull -a --minimum-perc=5
+	tx pull -a --minimum-perc=1
 
 mo: $(MO)
 
