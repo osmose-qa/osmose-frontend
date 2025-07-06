@@ -42,13 +42,17 @@ def xml_issue(
     if res["elems"]:
         for e in res["elems"]:
             if e["type"] == "R":
+                # fmt: off
                 e["object_josm_url"] = (
                     f"http://localhost:8111/import?url={remote_url_read}api/0.6/relation/{e['id']}/full"
                 )
+                # fmt: on
             else:
+                # fmt: off
                 e["object_josm_url"] = (
                     f"http://localhost:8111/load_object?objects={e['type'].lower()}{e['id']}"
                 )
+                # fmt: on
 
     map_url = (
         f"{website}/{lang}/map/"
@@ -363,7 +367,7 @@ def csv(
                     lambda a: (
                         usernames
                         if a == "username"
-                        else elems if a == "elems" else res[a]
+                        else (elems if a == "elems" else res[a])
                     ),
                     map(lambda y: hh.get(y, y), h),
                 )

@@ -46,7 +46,7 @@ class NLJSONResponse(Response):
     media_type = "application/x-ndjson; charset=utf-8"
 
     def render(self, content: Any) -> bytes:
-        return ("\x1E" + "\n\x1E".join([json.dumps(line) for line in content])).encode(
+        return ("\x1e" + "\n\x1e".join([json.dumps(line) for line in content])).encode(
             "utf-8"
         )
 
