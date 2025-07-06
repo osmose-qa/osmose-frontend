@@ -112,7 +112,7 @@
         @update-issue-uuid="issueUuid = $event"
         @elems="$event ? $refs.osmObject.select($event) : $refs.osmObject.clear()"
         @remove-marker="
-          $refs.markerLayer.remove($event)
+          $refs.markerLayer.remove($event);
           closed_marker_count += 1
         "
         @fix-edit="
