@@ -3,6 +3,7 @@ matplotlib >= 1.1
 requests >= 2.0
 polib
 protobuf < 4 # 4.x binary not yet compatible with system package, deps of mapbox-vector-tile
+shapely < 2.1.0 # cascaded_union function removal, deps of mapbox-vector-tile
 mapbox-vector-tile
 pyclipper
 fastapi
