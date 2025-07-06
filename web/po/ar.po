@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the osmose-frontend package.
 # 
 # Translators:
+# Abdullah, 2025
 msgid ""
 msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
 "PO-Revision-Date: 2014-04-28 19:22+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Abdullah, 2025\n"
 "Language-Team: Arabic (http://app.transifex.com/openstreetmap-france/osmose/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -222,12 +223,12 @@ msgstr "إلغاء"
 #: ../src/pages/issues/index.vue:90 ../src/pages/map/items-filters.vue:4
 #: ../src/pages/issues/index.vue:92
 msgid "Severity"
-msgstr "شدة المرض"
+msgstr "مستوى الأهمية"
 
 #: ../src/pages/issues/index.vue:190 ../src/pages/map/items-filters.vue:30
 #: ../src/pages/issues/index.vue:192
 msgid "Fixable"
-msgstr "قابل للإصلاح"
+msgstr "لها حل عبر"
 
 #: ../src/pages/map/items-filters.vue:164
 msgid "Show only markers with correction suggestions"
@@ -240,7 +241,7 @@ msgstr "متصل"
 
 #: ../src/pages/map/items-filters.vue:43
 msgid "Topic"
-msgstr "موضوع"
+msgstr "المجال"
 
 #: ../src/pages/map/items-list.vue:3
 msgid "Select:"
@@ -252,7 +253,7 @@ msgstr "الكل"
 
 #: ../src/pages/map/items-list.vue:8 ../src/pages/map/items-list.vue:28
 msgid "nothing"
-msgstr "x لا شيء"
+msgstr "لا تحدد شيء"
 
 #: ../src/pages/map/items-list.vue:11
 msgid "invert"
@@ -1343,7 +1344,7 @@ msgstr "أبلغ عن المشكلة باعتبارها غير ملائمة، إ
 msgid ""
 "After fixing the issue in the OSM data, mark it as done. It will also "
 "disappear automatically on the next check."
-msgstr "بعد إصلاح المشكلة في بيانات OSM، ضع علامة عليها على أنها تمت، وأيضاً ستختفي تلقائيا عند الفحص التالي."
+msgstr "بعد إصلاح المشكلة في بيانات OSM، ضع علامة للإشارة إلى تمامها، كما ستختفي تلقائيا عند الفحص التالي."
 
 #: ../../tools/database/items_menu.txt:44
 #: ../../tools/database/items_menu.txt:45

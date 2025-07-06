@@ -1222,7 +1222,7 @@ msgstr "Только средний"
 #: ../src/pages/issues/index.vue:107 ../src/pages/map/items-filters.vue:22
 #: ../src/pages/issues/index.vue:109
 msgid "Low only"
-msgstr "Только средний"
+msgstr "Только низкий"
 
 #: ../src/pages/map/top.vue:285 ../src/pages/map/top.vue:298
 #: ../src/pages/map/top.vue:311 ../src/pages/map/top.vue:292
@@ -1926,7 +1926,7 @@ msgstr "Больше фильтров"
 #: ../src/pages/issues/index.vue:160 ../src/pages/map/items-filters.vue:100
 #: ../src/pages/map/items-filters.vue:45 ../src/pages/issues/index.vue:162
 msgid "No (Default)"
-msgstr ""
+msgstr "Нет (по умолчанию)"
 
 #: ../src/pages/issues/index.vue:166 ../src/pages/map/items-filters.vue:106
 #: ../src/pages/map/items-filters.vue:51 ../src/pages/issues/index.vue:168
