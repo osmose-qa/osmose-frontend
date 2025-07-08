@@ -19,9 +19,9 @@
     <ul>
       <li>
         <translate-slot>
-          <span translate>Translation is done on {Transifex}</span>
-          <template #Transifex>
-            <a href="https://explore.transifex.com/openstreetmap-france/osmose/">Transifex</a>
+          <span translate>Translation is done on {Weblate}</span>
+          <template #Weblate>
+            <a href="https://hosted.weblate.org/engage/osmose/">Weblate</a>
           </template>
         </translate-slot>
       </li>
@@ -30,23 +30,23 @@
       <a
         target="_blank"
         style="text-decoration: none; color: black; font-size: 66%"
-        href="https://explore.transifex.com/openstreetmap-france/osmose/"
-        title="See more information on Transifex.com"
+        href="https://hosted.weblate.org/projects/osmose/"
+        title="See more information on Weblate"
       >
         <translate>Translation progress: osmose</translate>
       </a>
       <br />
-      <a target="_blank" href="https://explore.transifex.com/openstreetmap-france/osmose/">
+      <a target="_blank" href="https://hosted.weblate.org/engage/osmose/">
         <img
           border="0"
-          src="https://www.transifex.com/projects/p/osmose/chart/image_png"
+          src="https://hosted.weblate.org/widget/osmose/open-graph.png"
         />
       </a>
       <br />
-      <a target="_blank" href="https://explore.transifex.com/openstreetmap-france/osmose/">
+      <a target="_blank" href="https://hosted.weblate.org/engage/osmose/">
         <img
           border="0"
-          src="https://ds0k0en9abmn1.cloudfront.net/static/charts/images/tx-logo-micro.646b0065fce6.png"
+          src="https://hosted.weblate.org/widget/osmose/multi-auto.svg"
         />
       </a>
     </div>
@@ -65,10 +65,10 @@
       <li>
         <translate-slot>
           <span translate>
-            You can create a new language directly on {Transifex}.
+            You can create a new language directly on {Weblate}.
           </span>
-          <template #Transifex>
-            <a href="https://explore.transifex.com/openstreetmap-france/osmose/">Transifex</a>
+          <template #Weblate>
+            <a href="https://hosted.weblate.org/engage/osmose/">Weblate</a>
           </template>
         </translate-slot>
       </li>
