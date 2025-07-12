@@ -13,14 +13,16 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2014-04-28 19:22+0000\n"
-"Last-Translator: Steve Lee <stevel2520@gmail.com>, 2020,2023\n"
-"Language-Team: Chinese (China) (http://app.transifex.com/openstreetmap-france/osmose/language/zh_CN/)\n"
+"PO-Revision-Date: 2025-07-13 11:01+0000\n"
+"Last-Translator: \"Alioc.\" <hit.177411245@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
+"projects/osmose/frontend/zh_Hans/>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -253,15 +255,15 @@ msgstr "选择："
 
 #: ../src/pages/map/items-list.vue:5 ../src/pages/map/items-list.vue:25
 msgid "all"
-msgstr "全部"
+msgstr "全选"
 
 #: ../src/pages/map/items-list.vue:8 ../src/pages/map/items-list.vue:28
 msgid "nothing"
-msgstr "无"
+msgstr "取消全选"
 
 #: ../src/pages/map/items-list.vue:11
 msgid "invert"
-msgstr "颠倒"
+msgstr "反选"
 
 #: ../src/pages/map/top.vue:5
 msgid "Change language"
