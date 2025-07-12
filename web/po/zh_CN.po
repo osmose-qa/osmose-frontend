@@ -259,7 +259,7 @@ msgstr "全选"
 
 #: ../src/pages/map/items-list.vue:8 ../src/pages/map/items-list.vue:28
 msgid "nothing"
-msgstr "取消全选"
+msgstr "取消选择"
 
 #: ../src/pages/map/items-list.vue:11
 msgid "invert"
