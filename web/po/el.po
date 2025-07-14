@@ -1755,7 +1755,7 @@ msgstr ""
 
 #: ../src/pages/byuser/byuser.vue:7
 msgid "User statistics for {users}"
-msgstr "Στατιστικά χρήστη για {users}"
+msgstr "Στατιστικά χρηστών για {users}"
 
 #: ../src/pages/translation.vue:82
 msgid "{osmose-frontend} can be used to report any issue with translations."
@@ -1882,7 +1882,7 @@ msgstr "Απόκρυψη από χάρτη"
 
 #: ../src/pages/map/doc.vue:61
 msgid "Hide markers"
-msgstr ""
+msgstr "Απόκρυψη δεικτών"
 
 #: ../src/pages/map/items-list.vue
 msgid "Item #{item}"
@@ -1944,11 +1944,11 @@ msgstr "ID πηγής"
 #: ../src/pages/issues/index.vue:482 ../src/pages/map/items-filters.vue:201
 #: ../src/pages/issues/index.vue:488
 msgid "tag"
-msgstr ""
+msgstr "ετικέτα"
 
 #: ../src/pages/issues/index.vue:144 ../src/pages/issues/index.vue:146
 msgid "Tag"
-msgstr ""
+msgstr "Ετικέτα"
 
 #: ../../tools/database/items_menu.txt:171
 #: ../../tools/database/items_menu.txt:172
@@ -1958,7 +1958,7 @@ msgstr "τουαλέτες, μπορεί να ενσωματωθεί"
 #: ../../tools/database/items_menu.txt:172
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
-msgstr ""
+msgstr "τουαλέτες, χρειάζεται ενημέρωση"
 
 #: ../../tools/database/items_menu.txt:226
 #: ../../tools/database/items_menu.txt:227
@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: ../src/pages/map/items.vue:6 ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr ""
+msgstr "Εστιάστε για να δείτε ζητήματα."
 
 #: ../../tools/database/items_menu.txt:78
 #: ../../tools/database/items_menu.txt:79
@@ -2023,20 +2023,20 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:243
 msgid "openrailwaymap in Germany"
-msgstr ""
+msgstr "openrailwaymap στη Γερμανία"
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
-msgstr ""
+msgstr "ειδικά Ρωσία"
 
 #: ../../tools/database/items_menu.txt:245
 msgid "specific Brazil"
-msgstr ""
+msgstr "ειδικά Βραζιλία"
 
 #: ../../tools/database/items_menu.txt:246
 msgid "specific France"
-msgstr ""
+msgstr "ειδικά Γαλλία"
 
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
-msgstr ""
+msgstr "ειδικά Ολλανδία"
