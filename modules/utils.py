@@ -27,6 +27,7 @@ languages_name["fa"] = {"name": "فارسی", "direction": "rtl"}
 languages_name["fi"] = {"name": "Suomi"}
 languages_name["fr"] = {"name": "Français"}
 languages_name["gl"] = {"name": "Galego"}
+languages_name["he"] = {"name": "עברית‎", "direction": "rtl"}
 languages_name["hu"] = {"name": "Magyar"}
 languages_name["it"] = {"name": "Italiano"}
 languages_name["ja"] = {"name": "日本語"}
