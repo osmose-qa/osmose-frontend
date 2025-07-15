@@ -1961,12 +1961,12 @@ msgstr "Etichetta"
 #: ../../tools/database/items_menu.txt:171
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
-msgstr "bagni, potrebbero essere integrati"
+msgstr "bagni da integrare"
 
 #: ../../tools/database/items_menu.txt:172
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
-msgstr "bagni, serve un aggiornamento"
+msgstr "bagni da aggiornare"
 
 #: ../../tools/database/items_menu.txt:226
 #: ../../tools/database/items_menu.txt:227
@@ -1985,15 +1985,16 @@ msgstr "restrizione condizionale"
 #: ../../tools/database/items_menu.txt:79
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
-msgstr "marciapiedi"
+msgstr "marciapiede"
 
 #: ../../web_api/byuser.py:96
 msgid "Statistics for user {}"
-msgstr ""
+msgstr "Statistiche per l'utente {}"
 
 #: ../src/pages/issues/index.vue:279 ../src/pages/issues/index.vue:281
 msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
 msgstr ""
+"{{ showAnalyserCount }} / {{ errors_groups.length }} righe. Mostra altre."
 
 #: ../../tools/database/items_menu.txt:61
 #: ../../tools/database/items_menu.txt:62
@@ -2027,11 +2028,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:165
 msgid "cycle parking, need update"
-msgstr ""
+msgstr "parcheggi bici da aggiornare"
 
 #: ../../tools/database/items_menu.txt:243
 msgid "openrailwaymap in Germany"
-msgstr ""
+msgstr "openrailwaymap in Germania"
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
