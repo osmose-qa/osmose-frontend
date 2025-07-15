@@ -1967,7 +1967,7 @@ msgstr ""
 
 #: ../src/pages/map/items.vue:6 ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr "Εστιάστε για να δείτε ζητήματα."
+msgstr "Κάντε μεγέθυνση για να δείτε ζητήματα."
 
 #: ../../tools/database/items_menu.txt:78
 #: ../../tools/database/items_menu.txt:79
