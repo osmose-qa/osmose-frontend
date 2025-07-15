@@ -21,14 +21,17 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2014-04-28 19:22+0000\n"
-"Last-Translator: operon, 2012\n"
-"Language-Team: Italian (http://app.transifex.com/openstreetmap-france/osmose/language/it/)\n"
+"PO-Revision-Date: 2025-07-16 18:38+0000\n"
+"Last-Translator: Marco Ciotola <github@ciotola.dev>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/osmose/frontend/"
+"it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 "
+": 2;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -584,7 +587,7 @@ msgstr "errore tipografico nel tag"
 #: ../../tools/database/items_menu.txt:66
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
-msgstr "non corretto"
+msgstr "non corretto "
 
 #: ../../tools/database/items_menu.txt:67
 #: ../../tools/database/items_menu.txt:68
@@ -624,7 +627,7 @@ msgstr "tag incompatibili"
 #: ../../tools/database/items_menu.txt:83
 #: ../../tools/database/items_menu.txt:84
 msgid "ref in name"
-msgstr "ref in name"
+msgstr "ref nel nome"
 
 #: ../../tools/database/items_menu.txt:86
 #: ../../tools/database/items_menu.txt:87
@@ -992,7 +995,7 @@ msgstr "informazioni sul problema"
 
 #: ../src/components/issues-list.vue:103
 msgid "issue n°"
-msgstr "errore n."
+msgstr "errore n°"
 
 #: ../src/pages/index.vue:6
 msgid "Map of issues"
@@ -1807,19 +1810,19 @@ msgstr "volontari"
 
 #: ../../tools/database/items_menu.txt:113
 msgid "post office, ref not integrated"
-msgstr "Ufficio postale, ref non integrato"
+msgstr "ufficio postale, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:114
 msgid "post box, ref not integrated"
-msgstr "Buca delle lettere, ref non integrato"
+msgstr "buca delle lettere, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:116
 msgid "school, ref not integrated"
-msgstr "Scuola, ref non integrato"
+msgstr "scuola, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:123
 msgid "transport sharing, ref not integrated"
-msgstr ""
+msgstr "trasporto condiviso, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:124
 msgid "pharmacy, ref not integrated"
@@ -1831,7 +1834,7 @@ msgstr "codice postale, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:127
 msgid "power substation, ref not integrated"
-msgstr "Sottostazione elettrica, ref non integrato"
+msgstr "sottostazione elettrica, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:128
 msgid "hospital, ref not integrated"
@@ -1839,7 +1842,7 @@ msgstr "ospedale, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:129
 msgid "social facility, ref not integrated"
-msgstr ""
+msgstr "servizi sociale, ref non integrato"
 
 #: ../../tools/database/items_menu.txt:130
 msgid "medical lab, ref not integrated"
@@ -1958,31 +1961,31 @@ msgstr "Etichetta"
 #: ../../tools/database/items_menu.txt:171
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
-msgstr ""
+msgstr "bagni, potrebbero essere integrati"
 
 #: ../../tools/database/items_menu.txt:172
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
-msgstr ""
+msgstr "bagni, serve un aggiornamento"
 
 #: ../../tools/database/items_menu.txt:226
 #: ../../tools/database/items_menu.txt:227
 msgid "natural"
-msgstr ""
+msgstr "naturale"
 
 #: ../src/pages/map/items.vue:6 ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr ""
+msgstr "Ingrandisci per vedere i problemi."
 
 #: ../../tools/database/items_menu.txt:78
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
-msgstr ""
+msgstr "restrizione condizionale"
 
 #: ../../tools/database/items_menu.txt:79
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
-msgstr ""
+msgstr "marciapiedi"
 
 #: ../../web_api/byuser.py:96
 msgid "Statistics for user {}"
