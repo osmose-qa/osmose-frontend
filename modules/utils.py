@@ -31,6 +31,7 @@ languages_name["he"] = {"name": "עברית‎", "direction": "rtl"}
 languages_name["hu"] = {"name": "Magyar"}
 languages_name["it"] = {"name": "Italiano"}
 languages_name["ja"] = {"name": "日本語"}
+languages_name["ko"] = {"name": "한국어"}
 languages_name["lt"] = {"name": "Lietuvių"}
 languages_name["nb_NO"] = {"name": "Norsk bokmål"}
 languages_name["nl"] = {"name": "Nederlands"}
