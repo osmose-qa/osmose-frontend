@@ -7,7 +7,7 @@ MO:=$(patsubst %.po,mo/%/LC_MESSAGES/osmose-frontend.mo,$(PO))
 
 .PRECIOUS: $(PO) $(MO)
 
-all: osmose-frontend.pot %.po mo
+all: osmose-frontend.pot mo
 
 ../node_modules/easygettext/src/extract-cli.js:
 	$(error 'easygettext missing. Please install node dependencies with `npm install`')
@@ -33,9 +33,6 @@ osmose-frontend.pot: python.pot vue.pot
 	msgcat $@.nofiles python.pot vue.pot > $@.tmp
 	mv $@.tmp $@
 	rm $@.nofiles
-
-%.po:
-	tx pull -a --minimum-perc=1
 
 mo: $(MO)
 
