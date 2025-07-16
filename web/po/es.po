@@ -23,16 +23,17 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2014-04-28 19:22+0000\n"
-"Last-Translator: Eric Armijo, 2023\n"
-"Language-Team: Spanish (http://app.transifex.com/openstreetmap-france/osmose/"
-"language/es/)\n"
+"PO-Revision-Date: 2025-07-17 08:36+0000\n"
+"Last-Translator: Franco <francobenedetti.59+weblate1@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/osmose/frontend/"
+"es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
-"1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -552,7 +553,7 @@ msgstr "error tipográfico en etiqueta"
 
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
-msgstr "incorrecto"
+msgstr "incorrecto "
 
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
@@ -1312,7 +1313,7 @@ msgstr "objetos de la calle"
 
 #: ../../tools/database/items_menu.txt:242
 msgid "openrailwaymap"
-msgstr "openrailwaymap"
+msgstr "OpenRailwayMap"
 
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
@@ -1328,7 +1329,7 @@ msgid ""
 "languages."
 msgstr ""
 "La herramienta Osmose es desarrollada principalmente por franceses, y "
-"nuestro objetivo es añadir más idiomas"
+"nuestro objetivo es añadir más idiomas."
 
 #: ../../tools/database/items_menu.txt:204
 msgid "defibrillator"
@@ -1881,31 +1882,31 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
-msgstr ""
+msgstr "edificio uso del suelo"
 
 #: ../../tools/database/items_menu.txt:165
 msgid "cycle parking, need update"
-msgstr ""
+msgstr "estacionamiento de bicicleta, debe actualizarse"
 
 #: ../../tools/database/items_menu.txt:243
 msgid "openrailwaymap in Germany"
-msgstr ""
+msgstr "OpenRailwayMap en Alemania"
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
-msgstr ""
+msgstr "especifico de Rusia"
 
 #: ../../tools/database/items_menu.txt:245
 msgid "specific Brazil"
-msgstr ""
+msgstr "específico para Brasil"
 
 #: ../../tools/database/items_menu.txt:246
 msgid "specific France"
-msgstr ""
+msgstr "específico para Francia"
 
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
-msgstr ""
+msgstr "específico para Países Bajos"
 
 #: ../src/pages/map/top.vue:360
 msgid "Number of closed makers in this session"
