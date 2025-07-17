@@ -10,7 +10,7 @@ module.exports = (env, argv) => {
         },
         plugins: [
             new SpritezeroWebpackPlugin({
-                source: '../web_api/static/images/**/*.svg',
+                source: 'images/**/*.svg',
                 output: 'marker-gl-',
             })
         ],
