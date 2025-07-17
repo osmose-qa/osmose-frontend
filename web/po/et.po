@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-07-17 18:47+0000\n"
+"Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/osmose/frontend/"
+"et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -24,31 +26,31 @@ msgstr ""
 #. TRANSLATORS: link to source code
 #: ../src/pages/map/top.vue:25
 msgid "Statistics"
-msgstr ""
+msgstr "Statistika"
 
 #: ../src/pages/contact.vue ../src/pages/map/top.vue:83
 msgid "Contact"
-msgstr ""
+msgstr "Meie kontaktid"
 
 #: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
-msgstr ""
+msgstr "Abiteave vikis"
 
 #: ../src/pages/index.vue:28 ../src/pages/translation.vue:123
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
-msgstr ""
+msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
 #: ../src/pages/map/top.vue:93
 msgid "Copyright"
-msgstr ""
+msgstr "Autoriõigused"
 
 #: ../src/pages/map/top.vue:98
 msgid "Sources"
-msgstr ""
+msgstr "Lähtekood"
 
 #: ../src/pages/map/top.vue:103
 msgid "Translation"
-msgstr ""
+msgstr "Tõlge"
 
 #: ../src/pages/byuser/index.vue
 msgid "Statistics for user"
