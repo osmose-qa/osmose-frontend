@@ -1,7 +1,7 @@
 # Osmose frontend
 # Copyright (C) 2014
 # This file is distributed under the same license as the osmose-frontend package.
-# 
+#
 # Translators:
 # Jakub Jelen <jakuje@gmail.com>, 2020
 # Jan Vršovský <vrs@email.cz>, 2015
@@ -20,12 +20,14 @@ msgstr ""
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
 "PO-Revision-Date: 2014-04-28 19:22+0000\n"
 "Last-Translator: Jiří Podhorecký <jirka.p@volny.cz>, 2023\n"
-"Language-Team: Czech (http://app.transifex.com/openstreetmap-france/osmose/language/cs/)\n"
+"Language-Team: Czech (http://app.transifex.com/openstreetmap-france/osmose/"
+"language/cs/)\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
-"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -36,12 +38,11 @@ msgstr "Není chyba"
 msgid "Statistics"
 msgstr "Statistiky"
 
-#: ../src/pages/contact.vue ../src/pages/map/top.vue:78
-#: ../src/pages/map/top.vue:83
+#: ../src/pages/contact.vue ../src/pages/map/top.vue:83
 msgid "Contact"
 msgstr "Kontakt"
 
-#: ../src/pages/map/top.vue:83 ../src/pages/map/top.vue:88
+#: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
 msgstr "Nápověda na wiki"
 
@@ -49,15 +50,15 @@ msgstr "Nápověda na wiki"
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
 msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
-#: ../src/pages/map/top.vue:88 ../src/pages/map/top.vue:93
+#: ../src/pages/map/top.vue:93
 msgid "Copyright"
 msgstr "Copyright"
 
-#: ../src/pages/map/top.vue:93 ../src/pages/map/top.vue:98
+#: ../src/pages/map/top.vue:98
 msgid "Sources"
 msgstr "Zdrojové kódy"
 
-#: ../src/pages/map/top.vue:98 ../src/pages/map/top.vue:103
+#: ../src/pages/map/top.vue:103
 msgid "Translation"
 msgstr "Překlad"
 
@@ -85,7 +86,9 @@ msgstr "Poskytnutí patchů"
 msgid ""
 "Patches can be provided via merge requests on Github. This is the preferred "
 "way of handling patches."
-msgstr "Patche mohou být poskytnuty přes požadavky na sloučení na Githubu. To je preferovaná cesta jak nakládat vylepšeními."
+msgstr ""
+"Patche mohou být poskytnuty přes požadavky na sloučení na Githubu. To je "
+"preferovaná cesta jak nakládat vylepšeními."
 
 #: ../src/pages/contact.vue:39
 msgid "Development"
@@ -99,9 +102,8 @@ msgstr "Kontaktovat správce"
 msgid "Last updates"
 msgstr "Poslední aktualizace"
 
-#: ../../tools/database/items_menu.txt:34 ../src/components/issues-list.vue:10
-#: ../src/pages/control/update.vue:7 ../src/pages/issues/index.vue:209
-#: ../../tools/database/items_menu.txt:35 ../src/pages/issues/index.vue:211
+#: ../../tools/database/items_menu.txt:35 ../src/components/issues-list.vue:10
+#: ../src/pages/control/update.vue:7 ../src/pages/issues/index.vue:211
 msgid "source"
 msgstr "zdroj"
 
@@ -171,7 +173,7 @@ msgstr "Mapa"
 
 #. #-#-#-#-#  osmose-frontend.pot.nofiles (PACKAGE VERSION)  #-#-#-#-#
 #. TRANSLATORS: 'Set' is used to choose a specific country/item on /errors
-#: ../src/pages/issues/index.vue:389 ../src/pages/issues/index.vue:395
+#: ../src/pages/issues/index.vue:395
 msgid "Set"
 msgstr "Nastav"
 
@@ -179,21 +181,18 @@ msgstr "Nastav"
 msgid "class (abbreviation)"
 msgstr "tř"
 
-#: ../src/components/issues-list.vue:21 ../src/pages/issues/index.vue:216
-#: ../src/pages/issues/index.vue:218
+#: ../src/components/issues-list.vue:21 ../src/pages/issues/index.vue:218
 msgid "item"
 msgstr "prvek"
 
-#: ../src/pages/issues/index.vue:226 ../src/pages/issues/index.vue:228
+#: ../src/pages/issues/index.vue:228
 msgid "title"
 msgstr "název"
 
-#: ../src/pages/byuser/byuser.vue:22 ../src/pages/issues/index.vue:229
-#: ../src/pages/issues/index.vue:231
+#: ../src/pages/byuser/byuser.vue:22 ../src/pages/issues/index.vue:231
 msgid "count"
 msgstr "počet"
 
-#: ../src/pages/issues/index.vue:233 ../src/pages/issues/index.vue:285
 #: ../src/pages/issues/index.vue:235 ../src/pages/issues/index.vue:287
 msgid "Total"
 msgstr "Celkem"
@@ -202,8 +201,7 @@ msgstr "Celkem"
 msgid "subtitle"
 msgstr "titulek"
 
-#: ../../tools/database/items_menu.txt:57 ../src/components/issues-list.vue:47
-#: ../../tools/database/items_menu.txt:58
+#: ../../tools/database/items_menu.txt:58 ../src/components/issues-list.vue:47
 msgid "date"
 msgstr "datum"
 
@@ -219,23 +217,20 @@ msgstr "Seznam falešných chyb"
 msgid "Last analysis updates"
 msgstr "Poslední aktualizace analýz"
 
-#: ../src/pages/map/editor.vue:15 ../src/pages/map/editor.vue:18
+#: ../src/pages/map/editor.vue:18
 msgid "Tags Editor"
 msgstr "Editor značek"
 
 #: ../src/pages/map/editor-modal.vue:38 ../src/pages/map/editor-modal.vue:56
-#: ../src/pages/map/editor.vue:120 ../src/pages/map/editor.vue:60
-#: ../src/pages/map/editor.vue:126
+#: ../src/pages/map/editor.vue:60 ../src/pages/map/editor.vue:126
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: ../src/pages/issues/index.vue:90 ../src/pages/map/items-filters.vue:4
-#: ../src/pages/issues/index.vue:92
+#: ../src/pages/issues/index.vue:92 ../src/pages/map/items-filters.vue:4
 msgid "Severity"
 msgstr "Závažnost"
 
-#: ../src/pages/issues/index.vue:190 ../src/pages/map/items-filters.vue:30
-#: ../src/pages/issues/index.vue:192
+#: ../src/pages/issues/index.vue:192 ../src/pages/map/items-filters.vue:30
 msgid "Fixable"
 msgstr "Opravitelné"
 
@@ -243,8 +238,7 @@ msgstr "Opravitelné"
 msgid "Show only markers with correction suggestions"
 msgstr "Ukaž jen značky s nápovědou k opravě"
 
-#: ../src/pages/issues/index.vue:194 ../src/pages/map/items-filters.vue:35
-#: ../src/pages/issues/index.vue:196
+#: ../src/pages/issues/index.vue:196 ../src/pages/map/items-filters.vue:35
 msgid "Online"
 msgstr "Online"
 
@@ -272,17 +266,14 @@ msgstr "obrátit"
 msgid "Change language"
 msgstr "Změň jazyk"
 
-#: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:74
-#: ../src/pages/map/top.vue:79
+#: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:79
 msgid "Help"
 msgstr "Nápověda"
 
-#: ../src/pages/map/top.vue:152 ../src/pages/map/top.vue:39
-#: ../src/pages/map/top.vue:157
+#: ../src/pages/map/top.vue:157 ../src/pages/map/top.vue:39
 msgid "Logout"
 msgstr "Odhlásit"
 
-#: ../src/pages/map/editor.vue:6 ../src/pages/map/top.vue:158
 #: ../src/pages/map/editor.vue:8 ../src/pages/map/top.vue:163
 msgid "Login"
 msgstr "Login"
@@ -319,7 +310,9 @@ msgstr "Jak pomoci s překladem"
 msgid ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
-msgstr "Abychom z Osmose udělali opravdu vícejazyčný nástroj, potřebujeme tvou pomoc při vylepšování stávajících překladů, nebo vytváření nových."
+msgstr ""
+"Abychom z Osmose udělali opravdu vícejazyčný nástroj, potřebujeme tvou pomoc "
+"při vylepšování stávajících překladů, nebo vytváření nových."
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
@@ -457,245 +450,192 @@ msgstr "vodní tok"
 msgid "duplicate geometry"
 msgstr "duplikovaná geometrie"
 
-#: ../../tools/database/items_menu.txt:31
 #: ../../tools/database/items_menu.txt:32
 msgid "junction=roundabout"
 msgstr "kruhový objezd"
 
-#: ../../tools/database/items_menu.txt:32
 #: ../../tools/database/items_menu.txt:33
 msgid "elevation"
 msgstr "nadmořská výška"
 
-#: ../../tools/database/items_menu.txt:33
 #: ../../tools/database/items_menu.txt:34
 msgid "oneway"
 msgstr "jednosměrka"
 
-#: ../../tools/database/items_menu.txt:35
 #: ../../tools/database/items_menu.txt:36
 msgid "parent tag"
 msgstr "značka rodiče"
 
-#: ../../tools/database/items_menu.txt:36
 #: ../../tools/database/items_menu.txt:37
 msgid "street numbers"
 msgstr "čísla popisná"
 
-#: ../../tools/database/items_menu.txt:37
-#: ../../tools/database/items_menu.txt:232
 #: ../../tools/database/items_menu.txt:38
 #: ../../tools/database/items_menu.txt:233
 msgid "highway"
 msgstr "silnice"
 
-#: ../../tools/database/items_menu.txt:38
 #: ../../tools/database/items_menu.txt:39
 msgid "highway crossing"
 msgstr "přechod přes silnici"
 
-#: ../../tools/database/items_menu.txt:39
-#: ../../tools/database/items_menu.txt:179
 #: ../../tools/database/items_menu.txt:40
 #: ../../tools/database/items_menu.txt:180
 msgid "pharmacy"
 msgstr "lékárna"
 
-#: ../../tools/database/items_menu.txt:46
 #: ../../tools/database/items_menu.txt:47
 msgid "highway roundabout"
 msgstr "kruhový objezd"
 
-#: ../../tools/database/items_menu.txt:47
 #: ../../tools/database/items_menu.txt:48
 msgid "bad source tag"
 msgstr "špatně uvedený zdroj"
 
-#: ../../tools/database/items_menu.txt:48
 #: ../../tools/database/items_menu.txt:49
 msgid "tagwatch cleaner"
 msgstr "tagwatch čistič"
 
-#: ../../tools/database/items_menu.txt:49
-#: ../../tools/database/items_menu.txt:239
 #: ../../tools/database/items_menu.txt:50
 #: ../../tools/database/items_menu.txt:240
 msgid "wikipedia"
 msgstr "wikipedie"
 
-#: ../../tools/database/items_menu.txt:50
 #: ../../tools/database/items_menu.txt:51
 msgid "multiple tags"
 msgstr "násobné značky"
 
-#: ../../tools/database/items_menu.txt:51
 #: ../../tools/database/items_menu.txt:52
 msgid "saint hyphen"
 msgstr "pomlčka za Svatý"
 
-#: ../../tools/database/items_menu.txt:52
 #: ../../tools/database/items_menu.txt:53
 msgid "incorrect tag"
 msgstr "nesprávná značka"
 
-#: ../../tools/database/items_menu.txt:53
 #: ../../tools/database/items_menu.txt:54
 msgid "bad tag key"
 msgstr "špatný klíč"
 
-#: ../../tools/database/items_menu.txt:54
 #: ../../tools/database/items_menu.txt:55
 msgid "similar values"
 msgstr "podobné hodnoty"
 
-#: ../../tools/database/items_menu.txt:55
 #: ../../tools/database/items_menu.txt:56
 msgid "multiple values"
 msgstr "více hodnot"
 
-#: ../../tools/database/items_menu.txt:58
 #: ../../tools/database/items_menu.txt:59
 msgid "numeric value"
 msgstr "číselná hodnota"
 
-#: ../../tools/database/items_menu.txt:62
 #: ../../tools/database/items_menu.txt:63
 msgid "note"
 msgstr "poznámka"
 
-#: ../../tools/database/items_menu.txt:63
 #: ../../tools/database/items_menu.txt:64
 msgid "tree"
 msgstr "strom"
 
-#: ../../tools/database/items_menu.txt:64
 #: ../../tools/database/items_menu.txt:65
 msgid "brand in name"
 msgstr "obchodní značka ve jméně"
 
-#: ../../tools/database/items_menu.txt:65
 #: ../../tools/database/items_menu.txt:66
 msgid "typo in tag"
 msgstr "překlep v tagu"
 
-#: ../../tools/database/items_menu.txt:66
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
 msgstr "nesprávný"
 
-#: ../../tools/database/items_menu.txt:67
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
 msgstr "parkovací pruh"
 
-#: ../../tools/database/items_menu.txt:68
 #: ../../tools/database/items_menu.txt:69
 msgid "relation role"
 msgstr "role v relaci"
 
-#: ../../tools/database/items_menu.txt:69
 #: ../../tools/database/items_menu.txt:70
 msgid "relation type=restriction"
 msgstr "relace type=restriction"
 
-#: ../../tools/database/items_menu.txt:70
 #: ../../tools/database/items_menu.txt:71
 msgid "postcode"
 msgstr "poštovní směrovací číslo"
 
-#: ../../tools/database/items_menu.txt:80
 #: ../../tools/database/items_menu.txt:81
 msgid "disused"
 msgstr "nepoužívané"
 
-#: ../../tools/database/items_menu.txt:81
 #: ../../tools/database/items_menu.txt:82
 msgid "on junction=roundabout"
 msgstr "na junction=roundabout"
 
-#: ../../tools/database/items_menu.txt:82
 #: ../../tools/database/items_menu.txt:83
 msgid "incompatible tags"
 msgstr "nekompatibilní značky"
 
-#: ../../tools/database/items_menu.txt:83
 #: ../../tools/database/items_menu.txt:84
 msgid "ref in name"
 msgstr "referenční číslo v názvu"
 
-#: ../../tools/database/items_menu.txt:86
 #: ../../tools/database/items_menu.txt:87
 msgid "construction"
 msgstr "výstavba"
 
-#: ../../tools/database/items_menu.txt:87
 #: ../../tools/database/items_menu.txt:88
 msgid "duplicate object"
 msgstr "duplikovaný objekt"
 
-#: ../../tools/database/items_menu.txt:88
 #: ../../tools/database/items_menu.txt:89
 msgid "unwanted tag on node"
 msgstr "nelogická značka na uzlu"
 
-#: ../../tools/database/items_menu.txt:89
 #: ../../tools/database/items_menu.txt:90
 msgid "bad usage"
 msgstr "špatné použití"
 
-#: ../../tools/database/items_menu.txt:93
 #: ../../tools/database/items_menu.txt:94
 msgid "orthograph"
 msgstr "pravopis"
 
-#: ../../tools/database/items_menu.txt:94
 #: ../../tools/database/items_menu.txt:95
 msgid "way type"
 msgstr "typ cesty"
 
-#: ../../tools/database/items_menu.txt:95
 #: ../../tools/database/items_menu.txt:96
 msgid "two names"
 msgstr "dva názvy"
 
-#: ../../tools/database/items_menu.txt:96
 #: ../../tools/database/items_menu.txt:97
 msgid "toponymy"
 msgstr "toponymie"
 
-#: ../../tools/database/items_menu.txt:101
 #: ../../tools/database/items_menu.txt:102
 msgid "open polygon"
 msgstr "otevřený polygon"
 
-#: ../../tools/database/items_menu.txt:102
 #: ../../tools/database/items_menu.txt:103
 msgid "duplicated way"
 msgstr "duplikovaná cesta"
 
-#: ../../tools/database/items_menu.txt:103
 #: ../../tools/database/items_menu.txt:104
 msgid "place without name"
 msgstr "místo (lokalita) beze jména"
 
-#: ../../tools/database/items_menu.txt:104
 #: ../../tools/database/items_menu.txt:105
 msgid "INSEE code"
 msgstr "kód INSEE"
 
-#: ../../tools/database/items_menu.txt:105
 #: ../../tools/database/items_menu.txt:106
 msgid "admin_level"
 msgstr "admin_level"
 
-#: ../../tools/database/items_menu.txt:106
 #: ../../tools/database/items_menu.txt:107
 msgid "erroneous boundary"
 msgstr "hranice s chybami"
-
-#: ../../tools/database/items_menu.txt:107
-msgid "out of boundary"
-msgstr "mimo hranice"
 
 #: ../../tools/database/items_menu.txt:108
 msgid "geodesic building"
@@ -764,7 +704,6 @@ msgstr "škola, může být sjednoceno"
 
 #: ../../tools/database/items_menu.txt:27
 #: ../../tools/database/items_menu.txt:143
-#: ../../tools/database/items_menu.txt:240
 #: ../../tools/database/items_menu.txt:241
 msgid "public transport"
 msgstr "veřejná doprava"
@@ -825,22 +764,18 @@ msgstr "parkování pro bicykly"
 msgid "cycle parking, could be integrated"
 msgstr "parkování kol, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:165
 #: ../../tools/database/items_menu.txt:166
 msgid "transport sharing"
 msgstr "sdílená doprava"
 
-#: ../../tools/database/items_menu.txt:166
 #: ../../tools/database/items_menu.txt:167
 msgid "transport sharing, could be integrated"
 msgstr "sdílená doprava, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:168
 #: ../../tools/database/items_menu.txt:169
 msgid "sport"
 msgstr "sport"
 
-#: ../../tools/database/items_menu.txt:169
 #: ../../tools/database/items_menu.txt:170
 msgid "sport, could be integrated"
 msgstr "sport, může být sjednoceno"
@@ -865,32 +800,27 @@ msgstr "HTML"
 msgid "one-node way"
 msgstr "cesta s jediným uzlem"
 
-#: ../../tools/database/items_menu.txt:170
 #: ../../tools/database/items_menu.txt:171
 msgid "toilets"
 msgstr "toalety"
 
-#: ../../tools/database/items_menu.txt:173
 #: ../../tools/database/items_menu.txt:174
 msgid "police"
 msgstr "policie"
 
-#: ../../tools/database/items_menu.txt:174
 #: ../../tools/database/items_menu.txt:175
 msgid "police, could be integrated"
 msgstr "policie, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:180
 #: ../../tools/database/items_menu.txt:181
 msgid "pharmacy, could be integrated"
 msgstr "lékárna, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:176
 #: ../../tools/database/items_menu.txt:177
 msgid "gas station"
 msgstr "čerpací stanice"
 
-#: ../src/pages/map/editor.vue:4 ../src/pages/map/editor.vue:5
+#: ../src/pages/map/editor.vue:5
 msgid "You must be logged in to use the tag editor"
 msgstr "K použití editoru klíčů musíte být přihlášení."
 
@@ -902,17 +832,14 @@ msgstr "Uložit sadu změn"
 msgid "Comment"
 msgstr "Komentář"
 
-#: ../../tools/database/items_menu.txt:71
 #: ../../tools/database/items_menu.txt:72
 msgid "area"
 msgstr "oblast"
 
-#: ../../tools/database/items_menu.txt:72
 #: ../../tools/database/items_menu.txt:73
 msgid "noexit"
 msgstr "noexit"
 
-#: ../../tools/database/items_menu.txt:90
 #: ../../tools/database/items_menu.txt:91
 msgid "incorrect layer"
 msgstr "chybná vrstva"
@@ -922,32 +849,26 @@ msgstr "chybná vrstva"
 msgid "Updates summary"
 msgstr "Shrnutí aktualizací"
 
-#: ../../tools/database/items_menu.txt:182
 #: ../../tools/database/items_menu.txt:183
 msgid "postal code, could be integrated"
 msgstr "PSČ, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:183
 #: ../../tools/database/items_menu.txt:184
 msgid "library"
 msgstr "knihovna"
 
-#: ../../tools/database/items_menu.txt:184
 #: ../../tools/database/items_menu.txt:185
 msgid "restaurant"
 msgstr "restaurace"
 
-#: ../../tools/database/items_menu.txt:185
 #: ../../tools/database/items_menu.txt:186
 msgid "winery"
 msgstr "vinárna"
 
-#: ../../tools/database/items_menu.txt:40
 #: ../../tools/database/items_menu.txt:41
 msgid "missing object kind"
 msgstr "chybí druh objektu"
 
-#: ../../tools/database/items_menu.txt:98
 #: ../../tools/database/items_menu.txt:99
 msgid "local language"
 msgstr "lokální jazyk"
@@ -973,13 +894,17 @@ msgstr "Osmose umožňuje kontrolovat vlastní problémy."
 
 #: ../src/pages/byuser/index.vue:5
 msgid ""
-"By entering your OSM username in the following form, you will be able to see"
-" issues that are attached to your username. Note that the algorithm that "
+"By entering your OSM username in the following form, you will be able to see "
+"issues that are attached to your username. Note that the algorithm that "
 "attaches issues to username is not perfect, as Osmose only checks the last "
 "contributor of the relevant erroneous elements."
-msgstr "Zadáním OSM uživatelského jména do následujícího formuláře budete schopni vidět problémy spojené s vaším jménem. Pozor na to, že algoritmus pro napojení problému na uživatelské jméno není perfektní - osmose kontroluje pouze posledního přispěvatele pro chybný element."
+msgstr ""
+"Zadáním OSM uživatelského jména do následujícího formuláře budete schopni "
+"vidět problémy spojené s vaším jménem. Pozor na to, že algoritmus pro "
+"napojení problému na uživatelské jméno není perfektní - osmose kontroluje "
+"pouze posledního přispěvatele pro chybný element."
 
-#: ../src/pages/issues/index.vue:295 ../src/pages/issues/index.vue:297
+#: ../src/pages/issues/index.vue:297
 msgid "Show more issues"
 msgstr "Zobraz více problémů."
 
@@ -1003,7 +928,6 @@ msgstr "Informace o databázi problémů"
 msgid "version"
 msgstr "verze"
 
-#: ../../tools/database/items_menu.txt:186
 #: ../../tools/database/items_menu.txt:187
 msgid "geodesic"
 msgstr "geodetický"
@@ -1016,12 +940,10 @@ msgstr "poštovní schránka"
 msgid "post box, could be integrated"
 msgstr "poštovní schránka, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:41
 #: ../../tools/database/items_menu.txt:42
 msgid "indoor"
 msgstr "vnitřní"
 
-#: ../../tools/database/items_menu.txt:91
 #: ../../tools/database/items_menu.txt:92
 msgid "roundabout as area"
 msgstr "kruhový objezd jako plocha"
@@ -1042,7 +964,6 @@ msgstr "Hlavní stránka pro zajištění kvality Osmose"
 msgid "far from water"
 msgstr "daleko od vody"
 
-#: ../../tools/database/items_menu.txt:84
 #: ../../tools/database/items_menu.txt:85
 msgid "fixme import"
 msgstr "fixme import"
@@ -1051,14 +972,11 @@ msgstr "fixme import"
 msgid "objects intersection"
 msgstr "křížení objektů"
 
-#: ../../tools/database/items_menu.txt:42
-#: ../../tools/database/items_menu.txt:73
 #: ../../tools/database/items_menu.txt:43
 #: ../../tools/database/items_menu.txt:74
 msgid "access"
 msgstr "přístup"
 
-#: ../../tools/database/items_menu.txt:85
 #: ../../tools/database/items_menu.txt:86
 msgid "fixme review"
 msgstr "kontrola fixme"
@@ -1079,7 +997,6 @@ msgstr "recyklace potřebuje aktualizaci"
 msgid "parking, need update"
 msgstr "parkování, potřebuje aktualizaci"
 
-#: ../../tools/database/items_menu.txt:167
 #: ../../tools/database/items_menu.txt:168
 msgid "transport sharing, need update"
 msgstr "sdílená doprava potřebuje aktualizaci"
@@ -1104,36 +1021,30 @@ msgstr "Verze"
 msgid "post office, need update"
 msgstr "pošta potřebuje aktualizaci"
 
-#: ../src/pages/issues/index.vue:213 ../src/pages/issues/index.vue:215
+#: ../src/pages/issues/index.vue:215
 msgid "age"
 msgstr "stáří"
 
-#: ../../tools/database/items_menu.txt:99
 #: ../../tools/database/items_menu.txt:100
 msgid "invalid character"
 msgstr "chybný znak"
 
-#: ../../tools/database/items_menu.txt:178
 #: ../../tools/database/items_menu.txt:179
 msgid "gas station, could be integrated"
 msgstr "čerpací stanice, mohlo by být integrováno"
 
-#: ../../tools/database/items_menu.txt:188
 #: ../../tools/database/items_menu.txt:189
 msgid "power substation"
 msgstr "energetická stanice"
 
-#: ../../tools/database/items_menu.txt:189
 #: ../../tools/database/items_menu.txt:190
 msgid "power substation, could be integrated"
 msgstr "energetická stanice, může být sjednoceno"
 
-#: ../../tools/database/items_menu.txt:191
 #: ../../tools/database/items_menu.txt:192
 msgid "power support"
 msgstr "nosník pro elektřinu"
 
-#: ../../tools/database/items_menu.txt:192
 #: ../../tools/database/items_menu.txt:193
 msgid "power support, could be integrated"
 msgstr "nosník pro elektřinu, může být sjednoceno"
@@ -1142,82 +1053,66 @@ msgstr "nosník pro elektřinu, může být sjednoceno"
 msgid "almost junction"
 msgstr "téměř průnik"
 
-#: ../../tools/database/items_menu.txt:43
 #: ../../tools/database/items_menu.txt:44
 msgid "public_transport route"
 msgstr "trasa public_transport"
 
-#: ../../tools/database/items_menu.txt:74
 #: ../../tools/database/items_menu.txt:75
 msgid "recycling container"
 msgstr "kontejner pro recyklaci"
 
-#: ../../tools/database/items_menu.txt:92
 #: ../../tools/database/items_menu.txt:93
 msgid "duplicate wikipedia"
 msgstr "duplikovaná wikipedia"
 
-#: ../../tools/database/items_menu.txt:75
 #: ../../tools/database/items_menu.txt:76
 msgid "route access mismatch"
 msgstr "neodpovídá přístup pro trasu"
 
-#: ../../tools/database/items_menu.txt:100
 #: ../../tools/database/items_menu.txt:101
 msgid "similar name"
 msgstr "podobné jméno"
 
-#: ../../tools/database/items_menu.txt:177
 #: ../../tools/database/items_menu.txt:178
 msgid "gas station, need update"
 msgstr "benzínová pumpa potřebuje aktualizaci"
 
-#: ../../tools/database/items_menu.txt:59
 #: ../../tools/database/items_menu.txt:60
 msgid "phone number"
 msgstr "telefonní číslo"
 
-#: ../../tools/database/items_menu.txt:193
 #: ../../tools/database/items_menu.txt:194
 msgid "traffic signs"
 msgstr "dopravní značky"
 
-#: ../../tools/database/items_menu.txt:195
 #: ../../tools/database/items_menu.txt:196
 msgid "traffic sign limitation"
 msgstr "omezení dopravní značkou"
 
-#: ../src/pages/issues/index.vue:94 ../src/pages/map/items-filters.vue:9
-#: ../src/pages/issues/index.vue:96
+#: ../src/pages/issues/index.vue:96 ../src/pages/map/items-filters.vue:9
 msgid "High"
 msgstr "Vysoká priorita"
 
-#: ../src/pages/issues/index.vue:97 ../src/pages/map/items-filters.vue:12
-#: ../src/pages/issues/index.vue:99
+#: ../src/pages/issues/index.vue:99 ../src/pages/map/items-filters.vue:12
 msgid "Normal or higher"
 msgstr "Normální či vyšší priorita"
 
-#: ../src/pages/issues/index.vue:100 ../src/pages/issues/index.vue:163
-#: ../src/pages/map/items-filters.vue:15
-#: ../src/pages/map/items-filters.vue:103
-#: ../src/pages/map/items-filters.vue:48 ../src/pages/issues/index.vue:102
-#: ../src/pages/issues/index.vue:165
+#: ../src/pages/issues/index.vue:102 ../src/pages/issues/index.vue:165
+#: ../src/pages/map/items-filters.vue:15 ../src/pages/map/items-filters.vue:103
+#: ../src/pages/map/items-filters.vue:48
 msgid "All"
 msgstr "Vše"
 
-#: ../src/pages/issues/index.vue:104 ../src/pages/map/items-filters.vue:19
-#: ../src/pages/issues/index.vue:106
+#: ../src/pages/issues/index.vue:106 ../src/pages/map/items-filters.vue:19
 msgid "Normal only"
 msgstr "Pouze normální priorita"
 
-#: ../src/pages/issues/index.vue:107 ../src/pages/map/items-filters.vue:22
-#: ../src/pages/issues/index.vue:109
+#: ../src/pages/issues/index.vue:109 ../src/pages/map/items-filters.vue:22
 msgid "Low only"
 msgstr "Pouze nízká priorita"
 
-#: ../src/pages/map/top.vue:285 ../src/pages/map/top.vue:298
-#: ../src/pages/map/top.vue:311 ../src/pages/map/top.vue:292
-#: ../src/pages/map/top.vue:305 ../src/pages/map/top.vue:318
+#: ../src/pages/map/top.vue:297 ../src/pages/map/top.vue:310
+#: ../src/pages/map/top.vue:323
 #, python-brace-format
 msgid "Level {level} issues ({count})"
 msgstr "Priorita {level} problémů ({count})"
@@ -1226,67 +1121,56 @@ msgstr "Priorita {level} problémů ({count})"
 msgid "JOSM validator"
 msgstr "JOSM validátor"
 
-#: ../../tools/database/items_menu.txt:227
 #: ../../tools/database/items_menu.txt:228
 msgid "seamark"
 msgstr "maják"
 
-#: ../../tools/database/items_menu.txt:228
 #: ../../tools/database/items_menu.txt:229
 msgid "addresses"
 msgstr "adresy"
 
-#: ../../tools/database/items_menu.txt:229
 #: ../../tools/database/items_menu.txt:230
 msgid "combinations"
 msgstr "kombinace"
 
-#: ../../tools/database/items_menu.txt:230
 #: ../../tools/database/items_menu.txt:231
 msgid "deprecated"
 msgstr "zastaralé"
 
-#: ../../tools/database/items_menu.txt:231
 #: ../../tools/database/items_menu.txt:232
 msgid "geometry"
 msgstr "geometrie"
 
-#: ../../tools/database/items_menu.txt:233
 #: ../../tools/database/items_menu.txt:234
 msgid "multiple"
 msgstr "mnohonásobný"
 
-#: ../../tools/database/items_menu.txt:234
 #: ../../tools/database/items_menu.txt:235
 msgid "numeric"
 msgstr "číselný"
 
-#: ../../tools/database/items_menu.txt:235
 #: ../../tools/database/items_menu.txt:236
 msgid "relation"
 msgstr "relace"
 
-#: ../../tools/database/items_menu.txt:236
 #: ../../tools/database/items_menu.txt:237
 msgid "religion"
 msgstr "náboženské vyznání"
 
-#: ../../tools/database/items_menu.txt:237
 #: ../../tools/database/items_menu.txt:238
 msgid "territories"
 msgstr "území"
 
-#: ../../tools/database/items_menu.txt:238
 #: ../../tools/database/items_menu.txt:239
 msgid "unnecessary"
 msgstr "zbytečné"
 
-#: ../src/pages/issues/index.vue:66 ../src/pages/map/items-filters.vue:62
-#: ../src/pages/map/items-filters.vue:7 ../src/pages/issues/index.vue:68
+#: ../src/pages/issues/index.vue:68 ../src/pages/map/items-filters.vue:62
+#: ../src/pages/map/items-filters.vue:7
 msgid "Country"
 msgstr "země"
 
-#: ../src/pages/issues/index.vue:78 ../src/pages/issues/index.vue:80
+#: ../src/pages/issues/index.vue:80
 msgid "Item"
 msgstr "Položka"
 
@@ -1347,70 +1231,62 @@ msgstr "Záležitost nahlášena v:"
 msgid ""
 "Report the issue as improper, if it is not an issue according to you. The "
 "issue will not be displayed to anyone anymore."
-msgstr "Nahlásit problém jako nevhodný, pokud to podle vás není problém. Problém se nikomu dalšímu nezobrazí."
+msgstr ""
+"Nahlásit problém jako nevhodný, pokud to podle vás není problém. Problém se "
+"nikomu dalšímu nezobrazí."
 
 #: ../src/pages/map/popup.vue:402
 msgid ""
 "After fixing the issue in the OSM data, mark it as done. It will also "
 "disappear automatically on the next check."
-msgstr "Po vyřešení problému na základě údajů OSM označte jej jako hotový. Může také zmizet automaticky při příští kontrole, pokud to již není problém."
+msgstr ""
+"Po vyřešení problému na základě údajů OSM označte jej jako hotový. Může také "
+"zmizet automaticky při příští kontrole, pokud to již není problém."
 
-#: ../../tools/database/items_menu.txt:44
 #: ../../tools/database/items_menu.txt:45
 msgid "zone:maxspeed"
 msgstr "zone:maxspeed"
 
-#: ../../tools/database/items_menu.txt:246
 #: ../../tools/database/items_menu.txt:248
 msgid "power transformer"
 msgstr "Transformátorová stanice"
 
-#: ../../tools/database/items_menu.txt:76
 #: ../../tools/database/items_menu.txt:77
 msgid "opening hours"
 msgstr "otvírací hodiny"
 
-#: ../../tools/database/items_menu.txt:196
 #: ../../tools/database/items_menu.txt:197
 msgid "hospital"
 msgstr "nemocnice"
 
-#: ../../tools/database/items_menu.txt:198
 #: ../../tools/database/items_menu.txt:199
 msgid "social facility"
 msgstr "sociální zařízení"
 
-#: ../../tools/database/items_menu.txt:200
 #: ../../tools/database/items_menu.txt:201
 msgid "medical lab"
 msgstr "lékařská laboratoř"
 
-#: ../../tools/database/items_menu.txt:197
 #: ../../tools/database/items_menu.txt:198
 msgid "hospital, could be integrated"
 msgstr "nemocnice, mohlo by být integrováno"
 
-#: ../../tools/database/items_menu.txt:199
 #: ../../tools/database/items_menu.txt:200
 msgid "social facility, could be integrated"
 msgstr "sociální zařízení, mohlo by být integrováno"
 
-#: ../../tools/database/items_menu.txt:201
 #: ../../tools/database/items_menu.txt:202
 msgid "medical lab, could be integrated"
 msgstr "lékařská laboratoř, mohlo by být integrováno"
 
-#: ../../tools/database/items_menu.txt:175
 #: ../../tools/database/items_menu.txt:176
 msgid "police, need update"
 msgstr "policie, potřebuje update"
 
-#: ../../tools/database/items_menu.txt:56
 #: ../../tools/database/items_menu.txt:57
 msgid "swimming pool"
 msgstr "plavecký bazén"
 
-#: ../../tools/database/items_menu.txt:97
 #: ../../tools/database/items_menu.txt:98
 msgid "potential misspelling"
 msgstr "potenciální pravopisná chyba"
@@ -1419,31 +1295,22 @@ msgstr "potenciální pravopisná chyba"
 msgid "enforcement"
 msgstr "vynucení"
 
-#: ../../tools/database/items_menu.txt:60
 #: ../../tools/database/items_menu.txt:61
 msgid "URL"
 msgstr "URL"
 
-#: ../../tools/database/items_menu.txt:202
 #: ../../tools/database/items_menu.txt:203
 msgid "street objects"
 msgstr "objekty ulice"
 
-#: ../../tools/database/items_menu.txt:241
 #: ../../tools/database/items_menu.txt:242
 msgid "openrailwaymap"
 msgstr "openrailwaymap"
 
-#: ../../tools/database/items_menu.txt:242
-msgid "openrailwaymap in germany"
-msgstr "openrailwaymap v Německu"
-
-#: ../../tools/database/items_menu.txt:45
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
 msgstr "železnice"
 
-#: ../../tools/database/items_menu.txt:187
 #: ../../tools/database/items_menu.txt:188
 msgid "power plant"
 msgstr "elektrárna"
@@ -1452,24 +1319,22 @@ msgstr "elektrárna"
 msgid ""
 "Osmose tool is mainly developped by french people, and we aim to add more "
 "languages."
-msgstr "Nástroj Osmose je vyvíjený hlavně Francouzi, ale chtěli bychom přidat více jazyků."
+msgstr ""
+"Nástroj Osmose je vyvíjený hlavně Francouzi, ale chtěli bychom přidat více "
+"jazyků."
 
-#: ../../tools/database/items_menu.txt:203
 #: ../../tools/database/items_menu.txt:204
 msgid "defibrillator"
 msgstr "defibrilátor"
 
-#: ../../tools/database/items_menu.txt:207
 #: ../../tools/database/items_menu.txt:208
 msgid "radio support"
 msgstr "podpora pro rádio"
 
-#: ../../tools/database/items_menu.txt:208
 #: ../../tools/database/items_menu.txt:209
 msgid "radio support, could be integrated"
 msgstr "podpora pro rádio, může být vestavěné"
 
-#: ../../tools/database/items_menu.txt:209
 #: ../../tools/database/items_menu.txt:210
 msgid "radio support, need update"
 msgstr "podpora pro rádio, potřebuje aktualizaci"
@@ -1506,23 +1371,22 @@ msgstr "Vítejte v Osmose-QA"
 msgid ""
 "In no case Osmose-QA should provide you the absolute right way to map, "
 "always keep a critical eye."
-msgstr "V žádném případě by Osmose-QA nemělo poskytovat absolutní pravdu o tom jak mapovat. Vždy použijte kritické myšlení."
+msgstr ""
+"V žádném případě by Osmose-QA nemělo poskytovat absolutní pravdu o tom jak "
+"mapovat. Vždy použijte kritické myšlení."
 
 #: ../src/pages/map/doc.vue:32
 msgid "You can find help on the wiki:"
 msgstr "Pomoc najdete na wiki:"
 
-#: ../../tools/database/items_menu.txt:212
 #: ../../tools/database/items_menu.txt:213
 msgid "charging station"
 msgstr "nabíjecí stanice"
 
-#: ../../tools/database/items_menu.txt:213
 #: ../../tools/database/items_menu.txt:214
 msgid "charging station, could be integrated"
 msgstr "nabíjecí stanice, mohla by být integrována"
 
-#: ../../tools/database/items_menu.txt:214
 #: ../../tools/database/items_menu.txt:215
 msgid "charging station, need update"
 msgstr "nabíjecí stanice, potřebují aktualizaci"
@@ -1531,17 +1395,14 @@ msgstr "nabíjecí stanice, potřebují aktualizaci"
 msgid "related objects"
 msgstr "související objekty"
 
-#: ../../tools/database/items_menu.txt:204
 #: ../../tools/database/items_menu.txt:205
 msgid "wastewater"
 msgstr "odpadní vody"
 
-#: ../../tools/database/items_menu.txt:205
 #: ../../tools/database/items_menu.txt:206
 msgid "wastewater, could be integrated"
 msgstr "odpadní vody, mohly by být integrovány"
 
-#: ../../tools/database/items_menu.txt:206
 #: ../../tools/database/items_menu.txt:207
 msgid "wastewater, need update"
 msgstr "odpadní vody, potřebují aktualizaci"
@@ -1558,38 +1419,23 @@ msgstr "Detaily problému"
 msgid "Report based on data from date"
 msgstr "Zpráva na základě údajů z data"
 
-#: ../../tools/database/items_menu.txt:181
 #: ../../tools/database/items_menu.txt:182
 msgid "pharmacy, need update"
 msgstr "lékárna, potřeba aktualizace"
 
-#: ../../tools/database/items_menu.txt:190
 #: ../../tools/database/items_menu.txt:191
 msgid "power substation, need update"
 msgstr "rozvodna elektrické energie, potřeba aktualizace"
 
-#: ../../tools/database/items_menu.txt:194
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
 msgstr "obchod"
-
-#: ../../tools/database/items_menu.txt:243
-msgid "specific russia"
-msgstr "specifické ruské"
-
-#: ../../tools/database/items_menu.txt:244
-msgid "specific brazil"
-msgstr "specifické brazilské"
-
-#: ../../tools/database/items_menu.txt:245
-msgid "specific france"
-msgstr "specifické francouzské"
 
 #: ../src/pages/map/editor-modal.vue
 msgid "Fixed with Osmose"
 msgstr "Opraveno pomocí Osmose"
 
-#: ../src/pages/map/editor.vue:126 ../src/pages/map/editor.vue:132
+#: ../src/pages/map/editor.vue:132
 msgid "Done"
 msgstr "Hotovo"
 
@@ -1597,30 +1443,30 @@ msgstr "Hotovo"
 msgid ""
 "Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
 "data."
-msgstr "Osmose-QA je nástroj pro zajištění kvality, který odhaluje problémy v datech OpenStreetMap."
+msgstr ""
+"Osmose-QA je nástroj pro zajištění kvality, který odhaluje problémy v datech "
+"OpenStreetMap."
 
 #: ../src/pages/map/doc.vue:13
 msgid ""
 "It detects a very wide range of issue types. It is also useful for "
 "integrating third-party data sets by conflation."
-msgstr "Detekuje velmi širokou škálu typů problémů. Je také užitečný pro integraci datových sad třetích stran pomocí konfrontace."
+msgstr ""
+"Detekuje velmi širokou škálu typů problémů. Je také užitečný pro integraci "
+"datových sad třetích stran pomocí konfrontace."
 
-#: ../../tools/database/items_menu.txt:77
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:210
 #: ../../tools/database/items_menu.txt:211
 msgid "health centre"
 msgstr "zdravotní středisko"
 
-#: ../../tools/database/items_menu.txt:211
 #: ../../tools/database/items_menu.txt:212
 msgid "health centre, could be integrated"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:215
 #: ../../tools/database/items_menu.txt:216
 msgid "tourism"
 msgstr ""
@@ -1639,27 +1485,22 @@ msgstr ""
 msgid "fire hydrant, could be integrated"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:216
 #: ../../tools/database/items_menu.txt:217
 msgid "milestone"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:217
 #: ../../tools/database/items_menu.txt:218
 msgid "milestone, could be integrated"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:218
 #: ../../tools/database/items_menu.txt:219
 msgid "viewpoint"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:219
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:220
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
 msgstr ""
@@ -1684,27 +1525,22 @@ msgstr ""
 msgid "place of worship"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:221
 #: ../../tools/database/items_menu.txt:222
 msgid "cemetery"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:222
 #: ../../tools/database/items_menu.txt:223
 msgid "man made"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:223
 #: ../../tools/database/items_menu.txt:224
 msgid "water infrastructure"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:224
 #: ../../tools/database/items_menu.txt:225
 msgid "water"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:225
 #: ../../tools/database/items_menu.txt:226
 msgid "fire station"
 msgstr ""
@@ -1766,8 +1602,8 @@ msgstr ""
 #: ../src/pages/contact.vue:5
 msgid ""
 "Bug should be reported on {osmose-frontend} for issues around the website, "
-"or on {osmose-backend} for issues on the reported issues on OSM data, or for"
-" suggestion about analyses."
+"or on {osmose-backend} for issues on the reported issues on OSM data, or for "
+"suggestion about analyses."
 msgstr ""
 
 #: ../src/pages/contact.vue:42
@@ -1779,16 +1615,8 @@ msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
 msgstr ""
 
-#: ../src/pages/translation.vue:21
-msgid "Translation is done on {Transifex}"
-msgstr ""
-
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
-msgstr ""
-
-#: ../src/pages/translation.vue:55
-msgid "You can create a new language directly on {Transifex}."
 msgstr ""
 
 #: ../src/pages/contact.vue:61
@@ -1846,18 +1674,17 @@ msgstr ""
 msgid "gas station, ref not integrated"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:183 ../src/pages/issues/index.vue:185
+#: ../src/pages/issues/index.vue:185
 msgid "BBox"
 msgstr ""
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'class'
-#: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:220
-#: ../src/pages/issues/index.vue:222
+#: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:222
 msgid "cl"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:137 ../src/pages/map/items-filters.vue:86
-#: ../src/pages/map/items-filters.vue:31 ../src/pages/issues/index.vue:139
+#: ../src/pages/issues/index.vue:139 ../src/pages/map/items-filters.vue:86
+#: ../src/pages/map/items-filters.vue:31
 msgid "Class id"
 msgstr ""
 
@@ -1865,7 +1692,7 @@ msgstr ""
 msgid "Control, verification and correction of {project} issues"
 msgstr ""
 
-#: ../src/pages/map/top.vue:254 ../src/pages/map/top.vue:261
+#: ../src/pages/map/top.vue:266
 msgid "Delay:"
 msgstr ""
 
@@ -1890,8 +1717,8 @@ msgstr ""
 msgid "Item #{item}"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:121 ../src/pages/map/items-filters.vue:57
-#: ../src/pages/map/items-filters.vue:2 ../src/pages/issues/index.vue:123
+#: ../src/pages/issues/index.vue:123 ../src/pages/map/items-filters.vue:57
+#: ../src/pages/map/items-filters.vue:2
 msgid "Less filters"
 msgstr ""
 
@@ -1909,18 +1736,17 @@ msgstr ""
 msgid "lvl"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:117 ../src/pages/map/items-filters.vue:122
-#: ../src/pages/issues/index.vue:119
+#: ../src/pages/issues/index.vue:119 ../src/pages/map/items-filters.vue:122
 msgid "More filters"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:160 ../src/pages/map/items-filters.vue:100
-#: ../src/pages/map/items-filters.vue:45 ../src/pages/issues/index.vue:162
+#: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
+#: ../src/pages/map/items-filters.vue:45
 msgid "No (Default)"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:166 ../src/pages/map/items-filters.vue:106
-#: ../src/pages/map/items-filters.vue:51 ../src/pages/issues/index.vue:168
+#: ../src/pages/issues/index.vue:168 ../src/pages/map/items-filters.vue:106
+#: ../src/pages/map/items-filters.vue:51
 msgid "Only"
 msgstr ""
 
@@ -1928,55 +1754,49 @@ msgstr ""
 msgid "Open"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:176 ../src/pages/map/items-filters.vue:113
-#: ../src/pages/map/items-filters.vue:58 ../src/pages/issues/index.vue:178
+#: ../src/pages/issues/index.vue:178 ../src/pages/map/items-filters.vue:113
+#: ../src/pages/map/items-filters.vue:58
 msgid "OSM Username"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:156 ../src/pages/map/items-filters.vue:95
-#: ../src/pages/map/items-filters.vue:40 ../src/pages/issues/index.vue:158
+#: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
+#: ../src/pages/map/items-filters.vue:40
 msgid "Show hidden items"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:130 ../src/pages/map/items-filters.vue:77
-#: ../src/pages/map/items-filters.vue:22 ../src/pages/issues/index.vue:132
+#: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
+#: ../src/pages/map/items-filters.vue:22
 msgid "Source id"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:482 ../src/pages/map/items-filters.vue:201
-#: ../src/pages/issues/index.vue:488
+#: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
 msgid "tag"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:144 ../src/pages/issues/index.vue:146
+#: ../src/pages/issues/index.vue:146
 msgid "Tag"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:171
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:172
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:226
 #: ../../tools/database/items_menu.txt:227
 msgid "natural"
 msgstr ""
 
-#: ../src/pages/map/items.vue:6 ../src/pages/map/items.vue:5
+#: ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:78
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:79
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
 msgstr ""
@@ -1985,11 +1805,10 @@ msgstr ""
 msgid "Statistics for user {}"
 msgstr ""
 
-#: ../src/pages/issues/index.vue:279 ../src/pages/issues/index.vue:281
+#: ../src/pages/issues/index.vue:281
 msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
 msgstr ""
 
-#: ../../tools/database/items_menu.txt:61
 #: ../../tools/database/items_menu.txt:62
 msgid "small land use"
 msgstr ""
@@ -2008,11 +1827,14 @@ msgstr ""
 msgid ""
 "Report the issue as improper.\n"
 "\n"
-"Only use this if the issue reported by Osmose is in fact not an issue in the OSM data.\n"
+"Only use this if the issue reported by Osmose is in fact not an issue in the "
+"OSM data.\n"
 "\n"
-"Warning: the issue will also no longer be displayed to other contributors. If you are unsure, let this Osmose issue open.\n"
+"Warning: the issue will also no longer be displayed to other contributors. "
+"If you are unsure, let this Osmose issue open.\n"
 "\n"
-"If Osmose reports lots of issues similar to this one and you disagree with this, please fill a Github issue and let us try to fix it."
+"If Osmose reports lots of issues similar to this one and you disagree with "
+"this, please fill a Github issue and let us try to fix it."
 msgstr ""
 
 #: ../../tools/database/items_menu.txt:31
@@ -2042,3 +1864,48 @@ msgstr ""
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
 msgstr ""
+
+#: ../src/pages/map/top.vue:360
+msgid "Number of closed makers in this session"
+msgstr ""
+
+#: ../src/pages/map/index.vue
+msgid ""
+"You have made a large number changes with the tags editor. Think about "
+"saving your changes. You can save multiple times while keeping the same "
+"changeset."
+msgstr ""
+
+#: ../src/pages/map/index.vue
+msgid ""
+"You have made a large number of corrections. That great!\n"
+"\n"
+"That may not be your case, but note that Osmose-QA is not intended to be "
+"used for Mechanical Editing. Take a look about that at:\n"
+"- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
+"- https://wiki.openstreetmap.org/wiki/"
+"What%27s_the_problem_with_mechanical_edits%3F"
+msgstr ""
+
+#: ../src/pages/translation.vue:21
+msgid "Translation is done on {Weblate}"
+msgstr ""
+
+#: ../src/pages/translation.vue:55
+msgid "You can create a new language directly on {Weblate}."
+msgstr ""
+
+#~ msgid "out of boundary"
+#~ msgstr "mimo hranice"
+
+#~ msgid "openrailwaymap in germany"
+#~ msgstr "openrailwaymap v Německu"
+
+#~ msgid "specific russia"
+#~ msgstr "specifické ruské"
+
+#~ msgid "specific brazil"
+#~ msgstr "specifické brazilské"
+
+#~ msgid "specific france"
+#~ msgstr "specifické francouzské"

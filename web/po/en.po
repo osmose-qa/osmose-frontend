@@ -13,571 +13,292 @@ msgstr ""
 "Language-Team: English\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. TRANSLATORS: days / hours / minutes since last source update, abbreviated to d / h / m
-#: ../control.py:50
-#, python-brace-format
-msgid "{day}d, {hour}h, {minute}m ago"
-msgstr "{day}d, {hour}h, {minute}m ago"
-
-#: ../control.py:52
-#, python-brace-format
-msgid "in {day}d, {hour}h, {minute}m"
-msgstr "in {day}j,{hour}h, {minute}m"
-
-#: ../control.py:55
-msgid "never generated"
-msgstr "never generated"
-
-#. TRANSLATORS: link to tooltip help
-#: ../error.py:155 ../false_positive.py:66
-msgid "http://wiki.openstreetmap.org/wiki/Osmose/errors"
-msgstr "http://wiki.openstreetmap.org/wiki/Osmose/errors"
-
-#: ../errors.py:123 tmp.tpl:58
+#: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
 msgstr "False positives"
 
-#: ../errors.py:126
-msgid "Fixed errors"
-msgstr "Fixed errors"
-
-#: ../errors.py:129 tmp.tpl:56
-msgid "Information"
-msgstr "Information"
-
-#. TRANSLATORS: link to help in appropriate language
-#: ../map.py:136
-msgid "Errors by user"
-msgstr "Errors by user"
-
-#: ../map.py:137
-msgid "Relation analyser"
-msgstr "Relation analyser"
-
-#. TRANSLATORS: this link can be changed to something specific to the language
-#: ../map.py:139
-msgid "openstreetmap.fr"
-msgstr "openstreetmap.fr"
-
-#: ../map.py:139
-msgid "http://www.openstreetmap.fr/"
-msgstr "http://www.openstreetmap.fr/"
-
 #. TRANSLATORS: link to source code
-#: ../map.py:141
+#: ../src/pages/map/top.vue:25
 msgid "Statistics"
 msgstr "Statistics"
 
-#: ../map.py:144 tmp.tpl:23
+#: ../src/pages/contact.vue ../src/pages/map/top.vue:83
 msgid "Contact"
 msgstr "Contact"
 
-#: ../map.py:145
+#: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
 msgstr "Help on wiki"
 
-#: ../map.py:145
+#: ../src/pages/index.vue:28 ../src/pages/translation.vue:123
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
 msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
-#: ../map.py:146
+#: ../src/pages/map/top.vue:93
 msgid "Copyright"
 msgstr "Copyright"
 
-#: ../map.py:147
+#: ../src/pages/map/top.vue:98
 msgid "Sources"
 msgstr "Sources"
 
-#: ../map.py:148
+#: ../src/pages/map/top.vue:103
 msgid "Translation"
 msgstr "Translation"
 
-#: tmp.tpl:1 tmp.tpl:5 tmp.tpl:11
-#, python-format
-msgid "Statistics for user %s"
-msgstr "statistics for user %s"
-
-#: tmp.tpl:2 tmp.tpl:3 tmp.tpl:4
-#, python-brace-format
-msgid "Number of level {level} errors: {count}"
-msgstr "Number of level {level} errors: {count}"
-
-#: tmp.tpl:6 tmp.tpl:15
-#, python-format
-msgid "Number of found errors: %d"
-msgstr "Number of found errors: %d"
-
-#: tmp.tpl:7 tmp.tpl:16
-#, python-format
-msgid "Number of found errors: more than %d"
-msgstr "Number of found errors: more than %d"
-
-#: tmp.tpl:8
-msgid "Users statistics"
-msgstr "Users statistics"
-
-#: tmp.tpl:9
-msgid "Number"
-msgstr "Number"
-
-#: tmp.tpl:10
-msgid "Username"
-msgstr "Username"
-
-#: tmp.tpl:12
-#, python-format
-msgid "User statistics for %s"
-msgstr "User statistics for %s"
-
-#: tmp.tpl:13
-#, python-format
-msgid ""
-"This page shows errors on elements that were last modified by '%s'. This "
-"doesn't means that this user is responsible for all these errors."
-msgstr ""
-"This page shows errors on elements that were last modified by '%s'. This "
-"doesn't means that this user is responsible for all these errors."
-
-#: tmp.tpl:14
-msgid "This list is also available via rss."
-msgstr "This list is also available via rss."
-
-#: tmp.tpl:17
-msgid "Show errors on a map"
-msgstr "Show errors on a map"
-
-#: tmp.tpl:18
+#: ../src/pages/byuser/index.vue
 msgid "Statistics for user"
 msgstr "Statistics for user"
 
-#: tmp.tpl:19
+#: ../src/pages/byuser/index.vue:2
 msgid "User statistics"
 msgstr "User statistics"
 
-#: tmp.tpl:20
-msgid "Osmose allows you to control your own errors."
-msgstr "Osmose allows you to control your own errors."
-
-#: tmp.tpl:21
-msgid ""
-"By entering your OSM username in the following form, you will be able to see "
-"errors that are attached to your username. Note that the algorithm that "
-"attaches errors to username is not perfect, as Osmose only checks the last "
-"contributor of the relevant erroneous elements."
-msgstr ""
-"By entering your OSM username in the following form, you will be able to see "
-"errors that are attached to your username. Note that the algorithm that "
-"attaches errors to username is not perfect, as Osmose only checks the last "
-"contributor of the relevant erroneous elements."
-
-#: tmp.tpl:22
+#: ../src/pages/byuser/index.vue:13
 msgid "Username:"
 msgstr "Username:"
 
-#: tmp.tpl:24
+#: ../src/pages/contact.vue:2
 msgid "Bug tracker"
 msgstr "Bug tracker"
 
-#: tmp.tpl:25
-msgid ""
-"Bug should be reported on <a href='http://trac.openstreetmap.fr'>trac</a>. "
-"The component to pick should be osmose-frontend for issues around the "
-"website, and osmose-backend for issues on the reported errors, or for "
-"suggestion for new analyses."
-msgstr ""
-"Bug should be reported on <a href='http://trac.openstreetmap.fr'>trac</a>. "
-"The component to pick should be osmose-frontend for issues around the "
-"website, and osmose-backend for issues on the reported errors, or for "
-"suggestion for new analyses."
-
-#: tmp.tpl:26
+#: ../src/pages/contact.vue:23
 msgid "Providing patches"
 msgstr "Providing patches"
 
-#: tmp.tpl:27
+#: ../src/pages/contact.vue:25
+#, fuzzy
+#| msgid ""
+#| "Patches can be provided via merge requests on gitorious or github. This "
+#| "is the prefered way to handle patches."
 msgid ""
-"Patches can be provided via merge requests on gitorious or github. This is "
-"the prefered way to handle patches."
+"Patches can be provided via merge requests on Github. This is the preferred "
+"way of handling patches."
 msgstr ""
 "Patches can be provided via merge requests on gitorious or github. This is "
 "the prefered way to handle patches."
 
-#: tmp.tpl:28
+#: ../src/pages/contact.vue:39
 msgid "Development"
 msgstr ""
 
-#: tmp.tpl:29
-msgid ""
-"Development of Osmose is made as free software by <a href='../"
-"copyright'>volunteers</a>."
-msgstr ""
-
-#: tmp.tpl:30
+#: ../src/pages/contact.vue:70
 msgid "Contacting maintainers"
 msgstr "Contacting maintainers"
 
-#: tmp.tpl:31
-#, python-format
-msgid ""
-"We can be contacted through a direct email to <a href='mailto:%s'>%s</a>."
-msgstr ""
-"We can be contacted through a direct email to <a href='mailto:%s'>%s</a>."
-
-#: tmp.tpl:32 tmp.tpl:33
+#: ../src/pages/control/update_matrix.vue
 msgid "Last updates"
 msgstr "Last updates"
 
-#: tmp.tpl:34
-msgid "Median delay:"
-msgstr "Median delay:"
-
-#: tmp.tpl:35 tmp.tpl:41 tmp.tpl:63 tmp.tpl:72
+#: ../../tools/database/items_menu.txt:35 ../src/components/issues-list.vue:10
+#: ../src/pages/control/update.vue:7 ../src/pages/issues/index.vue:211
 msgid "source"
 msgstr "source"
 
-#: tmp.tpl:36
-msgid "description"
-msgstr "description"
-
-#: tmp.tpl:37
-msgid "last generation"
-msgstr "last generation"
-
-#: tmp.tpl:38 tmp.tpl:39
-msgid "history"
-msgstr "history"
-
-#: tmp.tpl:40
+#: ../src/pages/control/update.vue
 msgid "Update"
 msgstr "Update"
 
-#: tmp.tpl:42
+#: ../src/pages/control/update.vue:8
 msgid "remote url"
 msgstr "remote url"
 
-#: tmp.tpl:43
+#: ../src/pages/control/update.vue:9
 msgid "timestamp"
 msgstr "timestamp"
 
-#: tmp.tpl:44
+#: ../src/pages/copyright.vue
 msgid "Copyright information"
 msgstr "Copyright information"
 
-#: tmp.tpl:45
+#: ../src/pages/copyright.vue:2
 msgid "License"
 msgstr "License"
 
-#: tmp.tpl:46
+#: ../src/pages/copyright.vue:20
 msgid "Authors"
 msgstr "Authors"
 
-#: tmp.tpl:47
+#: ../src/pages/copyright.vue:25
 msgid "And contributors"
 msgstr "And contributors"
 
-#: tmp.tpl:48
-msgid "Data are coming from"
-msgstr "Data are coming from"
-
-#: tmp.tpl:49
-msgid "copyright"
-msgstr "copyright"
-
-#: tmp.tpl:50 tmp.tpl:87
-#, python-format
-msgid "Information on error %d"
-msgstr "information on error %d"
-
-#: tmp.tpl:51 tmp.tpl:88
+#: ../src/components/marker-details.vue:4 ../src/pages/issue/index.vue:15
+#: ../src/pages/issue/index.vue:58 ../src/pages/issue/index.vue:6
+#: ../src/pages/issue/index.vue:8
 msgid "key"
 msgstr "key"
 
-#: tmp.tpl:52 tmp.tpl:89
+#: ../src/components/marker-details.vue:5 ../src/pages/issue/index.vue:16
+#: ../src/pages/issue/index.vue:59 ../src/pages/issue/index.vue:7
+#: ../src/pages/issue/index.vue:9
 msgid "value"
 msgstr "value"
 
-#: tmp.tpl:53 tmp.tpl:90
+#: ../src/pages/issue/index.vue:5
 msgid "Marker"
 msgstr "Marker"
 
-#: tmp.tpl:54
+#: ../src/pages/issue/index.vue:10 ../src/pages/issue/index.vue:1
 msgid "Elements"
 msgstr "Elements"
 
-#: tmp.tpl:55
+#: ../src/pages/issue/index.vue:51 ../src/pages/issue/index.vue:1
 msgid "Fixes"
 msgstr "Fixes"
 
-#: tmp.tpl:57
+#: ../src/pages/issues/index.vue:18
 msgid "Fixed"
 msgstr "Fixed"
 
-#: tmp.tpl:59
+#: ../src/pages/issues/index.vue:28
 msgid "Graph"
 msgstr "Graph"
 
-#: tmp.tpl:60 tmp.tpl:100
+#: ../src/pages/byuser/byuser.vue:16 ../src/pages/issues/index.vue:33
 msgid "Map"
 msgstr "Map"
 
+#. #-#-#-#-#  osmose-frontend.pot.nofiles (PACKAGE VERSION)  #-#-#-#-#
 #. TRANSLATORS: 'Set' is used to choose a specific country/item on /errors
-#: tmp.tpl:62
+#: ../src/pages/issues/index.vue:395
 msgid "Set"
 msgstr "Set"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for class
-#: tmp.tpl:65 tmp.tpl:74
 msgid "class (abbreviation)"
 msgstr "cl"
 
-#: tmp.tpl:66 tmp.tpl:79
+#: ../src/components/issues-list.vue:21 ../src/pages/issues/index.vue:218
 msgid "item"
 msgstr "item"
 
-#: tmp.tpl:67
+#: ../src/pages/issues/index.vue:228
 msgid "title"
 msgstr "title"
 
-#: tmp.tpl:68
+#: ../src/pages/byuser/byuser.vue:22 ../src/pages/issues/index.vue:231
 msgid "count"
 msgstr "count"
 
-#: tmp.tpl:69
+#: ../src/pages/issues/index.vue:235 ../src/pages/issues/index.vue:287
 msgid "Total"
 msgstr "Total"
 
-#: tmp.tpl:70
-msgid "Show more errors"
-msgstr "Show more errors"
-
-#: tmp.tpl:71
-msgid "Show some errors"
-msgstr "Show some errors"
-
-#. TRANSLATORS: this should be replaced by a abbreviation for subclass
-#: tmp.tpl:76
-msgid "subclass (abbreviation)"
-msgstr "s"
-
-#. TRANSLATORS: this should be replaced by a abbreviation for subclass
-#: tmp.tpl:78
-msgid "level (abbreviation)"
-msgstr "l"
-
-#: tmp.tpl:80
-msgid "information on error"
-msgstr "information on error"
-
-#: tmp.tpl:81
-msgid "position (abbreviation)"
-msgstr "pos"
-
-#: tmp.tpl:82
-msgid "elements (abbreviation)"
-msgstr "elems"
-
-#: tmp.tpl:83
+#: ../src/components/issues-list.vue:43
 msgid "subtitle"
 msgstr "subtitle"
 
-#: tmp.tpl:84
+#: ../../tools/database/items_menu.txt:58 ../src/components/issues-list.vue:47
 msgid "date"
 msgstr "date"
 
-#: tmp.tpl:85
-msgid "delete error"
-msgstr "delete error"
-
-#: tmp.tpl:86
-#, python-format
-msgid "delete error #%d"
-msgstr "delete error #%d"
-
-#: tmp.tpl:91
-msgid "OpenStreetMap Oversight Search Engine"
-msgstr "OpenStreetMap Oversight Search Engine"
-
-#: tmp.tpl:92
-msgid "Map of errors"
-msgstr "Map of errors"
-
-#: tmp.tpl:93
+#: ../src/pages/index.vue:11
 msgid "Help on OSM wiki"
 msgstr "Help on OSM wiki"
 
-#: tmp.tpl:94
-msgid "Information on error database"
-msgstr "information on error database"
-
-#: tmp.tpl:95
+#: ../src/pages/index.vue:20
 msgid "False positives list"
 msgstr "False positives list"
 
-#: tmp.tpl:96
+#: ../src/pages/index.vue:25
 msgid "Last analysis updates"
 msgstr "Last analysis updates"
 
-#: tmp.tpl:97
+#: ../src/pages/map/editor.vue:18
 msgid "Tags Editor"
 msgstr "Tags Editor"
 
-#: tmp.tpl:98
+#: ../src/pages/map/editor-modal.vue:38 ../src/pages/map/editor-modal.vue:56
+#: ../src/pages/map/editor.vue:60 ../src/pages/map/editor.vue:126
 msgid "Cancel"
 msgstr "Cancel"
 
-#: tmp.tpl:99
-msgid "Valid"
-msgstr "Valid"
-
-#: tmp.tpl:101
-msgid "no bubbles at this zoom factor"
-msgstr "no bubbles at this zoom factor"
-
-#: tmp.tpl:102
+#: ../src/pages/issues/index.vue:92 ../src/pages/map/items-filters.vue:4
 msgid "Severity"
 msgstr "Severity"
 
-#: tmp.tpl:103
-msgid "1 only"
-msgstr "1 only"
-
-#: tmp.tpl:104
-msgid "1+2 only"
-msgstr "1+2 only"
-
-#: tmp.tpl:105
-msgid "all severity"
-msgstr "all severity"
-
-#: tmp.tpl:106
-msgid "2 only"
-msgstr "2 only"
-
-#: tmp.tpl:107
-msgid "3 only"
-msgstr "3 only"
-
-#: tmp.tpl:108
+#: ../src/pages/issues/index.vue:192 ../src/pages/map/items-filters.vue:30
 msgid "Fixable"
 msgstr "Fixable"
 
-#: tmp.tpl:109
+#: ../src/pages/map/items-filters.vue:164
 msgid "Show only markers with correction suggestions"
 msgstr "Show only markers with correction suggestions"
 
-#: tmp.tpl:110
+#: ../src/pages/issues/index.vue:196 ../src/pages/map/items-filters.vue:35
 msgid "Online"
 msgstr "Online"
 
-#: tmp.tpl:111
+#: ../src/pages/map/items-filters.vue:43
 msgid "Topic"
 msgstr "Topic"
 
-#: tmp.tpl:112
+#: ../src/pages/map/items-list.vue:3
 msgid "Select:"
 msgstr "Select:"
 
-#: tmp.tpl:113 tmp.tpl:116
+#: ../src/pages/map/items-list.vue:5 ../src/pages/map/items-list.vue:25
 msgid "all"
 msgstr "all"
 
-#: tmp.tpl:114 tmp.tpl:117
+#: ../src/pages/map/items-list.vue:8 ../src/pages/map/items-list.vue:28
 msgid "nothing"
 msgstr "nothing"
 
-#: tmp.tpl:115
+#: ../src/pages/map/items-list.vue:11
 msgid "invert"
 msgstr "invert"
 
-#: tmp.tpl:118
+#: ../src/pages/map/top.vue:5
 msgid "Change language"
 msgstr "Change language"
 
-#: tmp.tpl:119
+#: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:79
 msgid "Help"
 msgstr "Help"
 
-#: tmp.tpl:120
-#, python-format
-msgid "Delay: %sd"
-msgstr "Delay: %sd"
-
-#: tmp.tpl:121 tmp.tpl:122 tmp.tpl:123
-#, python-format
-msgid "Level %d errors (%d)"
-msgstr "Level %d errors (%d)"
-
-#: tmp.tpl:124
+#: ../src/pages/map/top.vue:157 ../src/pages/map/top.vue:39
 msgid "Logout"
 msgstr "Logout"
 
-#: tmp.tpl:125 tmp.tpl:127
+#: ../src/pages/map/editor.vue:8 ../src/pages/map/top.vue:163
 msgid "Login"
 msgstr "Login"
 
-#: tmp.tpl:126 tmp.tpl:128
+#: ../src/pages/map/editor-menu.vue:3 ../src/pages/map/editor-modal.vue:41
 msgid "Save"
 msgstr "Save"
 
-#: tmp.tpl:129
-msgid "Objects edited:"
-msgstr "Objects edited:"
-
-#: tmp.tpl:130
-msgid "Objects deleted:"
-msgstr "Objects deleted:"
-
-#: tmp.tpl:131
-msgid "Fix with Osmose"
-msgstr "Fix with Osmose"
-
-#: tmp.tpl:132
+#: ../src/pages/map/editor-modal.vue:19
 msgid "Source"
 msgstr "Source"
 
-#: tmp.tpl:133
+#: ../src/pages/map/editor-modal.vue:25
 msgid "Type"
 msgstr "Type"
 
-#: tmp.tpl:134
+#: ../src/pages/map/editor-modal.vue:32
 msgid "Reuse changeset"
 msgstr "Reuse changeset"
 
-#: tmp.tpl:135
-msgid "Error reported on: "
-msgstr "Error reported on: "
-
-#: tmp.tpl:136
-msgid "change status"
-msgstr "change status"
-
-#: tmp.tpl:137
+#: ../src/pages/map/popup.vue:400
 msgid "corrected"
 msgstr "corrected"
 
-#: tmp.tpl:138
+#: ../src/pages/map/popup.vue:386
 msgid "false positive"
 msgstr "false positive"
 
-#: tmp.tpl:139 tmp.tpl:140
+#: ../src/pages/translation.vue:2 ../src/pages/translation.vue
 msgid "How to help translation"
 msgstr "How to help translation"
 
-#: tmp.tpl:141
-msgid ""
-"Osmose tool is mainly developped by french people, and we aim to add more "
-"languages. We currently cover almost all the languages used by countries "
-"covered by analyses."
-msgstr ""
-"Osmose tool is mainly developped by french people, and we aim to add more "
-"languages. We currently cover almost all the languages used by countries "
-"covered by analyses."
-
-#: tmp.tpl:142
+#: ../src/pages/translation.vue:10
 msgid ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
@@ -585,75 +306,1855 @@ msgstr ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
 
-#: tmp.tpl:143
-msgid "Recent translation needs"
-msgstr "Recent translation needs"
-
-#: tmp.tpl:144
-msgid ""
-"European countries: German and Italian in Switzerland and Dutch in Belgium"
-msgstr ""
-"European countries: German and Italian in Switzerland and Dutch in Belgium"
-
-#: tmp.tpl:145
-msgid ""
-"Countries covered by HOT: Wolof in Senegal, Arabic in Chad and Cameroon, "
-"Swahili in Kenya, Kirundi in Burundi, and Malagasy in Madagascar"
-msgstr ""
-"Countries covered by HOT: Wolof in Senegal, Arabic in Chad and Cameroon, "
-"Swahili in Kenya, Kirundi in Burundi, and Malagasy in Madagascar"
-
-#: tmp.tpl:146
+#: ../src/pages/translation.vue:16
 msgid "Pages to translate"
 msgstr "Pages to translate"
 
-#: tmp.tpl:147
+#: ../src/pages/translation.vue:42
 msgid "Wiki pages"
 msgstr "Wiki pages"
 
-#: tmp.tpl:148
-msgid "Osmose main page"
-msgstr "Osmose main page"
-
-#: tmp.tpl:149
-msgid "Documentation on reported errors"
-msgstr "Documentation on reported errors"
-
-#: tmp.tpl:150
+#: ../src/pages/translation.vue:17
 msgid "Osmose pages"
 msgstr "Osmose pages"
 
-#: tmp.tpl:151
-msgid "Translation status of frontend"
-msgstr "Translation status of frontend"
-
-#: tmp.tpl:152
-msgid "Source code for translations of frontend (.po files)"
-msgstr "Source code for translations of frontend (.po files)"
-
-#: tmp.tpl:153
-msgid "Source code for translations of backend (.po files)"
-msgstr "Source code for translations of backend (.po files)"
-
-#: tmp.tpl:154
-msgid ""
-"Source code for translations (database files for menu) - categ_menu_en.txt "
-"and item_menu_en.txt are the reference ones."
-msgstr ""
-"Source code for translations (database files for menu) - categ_menu_en.txt "
-"and item_menu_en.txt are the reference ones."
-
-#: tmp.tpl:155
+#: ../src/pages/translation.vue:78
 msgid "Bug tracking system"
 msgstr "Bug tracking system"
 
-#: tmp.tpl:156
+#: ../../tools/database/categories_menu.txt:1
+msgid "Structure"
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:2
+msgid "Missing tags"
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:3
+msgid "Bad tag"
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:4
+#, fuzzy
+#| msgid "Tags Editor"
+msgid "Tags to remove"
+msgstr "Tags Editor"
+
+#: ../../tools/database/categories_menu.txt:5
+msgid "Tags name"
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:6
+msgid "Administrative"
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:7
+msgid "To map"
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:8
+#, fuzzy
+#| msgid "Information"
+msgid "Integration"
+msgstr "Information"
+
+#: ../../tools/database/items_menu.txt:1
+msgid "overlapping building"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:3
+msgid "duplicated node"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:4
+msgid "way one node"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:5
+msgid "invalid polygon"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:6
+msgid "reverse roundabout"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:7
+msgid "boundary intersect"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:8
+msgid "objects overlap"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:9
+msgid "orphan nodes"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:10
+msgid "sudden highway type change"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:11
+msgid "unclosed area"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:12
+msgid "bad *_link highway"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:13
+msgid "broken highway continuity"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:14
+msgid "missing tag or role"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:15
+msgid "surface intersection"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:16
+#, fuzzy
+#| msgid "Translation"
+msgid "big relation"
+msgstr "Translation"
+
+#: ../../tools/database/items_menu.txt:17
+msgid "multipolygon"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:18
+msgid "double cycleway"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:19
+msgid "approximate way"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:20
+msgid "1-member relation"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:21
+msgid "not-connected highway/cycleway"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:22
+msgid "waterway"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:24
+msgid "duplicate geometry"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:32
+msgid "junction=roundabout"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:33
+#, fuzzy
+#| msgid "level (abbreviation)"
+msgid "elevation"
+msgstr "l"
+
+#: ../../tools/database/items_menu.txt:34
+msgid "oneway"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:36
+msgid "parent tag"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:37
+msgid "street numbers"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:38
+#: ../../tools/database/items_menu.txt:233
+msgid "highway"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:39
+msgid "highway crossing"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:40
+#: ../../tools/database/items_menu.txt:180
+msgid "pharmacy"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:47
+msgid "highway roundabout"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:48
+#, fuzzy
+#| msgid "source"
+msgid "bad source tag"
+msgstr "source"
+
+#: ../../tools/database/items_menu.txt:49
+msgid "tagwatch cleaner"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:50
+#: ../../tools/database/items_menu.txt:240
+msgid "wikipedia"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:51
+msgid "multiple tags"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:52
+msgid "saint hyphen"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:53
+#, fuzzy
+#| msgid "corrected"
+msgid "incorrect tag"
+msgstr "corrected"
+
+#: ../../tools/database/items_menu.txt:54
+msgid "bad tag key"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:55
+msgid "similar values"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:56
+msgid "multiple values"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:59
+msgid "numeric value"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:63
+msgid "note"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:64
+msgid "tree"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:65
+msgid "brand in name"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:66
+msgid "typo in tag"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:67
+#, fuzzy
+#| msgid "corrected"
+msgid "incorrect "
+msgstr "corrected"
+
+#: ../../tools/database/items_menu.txt:68
+msgid "parking lane"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:69
+#, fuzzy
+#| msgid "Relation analyser"
+msgid "relation role"
+msgstr "Relation analyser"
+
+#: ../../tools/database/items_menu.txt:70
+msgid "relation type=restriction"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:71
+msgid "postcode"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:81
+msgid "disused"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:82
+msgid "on junction=roundabout"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:83
+msgid "incompatible tags"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:84
+msgid "ref in name"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:87
+#, fuzzy
+#| msgid "position"
+msgid "construction"
+msgstr "position"
+
+#: ../../tools/database/items_menu.txt:88
+msgid "duplicate object"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:89
+msgid "unwanted tag on node"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:90
+msgid "bad usage"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:94
+msgid "orthograph"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:95
+msgid "way type"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:96
+msgid "two names"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:97
+msgid "toponymy"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:102
+msgid "open polygon"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:103
+msgid "duplicated way"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:104
+msgid "place without name"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:105
+msgid "INSEE code"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:106
+msgid "admin_level"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:107
+msgid "erroneous boundary"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:108
+msgid "geodesic building"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:109
+msgid "building shape"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:110
+msgid "bridge to tag"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:111
+msgid "admin boundary"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:112
+msgid "power lines"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:135
+msgid "post office"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:115
+msgid "ODbL migration change"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:117
+msgid "monument"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:118
+msgid "node on ways"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:119
+#: ../../tools/database/items_menu.txt:146
+#, fuzzy
+#| msgid "Translation"
+msgid "train station"
+msgstr "Translation"
+
+#: ../../tools/database/items_menu.txt:120
+msgid "TMC"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:121
+msgid "relation type=boundary"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:122
+msgid "tunnel/bridge"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:136
+msgid "post office, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:140
+msgid "school"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:141
+msgid "school, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:27
+#: ../../tools/database/items_menu.txt:143
+#: ../../tools/database/items_menu.txt:241
+msgid "public transport"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:144
+msgid "public transport, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:147
+msgid "train station, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:148
+msgid "level crossing"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:149
+#, fuzzy
+#| msgid "Geodesic"
+msgid "geodesic point"
+msgstr "Geodesic"
+
+#: ../../tools/database/items_menu.txt:150
+msgid "postal address"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:154
+msgid "public service"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:155
+msgid "recycling"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:156
+msgid "recycling, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:158
+msgid "parking"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:159
+msgid "parking, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:161
+msgid "accommodation"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:162
+msgid "accommodation, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:163
+msgid "cycle parking"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:164
+msgid "cycle parking, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:166
+msgid "transport sharing"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:167
+msgid "transport sharing, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:169
+msgid "sport"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:170
+msgid "sport, could be integrated"
+msgstr ""
+
+#: ../src/pages/translation.vue:30
+#, fuzzy
+#| msgid "Translation status of frontend"
+msgid "Translation progress: osmose"
+msgstr "Translation status of frontend"
+
+#: ../src/pages/translation.vue:51
+msgid "For new language or countries"
+msgstr ""
+
+#: ../src/pages/map/top.vue:32
+msgid "Export"
+msgstr ""
+
+#: ../src/pages/map/top.vue:36
+msgid "Html list"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:25
+msgid "one-node way"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:171
+msgid "toilets"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:174
+msgid "police"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:175
+msgid "police, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:181
+msgid "pharmacy, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:177
+#, fuzzy
+#| msgid "Translation"
+msgid "gas station"
+msgstr "Translation"
+
+#: ../src/pages/map/editor.vue:5
+msgid "You must be logged in to use the tag editor"
+msgstr ""
+
+#: ../src/pages/map/editor-modal.vue:2
+#, fuzzy
+#| msgid "Reuse changeset"
+msgid "Save changeset"
+msgstr "Reuse changeset"
+
+#: ../src/pages/map/editor-modal.vue:13
+msgid "Comment"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:72
+msgid "area"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:73
+msgid "noexit"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:91
+#, fuzzy
+#| msgid "corrected"
+msgid "incorrect layer"
+msgstr "corrected"
+
+#: ../src/pages/control/update_summary.vue
+#: ../src/pages/control/update_summary_by_analyser.vue
+msgid "Updates summary"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:183
+msgid "postal code, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:184
+msgid "library"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:185
+msgid "restaurant"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:186
+msgid "winery"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:41
+msgid "missing object kind"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:99
+#, fuzzy
+#| msgid "Change language"
+msgid "local language"
+msgstr "Change language"
+
+#: ../src/pages/issues/index.vue
+#, fuzzy
+#| msgid "Fixed errors"
+msgid "Fixed issues"
+msgstr "Fixed errors"
+
+#. TRANSLATORS: link to help in appropriate language
+#: ../src/pages/map/top.vue:18
+#, fuzzy
+#| msgid "Errors by user"
+msgid "Issues by user"
+msgstr "Errors by user"
+
+#: ../../web_api/byuser.py:69 ../../web_api/byuser.py:76
+#: ../../web_api/byuser.py:83
+#, fuzzy, python-brace-format
+#| msgid "Number of level {level} errors: {count}"
+msgid "Number of level {level} issues: {count}"
+msgstr "Number of level {level} errors: {count}"
+
+#: ../src/pages/byuser/index.vue:3
+#, fuzzy
+#| msgid "Osmose allows you to control your own errors."
+msgid "Osmose allows you to control your own issues."
+msgstr "Osmose allows you to control your own errors."
+
+#: ../src/pages/byuser/index.vue:5
+#, fuzzy
+#| msgid ""
+#| "By entering your OSM username in the following form, you will be able to "
+#| "see errors that are attached to your username. Note that the algorithm "
+#| "that attaches errors to username is not perfect, as Osmose only checks "
+#| "the last contributor of the relevant erroneous elements."
 msgid ""
-"<a href='http://trac.openstreetmap.fr'>Trac</a> can be used to report any "
-"issue with translations, or erroneous analyses."
+"By entering your OSM username in the following form, you will be able to see "
+"issues that are attached to your username. Note that the algorithm that "
+"attaches issues to username is not perfect, as Osmose only checks the last "
+"contributor of the relevant erroneous elements."
+msgstr ""
+"By entering your OSM username in the following form, you will be able to see "
+"errors that are attached to your username. Note that the algorithm that "
+"attaches errors to username is not perfect, as Osmose only checks the last "
+"contributor of the relevant erroneous elements."
+
+#: ../src/pages/issues/index.vue:297
+#, fuzzy
+#| msgid "Show more errors"
+msgid "Show more issues"
+msgstr "Show more errors"
+
+#: ../src/components/issues-list.vue:266
+#, fuzzy
+#| msgid "information on error"
+msgid "information on issue"
+msgstr "information on error"
+
+#: ../src/components/issues-list.vue:103
+msgid "issue n°"
+msgstr ""
+
+#: ../src/pages/index.vue:6
+#, fuzzy
+#| msgid "Map of errors"
+msgid "Map of issues"
+msgstr "Map of errors"
+
+#: ../src/pages/index.vue:16
+#, fuzzy
+#| msgid "Information on error database"
+msgid "Information on issues database"
+msgstr "information on error database"
+
+#: ../src/pages/control/update.vue:10
+msgid "version"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:187
+#, fuzzy
+#| msgid "Geodesic"
+msgid "geodesic"
+msgstr "Geodesic"
+
+#: ../../tools/database/items_menu.txt:138
+msgid "post box"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:139
+msgid "post box, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:42
+msgid "indoor"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:92
+msgid "roundabout as area"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:126
+msgid "road"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:2
+msgid "split building"
+msgstr ""
+
+#: ../src/pages/translation.vue:46
+#, fuzzy
+#| msgid "Osmose main page"
+msgid "Osmose QA main page"
+msgstr "Osmose main page"
+
+#: ../../tools/database/items_menu.txt:23
+msgid "far from water"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:85
+msgid "fixme import"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:26
+msgid "objects intersection"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:43
+#: ../../tools/database/items_menu.txt:74
+msgid "access"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:86
+msgid "fixme review"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:142
+msgid "school, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:145
+msgid "public transport, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:157
+msgid "recycling, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:160
+msgid "parking, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:168
+msgid "transport sharing, need update"
+msgstr ""
+
+#: ../src/pages/control/update_summary_by_analyser.vue:7
+msgid "Analyser"
+msgstr ""
+
+#: ../src/pages/control/update_summary_by_analyser.vue:8
+#, fuzzy
+#| msgid "count"
+msgid "Count"
+msgstr "count"
+
+#: ../src/pages/control/update_summary_by_analyser.vue:9
+msgid "Age"
+msgstr ""
+
+#: ../src/pages/control/update_summary_by_analyser.vue:10
+msgid "Version"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:137
+msgid "post office, need update"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:215
+msgid "age"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:100
+msgid "invalid character"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:179
+msgid "gas station, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:189
+msgid "power substation"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:190
+msgid "power substation, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:192
+msgid "power support"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:193
+msgid "power support, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:28
+#, fuzzy
+#| msgid "last generation"
+msgid "almost junction"
+msgstr "last generation"
+
+#: ../../tools/database/items_menu.txt:44
+msgid "public_transport route"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:75
+msgid "recycling container"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:93
+msgid "duplicate wikipedia"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:76
+msgid "route access mismatch"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:101
+#, fuzzy
+#| msgid "Username"
+msgid "similar name"
+msgstr "Username"
+
+#: ../../tools/database/items_menu.txt:178
+msgid "gas station, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:60
+msgid "phone number"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:194
+msgid "traffic signs"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:196
+msgid "traffic sign limitation"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:96 ../src/pages/map/items-filters.vue:9
+msgid "High"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:99 ../src/pages/map/items-filters.vue:12
+msgid "Normal or higher"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:102 ../src/pages/issues/index.vue:165
+#: ../src/pages/map/items-filters.vue:15 ../src/pages/map/items-filters.vue:103
+#: ../src/pages/map/items-filters.vue:48
+#, fuzzy
+#| msgid "all"
+msgid "All"
+msgstr "all"
+
+#: ../src/pages/issues/index.vue:106 ../src/pages/map/items-filters.vue:19
+msgid "Normal only"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:109 ../src/pages/map/items-filters.vue:22
+#, fuzzy
+#| msgid "1 only"
+msgid "Low only"
+msgstr "1 only"
+
+#: ../src/pages/map/top.vue:297 ../src/pages/map/top.vue:310
+#: ../src/pages/map/top.vue:323
+#, fuzzy, python-brace-format
+#| msgid "Number of level {level} errors: {count}"
+msgid "Level {level} issues ({count})"
+msgstr "Number of level {level} errors: {count}"
+
+#: ../../tools/database/categories_menu.txt:9
+msgid "JOSM validator"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:228
+msgid "seamark"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:229
+msgid "addresses"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:230
+#, fuzzy
+#| msgid "Information"
+msgid "combinations"
+msgstr "Information"
+
+#: ../../tools/database/items_menu.txt:231
+msgid "deprecated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:232
+msgid "geometry"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:234
+msgid "multiple"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:235
+msgid "numeric"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:236
+#, fuzzy
+#| msgid "Translation"
+msgid "relation"
+msgstr "Translation"
+
+#: ../../tools/database/items_menu.txt:237
+msgid "religion"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:238
+msgid "territories"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:239
+msgid "unnecessary"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:68 ../src/pages/map/items-filters.vue:62
+#: ../src/pages/map/items-filters.vue:7
+#, fuzzy
+#| msgid "count"
+msgid "Country"
+msgstr "count"
+
+#: ../src/pages/issues/index.vue:80
+msgid "Item"
+msgstr "Item"
+
+#: ../src/components/issues-list.vue:318
+#, fuzzy
+#| msgid "False positives"
+msgid "False positive / Done"
+msgstr "False positives"
+
+#: ../src/pages/map/editor-modal.vue:7
+#, fuzzy
+#| msgid "Objects edited:"
+msgid "Objects edited"
+msgstr "Objects edited:"
+
+#: ../src/pages/map/popup.vue:103
+#, python-brace-format
+msgid "Show Object on {where}"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:120 ../src/pages/map/popup.vue:129
+#: ../src/pages/map/popup.vue:138 ../src/pages/map/popup.vue:147
+#: ../src/pages/map/popup.vue:156 ../src/pages/map/popup.vue:165
+#: ../src/pages/map/popup.vue:172
+#, python-brace-format
+msgid "Edit Object with {where}"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:173 ../src/pages/map/popup.vue:200
+msgid "online Osmose Editor"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:193 ../src/pages/map/popup.vue:199
+#, python-brace-format
+msgid "Load the fix in {where}"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:280
+#, python-brace-format
+msgid "Add the new object in {where}"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:331
+#, python-brace-format
+msgid "Show the area on {where}"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:336 ../src/pages/map/popup.vue:342
+#, python-brace-format
+msgid "Edit the area on {where}"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:134
+msgid "details"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:139
+#, fuzzy
+#| msgid "Error reported on: "
+msgid "Issue reported on:"
+msgstr "Error reported on: "
+
+#: ../src/pages/map/popup.vue:388
+msgid ""
+"Report the issue as improper, if it is not an issue according to you. The "
+"issue will not be displayed to anyone anymore."
+msgstr ""
+
+#: ../src/pages/map/popup.vue:402
+msgid ""
+"After fixing the issue in the OSM data, mark it as done. It will also "
+"disappear automatically on the next check."
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:45
+msgid "zone:maxspeed"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:248
+msgid "power transformer"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:77
+msgid "opening hours"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:197
+msgid "hospital"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:199
+msgid "social facility"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:201
+msgid "medical lab"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:198
+msgid "hospital, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:200
+msgid "social facility, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:202
+msgid "medical lab, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:176
+msgid "police, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:57
+msgid "swimming pool"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:98
+msgid "potential misspelling"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:29
+msgid "enforcement"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:61
+msgid "URL"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:203
+msgid "street objects"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:242
+msgid "openrailwaymap"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:46
+msgid "railways"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:188
+msgid "power plant"
+msgstr ""
+
+#: ../src/pages/translation.vue:4
+#, fuzzy
+#| msgid ""
+#| "Osmose tool is mainly developped by french people, and we aim to add more "
+#| "languages. We currently cover almost all the languages used by countries "
+#| "covered by analyses."
+msgid ""
+"Osmose tool is mainly developped by french people, and we aim to add more "
+"languages."
+msgstr ""
+"Osmose tool is mainly developped by french people, and we aim to add more "
+"languages. We currently cover almost all the languages used by countries "
+"covered by analyses."
+
+#: ../../tools/database/items_menu.txt:204
+msgid "defibrillator"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:208
+msgid "radio support"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:209
+msgid "radio support, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:210
+msgid "radio support, need update"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:47 ../src/pages/map/doc.vue:1
+msgid "How to Fix"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:52 ../src/pages/map/doc.vue:1
+msgid "Trap to avoid"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:57 ../src/pages/map/doc.vue:1
+msgid "Example"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:75 ../src/pages/map/doc.vue:1
+#, fuzzy
+#| msgid "Source"
+msgid "Source Code"
+msgstr "Source"
+
+#: ../src/pages/map/doc.vue:82 ../src/pages/map/doc.vue:1
+#, fuzzy
+#| msgid "source"
+msgid "Resource used"
+msgstr "source"
+
+#: ../src/pages/map/doc.vue:90
+msgid "Want to improve this control or this doc?"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:5
+msgid "Welcome to Osmose-QA"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case Osmose-QA should provide you the absolute right way to map, "
+"always keep a critical eye."
+msgstr ""
+
+#: ../src/pages/map/doc.vue:32
+msgid "You can find help on the wiki:"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:213
+#, fuzzy
+#| msgid "change status"
+msgid "charging station"
+msgstr "change status"
+
+#: ../../tools/database/items_menu.txt:214
+msgid "charging station, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:215
+msgid "charging station, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:30
+msgid "related objects"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:205
+msgid "wastewater"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:206
+msgid "wastewater, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:207
+msgid "wastewater, need update"
+msgstr ""
+
+#: ../src/components/issues-list.vue:324
+#, fuzzy
+#| msgid "delete error"
+msgid "delete issue"
+msgstr "delete error"
+
+#: ../src/pages/map/popup.vue:347
+msgid "Issue details"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:360
+msgid "Report based on data from date"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:182
+msgid "pharmacy, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:191
+msgid "power substation, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:195
+msgid "shop"
+msgstr ""
+
+#: ../src/pages/map/editor-modal.vue
+#, fuzzy
+#| msgid "Fix with Osmose"
+msgid "Fixed with Osmose"
+msgstr "Fix with Osmose"
+
+#: ../src/pages/map/editor.vue:132
+msgid "Done"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:7
+msgid ""
+"Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
+"data."
+msgstr ""
+
+#: ../src/pages/map/doc.vue:13
+msgid ""
+"It detects a very wide range of issue types. It is also useful for "
+"integrating third-party data sets by conflation."
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:78
+msgid "VAT"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:211
+msgid "health centre"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:212
+msgid "health centre, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:216
+msgid "tourism"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:19
+msgid ""
+"Feel free to report any problem, idea or new open data you want to add to "
+"Osmose on our Github:"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:151
+msgid "fire hydrant"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:152
+msgid "fire hydrant, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:217
+msgid "milestone"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:218
+msgid "milestone, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:219
+msgid "viewpoint"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:220
+msgid "picnic"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:221
+msgid "bicycle infrastructure"
+msgstr ""
+
+#: ../src/pages/issues/index.vue
+msgid "Information"
+msgstr "Information"
+
+#: ../../tools/database/items_menu.txt:132
+msgid "monument, megalith, museum"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:133
+msgid "monument, megalith, museum, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:134
+msgid "monument, megalith, museum, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:153
+msgid "place of worship"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:222
+msgid "cemetery"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:223
+msgid "man made"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:224
+msgid "water infrastructure"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:225
+msgid "water"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:226
+#, fuzzy
+#| msgid "Information"
+msgid "fire station"
+msgstr "Information"
+
+#: ../src/pages/contact.vue:53
+msgid ""
+"Adding new functionality of \"Osmose Editor\", initial support of mobile "
+"device and improvement of documentation was funded by region of Aquitaine, "
+"France; part of the OpenAquiMap project leading by \"Les Petits "
+"Débrouillards d'Aquitaine\"."
+msgstr ""
+
+#: ../src/components/issues-list.vue:196
+#, fuzzy
+#| msgid "delete error #%d"
+msgid "delete issue #{uuid}"
+msgstr "delete error #%d"
+
+#: ../src/pages/issue/index.vue
+#, fuzzy
+#| msgid "Information on error %d"
+msgid "Information on issue {uuid}"
+msgstr "information on error %d"
+
+#: ../src/pages/issues/matrix.vue
+msgid "Issue counts matrix"
+msgstr ""
+
+#: ../src/components/issues-list.vue:178
+#, fuzzy
+#| msgid "Osmose - false positives"
+msgid "Mark issue #{uuid} as false positive"
+msgstr "Osmose - false positives"
+
+#: ../src/components/issues-list.vue:188
+msgid "Mark issue #{uuid} as fixed"
+msgstr ""
+
+#: ../src/pages/byuser/byuser.vue:53
+#, fuzzy
+#| msgid "Number of found errors: %d"
+msgid "Number of found issues: {count}"
+msgstr "Number of found errors: %d"
+
+#: ../src/pages/byuser/byuser.vue:58
+#, fuzzy
+#| msgid "Number of found errors: more than %d"
+msgid "Number of found issues: more than {count}"
+msgstr "Number of found errors: more than %d"
+
+#: ../src/pages/byuser/byuser.vue
+#, fuzzy
+#| msgid "Statistics for user %s"
+msgid "Statistics for user {user}"
+msgstr "statistics for user %s"
+
+#: ../src/pages/byuser/byuser.vue:45
+#, fuzzy
+#| msgid ""
+#| "This page shows errors on elements that were last modified by '%s'. This "
+#| "doesn't means that this user is responsible for all these errors."
+msgid ""
+"This page shows issues on elements that were last modified by '{users}'. "
+"This doesn't mean that this user is responsible for all these issues."
+msgstr ""
+"This page shows errors on elements that were last modified by '%s'. This "
+"doesn't means that this user is responsible for all these errors."
+
+#: ../src/pages/byuser/byuser.vue:7
+#, fuzzy
+#| msgid "User statistics for %s"
+msgid "User statistics for {users}"
+msgstr "User statistics for %s"
+
+#: ../src/pages/translation.vue:82
+#, fuzzy
+#| msgid ""
+#| "<a href='http://trac.openstreetmap.fr'>Trac</a> can be used to report any "
+#| "issue with translations, or erroneous analyses."
+msgid "{osmose-frontend} can be used to report any issue with translations."
 msgstr ""
 "<a href='http://trac.openstreetmap.fr'>Trac</a> can be used to report any "
 "issue with translations, or erroneous analyses."
+
+#: ../src/pages/contact.vue:5
+#, fuzzy
+#| msgid ""
+#| "Bug should be reported on <a href='http://trac.openstreetmap.fr'>trac</"
+#| "a>. The component to pick should be osmose-frontend for issues around the "
+#| "website, and osmose-backend for issues on the reported errors, or for "
+#| "suggestion for new analyses."
+msgid ""
+"Bug should be reported on {osmose-frontend} for issues around the website, "
+"or on {osmose-backend} for issues on the reported issues on OSM data, or for "
+"suggestion about analyses."
+msgstr ""
+"Bug should be reported on <a href='http://trac.openstreetmap.fr'>trac</a>. "
+"The component to pick should be osmose-frontend for issues around the "
+"website, and osmose-backend for issues on the reported errors, or for "
+"suggestion for new analyses."
+
+#: ../src/pages/contact.vue:42
+msgid "Development of Osmose is made as free software by {volunteers}."
+msgstr ""
+
+#: ../src/pages/translation.vue:65
+#, fuzzy
+#| msgid ""
+#| "We can be contacted through a direct email to <a href='mailto:%s'>%s</a>."
+msgid ""
+"For new countries, we can be contacted through a direct email to {email}."
+msgstr ""
+"We can be contacted through a direct email to <a href='mailto:%s'>%s</a>."
+
+#: ../src/pages/contact.vue:73
+#, fuzzy
+#| msgid ""
+#| "We can be contacted through a direct email to <a href='mailto:%s'>%s</a>."
+msgid "We can be contacted through a direct email to {email}."
+msgstr ""
+"We can be contacted through a direct email to <a href='mailto:%s'>%s</a>."
+
+#: ../src/pages/contact.vue:61
+msgid ""
+"The servers analysing data are provided by OpenStreetMap-France and some "
+"others by contributors around the world. The servers for North America and "
+"other areas are funded by Mapbox."
+msgstr ""
+
+#: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
+msgid "volunteers"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:113
+msgid "post office, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:114
+msgid "post box, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:116
+msgid "school, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:123
+msgid "transport sharing, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:124
+msgid "pharmacy, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:125
+msgid "postal code, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:127
+msgid "power substation, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:128
+msgid "hospital, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:129
+msgid "social facility, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:130
+msgid "medical lab, ref not integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:131
+msgid "gas station, ref not integrated"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:185
+msgid "BBox"
+msgstr ""
+
+#. TRANSLATORS: this should be replaced by a abbreviation for 'class'
+#: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:222
+#, fuzzy
+#| msgid "clc"
+msgid "cl"
+msgstr "clc"
+
+#: ../src/pages/issues/index.vue:139 ../src/pages/map/items-filters.vue:86
+#: ../src/pages/map/items-filters.vue:31
+#, fuzzy
+#| msgid "Class"
+msgid "Class id"
+msgstr "Class"
+
+#: ../src/pages/map/index.vue
+msgid "Control, verification and correction of {project} issues"
+msgstr ""
+
+#: ../src/pages/map/top.vue:266
+#, fuzzy
+#| msgid "Delay: %sd"
+msgid "Delay:"
+msgstr "Delay: %sd"
+
+#: ../src/pages/map/doc.vue:64
+msgid "Do not want to see {title} markers?"
+msgstr ""
+
+#. TRANSLATORS: this should be replaced by a abbreviation for 'elements'
+#: ../src/components/issues-list.vue:37
+msgid "elms"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:71
+msgid "Hide from map"
+msgstr ""
+
+#: ../src/pages/map/doc.vue:61
+msgid "Hide markers"
+msgstr ""
+
+#: ../src/pages/map/items-list.vue
+msgid "Item #{item}"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:123 ../src/pages/map/items-filters.vue:57
+#: ../src/pages/map/items-filters.vue:2
+msgid "Less filters"
+msgstr ""
+
+#. TRANSLATORS: this should be replaced by a abbreviation for 'location'
+#: ../src/components/issues-list.vue:32
+#, fuzzy
+#| msgid "clc"
+msgid "loc"
+msgstr "clc"
+
+#: ../src/components/issues-list.vue:270
+#, fuzzy
+#| msgid "Information"
+msgid "location"
+msgstr "Information"
+
+#. TRANSLATORS: this should be replaced by a abbreviation for 'level'
+#: ../src/components/issues-list.vue:15
+#, fuzzy
+#| msgid "all"
+msgid "lvl"
+msgstr "all"
+
+#: ../src/pages/issues/index.vue:119 ../src/pages/map/items-filters.vue:122
+msgid "More filters"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
+#: ../src/pages/map/items-filters.vue:45
+msgid "No (Default)"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:168 ../src/pages/map/items-filters.vue:106
+#: ../src/pages/map/items-filters.vue:51
+msgid "Only"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:13
+msgid "Open"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:178 ../src/pages/map/items-filters.vue:113
+#: ../src/pages/map/items-filters.vue:58
+#, fuzzy
+#| msgid "Username"
+msgid "OSM Username"
+msgstr "Username"
+
+#: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
+#: ../src/pages/map/items-filters.vue:40
+msgid "Show hidden items"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
+#: ../src/pages/map/items-filters.vue:22
+#, fuzzy
+#| msgid "Source"
+msgid "Source id"
+msgstr "Source"
+
+#: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
+msgid "tag"
+msgstr ""
+
+#: ../src/pages/issues/index.vue:146
+msgid "Tag"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:172
+msgid "toilets, could be integrated"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:173
+msgid "toilets, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:227
+msgid "natural"
+msgstr ""
+
+#: ../src/pages/map/items.vue:5
+msgid "Zoom in to see issues."
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:79
+#, fuzzy
+#| msgid "position (abbreviation)"
+msgid "conditional restriction"
+msgstr "pos"
+
+#: ../../tools/database/items_menu.txt:80
+msgid "sideway"
+msgstr ""
+
+#: ../../web_api/byuser.py:96
+#, fuzzy
+#| msgid "Statistics for user"
+msgid "Statistics for user {}"
+msgstr "Statistics for user"
+
+#: ../src/pages/issues/index.vue:281
+msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:62
+msgid "small land use"
+msgstr ""
+
+#: ../src/pages/contact.vue:99
+msgid "Chat with Osmose-QA developers and community at {matrix} on Matrix."
+msgstr ""
+
+#: ../src/pages/contact.vue:85
+msgid ""
+"Keep in touch by watching at {twitter} on Twitter or at {mastodon} on "
+"Mastodon."
+msgstr ""
+
+#: ../src/components/confirmFalsePositive.vue
+msgid ""
+"Report the issue as improper.\n"
+"\n"
+"Only use this if the issue reported by Osmose is in fact not an issue in the "
+"OSM data.\n"
+"\n"
+"Warning: the issue will also no longer be displayed to other contributors. "
+"If you are unsure, let this Osmose issue open.\n"
+"\n"
+"If Osmose reports lots of issues similar to this one and you disagree with "
+"this, please fill a Github issue and let us try to fix it."
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:31
+msgid "building landuse"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:165
+msgid "cycle parking, need update"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:243
+msgid "openrailwaymap in Germany"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:244
+msgid "specific Russia"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:245
+msgid "specific Brazil"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:246
+msgid "specific France"
+msgstr ""
+
+#: ../../tools/database/items_menu.txt:247
+msgid "specific Netherlands"
+msgstr ""
+
+#: ../src/pages/map/top.vue:360
+msgid "Number of closed makers in this session"
+msgstr ""
+
+#: ../src/pages/map/index.vue
+msgid ""
+"You have made a large number changes with the tags editor. Think about "
+"saving your changes. You can save multiple times while keeping the same "
+"changeset."
+msgstr ""
+
+#: ../src/pages/map/index.vue
+msgid ""
+"You have made a large number of corrections. That great!\n"
+"\n"
+"That may not be your case, but note that Osmose-QA is not intended to be "
+"used for Mechanical Editing. Take a look about that at:\n"
+"- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
+"- https://wiki.openstreetmap.org/wiki/"
+"What%27s_the_problem_with_mechanical_edits%3F"
+msgstr ""
+
+#: ../src/pages/translation.vue:21
+#, fuzzy
+#| msgid "Translation status of frontend"
+msgid "Translation is done on {Weblate}"
+msgstr "Translation status of frontend"
+
+#: ../src/pages/translation.vue:55
+msgid "You can create a new language directly on {Weblate}."
+msgstr ""
+
+#, python-brace-format
+#~ msgid "{day}d, {hour}h, {minute}m ago"
+#~ msgstr "{day}d, {hour}h, {minute}m ago"
+
+#, python-brace-format
+#~ msgid "in {day}d, {hour}h, {minute}m"
+#~ msgstr "in {day}j,{hour}h, {minute}m"
+
+#~ msgid "never generated"
+#~ msgstr "never generated"
+
+#~ msgid "http://wiki.openstreetmap.org/wiki/Osmose/errors"
+#~ msgstr "http://wiki.openstreetmap.org/wiki/Osmose/errors"
+
+#~ msgid "openstreetmap.fr"
+#~ msgstr "openstreetmap.fr"
+
+#~ msgid "http://www.openstreetmap.fr/"
+#~ msgstr "http://www.openstreetmap.fr/"
+
+#~ msgid "Users statistics"
+#~ msgstr "Users statistics"
+
+#~ msgid "Number"
+#~ msgstr "Number"
+
+#~ msgid "This list is also available via rss."
+#~ msgstr "This list is also available via rss."
+
+#~ msgid "Show errors on a map"
+#~ msgstr "Show errors on a map"
+
+#~ msgid "Median delay:"
+#~ msgstr "Median delay:"
+
+#~ msgid "description"
+#~ msgstr "description"
+
+#~ msgid "history"
+#~ msgstr "history"
+
+#~ msgid "Data are coming from"
+#~ msgstr "Data are coming from"
+
+#~ msgid "copyright"
+#~ msgstr "copyright"
+
+#~ msgid "Show some errors"
+#~ msgstr "Show some errors"
+
+#~ msgid "subclass (abbreviation)"
+#~ msgstr "s"
+
+#~ msgid "elements (abbreviation)"
+#~ msgstr "elems"
+
+#~ msgid "OpenStreetMap Oversight Search Engine"
+#~ msgstr "OpenStreetMap Oversight Search Engine"
+
+#~ msgid "Valid"
+#~ msgstr "Valid"
+
+#~ msgid "no bubbles at this zoom factor"
+#~ msgstr "no bubbles at this zoom factor"
+
+#~ msgid "1+2 only"
+#~ msgstr "1+2 only"
+
+#~ msgid "all severity"
+#~ msgstr "all severity"
+
+#~ msgid "2 only"
+#~ msgstr "2 only"
+
+#~ msgid "3 only"
+#~ msgstr "3 only"
+
+#, python-format
+#~ msgid "Level %d errors (%d)"
+#~ msgstr "Level %d errors (%d)"
+
+#~ msgid "Objects deleted:"
+#~ msgstr "Objects deleted:"
+
+#~ msgid "Recent translation needs"
+#~ msgstr "Recent translation needs"
+
+#~ msgid ""
+#~ "European countries: German and Italian in Switzerland and Dutch in Belgium"
+#~ msgstr ""
+#~ "European countries: German and Italian in Switzerland and Dutch in Belgium"
+
+#~ msgid ""
+#~ "Countries covered by HOT: Wolof in Senegal, Arabic in Chad and Cameroon, "
+#~ "Swahili in Kenya, Kirundi in Burundi, and Malagasy in Madagascar"
+#~ msgstr ""
+#~ "Countries covered by HOT: Wolof in Senegal, Arabic in Chad and Cameroon, "
+#~ "Swahili in Kenya, Kirundi in Burundi, and Malagasy in Madagascar"
+
+#~ msgid "Documentation on reported errors"
+#~ msgstr "Documentation on reported errors"
+
+#~ msgid "Source code for translations of frontend (.po files)"
+#~ msgstr "Source code for translations of frontend (.po files)"
+
+#~ msgid "Source code for translations of backend (.po files)"
+#~ msgstr "Source code for translations of backend (.po files)"
+
+#~ msgid ""
+#~ "Source code for translations (database files for menu) - categ_menu_en."
+#~ "txt and item_menu_en.txt are the reference ones."
+#~ msgstr ""
+#~ "Source code for translations (database files for menu) - categ_menu_en."
+#~ "txt and item_menu_en.txt are the reference ones."
 
 #~ msgid "Valid & Corrected"
 #~ msgstr "Valid & Corrected"
@@ -670,17 +2171,8 @@ msgstr ""
 #~ msgid "Error"
 #~ msgstr "Error"
 
-#~ msgid "Geodesic"
-#~ msgstr "Geodesic"
-
 #~ msgid "http://geodesie.openstreetmap.fr/"
 #~ msgstr "http://geodesie.openstreetmap.fr/"
-
-#~ msgid "Item"
-#~ msgstr "Item"
-
-#~ msgid "Class"
-#~ msgstr "Class"
 
 #~ msgid "Level"
 #~ msgstr "Level"
@@ -711,15 +2203,6 @@ msgstr ""
 
 #~ msgid "Osmose - informations"
 #~ msgstr "Osmose - informations"
-
-#~ msgid "Osmose - false positives"
-#~ msgstr "Osmose - false positives"
-
-#~ msgid "position"
-#~ msgstr "position"
-
-#~ msgid "clc"
-#~ msgstr "clc"
 
 #~ msgid "%dd, %dh, %02dm ago"
 #~ msgstr "%dd, %dh, %02dm ago"

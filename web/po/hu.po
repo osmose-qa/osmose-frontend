@@ -1,7 +1,7 @@
 # Osmose frontend
 # Copyright (C) 2014
 # This file is distributed under the same license as the osmose-frontend package.
-# 
+#
 # Translators:
 # Balázs Úr, 2024
 # Gábor Babos <gabor.babos@gmail.com>, 2017-2021,2023-2024
@@ -15,11 +15,12 @@ msgstr ""
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
 "PO-Revision-Date: 2014-04-28 19:22+0000\n"
 "Last-Translator: Balázs Úr, 2024\n"
-"Language-Team: Hungarian (http://app.transifex.com/openstreetmap-france/osmose/language/hu/)\n"
+"Language-Team: Hungarian (http://app.transifex.com/openstreetmap-france/"
+"osmose/language/hu/)\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
@@ -31,12 +32,11 @@ msgstr "Téves hibajelzések"
 msgid "Statistics"
 msgstr "Statisztika"
 
-#: ../src/pages/contact.vue ../src/pages/map/top.vue:78
-#: ../src/pages/map/top.vue:83
+#: ../src/pages/contact.vue ../src/pages/map/top.vue:83
 msgid "Contact"
 msgstr "Kapcsolat"
 
-#: ../src/pages/map/top.vue:83 ../src/pages/map/top.vue:88
+#: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
 msgstr "Súgó a wikin"
 
@@ -44,15 +44,15 @@ msgstr "Súgó a wikin"
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
 msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
-#: ../src/pages/map/top.vue:88 ../src/pages/map/top.vue:93
+#: ../src/pages/map/top.vue:93
 msgid "Copyright"
 msgstr "Szerzői jogok"
 
-#: ../src/pages/map/top.vue:93 ../src/pages/map/top.vue:98
+#: ../src/pages/map/top.vue:98
 msgid "Sources"
 msgstr "Források"
 
-#: ../src/pages/map/top.vue:98 ../src/pages/map/top.vue:103
+#: ../src/pages/map/top.vue:103
 msgid "Translation"
 msgstr "Fordítás"
 
@@ -80,7 +80,9 @@ msgstr "Javítás biztosítása"
 msgid ""
 "Patches can be provided via merge requests on Github. This is the preferred "
 "way of handling patches."
-msgstr "Javításokat a Githubon lehet biztosítani egyesítési kérelmekkel. A javítások kezelésének ez az előnyben részesített módja."
+msgstr ""
+"Javításokat a Githubon lehet biztosítani egyesítési kérelmekkel. A javítások "
+"kezelésének ez az előnyben részesített módja."
 
 #: ../src/pages/contact.vue:39
 msgid "Development"
@@ -94,9 +96,8 @@ msgstr "Kapcsolatfelvétel a karbantartókkal"
 msgid "Last updates"
 msgstr "Utolsó frissítések"
 
-#: ../../tools/database/items_menu.txt:34 ../src/components/issues-list.vue:10
-#: ../src/pages/control/update.vue:7 ../src/pages/issues/index.vue:209
-#: ../../tools/database/items_menu.txt:35 ../src/pages/issues/index.vue:211
+#: ../../tools/database/items_menu.txt:35 ../src/components/issues-list.vue:10
+#: ../src/pages/control/update.vue:7 ../src/pages/issues/index.vue:211
 msgid "source"
 msgstr "forrás"
 
@@ -166,7 +167,7 @@ msgstr "Térkép"
 
 #. #-#-#-#-#  osmose-frontend.pot.nofiles (PACKAGE VERSION)  #-#-#-#-#
 #. TRANSLATORS: 'Set' is used to choose a specific country/item on /errors
-#: ../src/pages/issues/index.vue:389 ../src/pages/issues/index.vue:395
+#: ../src/pages/issues/index.vue:395
 msgid "Set"
 msgstr "Beállítás"
 
@@ -174,21 +175,18 @@ msgstr "Beállítás"
 msgid "class (abbreviation)"
 msgstr "kateg."
 
-#: ../src/components/issues-list.vue:21 ../src/pages/issues/index.vue:216
-#: ../src/pages/issues/index.vue:218
+#: ../src/components/issues-list.vue:21 ../src/pages/issues/index.vue:218
 msgid "item"
 msgstr "elem"
 
-#: ../src/pages/issues/index.vue:226 ../src/pages/issues/index.vue:228
+#: ../src/pages/issues/index.vue:228
 msgid "title"
 msgstr "cím"
 
-#: ../src/pages/byuser/byuser.vue:22 ../src/pages/issues/index.vue:229
-#: ../src/pages/issues/index.vue:231
+#: ../src/pages/byuser/byuser.vue:22 ../src/pages/issues/index.vue:231
 msgid "count"
 msgstr "szám"
 
-#: ../src/pages/issues/index.vue:233 ../src/pages/issues/index.vue:285
 #: ../src/pages/issues/index.vue:235 ../src/pages/issues/index.vue:287
 msgid "Total"
 msgstr "Összesen"
@@ -197,8 +195,7 @@ msgstr "Összesen"
 msgid "subtitle"
 msgstr "alcím"
 
-#: ../../tools/database/items_menu.txt:57 ../src/components/issues-list.vue:47
-#: ../../tools/database/items_menu.txt:58
+#: ../../tools/database/items_menu.txt:58 ../src/components/issues-list.vue:47
 msgid "date"
 msgstr "dátum"
 
@@ -214,23 +211,20 @@ msgstr "Téves hibajelzések listája"
 msgid "Last analysis updates"
 msgstr "Utolsó elemzésfrissítések"
 
-#: ../src/pages/map/editor.vue:15 ../src/pages/map/editor.vue:18
+#: ../src/pages/map/editor.vue:18
 msgid "Tags Editor"
 msgstr "Címkeszerkesztő"
 
 #: ../src/pages/map/editor-modal.vue:38 ../src/pages/map/editor-modal.vue:56
-#: ../src/pages/map/editor.vue:120 ../src/pages/map/editor.vue:60
-#: ../src/pages/map/editor.vue:126
+#: ../src/pages/map/editor.vue:60 ../src/pages/map/editor.vue:126
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: ../src/pages/issues/index.vue:90 ../src/pages/map/items-filters.vue:4
-#: ../src/pages/issues/index.vue:92
+#: ../src/pages/issues/index.vue:92 ../src/pages/map/items-filters.vue:4
 msgid "Severity"
 msgstr "Hiba súlyossága"
 
-#: ../src/pages/issues/index.vue:190 ../src/pages/map/items-filters.vue:30
-#: ../src/pages/issues/index.vue:192
+#: ../src/pages/issues/index.vue:192 ../src/pages/map/items-filters.vue:30
 msgid "Fixable"
 msgstr "Javítható"
 
@@ -238,8 +232,7 @@ msgstr "Javítható"
 msgid "Show only markers with correction suggestions"
 msgstr "Csak a javítási javaslatokat is tartalmazó jelölők megjelenítése"
 
-#: ../src/pages/issues/index.vue:194 ../src/pages/map/items-filters.vue:35
-#: ../src/pages/issues/index.vue:196
+#: ../src/pages/issues/index.vue:196 ../src/pages/map/items-filters.vue:35
 msgid "Online"
 msgstr "Online"
 
@@ -267,17 +260,14 @@ msgstr "megfordítás"
 msgid "Change language"
 msgstr "Nyelv módosítása"
 
-#: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:74
-#: ../src/pages/map/top.vue:79
+#: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:79
 msgid "Help"
 msgstr "Súgó"
 
-#: ../src/pages/map/top.vue:152 ../src/pages/map/top.vue:39
-#: ../src/pages/map/top.vue:157
+#: ../src/pages/map/top.vue:157 ../src/pages/map/top.vue:39
 msgid "Logout"
 msgstr "Kilépés"
 
-#: ../src/pages/map/editor.vue:6 ../src/pages/map/top.vue:158
 #: ../src/pages/map/editor.vue:8 ../src/pages/map/top.vue:163
 msgid "Login"
 msgstr "Belépés"
@@ -314,7 +304,9 @@ msgstr "Hogyan segíthet a fordításban?"
 msgid ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
-msgstr "Ahhoz, hogy az Osmose valóban többnyelvű legyen, a te segítségedre is szükségünk van. Adj hozzá új fordításokat, és javítsd a jelenlegieket"
+msgstr ""
+"Ahhoz, hogy az Osmose valóban többnyelvű legyen, a te segítségedre is "
+"szükségünk van. Adj hozzá új fordításokat, és javítsd a jelenlegieket"
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
@@ -452,245 +444,192 @@ msgstr "vízfolyás"
 msgid "duplicate geometry"
 msgstr "duplikált alakzat"
 
-#: ../../tools/database/items_menu.txt:31
 #: ../../tools/database/items_menu.txt:32
 msgid "junction=roundabout"
 msgstr "junction=roundabout"
 
-#: ../../tools/database/items_menu.txt:32
 #: ../../tools/database/items_menu.txt:33
 msgid "elevation"
 msgstr "magasság"
 
-#: ../../tools/database/items_menu.txt:33
 #: ../../tools/database/items_menu.txt:34
 msgid "oneway"
 msgstr "egyirányú"
 
-#: ../../tools/database/items_menu.txt:35
 #: ../../tools/database/items_menu.txt:36
 msgid "parent tag"
 msgstr "szülőcímke"
 
-#: ../../tools/database/items_menu.txt:36
 #: ../../tools/database/items_menu.txt:37
 msgid "street numbers"
 msgstr "házszámok"
 
-#: ../../tools/database/items_menu.txt:37
-#: ../../tools/database/items_menu.txt:232
 #: ../../tools/database/items_menu.txt:38
 #: ../../tools/database/items_menu.txt:233
 msgid "highway"
 msgstr "út"
 
-#: ../../tools/database/items_menu.txt:38
 #: ../../tools/database/items_menu.txt:39
 msgid "highway crossing"
 msgstr "útkereszteződés"
 
-#: ../../tools/database/items_menu.txt:39
-#: ../../tools/database/items_menu.txt:179
 #: ../../tools/database/items_menu.txt:40
 #: ../../tools/database/items_menu.txt:180
 msgid "pharmacy"
 msgstr "gyógyszertár"
 
-#: ../../tools/database/items_menu.txt:46
 #: ../../tools/database/items_menu.txt:47
 msgid "highway roundabout"
 msgstr "körforgalom"
 
-#: ../../tools/database/items_menu.txt:47
 #: ../../tools/database/items_menu.txt:48
 msgid "bad source tag"
 msgstr "hibás forráscímke (source)"
 
-#: ../../tools/database/items_menu.txt:48
 #: ../../tools/database/items_menu.txt:49
 msgid "tagwatch cleaner"
 msgstr "tagwatch tisztítás"
 
-#: ../../tools/database/items_menu.txt:49
-#: ../../tools/database/items_menu.txt:239
 #: ../../tools/database/items_menu.txt:50
 #: ../../tools/database/items_menu.txt:240
 msgid "wikipedia"
 msgstr "Wikipédia"
 
-#: ../../tools/database/items_menu.txt:50
 #: ../../tools/database/items_menu.txt:51
 msgid "multiple tags"
 msgstr "többszörözött címkék"
 
-#: ../../tools/database/items_menu.txt:51
 #: ../../tools/database/items_menu.txt:52
 msgid "saint hyphen"
 msgstr "hiányzó kötőjel a saint(e) után (FR)"
 
-#: ../../tools/database/items_menu.txt:52
 #: ../../tools/database/items_menu.txt:53
 msgid "incorrect tag"
 msgstr "helytelen címke"
 
-#: ../../tools/database/items_menu.txt:53
 #: ../../tools/database/items_menu.txt:54
 msgid "bad tag key"
 msgstr "hibás címkekulcs"
 
-#: ../../tools/database/items_menu.txt:54
 #: ../../tools/database/items_menu.txt:55
 msgid "similar values"
 msgstr "hasonló értékek"
 
-#: ../../tools/database/items_menu.txt:55
 #: ../../tools/database/items_menu.txt:56
 msgid "multiple values"
 msgstr "többszörözött értékek"
 
-#: ../../tools/database/items_menu.txt:58
 #: ../../tools/database/items_menu.txt:59
 msgid "numeric value"
 msgstr "számszerű érték"
 
-#: ../../tools/database/items_menu.txt:62
 #: ../../tools/database/items_menu.txt:63
 msgid "note"
 msgstr "megjegyzés"
 
-#: ../../tools/database/items_menu.txt:63
 #: ../../tools/database/items_menu.txt:64
 msgid "tree"
 msgstr "fa"
 
-#: ../../tools/database/items_menu.txt:64
 #: ../../tools/database/items_menu.txt:65
 msgid "brand in name"
 msgstr "márkajelzés a névben"
 
-#: ../../tools/database/items_menu.txt:65
 #: ../../tools/database/items_menu.txt:66
 msgid "typo in tag"
 msgstr "elírás a címkében"
 
-#: ../../tools/database/items_menu.txt:66
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
 msgstr "helytelen "
 
-#: ../../tools/database/items_menu.txt:67
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
 msgstr "parkolósáv"
 
-#: ../../tools/database/items_menu.txt:68
 #: ../../tools/database/items_menu.txt:69
 msgid "relation role"
 msgstr "kapcsolati (relation) szerep"
 
-#: ../../tools/database/items_menu.txt:69
 #: ../../tools/database/items_menu.txt:70
 msgid "relation type=restriction"
 msgstr "kapcsolat: type=restriction"
 
-#: ../../tools/database/items_menu.txt:70
 #: ../../tools/database/items_menu.txt:71
 msgid "postcode"
 msgstr "irányítószám"
 
-#: ../../tools/database/items_menu.txt:80
 #: ../../tools/database/items_menu.txt:81
 msgid "disused"
 msgstr "használaton kívül"
 
-#: ../../tools/database/items_menu.txt:81
 #: ../../tools/database/items_menu.txt:82
 msgid "on junction=roundabout"
 msgstr "junction=roundabout esetén"
 
-#: ../../tools/database/items_menu.txt:82
 #: ../../tools/database/items_menu.txt:83
 msgid "incompatible tags"
 msgstr "összeegyeztethetetlen címkék"
 
-#: ../../tools/database/items_menu.txt:83
 #: ../../tools/database/items_menu.txt:84
 msgid "ref in name"
 msgstr "'ref' a névben"
 
-#: ../../tools/database/items_menu.txt:86
 #: ../../tools/database/items_menu.txt:87
 msgid "construction"
 msgstr "építkezés"
 
-#: ../../tools/database/items_menu.txt:87
 #: ../../tools/database/items_menu.txt:88
 msgid "duplicate object"
 msgstr "duplikált objektum"
 
-#: ../../tools/database/items_menu.txt:88
 #: ../../tools/database/items_menu.txt:89
 msgid "unwanted tag on node"
 msgstr "nem kívánatos címke a ponton"
 
-#: ../../tools/database/items_menu.txt:89
 #: ../../tools/database/items_menu.txt:90
 msgid "bad usage"
 msgstr "hibás használat"
 
-#: ../../tools/database/items_menu.txt:93
 #: ../../tools/database/items_menu.txt:94
 msgid "orthograph"
 msgstr "helyesírás"
 
-#: ../../tools/database/items_menu.txt:94
 #: ../../tools/database/items_menu.txt:95
 msgid "way type"
 msgstr "vonaltípus"
 
-#: ../../tools/database/items_menu.txt:95
 #: ../../tools/database/items_menu.txt:96
 msgid "two names"
 msgstr "két név"
 
-#: ../../tools/database/items_menu.txt:96
 #: ../../tools/database/items_menu.txt:97
 msgid "toponymy"
 msgstr "helynév"
 
-#: ../../tools/database/items_menu.txt:101
 #: ../../tools/database/items_menu.txt:102
 msgid "open polygon"
 msgstr "nyitott terület"
 
-#: ../../tools/database/items_menu.txt:102
 #: ../../tools/database/items_menu.txt:103
 msgid "duplicated way"
 msgstr "duplikált vonal"
 
-#: ../../tools/database/items_menu.txt:103
 #: ../../tools/database/items_menu.txt:104
 msgid "place without name"
 msgstr "név nélküli hely"
 
-#: ../../tools/database/items_menu.txt:104
 #: ../../tools/database/items_menu.txt:105
 msgid "INSEE code"
 msgstr "INSEE statisztikai kód (FR)"
 
-#: ../../tools/database/items_menu.txt:105
 #: ../../tools/database/items_menu.txt:106
 msgid "admin_level"
 msgstr "admin_level"
 
-#: ../../tools/database/items_menu.txt:106
 #: ../../tools/database/items_menu.txt:107
 msgid "erroneous boundary"
 msgstr "hibás határ"
-
-#: ../../tools/database/items_menu.txt:107
-msgid "out of boundary"
-msgstr "határ(vonal)on kívül"
 
 #: ../../tools/database/items_menu.txt:108
 msgid "geodesic building"
@@ -759,7 +698,6 @@ msgstr "iskola: kiegészíthető"
 
 #: ../../tools/database/items_menu.txt:27
 #: ../../tools/database/items_menu.txt:143
-#: ../../tools/database/items_menu.txt:240
 #: ../../tools/database/items_menu.txt:241
 msgid "public transport"
 msgstr "tömegközlekedés"
@@ -820,22 +758,18 @@ msgstr "kerékpártároló"
 msgid "cycle parking, could be integrated"
 msgstr "kerékpártároló: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:165
 #: ../../tools/database/items_menu.txt:166
 msgid "transport sharing"
 msgstr "közlekedésieszköz-megosztás"
 
-#: ../../tools/database/items_menu.txt:166
 #: ../../tools/database/items_menu.txt:167
 msgid "transport sharing, could be integrated"
 msgstr "közlekedésieszköz-megosztás: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:168
 #: ../../tools/database/items_menu.txt:169
 msgid "sport"
 msgstr "sport"
 
-#: ../../tools/database/items_menu.txt:169
 #: ../../tools/database/items_menu.txt:170
 msgid "sport, could be integrated"
 msgstr "sport: kiegészíthető"
@@ -860,32 +794,27 @@ msgstr "HTML-lista"
 msgid "one-node way"
 msgstr "egy pontból álló vonal"
 
-#: ../../tools/database/items_menu.txt:170
 #: ../../tools/database/items_menu.txt:171
 msgid "toilets"
 msgstr "WC"
 
-#: ../../tools/database/items_menu.txt:173
 #: ../../tools/database/items_menu.txt:174
 msgid "police"
 msgstr "rendőrség"
 
-#: ../../tools/database/items_menu.txt:174
 #: ../../tools/database/items_menu.txt:175
 msgid "police, could be integrated"
 msgstr "rendőrség: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:180
 #: ../../tools/database/items_menu.txt:181
 msgid "pharmacy, could be integrated"
 msgstr "gyógyszertár: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:176
 #: ../../tools/database/items_menu.txt:177
 msgid "gas station"
 msgstr "benzinkút"
 
-#: ../src/pages/map/editor.vue:4 ../src/pages/map/editor.vue:5
+#: ../src/pages/map/editor.vue:5
 msgid "You must be logged in to use the tag editor"
 msgstr "A címkeszerkesztő használatához be kell lépned"
 
@@ -897,17 +826,14 @@ msgstr "Módosításcsomag mentése"
 msgid "Comment"
 msgstr "Hozzászólás"
 
-#: ../../tools/database/items_menu.txt:71
 #: ../../tools/database/items_menu.txt:72
 msgid "area"
 msgstr "terület"
 
-#: ../../tools/database/items_menu.txt:72
 #: ../../tools/database/items_menu.txt:73
 msgid "noexit"
 msgstr "nincs kijárat, zsákutca <noexit>"
 
-#: ../../tools/database/items_menu.txt:90
 #: ../../tools/database/items_menu.txt:91
 msgid "incorrect layer"
 msgstr "helytelen réteg"
@@ -917,32 +843,26 @@ msgstr "helytelen réteg"
 msgid "Updates summary"
 msgstr "Frissítések összefoglalása"
 
-#: ../../tools/database/items_menu.txt:182
 #: ../../tools/database/items_menu.txt:183
 msgid "postal code, could be integrated"
 msgstr "irányítószám: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:183
 #: ../../tools/database/items_menu.txt:184
 msgid "library"
 msgstr "könyvtár"
 
-#: ../../tools/database/items_menu.txt:184
 #: ../../tools/database/items_menu.txt:185
 msgid "restaurant"
 msgstr "étterem"
 
-#: ../../tools/database/items_menu.txt:185
 #: ../../tools/database/items_menu.txt:186
 msgid "winery"
 msgstr "borászat"
 
-#: ../../tools/database/items_menu.txt:40
 #: ../../tools/database/items_menu.txt:41
 msgid "missing object kind"
 msgstr "hiányzó objektumtípus"
 
-#: ../../tools/database/items_menu.txt:98
 #: ../../tools/database/items_menu.txt:99
 msgid "local language"
 msgstr "helyi nyelv"
@@ -968,13 +888,17 @@ msgstr "Az Osmose-zal ellenőrizheted saját lehetséges hibáidat."
 
 #: ../src/pages/byuser/index.vue:5
 msgid ""
-"By entering your OSM username in the following form, you will be able to see"
-" issues that are attached to your username. Note that the algorithm that "
+"By entering your OSM username in the following form, you will be able to see "
+"issues that are attached to your username. Note that the algorithm that "
 "attaches issues to username is not perfect, as Osmose only checks the last "
 "contributor of the relevant erroneous elements."
-msgstr "Ha a következő űrlapon megadod az OSM-felhasználónevedet, megnézheted azokat a lehetséges hibákat, amelyek a felhasználónevedhez kötődnek. Fontos, hogy a hibákat a felhasználónévhez kapcsoló algoritmus nem tökéletes, mivel az Osmose csak az adott hibás elem legutolsó szerkesztőjét ellenőrzi."
+msgstr ""
+"Ha a következő űrlapon megadod az OSM-felhasználónevedet, megnézheted azokat "
+"a lehetséges hibákat, amelyek a felhasználónevedhez kötődnek. Fontos, hogy a "
+"hibákat a felhasználónévhez kapcsoló algoritmus nem tökéletes, mivel az "
+"Osmose csak az adott hibás elem legutolsó szerkesztőjét ellenőrzi."
 
-#: ../src/pages/issues/index.vue:295 ../src/pages/issues/index.vue:297
+#: ../src/pages/issues/index.vue:297
 msgid "Show more issues"
 msgstr "További hibák megjelenítése"
 
@@ -998,7 +922,6 @@ msgstr "Tájékoztatás a hibaadatbázisról"
 msgid "version"
 msgstr "verzió"
 
-#: ../../tools/database/items_menu.txt:186
 #: ../../tools/database/items_menu.txt:187
 msgid "geodesic"
 msgstr "földmérési"
@@ -1011,12 +934,10 @@ msgstr "postaláda"
 msgid "post box, could be integrated"
 msgstr "postaláda: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:41
 #: ../../tools/database/items_menu.txt:42
 msgid "indoor"
 msgstr "beltéri"
 
-#: ../../tools/database/items_menu.txt:91
 #: ../../tools/database/items_menu.txt:92
 msgid "roundabout as area"
 msgstr "körforgalom területként"
@@ -1037,7 +958,6 @@ msgstr "Osmose minőségbiztosítás – főoldal"
 msgid "far from water"
 msgstr "távol van a víztől"
 
-#: ../../tools/database/items_menu.txt:84
 #: ../../tools/database/items_menu.txt:85
 msgid "fixme import"
 msgstr "fixme importálása"
@@ -1046,14 +966,11 @@ msgstr "fixme importálása"
 msgid "objects intersection"
 msgstr "egymást metsző objektumok"
 
-#: ../../tools/database/items_menu.txt:42
-#: ../../tools/database/items_menu.txt:73
 #: ../../tools/database/items_menu.txt:43
 #: ../../tools/database/items_menu.txt:74
 msgid "access"
 msgstr "hozzáférés, használat (access)"
 
-#: ../../tools/database/items_menu.txt:85
 #: ../../tools/database/items_menu.txt:86
 msgid "fixme review"
 msgstr "fixme áttekintése"
@@ -1074,7 +991,6 @@ msgstr "újrahasznosítás: frissítendő"
 msgid "parking, need update"
 msgstr "parkoló: frissítendő"
 
-#: ../../tools/database/items_menu.txt:167
 #: ../../tools/database/items_menu.txt:168
 msgid "transport sharing, need update"
 msgstr "közlekedésieszköz-megosztás: frissítendő"
@@ -1099,36 +1015,30 @@ msgstr "Verzió"
 msgid "post office, need update"
 msgstr "posta: frissítendő"
 
-#: ../src/pages/issues/index.vue:213 ../src/pages/issues/index.vue:215
+#: ../src/pages/issues/index.vue:215
 msgid "age"
 msgstr "kor"
 
-#: ../../tools/database/items_menu.txt:99
 #: ../../tools/database/items_menu.txt:100
 msgid "invalid character"
 msgstr "érvénytelen karakter"
 
-#: ../../tools/database/items_menu.txt:178
 #: ../../tools/database/items_menu.txt:179
 msgid "gas station, could be integrated"
 msgstr "benzinkút: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:188
 #: ../../tools/database/items_menu.txt:189
 msgid "power substation"
 msgstr "elektromos alállomás"
 
-#: ../../tools/database/items_menu.txt:189
 #: ../../tools/database/items_menu.txt:190
 msgid "power substation, could be integrated"
 msgstr "elektromos alállomás: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:191
 #: ../../tools/database/items_menu.txt:192
 msgid "power support"
 msgstr "villamosenergia-ellátás"
 
-#: ../../tools/database/items_menu.txt:192
 #: ../../tools/database/items_menu.txt:193
 msgid "power support, could be integrated"
 msgstr "villamosenergia-ellátás: kiegészíthető"
@@ -1137,82 +1047,66 @@ msgstr "villamosenergia-ellátás: kiegészíthető"
 msgid "almost junction"
 msgstr "majdnem csomópont"
 
-#: ../../tools/database/items_menu.txt:43
 #: ../../tools/database/items_menu.txt:44
 msgid "public_transport route"
 msgstr "tömegközlekedési útvonal (public_transport route)"
 
-#: ../../tools/database/items_menu.txt:74
 #: ../../tools/database/items_menu.txt:75
 msgid "recycling container"
 msgstr "szelektív hulladékgyűjtési konténer"
 
-#: ../../tools/database/items_menu.txt:92
 #: ../../tools/database/items_menu.txt:93
 msgid "duplicate wikipedia"
 msgstr "duplikált <wikipedia>"
 
-#: ../../tools/database/items_menu.txt:75
 #: ../../tools/database/items_menu.txt:76
 msgid "route access mismatch"
 msgstr "az útvonal hozzáférhetőségének (access) hibás illeszkedése"
 
-#: ../../tools/database/items_menu.txt:100
 #: ../../tools/database/items_menu.txt:101
 msgid "similar name"
 msgstr "hasonló név"
 
-#: ../../tools/database/items_menu.txt:177
 #: ../../tools/database/items_menu.txt:178
 msgid "gas station, need update"
 msgstr "benzinkút: frissítendő"
 
-#: ../../tools/database/items_menu.txt:59
 #: ../../tools/database/items_menu.txt:60
 msgid "phone number"
 msgstr "telefonszám"
 
-#: ../../tools/database/items_menu.txt:193
 #: ../../tools/database/items_menu.txt:194
 msgid "traffic signs"
 msgstr "jelzőtáblák"
 
-#: ../../tools/database/items_menu.txt:195
 #: ../../tools/database/items_menu.txt:196
 msgid "traffic sign limitation"
 msgstr "korlátozást jelző tábla"
 
-#: ../src/pages/issues/index.vue:94 ../src/pages/map/items-filters.vue:9
-#: ../src/pages/issues/index.vue:96
+#: ../src/pages/issues/index.vue:96 ../src/pages/map/items-filters.vue:9
 msgid "High"
 msgstr "Súlyos"
 
-#: ../src/pages/issues/index.vue:97 ../src/pages/map/items-filters.vue:12
-#: ../src/pages/issues/index.vue:99
+#: ../src/pages/issues/index.vue:99 ../src/pages/map/items-filters.vue:12
 msgid "Normal or higher"
 msgstr "Közepes vagy súlyosabb"
 
-#: ../src/pages/issues/index.vue:100 ../src/pages/issues/index.vue:163
-#: ../src/pages/map/items-filters.vue:15
-#: ../src/pages/map/items-filters.vue:103
-#: ../src/pages/map/items-filters.vue:48 ../src/pages/issues/index.vue:102
-#: ../src/pages/issues/index.vue:165
+#: ../src/pages/issues/index.vue:102 ../src/pages/issues/index.vue:165
+#: ../src/pages/map/items-filters.vue:15 ../src/pages/map/items-filters.vue:103
+#: ../src/pages/map/items-filters.vue:48
 msgid "All"
 msgstr "Mindegyik"
 
-#: ../src/pages/issues/index.vue:104 ../src/pages/map/items-filters.vue:19
-#: ../src/pages/issues/index.vue:106
+#: ../src/pages/issues/index.vue:106 ../src/pages/map/items-filters.vue:19
 msgid "Normal only"
 msgstr "Csak közepes"
 
-#: ../src/pages/issues/index.vue:107 ../src/pages/map/items-filters.vue:22
-#: ../src/pages/issues/index.vue:109
+#: ../src/pages/issues/index.vue:109 ../src/pages/map/items-filters.vue:22
 msgid "Low only"
 msgstr "Csak enyhe"
 
-#: ../src/pages/map/top.vue:285 ../src/pages/map/top.vue:298
-#: ../src/pages/map/top.vue:311 ../src/pages/map/top.vue:292
-#: ../src/pages/map/top.vue:305 ../src/pages/map/top.vue:318
+#: ../src/pages/map/top.vue:297 ../src/pages/map/top.vue:310
+#: ../src/pages/map/top.vue:323
 #, python-brace-format
 msgid "Level {level} issues ({count})"
 msgstr "{level}. szintű lehetséges hibák: {count}"
@@ -1221,67 +1115,56 @@ msgstr "{level}. szintű lehetséges hibák: {count}"
 msgid "JOSM validator"
 msgstr "JOSM-érvényesítő"
 
-#: ../../tools/database/items_menu.txt:227
 #: ../../tools/database/items_menu.txt:228
 msgid "seamark"
 msgstr "hajózásitérkép-jel"
 
-#: ../../tools/database/items_menu.txt:228
 #: ../../tools/database/items_menu.txt:229
 msgid "addresses"
 msgstr "címek"
 
-#: ../../tools/database/items_menu.txt:229
 #: ../../tools/database/items_menu.txt:230
 msgid "combinations"
 msgstr "kombinációk"
 
-#: ../../tools/database/items_menu.txt:230
 #: ../../tools/database/items_menu.txt:231
 msgid "deprecated"
 msgstr "elavult"
 
-#: ../../tools/database/items_menu.txt:231
 #: ../../tools/database/items_menu.txt:232
 msgid "geometry"
 msgstr "geometria"
 
-#: ../../tools/database/items_menu.txt:233
 #: ../../tools/database/items_menu.txt:234
 msgid "multiple"
 msgstr "többszörös"
 
-#: ../../tools/database/items_menu.txt:234
 #: ../../tools/database/items_menu.txt:235
 msgid "numeric"
 msgstr "numerikus"
 
-#: ../../tools/database/items_menu.txt:235
 #: ../../tools/database/items_menu.txt:236
 msgid "relation"
 msgstr "kapcsolat"
 
-#: ../../tools/database/items_menu.txt:236
 #: ../../tools/database/items_menu.txt:237
 msgid "religion"
 msgstr "vallás"
 
-#: ../../tools/database/items_menu.txt:237
 #: ../../tools/database/items_menu.txt:238
 msgid "territories"
 msgstr "területek"
 
-#: ../../tools/database/items_menu.txt:238
 #: ../../tools/database/items_menu.txt:239
 msgid "unnecessary"
 msgstr "fölösleges"
 
-#: ../src/pages/issues/index.vue:66 ../src/pages/map/items-filters.vue:62
-#: ../src/pages/map/items-filters.vue:7 ../src/pages/issues/index.vue:68
+#: ../src/pages/issues/index.vue:68 ../src/pages/map/items-filters.vue:62
+#: ../src/pages/map/items-filters.vue:7
 msgid "Country"
 msgstr "Ország"
 
-#: ../src/pages/issues/index.vue:78 ../src/pages/issues/index.vue:80
+#: ../src/pages/issues/index.vue:80
 msgid "Item"
 msgstr "Elem"
 
@@ -1342,70 +1225,62 @@ msgstr "Hiba bejelentésének ideje:"
 msgid ""
 "Report the issue as improper, if it is not an issue according to you. The "
 "issue will not be displayed to anyone anymore."
-msgstr "Ha szerinted ez nem hiba, jelöld meg helytelenként. A hiba többé senkinek sem fog megjelenni."
+msgstr ""
+"Ha szerinted ez nem hiba, jelöld meg helytelenként. A hiba többé senkinek "
+"sem fog megjelenni."
 
 #: ../src/pages/map/popup.vue:402
 msgid ""
 "After fixing the issue in the OSM data, mark it as done. It will also "
 "disappear automatically on the next check."
-msgstr "Miután a hibát kijavítottad az OSM-adatbázisban, jelöld meg készként. Automatikusan is eltűnhet a következő ellenőrzéskor, ha már nincs benne hiba."
+msgstr ""
+"Miután a hibát kijavítottad az OSM-adatbázisban, jelöld meg készként. "
+"Automatikusan is eltűnhet a következő ellenőrzéskor, ha már nincs benne hiba."
 
-#: ../../tools/database/items_menu.txt:44
 #: ../../tools/database/items_menu.txt:45
 msgid "zone:maxspeed"
 msgstr "zone:maxspeed"
 
-#: ../../tools/database/items_menu.txt:246
 #: ../../tools/database/items_menu.txt:248
 msgid "power transformer"
 msgstr "transzformátor"
 
-#: ../../tools/database/items_menu.txt:76
 #: ../../tools/database/items_menu.txt:77
 msgid "opening hours"
 msgstr "nyitva tartás"
 
-#: ../../tools/database/items_menu.txt:196
 #: ../../tools/database/items_menu.txt:197
 msgid "hospital"
 msgstr "kórház"
 
-#: ../../tools/database/items_menu.txt:198
 #: ../../tools/database/items_menu.txt:199
 msgid "social facility"
 msgstr "szociális létesítmény"
 
-#: ../../tools/database/items_menu.txt:200
 #: ../../tools/database/items_menu.txt:201
 msgid "medical lab"
 msgstr "orvosi labor"
 
-#: ../../tools/database/items_menu.txt:197
 #: ../../tools/database/items_menu.txt:198
 msgid "hospital, could be integrated"
 msgstr "kórház: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:199
 #: ../../tools/database/items_menu.txt:200
 msgid "social facility, could be integrated"
 msgstr "szociális létesítmény: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:201
 #: ../../tools/database/items_menu.txt:202
 msgid "medical lab, could be integrated"
 msgstr "orvosi labor: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:175
 #: ../../tools/database/items_menu.txt:176
 msgid "police, need update"
 msgstr "rendőrség: frissítendő"
 
-#: ../../tools/database/items_menu.txt:56
 #: ../../tools/database/items_menu.txt:57
 msgid "swimming pool"
 msgstr "úszómedence"
 
-#: ../../tools/database/items_menu.txt:97
 #: ../../tools/database/items_menu.txt:98
 msgid "potential misspelling"
 msgstr "lehetséges elírás"
@@ -1414,31 +1289,22 @@ msgstr "lehetséges elírás"
 msgid "enforcement"
 msgstr "forgalomellenőrzés"
 
-#: ../../tools/database/items_menu.txt:60
 #: ../../tools/database/items_menu.txt:61
 msgid "URL"
 msgstr "URL"
 
-#: ../../tools/database/items_menu.txt:202
 #: ../../tools/database/items_menu.txt:203
 msgid "street objects"
 msgstr "utcai tárgyak"
 
-#: ../../tools/database/items_menu.txt:241
 #: ../../tools/database/items_menu.txt:242
 msgid "openrailwaymap"
 msgstr "OpenRailwayMap"
 
-#: ../../tools/database/items_menu.txt:242
-msgid "openrailwaymap in germany"
-msgstr "OpenRailwayMap Németországban"
-
-#: ../../tools/database/items_menu.txt:45
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
 msgstr "vasút"
 
-#: ../../tools/database/items_menu.txt:187
 #: ../../tools/database/items_menu.txt:188
 msgid "power plant"
 msgstr "erőmű"
@@ -1447,24 +1313,22 @@ msgstr "erőmű"
 msgid ""
 "Osmose tool is mainly developped by french people, and we aim to add more "
 "languages."
-msgstr "Az Osmose-eszközt jórészt franciák fejlesztik, és szeretnénk több nyelvet hozzáadni."
+msgstr ""
+"Az Osmose-eszközt jórészt franciák fejlesztik, és szeretnénk több nyelvet "
+"hozzáadni."
 
-#: ../../tools/database/items_menu.txt:203
 #: ../../tools/database/items_menu.txt:204
 msgid "defibrillator"
 msgstr "defibrillátor"
 
-#: ../../tools/database/items_menu.txt:207
 #: ../../tools/database/items_menu.txt:208
 msgid "radio support"
 msgstr "távközlési adó"
 
-#: ../../tools/database/items_menu.txt:208
 #: ../../tools/database/items_menu.txt:209
 msgid "radio support, could be integrated"
 msgstr "távközlési adó: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:209
 #: ../../tools/database/items_menu.txt:210
 msgid "radio support, need update"
 msgstr "távközlési adó: frissítendő"
@@ -1501,23 +1365,22 @@ msgstr "Isten hozta az Osmose OSM-minőségbiztosítási eszköz felületén!"
 msgid ""
 "In no case Osmose-QA should provide you the absolute right way to map, "
 "always keep a critical eye."
-msgstr "Az Osmose-QA semmiképpen sem képes megmutatni a térképezés tökéletes módját: az eredményeket mindig kritikus szemmel nézze."
+msgstr ""
+"Az Osmose-QA semmiképpen sem képes megmutatni a térképezés tökéletes módját: "
+"az eredményeket mindig kritikus szemmel nézze."
 
 #: ../src/pages/map/doc.vue:32
 msgid "You can find help on the wiki:"
 msgstr "További segítséget talál a wikin:"
 
-#: ../../tools/database/items_menu.txt:212
 #: ../../tools/database/items_menu.txt:213
 msgid "charging station"
 msgstr "elektromos töltőállomás"
 
-#: ../../tools/database/items_menu.txt:213
 #: ../../tools/database/items_menu.txt:214
 msgid "charging station, could be integrated"
 msgstr "elektromos töltőállomás: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:214
 #: ../../tools/database/items_menu.txt:215
 msgid "charging station, need update"
 msgstr "elektromos töltőállomás: frissítendő"
@@ -1526,17 +1389,14 @@ msgstr "elektromos töltőállomás: frissítendő"
 msgid "related objects"
 msgstr "kapcsolódó objektumok"
 
-#: ../../tools/database/items_menu.txt:204
 #: ../../tools/database/items_menu.txt:205
 msgid "wastewater"
 msgstr "szennyvíz"
 
-#: ../../tools/database/items_menu.txt:205
 #: ../../tools/database/items_menu.txt:206
 msgid "wastewater, could be integrated"
 msgstr "szennyvíz: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:206
 #: ../../tools/database/items_menu.txt:207
 msgid "wastewater, need update"
 msgstr "szennyvíz: frissítendő"
@@ -1553,38 +1413,23 @@ msgstr "Hiba részletei"
 msgid "Report based on data from date"
 msgstr "A bejelentés adatainak dátuma:"
 
-#: ../../tools/database/items_menu.txt:181
 #: ../../tools/database/items_menu.txt:182
 msgid "pharmacy, need update"
 msgstr "gyógyszertár: frissítendő"
 
-#: ../../tools/database/items_menu.txt:190
 #: ../../tools/database/items_menu.txt:191
 msgid "power substation, need update"
 msgstr "elektromos alállomás: frissítendő"
 
-#: ../../tools/database/items_menu.txt:194
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
 msgstr "bolt"
-
-#: ../../tools/database/items_menu.txt:243
-msgid "specific russia"
-msgstr "Oroszország-specifikus"
-
-#: ../../tools/database/items_menu.txt:244
-msgid "specific brazil"
-msgstr "Brazília-specifikus"
-
-#: ../../tools/database/items_menu.txt:245
-msgid "specific france"
-msgstr "Franciaország-specifikus"
 
 #: ../src/pages/map/editor-modal.vue
 msgid "Fixed with Osmose"
 msgstr "Fixed with Osmose"
 
-#: ../src/pages/map/editor.vue:126 ../src/pages/map/editor.vue:132
+#: ../src/pages/map/editor.vue:132
 msgid "Done"
 msgstr "Kész"
 
@@ -1592,30 +1437,30 @@ msgstr "Kész"
 msgid ""
 "Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
 "data."
-msgstr "Az Osmose-QA egy minőségbiztosítási eszköz, amely az OpenStreetMap adatainak problémáit észleli."
+msgstr ""
+"Az Osmose-QA egy minőségbiztosítási eszköz, amely az OpenStreetMap adatainak "
+"problémáit észleli."
 
 #: ../src/pages/map/doc.vue:13
 msgid ""
 "It detects a very wide range of issue types. It is also useful for "
 "integrating third-party data sets by conflation."
-msgstr "A hibatípusok nagyon széles skáláját észleli. Harmadik féltől származó adatkészletek összevonással történő integrálásánál is hasznos eszköz."
+msgstr ""
+"A hibatípusok nagyon széles skáláját észleli. Harmadik féltől származó "
+"adatkészletek összevonással történő integrálásánál is hasznos eszköz."
 
-#: ../../tools/database/items_menu.txt:77
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
 msgstr "Áfa"
 
-#: ../../tools/database/items_menu.txt:210
 #: ../../tools/database/items_menu.txt:211
 msgid "health centre"
 msgstr "egészségügyi központ"
 
-#: ../../tools/database/items_menu.txt:211
 #: ../../tools/database/items_menu.txt:212
 msgid "health centre, could be integrated"
 msgstr "egészségügyi központ: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:215
 #: ../../tools/database/items_menu.txt:216
 msgid "tourism"
 msgstr "turizmus"
@@ -1624,7 +1469,9 @@ msgstr "turizmus"
 msgid ""
 "Feel free to report any problem, idea or new open data you want to add to "
 "Osmose on our Github:"
-msgstr "Nyugodtan adjon hírt a Github-oldalunkon bármilyen problémáról, ötletről vagy új nyílt adatról, amelyet hozzá kíván adni az Osmose-hoz:"
+msgstr ""
+"Nyugodtan adjon hírt a Github-oldalunkon bármilyen problémáról, ötletről "
+"vagy új nyílt adatról, amelyet hozzá kíván adni az Osmose-hoz:"
 
 #: ../../tools/database/items_menu.txt:151
 msgid "fire hydrant"
@@ -1634,27 +1481,22 @@ msgstr "tűzcsap"
 msgid "fire hydrant, could be integrated"
 msgstr "tűzcsap: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:216
 #: ../../tools/database/items_menu.txt:217
 msgid "milestone"
 msgstr "kilométerkő"
 
-#: ../../tools/database/items_menu.txt:217
 #: ../../tools/database/items_menu.txt:218
 msgid "milestone, could be integrated"
 msgstr "kilométerkő: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:218
 #: ../../tools/database/items_menu.txt:219
 msgid "viewpoint"
 msgstr "kilátóhely"
 
-#: ../../tools/database/items_menu.txt:219
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
 msgstr "piknikezőhely"
 
-#: ../../tools/database/items_menu.txt:220
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
 msgstr "kerékpáros infrastruktúra"
@@ -1679,27 +1521,22 @@ msgstr "műemlék, megalit, múzeum: frissítendő"
 msgid "place of worship"
 msgstr "istentiszteleti hely"
 
-#: ../../tools/database/items_menu.txt:221
 #: ../../tools/database/items_menu.txt:222
 msgid "cemetery"
 msgstr "temető"
 
-#: ../../tools/database/items_menu.txt:222
 #: ../../tools/database/items_menu.txt:223
 msgid "man made"
 msgstr "építmény"
 
-#: ../../tools/database/items_menu.txt:223
 #: ../../tools/database/items_menu.txt:224
 msgid "water infrastructure"
 msgstr "vízügyi infrastruktúra"
 
-#: ../../tools/database/items_menu.txt:224
 #: ../../tools/database/items_menu.txt:225
 msgid "water"
 msgstr "víz"
 
-#: ../../tools/database/items_menu.txt:225
 #: ../../tools/database/items_menu.txt:226
 msgid "fire station"
 msgstr "tűzoltóság"
@@ -1710,7 +1547,11 @@ msgid ""
 "device and improvement of documentation was funded by region of Aquitaine, "
 "France; part of the OpenAquiMap project leading by \"Les Petits "
 "Débrouillards d'Aquitaine\"."
-msgstr "Az Osmose Editor új funkciókkal való kibővítését, a mobileszközök kezdeti támogatását és a dokumentáció javítását a franciaországi Aquitaine régió finanszírozta, a Les Petits Débrouillards d'Aquitaine egyesület által vezetet OpenAquiMap projekt részeként."
+msgstr ""
+"Az Osmose Editor új funkciókkal való kibővítését, a mobileszközök kezdeti "
+"támogatását és a dokumentáció javítását a franciaországi Aquitaine régió "
+"finanszírozta, a Les Petits Débrouillards d'Aquitaine egyesület által "
+"vezetet OpenAquiMap projekt részeként."
 
 #: ../src/components/issues-list.vue:196
 msgid "delete issue #{uuid}"
@@ -1748,7 +1589,10 @@ msgstr "{user} felhasználó statisztikája"
 msgid ""
 "This page shows issues on elements that were last modified by '{users}'. "
 "This doesn't mean that this user is responsible for all these issues."
-msgstr "Ez az oldal azon elemek lehetséges hibáit jeleníti meg, amelyeket utoljára '{users}' módosított. Ez nem jelenti azt, hogy ez a felhasználó lenne a felelő mindezen hibákért."
+msgstr ""
+"Ez az oldal azon elemek lehetséges hibáit jeleníti meg, amelyeket utoljára "
+"'{users}' módosított. Ez nem jelenti azt, hogy ez a felhasználó lenne a "
+"felelő mindezen hibákért."
 
 #: ../src/pages/byuser/byuser.vue:7
 msgid "User statistics for {users}"
@@ -1761,9 +1605,13 @@ msgstr "A fordítási hibák bejelenthetők az {osmose-frontend} felületén."
 #: ../src/pages/contact.vue:5
 msgid ""
 "Bug should be reported on {osmose-frontend} for issues around the website, "
-"or on {osmose-backend} for issues on the reported issues on OSM data, or for"
-" suggestion about analyses."
-msgstr "A hibákat a következőképpen célszerű jelezni: a honlappal kapcsolatos észrevételeket az {osmose-frontend} felületen, az OpenStreetMap-adatokkal kapcsolatos bejelentett hibákat és az elemzésekkel kapcsolatos javaslatokat pedig az {osmose-backend} felületen."
+"or on {osmose-backend} for issues on the reported issues on OSM data, or for "
+"suggestion about analyses."
+msgstr ""
+"A hibákat a következőképpen célszerű jelezni: a honlappal kapcsolatos "
+"észrevételeket az {osmose-frontend} felületen, az OpenStreetMap-adatokkal "
+"kapcsolatos bejelentett hibákat és az elemzésekkel kapcsolatos javaslatokat "
+"pedig az {osmose-backend} felületen."
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
@@ -1774,24 +1622,19 @@ msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
 msgstr "Új országok felvétele kérhető egy közvetlen e-mailben: {email}."
 
-#: ../src/pages/translation.vue:21
-msgid "Translation is done on {Transifex}"
-msgstr "A fordítás a {Transifex}en készül."
-
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
 msgstr "Elérhetők vagyunk közvetlenül e-mailen: {email}."
-
-#: ../src/pages/translation.vue:55
-msgid "You can create a new language directly on {Transifex}."
-msgstr "Létrehozhatsz egy nyelvet közvetlenül itt: {Transifex}."
 
 #: ../src/pages/contact.vue:61
 msgid ""
 "The servers analysing data are provided by OpenStreetMap-France and some "
 "others by contributors around the world. The servers for North America and "
 "other areas are funded by Mapbox."
-msgstr "Az adatokat elemző szervereket az OpenStreetMap-France és világszerte néhány másik közreműködő biztosítja. Az észak-amerikai és más területi szervereket a Mapbox finanszírozza."
+msgstr ""
+"Az adatokat elemző szervereket az OpenStreetMap-France és világszerte néhány "
+"másik közreműködő biztosítja. Az észak-amerikai és más területi szervereket "
+"a Mapbox finanszírozza."
 
 #: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
 msgid "volunteers"
@@ -1841,18 +1684,17 @@ msgstr "orvosi labor, azonosítója nincs a térképen"
 msgid "gas station, ref not integrated"
 msgstr "benzinkút, azonosítója nincs a térképen"
 
-#: ../src/pages/issues/index.vue:183 ../src/pages/issues/index.vue:185
+#: ../src/pages/issues/index.vue:185
 msgid "BBox"
 msgstr "Határolókeret"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'class'
-#: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:220
-#: ../src/pages/issues/index.vue:222
+#: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:222
 msgid "cl"
 msgstr "kateg."
 
-#: ../src/pages/issues/index.vue:137 ../src/pages/map/items-filters.vue:86
-#: ../src/pages/map/items-filters.vue:31 ../src/pages/issues/index.vue:139
+#: ../src/pages/issues/index.vue:139 ../src/pages/map/items-filters.vue:86
+#: ../src/pages/map/items-filters.vue:31
 msgid "Class id"
 msgstr "Kategória-azonosító"
 
@@ -1860,7 +1702,7 @@ msgstr "Kategória-azonosító"
 msgid "Control, verification and correction of {project} issues"
 msgstr "{project} hibáinak ellenőrzése, megvizsgálása és javítása"
 
-#: ../src/pages/map/top.vue:254 ../src/pages/map/top.vue:261
+#: ../src/pages/map/top.vue:266
 msgid "Delay:"
 msgstr "Késés:"
 
@@ -1885,8 +1727,8 @@ msgstr "Jelölők elrejtése"
 msgid "Item #{item}"
 msgstr "Elem #{item}"
 
-#: ../src/pages/issues/index.vue:121 ../src/pages/map/items-filters.vue:57
-#: ../src/pages/map/items-filters.vue:2 ../src/pages/issues/index.vue:123
+#: ../src/pages/issues/index.vue:123 ../src/pages/map/items-filters.vue:57
+#: ../src/pages/map/items-filters.vue:2
 msgid "Less filters"
 msgstr "Kevesebb szűrő"
 
@@ -1904,18 +1746,17 @@ msgstr "hely"
 msgid "lvl"
 msgstr "szint"
 
-#: ../src/pages/issues/index.vue:117 ../src/pages/map/items-filters.vue:122
-#: ../src/pages/issues/index.vue:119
+#: ../src/pages/issues/index.vue:119 ../src/pages/map/items-filters.vue:122
 msgid "More filters"
 msgstr "Több szűrő"
 
-#: ../src/pages/issues/index.vue:160 ../src/pages/map/items-filters.vue:100
-#: ../src/pages/map/items-filters.vue:45 ../src/pages/issues/index.vue:162
+#: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
+#: ../src/pages/map/items-filters.vue:45
 msgid "No (Default)"
 msgstr "Nincs (alapértelmezett)"
 
-#: ../src/pages/issues/index.vue:166 ../src/pages/map/items-filters.vue:106
-#: ../src/pages/map/items-filters.vue:51 ../src/pages/issues/index.vue:168
+#: ../src/pages/issues/index.vue:168 ../src/pages/map/items-filters.vue:106
+#: ../src/pages/map/items-filters.vue:51
 msgid "Only"
 msgstr "Kizárólag"
 
@@ -1923,55 +1764,49 @@ msgstr "Kizárólag"
 msgid "Open"
 msgstr "Nyitott"
 
-#: ../src/pages/issues/index.vue:176 ../src/pages/map/items-filters.vue:113
-#: ../src/pages/map/items-filters.vue:58 ../src/pages/issues/index.vue:178
+#: ../src/pages/issues/index.vue:178 ../src/pages/map/items-filters.vue:113
+#: ../src/pages/map/items-filters.vue:58
 msgid "OSM Username"
 msgstr "OSM felhasználónév"
 
-#: ../src/pages/issues/index.vue:156 ../src/pages/map/items-filters.vue:95
-#: ../src/pages/map/items-filters.vue:40 ../src/pages/issues/index.vue:158
+#: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
+#: ../src/pages/map/items-filters.vue:40
 msgid "Show hidden items"
 msgstr "Elrejtett elemek megjelenítése"
 
-#: ../src/pages/issues/index.vue:130 ../src/pages/map/items-filters.vue:77
-#: ../src/pages/map/items-filters.vue:22 ../src/pages/issues/index.vue:132
+#: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
+#: ../src/pages/map/items-filters.vue:22
 msgid "Source id"
 msgstr "Forrásazonosító"
 
-#: ../src/pages/issues/index.vue:482 ../src/pages/map/items-filters.vue:201
-#: ../src/pages/issues/index.vue:488
+#: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
 msgid "tag"
 msgstr "címke"
 
-#: ../src/pages/issues/index.vue:144 ../src/pages/issues/index.vue:146
+#: ../src/pages/issues/index.vue:146
 msgid "Tag"
 msgstr "Címke"
 
-#: ../../tools/database/items_menu.txt:171
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
 msgstr "WC: kiegészíthető"
 
-#: ../../tools/database/items_menu.txt:172
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
 msgstr "WC: frissítendő"
 
-#: ../../tools/database/items_menu.txt:226
 #: ../../tools/database/items_menu.txt:227
 msgid "natural"
 msgstr "természet"
 
-#: ../src/pages/map/items.vue:6 ../src/pages/map/items.vue:5
+#: ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
 msgstr "Nagyítson a hibák megtekintéséhez."
 
-#: ../../tools/database/items_menu.txt:78
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
 msgstr "feltételes korlátozás"
 
-#: ../../tools/database/items_menu.txt:79
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
 msgstr "oldalak"
@@ -1980,11 +1815,12 @@ msgstr "oldalak"
 msgid "Statistics for user {}"
 msgstr "{} felhasználó statisztikája"
 
-#: ../src/pages/issues/index.vue:279 ../src/pages/issues/index.vue:281
+#: ../src/pages/issues/index.vue:281
 msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
-msgstr "{{ showAnalyserCount }} / {{ errors_groups.length }} sor. Továbbiak megjelenítése."
+msgstr ""
+"{{ showAnalyserCount }} / {{ errors_groups.length }} sor. Továbbiak "
+"megjelenítése."
 
-#: ../../tools/database/items_menu.txt:61
 #: ../../tools/database/items_menu.txt:62
 msgid "small land use"
 msgstr "kicsi területhasználat"
@@ -1997,18 +1833,33 @@ msgstr "Csevegjen az Osmose fejlesztőivel és közösségével a Matrixon: {mat
 msgid ""
 "Keep in touch by watching at {twitter} on Twitter or at {mastodon} on "
 "Mastodon."
-msgstr "Tartsa velünk a kapcsolatot a Twitteren ({twitter}) vagy a Mastodonon ({mastodon})."
+msgstr ""
+"Tartsa velünk a kapcsolatot a Twitteren ({twitter}) vagy a Mastodonon "
+"({mastodon})."
 
 #: ../src/components/confirmFalsePositive.vue
 msgid ""
 "Report the issue as improper.\n"
 "\n"
-"Only use this if the issue reported by Osmose is in fact not an issue in the OSM data.\n"
+"Only use this if the issue reported by Osmose is in fact not an issue in the "
+"OSM data.\n"
 "\n"
-"Warning: the issue will also no longer be displayed to other contributors. If you are unsure, let this Osmose issue open.\n"
+"Warning: the issue will also no longer be displayed to other contributors. "
+"If you are unsure, let this Osmose issue open.\n"
 "\n"
-"If Osmose reports lots of issues similar to this one and you disagree with this, please fill a Github issue and let us try to fix it."
-msgstr "Probléma bejelentése helytelenként.\n\nCsak akkor használja, ha az Osmose által jelzett hiba valójában nem az OSM-adatok hibája.\n\nFigyelmeztetés: a hiba nem fog többé megjelenni a többi közreműködőnek sem. Ha nem biztos a dolgában, inkább hagyja nyitva.\n\nHa az Osmose sok ehhez hasonló hibát jelenít meg, és Ön nem ért egyet vele, töltsön ki egy problémalapot (issue) a Githubon, hogy kijavíthassuk"
+"If Osmose reports lots of issues similar to this one and you disagree with "
+"this, please fill a Github issue and let us try to fix it."
+msgstr ""
+"Probléma bejelentése helytelenként.\n"
+"\n"
+"Csak akkor használja, ha az Osmose által jelzett hiba valójában nem az OSM-"
+"adatok hibája.\n"
+"\n"
+"Figyelmeztetés: a hiba nem fog többé megjelenni a többi közreműködőnek sem. "
+"Ha nem biztos a dolgában, inkább hagyja nyitva.\n"
+"\n"
+"Ha az Osmose sok ehhez hasonló hibát jelenít meg, és Ön nem ért egyet vele, "
+"töltsön ki egy problémalapot (issue) a Githubon, hogy kijavíthassuk"
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
@@ -2037,3 +1888,52 @@ msgstr "Franciaország-specifikus"
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
 msgstr "Hollandia-specifikus"
+
+#: ../src/pages/map/top.vue:360
+msgid "Number of closed makers in this session"
+msgstr ""
+
+#: ../src/pages/map/index.vue
+msgid ""
+"You have made a large number changes with the tags editor. Think about "
+"saving your changes. You can save multiple times while keeping the same "
+"changeset."
+msgstr ""
+
+#: ../src/pages/map/index.vue
+msgid ""
+"You have made a large number of corrections. That great!\n"
+"\n"
+"That may not be your case, but note that Osmose-QA is not intended to be "
+"used for Mechanical Editing. Take a look about that at:\n"
+"- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
+"- https://wiki.openstreetmap.org/wiki/"
+"What%27s_the_problem_with_mechanical_edits%3F"
+msgstr ""
+
+#: ../src/pages/translation.vue:21
+#, fuzzy
+#| msgid "Translation is done on {Transifex}"
+msgid "Translation is done on {Weblate}"
+msgstr "A fordítás a {Transifex}en készül."
+
+#: ../src/pages/translation.vue:55
+#, fuzzy
+#| msgid "You can create a new language directly on {Transifex}."
+msgid "You can create a new language directly on {Weblate}."
+msgstr "Létrehozhatsz egy nyelvet közvetlenül itt: {Transifex}."
+
+#~ msgid "out of boundary"
+#~ msgstr "határ(vonal)on kívül"
+
+#~ msgid "openrailwaymap in germany"
+#~ msgstr "OpenRailwayMap Németországban"
+
+#~ msgid "specific russia"
+#~ msgstr "Oroszország-specifikus"
+
+#~ msgid "specific brazil"
+#~ msgstr "Brazília-specifikus"
+
+#~ msgid "specific france"
+#~ msgstr "Franciaország-specifikus"

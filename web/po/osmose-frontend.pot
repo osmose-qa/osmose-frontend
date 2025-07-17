@@ -620,9 +620,6 @@ msgstr ""
 msgid "erroneous boundary"
 msgstr ""
 
-msgid "out of boundary"
-msgstr ""
-
 #: ../../tools/database/items_menu.txt:108
 msgid "geodesic building"
 msgstr ""
@@ -1285,9 +1282,6 @@ msgstr ""
 msgid "openrailwaymap"
 msgstr ""
 
-msgid "openrailwaymap in germany"
-msgstr ""
-
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
 msgstr ""
@@ -1406,15 +1400,6 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
-msgstr ""
-
-msgid "specific russia"
-msgstr ""
-
-msgid "specific brazil"
-msgstr ""
-
-msgid "specific france"
 msgstr ""
 
 #: ../src/pages/map/editor-modal.vue

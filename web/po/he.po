@@ -622,9 +622,6 @@ msgstr ""
 msgid "erroneous boundary"
 msgstr ""
 
-msgid "out of boundary"
-msgstr ""
-
 #: ../../tools/database/items_menu.txt:108
 msgid "geodesic building"
 msgstr ""
@@ -1287,9 +1284,6 @@ msgstr ""
 msgid "openrailwaymap"
 msgstr ""
 
-msgid "openrailwaymap in germany"
-msgstr ""
-
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
 msgstr ""
@@ -1408,15 +1402,6 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
-msgstr ""
-
-msgid "specific russia"
-msgstr ""
-
-msgid "specific brazil"
-msgstr ""
-
-msgid "specific france"
 msgstr ""
 
 #: ../src/pages/map/editor-modal.vue
@@ -1599,16 +1584,8 @@ msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
 msgstr ""
 
-#: ../src/pages/translation.vue:21
-msgid "Translation is done on {Transifex}"
-msgstr ""
-
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
-msgstr ""
-
-#: ../src/pages/translation.vue:55
-msgid "You can create a new language directly on {Transifex}."
 msgstr ""
 
 #: ../src/pages/contact.vue:61
@@ -1877,4 +1854,12 @@ msgid ""
 "- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
 "- https://wiki.openstreetmap.org/wiki/"
 "What%27s_the_problem_with_mechanical_edits%3F"
+msgstr ""
+
+#: ../src/pages/translation.vue:21
+msgid "Translation is done on {Weblate}"
+msgstr ""
+
+#: ../src/pages/translation.vue:55
+msgid "You can create a new language directly on {Weblate}."
 msgstr ""
