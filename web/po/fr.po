@@ -1971,7 +1971,7 @@ msgstr ""
 
 #: ../src/pages/translation.vue:21
 msgid "Translation is done on {Weblate}"
-msgstr "La traduction est faite sur{Weblate}"
+msgstr "La traduction est faite sur {Weblate}"
 
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
