@@ -8,16 +8,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-07-17 08:36+0000\n"
-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://hosted.weblate.org/projects/osmose/frontend/"
-"he/>\n"
-"Language: he\n"
+"PO-Revision-Date: 2025-07-17 18:47+0000\n"
+"Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
+"Language-Team: Estonian <https://hosted.weblate.org/projects/osmose/frontend/"
+"et/>\n"
+"Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
-"n % 10 == 0) ? 2 : 3));\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.13-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
@@ -27,31 +26,31 @@ msgstr ""
 #. TRANSLATORS: link to source code
 #: ../src/pages/map/top.vue:25
 msgid "Statistics"
-msgstr "סטטיסטיקה"
+msgstr "Statistika"
 
 #: ../src/pages/contact.vue ../src/pages/map/top.vue:83
 msgid "Contact"
-msgstr ""
+msgstr "Meie kontaktid"
 
 #: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
-msgstr ""
+msgstr "Abiteave vikis"
 
 #: ../src/pages/index.vue:28 ../src/pages/translation.vue:123
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
-msgstr ""
+msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
 #: ../src/pages/map/top.vue:93
 msgid "Copyright"
-msgstr ""
+msgstr "Autoriõigused"
 
 #: ../src/pages/map/top.vue:98
 msgid "Sources"
-msgstr ""
+msgstr "Lähtekood"
 
 #: ../src/pages/map/top.vue:103
 msgid "Translation"
-msgstr ""
+msgstr "Tõlge"
 
 #: ../src/pages/byuser/index.vue
 msgid "Statistics for user"
@@ -622,6 +621,9 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:107
 msgid "erroneous boundary"
+msgstr ""
+
+msgid "out of boundary"
 msgstr ""
 
 #: ../../tools/database/items_menu.txt:108
@@ -1286,6 +1288,9 @@ msgstr ""
 msgid "openrailwaymap"
 msgstr ""
 
+msgid "openrailwaymap in germany"
+msgstr ""
+
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
 msgstr ""
@@ -1404,6 +1409,15 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
+msgstr ""
+
+msgid "specific russia"
+msgstr ""
+
+msgid "specific brazil"
+msgstr ""
+
+msgid "specific france"
 msgstr ""
 
 #: ../src/pages/map/editor-modal.vue
