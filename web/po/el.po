@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-07-15 03:38+0000\n"
+"PO-Revision-Date: 2025-07-20 14:03+0000\n"
 "Last-Translator: Jim Kats <jim-kats@hotmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/osmose/frontend/el/"
 ">\n"
@@ -1017,7 +1017,7 @@ msgstr "ηλικία"
 
 #: ../../tools/database/items_menu.txt:100
 msgid "invalid character"
-msgstr ""
+msgstr "μη έγκυρος χαρακτήρας"
 
 #: ../../tools/database/items_menu.txt:179
 msgid "gas station, could be integrated"
@@ -1041,7 +1041,7 @@ msgstr "υποστήριξη ηλεκτρικής ενέργειας, μπορε
 
 #: ../../tools/database/items_menu.txt:28
 msgid "almost junction"
-msgstr ""
+msgstr "σχεδόν διασταύρωση"
 
 #: ../../tools/database/items_menu.txt:44
 msgid "public_transport route"
@@ -1053,15 +1053,15 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:93
 msgid "duplicate wikipedia"
-msgstr ""
+msgstr "διπλότυπο wikipedia"
 
 #: ../../tools/database/items_menu.txt:76
 msgid "route access mismatch"
-msgstr ""
+msgstr "αναντιστοιχία πρόσβασης διαδρομής"
 
 #: ../../tools/database/items_menu.txt:101
 msgid "similar name"
-msgstr ""
+msgstr "παρόμοιο όνομα"
 
 #: ../../tools/database/items_menu.txt:178
 msgid "gas station, need update"
@@ -1081,11 +1081,11 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:96 ../src/pages/map/items-filters.vue:9
 msgid "High"
-msgstr ""
+msgstr "Ψηλά"
 
 #: ../src/pages/issues/index.vue:99 ../src/pages/map/items-filters.vue:12
 msgid "Normal or higher"
-msgstr ""
+msgstr "Φυσιολογικά ή ψηλότερα"
 
 #: ../src/pages/issues/index.vue:102 ../src/pages/issues/index.vue:165
 #: ../src/pages/map/items-filters.vue:15 ../src/pages/map/items-filters.vue:103
@@ -1095,17 +1095,17 @@ msgstr "Όλα"
 
 #: ../src/pages/issues/index.vue:106 ../src/pages/map/items-filters.vue:19
 msgid "Normal only"
-msgstr ""
+msgstr "Φυσιολογικά μόνο"
 
 #: ../src/pages/issues/index.vue:109 ../src/pages/map/items-filters.vue:22
 msgid "Low only"
-msgstr ""
+msgstr "Χαμηλά μόνο"
 
 #: ../src/pages/map/top.vue:297 ../src/pages/map/top.vue:310
 #: ../src/pages/map/top.vue:323
 #, python-brace-format
 msgid "Level {level} issues ({count})"
-msgstr ""
+msgstr "{count} προβλήματα για επίπεδο {level}"
 
 #: ../../tools/database/categories_menu.txt:9
 msgid "JOSM validator"
@@ -1149,11 +1149,11 @@ msgstr "θρησκεία"
 
 #: ../../tools/database/items_menu.txt:238
 msgid "territories"
-msgstr ""
+msgstr "εδάφη"
 
 #: ../../tools/database/items_menu.txt:239
 msgid "unnecessary"
-msgstr ""
+msgstr "μη απαραίτητο"
 
 #: ../src/pages/issues/index.vue:68 ../src/pages/map/items-filters.vue:62
 #: ../src/pages/map/items-filters.vue:7
@@ -1170,12 +1170,12 @@ msgstr "Ψευδώς θετικό / Έγινε"
 
 #: ../src/pages/map/editor-modal.vue:7
 msgid "Objects edited"
-msgstr ""
+msgstr "Αντικείμενα που έγιναν επεξεργασία"
 
 #: ../src/pages/map/popup.vue:103
 #, python-brace-format
 msgid "Show Object on {where}"
-msgstr ""
+msgstr "Εμφάνιση αντικειμένου σε {where}"
 
 #: ../src/pages/map/popup.vue:120 ../src/pages/map/popup.vue:129
 #: ../src/pages/map/popup.vue:138 ../src/pages/map/popup.vue:147
@@ -1183,7 +1183,7 @@ msgstr ""
 #: ../src/pages/map/popup.vue:172
 #, python-brace-format
 msgid "Edit Object with {where}"
-msgstr ""
+msgstr "Επεξεργασία αντικειμένου σε {where}"
 
 #: ../src/pages/map/popup.vue:173 ../src/pages/map/popup.vue:200
 msgid "online Osmose Editor"
@@ -1192,22 +1192,22 @@ msgstr ""
 #: ../src/pages/map/popup.vue:193 ../src/pages/map/popup.vue:199
 #, python-brace-format
 msgid "Load the fix in {where}"
-msgstr ""
+msgstr "Φόρτωση της επιδιόρθωσης σε {where}"
 
 #: ../src/pages/map/popup.vue:280
 #, python-brace-format
 msgid "Add the new object in {where}"
-msgstr ""
+msgstr "Προσθήκη του νέου αντικειμένου σε {where}"
 
 #: ../src/pages/map/popup.vue:331
 #, python-brace-format
 msgid "Show the area on {where}"
-msgstr ""
+msgstr "Εμφάνιση της περιοχής σε {where}"
 
 #: ../src/pages/map/popup.vue:336 ../src/pages/map/popup.vue:342
 #, python-brace-format
 msgid "Edit the area on {where}"
-msgstr ""
+msgstr "Επεξεργασία της περιοχής σε {where}"
 
 #: ../src/pages/map/popup.vue:134
 msgid "details"
@@ -1275,7 +1275,7 @@ msgstr "πισίνα"
 
 #: ../../tools/database/items_menu.txt:98
 msgid "potential misspelling"
-msgstr ""
+msgstr "πιθανό ορθογραφικό λάθος"
 
 #: ../../tools/database/items_menu.txt:29
 msgid "enforcement"
@@ -1287,7 +1287,7 @@ msgstr "URL"
 
 #: ../../tools/database/items_menu.txt:203
 msgid "street objects"
-msgstr ""
+msgstr "αντικείμενα δρόμου"
 
 #: ../../tools/database/items_menu.txt:242
 msgid "openrailwaymap"
@@ -1295,7 +1295,7 @@ msgstr "openrailwaymap"
 
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
-msgstr ""
+msgstr "σιδηρόδρομοι"
 
 #: ../../tools/database/items_menu.txt:188
 msgid "power plant"
@@ -1309,7 +1309,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:204
 msgid "defibrillator"
-msgstr ""
+msgstr "απινιδωτής"
 
 #: ../../tools/database/items_menu.txt:208
 msgid "radio support"
@@ -1341,7 +1341,7 @@ msgstr "Πηγαίος Κώδικας"
 
 #: ../src/pages/map/doc.vue:82 ../src/pages/map/doc.vue:1
 msgid "Resource used"
-msgstr ""
+msgstr "Πηγή που χρησιμοποιήθηκε"
 
 #: ../src/pages/map/doc.vue:90
 msgid "Want to improve this control or this doc?"
@@ -1379,7 +1379,7 @@ msgstr "συναφή αντικείμενα"
 
 #: ../../tools/database/items_menu.txt:205
 msgid "wastewater"
-msgstr ""
+msgstr "λύματα"
 
 #: ../../tools/database/items_menu.txt:206
 msgid "wastewater, could be integrated"
@@ -1387,7 +1387,7 @@ msgstr "λύματα, μπορεί να ενσωματωθεί"
 
 #: ../../tools/database/items_menu.txt:207
 msgid "wastewater, need update"
-msgstr ""
+msgstr "λύματα, χρειάζεται ενημέρωση"
 
 #: ../src/components/issues-list.vue:324
 msgid "delete issue"
@@ -1399,7 +1399,7 @@ msgstr "Λεπτομέρειες ζητήματος"
 
 #: ../src/pages/map/popup.vue:360
 msgid "Report based on data from date"
-msgstr ""
+msgstr "Αναφορά βασισμένη σε δεδομένα από ημερομηνία"
 
 #: ../../tools/database/items_menu.txt:182
 msgid "pharmacy, need update"
@@ -1411,7 +1411,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
-msgstr ""
+msgstr "κατάστημα"
 
 #: ../src/pages/map/editor-modal.vue
 msgid "Fixed with Osmose"
@@ -1866,10 +1866,8 @@ msgid ""
 msgstr ""
 
 #: ../src/pages/translation.vue:21
-#, fuzzy
-#| msgid "Translation is done on {Transifex}"
 msgid "Translation is done on {Weblate}"
-msgstr "Η μετάφραση γίνεται στο {Transifex}"
+msgstr "Η μετάφραση γίνεται στο {Weblate}"
 
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
