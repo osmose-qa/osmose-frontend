@@ -60,16 +60,17 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2014-04-28 19:22+0000\n"
-"Last-Translator: FredB <fredbourgeon@gmail.com>, 2022,2024\n"
-"Language-Team: French (http://app.transifex.com/openstreetmap-france/osmose/"
-"language/fr/)\n"
+"PO-Revision-Date: 2025-07-17 19:30+0000\n"
+"Last-Translator: Jocelyn Jaubert <jocelyn.jaubert@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/osmose/frontend/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Weblate 5.13-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -1969,16 +1970,12 @@ msgid ""
 msgstr ""
 
 #: ../src/pages/translation.vue:21
-#, fuzzy
-#| msgid "Translation is done on {Transifex}"
 msgid "Translation is done on {Weblate}"
-msgstr "La traduction est faite sur{Transifex}"
+msgstr "La traduction est faite sur {Weblate}"
 
 #: ../src/pages/translation.vue:55
-#, fuzzy
-#| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
-msgstr "Vous pouvez créér une nouvelle langue directement sur {Transifex}."
+msgstr "Vous pouvez créer une nouvelle langue directement sur {Weblate}."
 
 #~ msgid "out of boundary"
 #~ msgstr "hors des frontières"
