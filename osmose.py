@@ -11,20 +11,17 @@ from modules.utils import LangsNegociation
 from web_api import app as web_api
 
 app = FastAPI()
+assets = FastAPI()
 
-origins = [
-    "https://osmose.openstreetmap.fr",
-    "http://localhost",
-    "http://localhost:8080",
-    "http://localhost:20009",
-    "http://127.0.0.1",
-    "http://127.0.0.1:8080",
-    "http://127.0.0.1:20009"
-]
-
-app.add_middleware(
+assets.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=[
+        "https://osmose.openstreetmap.fr",
+        "http://localhost",
+        "http://localhost:8080",
+        "http://127.0.0.1",
+        "http://127.0.0.1:8080",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -49,6 +46,8 @@ for lang in utils.allowed_languages:
     app.mount("/" + lang, web_api.app)
 
 
+app.mount('/assets', assets)
+
 @app.get("/")
 @app.get("/map")
 @app.get("/map/")
@@ -62,7 +61,7 @@ def index(request: Request, langs: LangsNegociation = Depends(langs.langs)):
     return responses.RedirectResponse(url=path)
 
 
-@app.get("/assets/sprites.css")
+@assets.get("/sprites.css")
 def sprites_css():
     file_path = "web_api/public/assets/sprites.css"
     if os.path.isfile(file_path):
@@ -71,17 +70,17 @@ def sprites_css():
         raise HTTPException(status_code=404)
 
 
-@app.get("/assets/sprite.png")
+@assets.get("/sprite.png")
 def sprite_png():
     return Response(open("web_api/public/assets/sprite.png", "rb").read())
 
 
-@app.get("/assets/marker-gl-sprite.json")
+@assets.get("/marker-gl-sprite.json")
 def sprite_png():
     return Response(open("web_api/public/assets/marker-gl-sprite.json", "rb").read())
 
 
-@app.get("/assets/marker-gl-sprite.png")
+@assets.get("/marker-gl-sprite.png")
 def sprite_png():
     return Response(open("web_api/public/assets/marker-gl-sprite.png", "rb").read())
 
