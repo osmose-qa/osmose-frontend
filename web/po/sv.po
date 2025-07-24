@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-07-15 03:38+0000\n"
+"PO-Revision-Date: 2025-07-25 22:06+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -113,11 +113,11 @@ msgstr "Tidstämpel"
 
 #: ../src/pages/copyright.vue
 msgid "Copyright information"
-msgstr ""
+msgstr "Upphovsrättsinformation"
 
 #: ../src/pages/copyright.vue:2
 msgid "License"
-msgstr "Lisens"
+msgstr "Licens"
 
 #: ../src/pages/copyright.vue:20
 msgid "Authors"
@@ -125,7 +125,7 @@ msgstr "Författare"
 
 #: ../src/pages/copyright.vue:25
 msgid "And contributors"
-msgstr ""
+msgstr "Och bidragsgivare"
 
 #: ../src/components/marker-details.vue:4 ../src/pages/issue/index.vue:15
 #: ../src/pages/issue/index.vue:58 ../src/pages/issue/index.vue:6
@@ -513,7 +513,7 @@ msgstr "liknande värden"
 
 #: ../../tools/database/items_menu.txt:56
 msgid "multiple values"
-msgstr ""
+msgstr "flera värden"
 
 #: ../../tools/database/items_menu.txt:59
 msgid "numeric value"
@@ -561,7 +561,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:82
 msgid "on junction=roundabout"
-msgstr "eller junction=roundabout"
+msgstr "på junction=roundabout"
 
 #: ../../tools/database/items_menu.txt:83
 msgid "incompatible tags"
@@ -577,7 +577,7 @@ msgstr "konstruktion"
 
 #: ../../tools/database/items_menu.txt:88
 msgid "duplicate object"
-msgstr ""
+msgstr "duplicerat objekt"
 
 #: ../../tools/database/items_menu.txt:89
 msgid "unwanted tag on node"
@@ -629,7 +629,7 @@ msgstr "felaktig gräns"
 
 #: ../../tools/database/items_menu.txt:108
 msgid "geodesic building"
-msgstr ""
+msgstr "geodesisk byggnad"
 
 #: ../../tools/database/items_menu.txt:109
 msgid "building shape"
@@ -649,7 +649,7 @@ msgstr "kraftledning"
 
 #: ../../tools/database/items_menu.txt:135
 msgid "post office"
-msgstr ""
+msgstr "postkontor"
 
 #: ../../tools/database/items_menu.txt:115
 msgid "ODbL migration change"
@@ -674,7 +674,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:121
 msgid "relation type=boundary"
-msgstr ""
+msgstr "relation type=boundary"
 
 #: ../../tools/database/items_menu.txt:122
 msgid "tunnel/bridge"
@@ -712,11 +712,11 @@ msgstr "plankorsning"
 
 #: ../../tools/database/items_menu.txt:149
 msgid "geodesic point"
-msgstr ""
+msgstr "geodesisk punkt"
 
 #: ../../tools/database/items_menu.txt:150
 msgid "postal address"
-msgstr ""
+msgstr "postadress"
 
 #: ../../tools/database/items_menu.txt:154
 msgid "public service"
@@ -740,7 +740,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:161
 msgid "accommodation"
-msgstr ""
+msgstr "logi"
 
 #: ../../tools/database/items_menu.txt:162
 msgid "accommodation, could be integrated"
@@ -764,7 +764,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:169
 msgid "sport"
-msgstr ""
+msgstr "sport"
 
 #: ../../tools/database/items_menu.txt:170
 msgid "sport, could be integrated"
@@ -808,7 +808,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:177
 msgid "gas station"
-msgstr ""
+msgstr "bensinstation"
 
 #: ../src/pages/map/editor.vue:5
 msgid "You must be logged in to use the tag editor"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:91
 msgid "incorrect layer"
-msgstr ""
+msgstr "ogiltig lagernivå"
 
 #: ../src/pages/control/update_summary.vue
 #: ../src/pages/control/update_summary_by_analyser.vue
@@ -900,7 +900,7 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:103
 msgid "issue n°"
-msgstr ""
+msgstr "problem n°"
 
 #: ../src/pages/index.vue:6
 msgid "Map of issues"
@@ -920,7 +920,7 @@ msgstr "geodesisk"
 
 #: ../../tools/database/items_menu.txt:138
 msgid "post box"
-msgstr ""
+msgstr "postlåda"
 
 #: ../../tools/database/items_menu.txt:139
 msgid "post box, could be integrated"
@@ -940,7 +940,7 @@ msgstr "väg"
 
 #: ../../tools/database/items_menu.txt:2
 msgid "split building"
-msgstr ""
+msgstr "delad byggnad"
 
 #: ../src/pages/translation.vue:46
 msgid "Osmose QA main page"
@@ -956,7 +956,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:26
 msgid "objects intersection"
-msgstr ""
+msgstr "objekt överlappning"
 
 #: ../../tools/database/items_menu.txt:43
 #: ../../tools/database/items_menu.txt:74
@@ -965,7 +965,7 @@ msgstr "åtkomst"
 
 #: ../../tools/database/items_menu.txt:86
 msgid "fixme review"
-msgstr ""
+msgstr "fixme-granskning"
 
 #: ../../tools/database/items_menu.txt:142
 msgid "school, need update"
@@ -1021,7 +1021,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:189
 msgid "power substation"
-msgstr ""
+msgstr "transformatorstation"
 
 #: ../../tools/database/items_menu.txt:190
 msgid "power substation, could be integrated"
@@ -1045,11 +1045,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:75
 msgid "recycling container"
-msgstr ""
+msgstr "återvinningscontainer"
 
 #: ../../tools/database/items_menu.txt:93
 msgid "duplicate wikipedia"
-msgstr ""
+msgstr "duplicerad wikipedia"
 
 #: ../../tools/database/items_menu.txt:76
 msgid "route access mismatch"
@@ -1117,7 +1117,7 @@ msgstr "adresser"
 
 #: ../../tools/database/items_menu.txt:230
 msgid "combinations"
-msgstr ""
+msgstr "kombinationer"
 
 #: ../../tools/database/items_menu.txt:231
 msgid "deprecated"
@@ -1129,7 +1129,7 @@ msgstr "geometri"
 
 #: ../../tools/database/items_menu.txt:234
 msgid "multiple"
-msgstr ""
+msgstr "flera"
 
 #: ../../tools/database/items_menu.txt:235
 msgid "numeric"
@@ -1247,7 +1247,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:201
 msgid "medical lab"
-msgstr ""
+msgstr "medicinskt labb"
 
 #: ../../tools/database/items_menu.txt:198
 msgid "hospital, could be integrated"
@@ -1267,11 +1267,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:57
 msgid "swimming pool"
-msgstr ""
+msgstr "simbassäng"
 
 #: ../../tools/database/items_menu.txt:98
 msgid "potential misspelling"
-msgstr ""
+msgstr "möjligt stavfel"
 
 #: ../../tools/database/items_menu.txt:29
 msgid "enforcement"
@@ -1295,7 +1295,7 @@ msgstr "järnväg"
 
 #: ../../tools/database/items_menu.txt:188
 msgid "power plant"
-msgstr ""
+msgstr "kraftverk"
 
 #: ../src/pages/translation.vue:4
 msgid ""
@@ -1361,7 +1361,7 @@ msgstr "Du kan hitta hjälp på wikin:"
 
 #: ../../tools/database/items_menu.txt:213
 msgid "charging station"
-msgstr ""
+msgstr "laddstation"
 
 #: ../../tools/database/items_menu.txt:214
 msgid "charging station, could be integrated"
@@ -1433,7 +1433,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
-msgstr ""
+msgstr "moms"
 
 #: ../../tools/database/items_menu.txt:211
 msgid "health centre"
@@ -1455,7 +1455,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:151
 msgid "fire hydrant"
-msgstr ""
+msgstr "brandpost"
 
 #: ../../tools/database/items_menu.txt:152
 msgid "fire hydrant, could be integrated"
@@ -1479,7 +1479,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
-msgstr ""
+msgstr "cykelinfrastruktur"
 
 #: ../src/pages/issues/index.vue
 msgid "Information"
@@ -1511,7 +1511,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:224
 msgid "water infrastructure"
-msgstr ""
+msgstr "vatteninfrastruktur"
 
 #: ../../tools/database/items_menu.txt:225
 msgid "water"
@@ -1519,7 +1519,7 @@ msgstr "vatten"
 
 #: ../../tools/database/items_menu.txt:226
 msgid "fire station"
-msgstr ""
+msgstr "brandstation"
 
 #: ../src/pages/contact.vue:53
 msgid ""
@@ -1687,7 +1687,7 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:61
 msgid "Hide markers"
-msgstr ""
+msgstr "Dölj markörer"
 
 #: ../src/pages/map/items-list.vue
 msgid "Item #{item}"
@@ -1696,7 +1696,7 @@ msgstr ""
 #: ../src/pages/issues/index.vue:123 ../src/pages/map/items-filters.vue:57
 #: ../src/pages/map/items-filters.vue:2
 msgid "Less filters"
-msgstr ""
+msgstr "Färre filter"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'location'
 #: ../src/components/issues-list.vue:32
@@ -1714,7 +1714,7 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:119 ../src/pages/map/items-filters.vue:122
 msgid "More filters"
-msgstr ""
+msgstr "Fler filter"
 
 #: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
 #: ../src/pages/map/items-filters.vue:45
@@ -1728,12 +1728,12 @@ msgstr "Enbart"
 
 #: ../src/pages/issues/index.vue:13
 msgid "Open"
-msgstr ""
+msgstr "Öppen"
 
 #: ../src/pages/issues/index.vue:178 ../src/pages/map/items-filters.vue:113
 #: ../src/pages/map/items-filters.vue:58
 msgid "OSM Username"
-msgstr ""
+msgstr "OSM användarnamn"
 
 #: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
 #: ../src/pages/map/items-filters.vue:40
@@ -1747,11 +1747,11 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
 msgid "tag"
-msgstr ""
+msgstr "tagg"
 
 #: ../src/pages/issues/index.vue:146
 msgid "Tag"
-msgstr ""
+msgstr "Tagg"
 
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
@@ -1827,19 +1827,19 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
-msgstr ""
+msgstr "specifikt Ryssland"
 
 #: ../../tools/database/items_menu.txt:245
 msgid "specific Brazil"
-msgstr ""
+msgstr "specifikt Brasilien"
 
 #: ../../tools/database/items_menu.txt:246
 msgid "specific France"
-msgstr ""
+msgstr "specifikt Frankrike"
 
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
-msgstr ""
+msgstr "specifikt Nederländerna"
 
 #: ../src/pages/map/top.vue:360
 msgid "Number of closed makers in this session"
