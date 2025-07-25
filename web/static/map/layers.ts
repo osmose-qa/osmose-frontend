@@ -1,5 +1,7 @@
 import { SourceSpecification } from 'maplibre-gl'
 
+declare var API_URL: string;
+
 function tileSource(url, options?): SourceSpecification {
   return {
     type: 'raster',
@@ -97,8 +99,6 @@ export const mapOverlay = {
   markers: 'Osmose Issues',
   heatmap: 'Osmose Issues Heatmap',
 }
-
-const API_URL = 'https://osmose.openstreetmap.fr'
 
 export const glStyle = {
   version: 8,
