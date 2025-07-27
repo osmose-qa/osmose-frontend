@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-07-27 00:26+0000\n"
+"PO-Revision-Date: 2025-07-28 15:10+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -1547,11 +1547,11 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:188
 msgid "Mark issue #{uuid} as fixed"
-msgstr ""
+msgstr "Markera problem #{uuid} som löst"
 
 #: ../src/pages/byuser/byuser.vue:53
 msgid "Number of found issues: {count}"
-msgstr ""
+msgstr "Antal hittade problem: {count}"
 
 #: ../src/pages/byuser/byuser.vue:58
 msgid "Number of found issues: more than {count}"
