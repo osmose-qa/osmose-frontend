@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-07-25 22:06+0000\n"
+"PO-Revision-Date: 2025-07-28 15:10+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -203,7 +203,7 @@ msgstr "Hjälp på OSM-wiki"
 
 #: ../src/pages/index.vue:20
 msgid "False positives list"
-msgstr ""
+msgstr "Lista med falska positiv"
 
 #: ../src/pages/index.vue:25
 msgid "Last analysis updates"
@@ -296,7 +296,7 @@ msgstr "positivt falska"
 
 #: ../src/pages/translation.vue:2 ../src/pages/translation.vue
 msgid "How to help translation"
-msgstr ""
+msgstr "Hur du kan bidra till översättning"
 
 #: ../src/pages/translation.vue:10
 msgid ""
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
-msgstr ""
+msgstr "Sidor att översätta"
 
 #: ../src/pages/translation.vue:42
 msgid "Wiki pages"
@@ -581,7 +581,7 @@ msgstr "duplicerat objekt"
 
 #: ../../tools/database/items_menu.txt:89
 msgid "unwanted tag on node"
-msgstr ""
+msgstr "Oönskad tagg på nod"
 
 #: ../../tools/database/items_menu.txt:90
 msgid "bad usage"
@@ -653,7 +653,7 @@ msgstr "postkontor"
 
 #: ../../tools/database/items_menu.txt:115
 msgid "ODbL migration change"
-msgstr ""
+msgstr "ODbL migreringsförändring"
 
 #: ../../tools/database/items_menu.txt:117
 msgid "monument"
@@ -661,7 +661,7 @@ msgstr "monument"
 
 #: ../../tools/database/items_menu.txt:118
 msgid "node on ways"
-msgstr ""
+msgstr "nod på linjer"
 
 #: ../../tools/database/items_menu.txt:119
 #: ../../tools/database/items_menu.txt:146
@@ -944,7 +944,7 @@ msgstr "delad byggnad"
 
 #: ../src/pages/translation.vue:46
 msgid "Osmose QA main page"
-msgstr ""
+msgstr "Osmose QA startsida"
 
 #: ../../tools/database/items_menu.txt:23
 msgid "far from water"
@@ -969,23 +969,23 @@ msgstr "fixme-granskning"
 
 #: ../../tools/database/items_menu.txt:142
 msgid "school, need update"
-msgstr ""
+msgstr "skola, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:145
 msgid "public transport, need update"
-msgstr ""
+msgstr "kollektivtrafik, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:157
 msgid "recycling, need update"
-msgstr ""
+msgstr "återvinning, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:160
 msgid "parking, need update"
-msgstr ""
+msgstr "parkering, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:168
 msgid "transport sharing, need update"
-msgstr ""
+msgstr "samåkning, uppdatering behövs"
 
 #: ../src/pages/control/update_summary_by_analyser.vue:7
 msgid "Analyser"
@@ -1005,7 +1005,7 @@ msgstr "Version"
 
 #: ../../tools/database/items_menu.txt:137
 msgid "post office, need update"
-msgstr ""
+msgstr "postkontor, uppdatering behövs"
 
 #: ../src/pages/issues/index.vue:215
 msgid "age"
@@ -1061,7 +1061,7 @@ msgstr "liknande namn"
 
 #: ../../tools/database/items_menu.txt:178
 msgid "gas station, need update"
-msgstr ""
+msgstr "bensinstation, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:60
 msgid "phone number"
@@ -1101,7 +1101,7 @@ msgstr "Enbart låg"
 #: ../src/pages/map/top.vue:323
 #, python-brace-format
 msgid "Level {level} issues ({count})"
-msgstr ""
+msgstr "Nivå {level} problen ({count})"
 
 #: ../../tools/database/categories_menu.txt:9
 msgid "JOSM validator"
@@ -1323,11 +1323,11 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:47 ../src/pages/map/doc.vue:1
 msgid "How to Fix"
-msgstr ""
+msgstr "Hur det kan åtgärdas"
 
 #: ../src/pages/map/doc.vue:52 ../src/pages/map/doc.vue:1
 msgid "Trap to avoid"
-msgstr ""
+msgstr "Fällor att undvika"
 
 #: ../src/pages/map/doc.vue:57 ../src/pages/map/doc.vue:1
 msgid "Example"
@@ -1347,7 +1347,7 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:5
 msgid "Welcome to Osmose-QA"
-msgstr ""
+msgstr "Välkommen till Osmose-QA"
 
 #: ../src/pages/map/doc.vue:26
 msgid ""
@@ -1369,7 +1369,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:215
 msgid "charging station, need update"
-msgstr ""
+msgstr "laddstation, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:30
 msgid "related objects"
@@ -1385,7 +1385,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:207
 msgid "wastewater, need update"
-msgstr ""
+msgstr "spillvatten, uppdatering behövs"
 
 #: ../src/components/issues-list.vue:324
 msgid "delete issue"
@@ -1401,7 +1401,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:182
 msgid "pharmacy, need update"
-msgstr ""
+msgstr "apotek, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:191
 msgid "power substation, need update"
@@ -1413,7 +1413,7 @@ msgstr "butik"
 
 #: ../src/pages/map/editor-modal.vue
 msgid "Fixed with Osmose"
-msgstr ""
+msgstr "Åtgärdad med Osmose"
 
 #: ../src/pages/map/editor.vue:132
 msgid "Done"
@@ -1487,7 +1487,7 @@ msgstr "Information"
 
 #: ../../tools/database/items_menu.txt:132
 msgid "monument, megalith, museum"
-msgstr ""
+msgstr "monument, megalit, museum"
 
 #: ../../tools/database/items_menu.txt:133
 msgid "monument, megalith, museum, could be integrated"
@@ -1535,7 +1535,7 @@ msgstr ""
 
 #: ../src/pages/issue/index.vue
 msgid "Information on issue {uuid}"
-msgstr ""
+msgstr "Information om problem {uuid}"
 
 #: ../src/pages/issues/matrix.vue
 msgid "Issue counts matrix"
@@ -1547,11 +1547,11 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:188
 msgid "Mark issue #{uuid} as fixed"
-msgstr ""
+msgstr "Markera problem #{uuid} som löst"
 
 #: ../src/pages/byuser/byuser.vue:53
 msgid "Number of found issues: {count}"
-msgstr ""
+msgstr "Antal hittade problem: {count}"
 
 #: ../src/pages/byuser/byuser.vue:58
 msgid "Number of found issues: more than {count}"
@@ -1559,7 +1559,7 @@ msgstr ""
 
 #: ../src/pages/byuser/byuser.vue
 msgid "Statistics for user {user}"
-msgstr ""
+msgstr "Statistik för användaren {user}"
 
 #: ../src/pages/byuser/byuser.vue:45
 msgid ""
@@ -1683,7 +1683,7 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:71
 msgid "Hide from map"
-msgstr ""
+msgstr "Dölj från kartan"
 
 #: ../src/pages/map/doc.vue:61
 msgid "Hide markers"
@@ -1738,7 +1738,7 @@ msgstr "OSM användarnamn"
 #: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
 #: ../src/pages/map/items-filters.vue:40
 msgid "Show hidden items"
-msgstr ""
+msgstr "Visa dolda objekt"
 
 #: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
 #: ../src/pages/map/items-filters.vue:22
@@ -1759,7 +1759,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
-msgstr ""
+msgstr "toaletter, uppdatering behövs"
 
 #: ../../tools/database/items_menu.txt:227
 msgid "natural"
@@ -1787,7 +1787,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:62
 msgid "small land use"
-msgstr ""
+msgstr "liten landanvändning"
 
 #: ../src/pages/contact.vue:99
 msgid "Chat with Osmose-QA developers and community at {matrix} on Matrix."
@@ -1823,7 +1823,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:243
 msgid "openrailwaymap in Germany"
-msgstr ""
+msgstr "openrailwaymap i Tyskland"
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
