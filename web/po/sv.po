@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-07-28 15:10+0000\n"
+"PO-Revision-Date: 2025-08-09 18:01+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -46,7 +46,7 @@ msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
 #: ../src/pages/map/top.vue:93
 msgid "Copyright"
-msgstr ""
+msgstr "Upphovsrätt"
 
 #: ../src/pages/map/top.vue:98
 msgid "Sources"
@@ -141,11 +141,11 @@ msgstr "värde"
 
 #: ../src/pages/issue/index.vue:5
 msgid "Marker"
-msgstr ""
+msgstr "Markör"
 
 #: ../src/pages/issue/index.vue:10 ../src/pages/issue/index.vue:1
 msgid "Elements"
-msgstr ""
+msgstr "Objekt"
 
 #: ../src/pages/issue/index.vue:51 ../src/pages/issue/index.vue:1
 msgid "Fixes"
@@ -191,7 +191,7 @@ msgstr "Totalt"
 
 #: ../src/components/issues-list.vue:43
 msgid "subtitle"
-msgstr ""
+msgstr "undertitel"
 
 #: ../../tools/database/items_menu.txt:58 ../src/components/issues-list.vue:47
 msgid "date"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../src/pages/map/editor.vue:18
 msgid "Tags Editor"
-msgstr ""
+msgstr "Tagg-redigerare"
 
 #: ../src/pages/map/editor-modal.vue:38 ../src/pages/map/editor-modal.vue:56
 #: ../src/pages/map/editor.vue:60 ../src/pages/map/editor.vue:126
@@ -228,7 +228,7 @@ msgstr "Fixas"
 
 #: ../src/pages/map/items-filters.vue:164
 msgid "Show only markers with correction suggestions"
-msgstr ""
+msgstr "Visa endast markörer med förslag på lösning"
 
 #: ../src/pages/issues/index.vue:196 ../src/pages/map/items-filters.vue:35
 msgid "Online"
@@ -284,15 +284,15 @@ msgstr "Typ"
 
 #: ../src/pages/map/editor-modal.vue:32
 msgid "Reuse changeset"
-msgstr ""
+msgstr "Återanvänd ändringsuppsättning"
 
 #: ../src/pages/map/popup.vue:400
 msgid "corrected"
-msgstr ""
+msgstr "åtgärdad"
 
 #: ../src/pages/map/popup.vue:386
 msgid "false positive"
-msgstr "positivt falska"
+msgstr "falsk positiv"
 
 #: ../src/pages/translation.vue:2 ../src/pages/translation.vue
 msgid "How to help translation"
@@ -303,6 +303,8 @@ msgid ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
 msgstr ""
+"För att göra Osmose till ett flerspråkigt verktyg behöver vi din hjälp att "
+"översätta, eller förbättra nuvarande översättning"
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
