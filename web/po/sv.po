@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-08-09 18:01+0000\n"
+"PO-Revision-Date: 2025-08-17 12:02+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.13-dev\n"
+"X-Generator: Weblate 5.13\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -364,7 +364,7 @@ msgstr "duplicerad nod"
 
 #: ../../tools/database/items_menu.txt:4
 msgid "way one node"
-msgstr "linje med en nod"
+msgstr "sträcka med en nod"
 
 #: ../../tools/database/items_menu.txt:5
 msgid "invalid polygon"
@@ -408,7 +408,7 @@ msgstr "saknar tagg eller roll"
 
 #: ../../tools/database/items_menu.txt:15
 msgid "surface intersection"
-msgstr ""
+msgstr "överlappande områden"
 
 #: ../../tools/database/items_menu.txt:16
 msgid "big relation"
@@ -436,7 +436,7 @@ msgstr "icke kopplad väg/cykelväg"
 
 #: ../../tools/database/items_menu.txt:22
 msgid "waterway"
-msgstr "vattenväg"
+msgstr "vattendrag"
 
 #: ../../tools/database/items_menu.txt:24
 msgid "duplicate geometry"
@@ -478,7 +478,7 @@ msgstr "apotek"
 
 #: ../../tools/database/items_menu.txt:47
 msgid "highway roundabout"
-msgstr "vägrondell"
+msgstr "cirkulationsplats"
 
 #: ../../tools/database/items_menu.txt:48
 msgid "bad source tag"
@@ -595,7 +595,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:95
 msgid "way type"
-msgstr "vägtyp"
+msgstr "typ av sträcka"
 
 #: ../../tools/database/items_menu.txt:96
 msgid "two names"
@@ -611,7 +611,7 @@ msgstr "öppen polygon"
 
 #: ../../tools/database/items_menu.txt:103
 msgid "duplicated way"
-msgstr "duplicerad väg"
+msgstr "duplicerad sträcka"
 
 #: ../../tools/database/items_menu.txt:104
 msgid "place without name"
@@ -663,7 +663,7 @@ msgstr "monument"
 
 #: ../../tools/database/items_menu.txt:118
 msgid "node on ways"
-msgstr "nod på linjer"
+msgstr "nod på sträckor"
 
 #: ../../tools/database/items_menu.txt:119
 #: ../../tools/database/items_menu.txt:146
@@ -790,7 +790,7 @@ msgstr "Html-lista"
 
 #: ../../tools/database/items_menu.txt:25
 msgid "one-node way"
-msgstr "enkelriktad väg"
+msgstr "sträcka med 1 nod"
 
 #: ../../tools/database/items_menu.txt:171
 msgid "toilets"
@@ -1867,11 +1867,11 @@ msgstr ""
 
 #: ../src/pages/translation.vue:21
 msgid "Translation is done on {Weblate}"
-msgstr ""
+msgstr "Översättning görs på {Weblate}"
 
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
-msgstr ""
+msgstr "Du kan skapa ett nytt språk direkt på {Weblate}."
 
 #~ msgid "openrailwaymap in germany"
 #~ msgstr "openrailwaymap i Tyskland"
