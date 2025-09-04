@@ -10,6 +10,7 @@ EOSQL
 
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "osmose_frontend" <<-EOSQL
     CREATE EXTENSION IF NOT EXISTS pgcrypto;
+    CREATE EXTENSION IF NOT EXISTS postgis;
 EOSQL
 
 psql -v ON_ERROR_STOP=1 --username "osmose" --dbname "osmose_frontend" < /schema.sql

@@ -12,7 +12,7 @@ apt install python3 python3-dev virtualenv gcc pkg-config libpng-dev libjpeg-dev
 #### Database
 
 ```
-apt install postgresql postgresql-contrib
+apt install postgresql postgresql-contrib postgresql-postgis
 ```
 
 #### Web server
