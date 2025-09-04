@@ -233,6 +233,22 @@ GROUP BY
     )
 
 
+def _issues_params(
+    z: int,
+    x: int,
+    y: int,
+    db: Connection,
+    params: commons_params.Params,
+) -> commons_params.Params:
+    params.limit = min(params.limit, 50 if z > 18 else 10000)
+    params.tilex = x
+    params.tiley = y
+    params.zoom = z
+    params.full = False
+
+    return params
+
+
 async def _issues(
     z: int,
     x: int,
@@ -240,11 +256,7 @@ async def _issues(
     db: Connection,
     params: commons_params.Params,
 ) -> List[Dict[str, Any]]:
-    params.limit = min(params.limit, 50 if z > 18 else 10000)
-    params.tilex = x
-    params.tiley = y
-    params.zoom = z
-    params.full = False
+    params = _issues_params(z, x, y, db, params)
 
     if params.zoom > 18 or params.zoom < 7:
         return []
@@ -260,10 +272,14 @@ async def issues_mvt(
     db: Connection = Depends(database.db),
     params: commons_params.Params = Depends(commons_params.params),
 ) -> Response:
+    params = _issues_params(z, x, y, db, params)
+
+    if params.zoom > 18 or params.zoom < 7:
+        return Response(status_code=204)
+
+    results = await query._gets(db, params)
     lon1, lat2 = tiles.tile2lonlat(x, y, z)
     lon2, lat1 = tiles.tile2lonlat(x + 1, y + 1, z)
-
-    results = await _issues(z, x, y, db, params)
     return mvtResponse(_errors_mvt(results, z, lon1, lat1, lon2, lat2, params.limit))
 
 
@@ -277,5 +293,10 @@ async def issues_geojson(
     db: Connection = Depends(database.db),
     params: commons_params.Params = Depends(commons_params.params),
 ) -> GeoJSONFeatureCollection:
-    results = await _issues(z, x, y, db, params)
+    params = _issues_params(z, x, y, db, params)
+
+    if params.zoom > 18 or params.zoom < 7:
+        return Response(status_code=204)
+
+    results = await query._gets(db, params)
     return _errors_geojson(results, z, params.limit)
