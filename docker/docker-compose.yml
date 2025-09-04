@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:16-alpine
+    image: postgres:17-alpine
     volumes:
       - type: bind
         source: ../tools/database/schema.sql
