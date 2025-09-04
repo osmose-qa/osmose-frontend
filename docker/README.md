@@ -5,12 +5,12 @@ Copy `.env.template` as `.env` and adjustcontent, only required to enable loggin
 Build the Docker image, within the docker directory:
 ```
 curl http://osmose.openstreetmap.fr/export/osmose-menu.sql.bz2 | bzcat > osmose-menu.sql
-docker-compose build
+docker compose build
 ```
 
 Run the containers:
 ```
-docker-compose up
+docker compose up
 ```
 
 The API server will be running at http://127.0.0.1:20009/
@@ -21,12 +21,12 @@ The Web server will be at https://localhost:8080/en/map/
 
 Run the database int the background:
 ```
-docker-compose up -d postgres
+docker compose up -d postgres
 ```
 
 ### API
 ```
-docker-compose -f docker-compose.yml -f docker-compose-dev.yml -f docker-compose-test.yml run -p 20009:20009 api
+docker compose -f docker-compose.yml -f docker-compose-dev.yml -f docker-compose-test.yml run -p 20009:20009 api
 ```
 
 Once on container, run the standalone API server
@@ -44,7 +44,7 @@ You can work on Web part easyily without Docker, look at main (README.md)[./READ
 
 Using Docker:
 ```
-docker-compose -f docker-compose.yml -f docker-compose-dev.yml run -p 8080:8080 web
+docker compose -f docker-compose.yml -f docker-compose-dev.yml run -p 8080:8080 web
 ```
 
 Once on container, for first time:
