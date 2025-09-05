@@ -1,10 +1,7 @@
-import math
 from typing import Any, Dict, List, Optional
 
-import mapbox_vector_tile  # type: ignore
 from asyncpg import Connection
 from fastapi import APIRouter, Depends, HTTPException, Request, Response
-from shapely.geometry import Point, Polygon  # type: ignore
 
 from modules import query, tiles
 from modules.dependencies import commons_params, database
@@ -16,68 +13,6 @@ router = APIRouter()
 
 class MVTResponse(Response):
     media_type = "application/vnd.mapbox-vector-tile"
-
-    def render(self, content: Any) -> bytes:
-        return mapbox_vector_tile.encode(
-            content["content"],
-            extents=content.get("extents", 2048),
-            quantize_bounds=content.get("quantize_bounds"),
-        )
-
-
-def mvtResponse(content) -> Response:
-    if not content or not content["content"]:
-        return Response(status_code=204)
-    else:
-        return MVTResponse(content, media_type="application/vnd.mapbox-vector-tile")
-
-
-def _errors_mvt(
-    results: List[Dict[str, Any]],
-    z: int,
-    min_lon: float,
-    min_lat: float,
-    max_lon: float,
-    max_lat: float,
-    limit: int,
-) -> Optional[Dict[str, Any]]:
-    if not results or len(results) == 0:
-        return None
-    else:
-        limit_feature = []
-        if len(results) == limit and z < 18:
-            limit_feature = [
-                {
-                    "name": "limit",
-                    "features": [
-                        {
-                            "geometry": Point(
-                                (min_lon + max_lon) / 2, (min_lat + max_lat) / 2
-                            )
-                        }
-                    ],
-                }
-            ]
-
-        issues_features = []
-        for res in sorted(results, key=lambda res: -res["lat"]):
-            issues_features.append(
-                {
-                    "id": res["id"],
-                    "geometry": Point(res["lon"], res["lat"]),
-                    "properties": {
-                        "uuid": str(res["uuid"]),
-                        "item": res["item"] or 0,
-                        "class": res["class"] or 0,
-                    },
-                }
-            )
-
-        return {
-            "content": [{"name": "issues", "features": issues_features}]
-            + limit_feature,
-            "quantize_bounds": (min_lon, min_lat, max_lon, max_lat),
-        }
 
 
 def _errors_geojson(
@@ -179,15 +114,15 @@ WHERE
     sql = (
         f"""
 SELECT
-    COUNT(*),
+    COUNT(*) AS count,
     (
         (lon-${len(sql_params)-4}) * ${len(sql_params)} /
-            (${len(sql_params)-2}-${len(sql_params)-4}) + 0.5
-    )::int AS latn,
+            (${len(sql_params)-2}-${len(sql_params)-4}) - 0.5
+    )::int AS x,
     (
         (lat-${len(sql_params)-3}) * ${len(sql_params)} /
             (${len(sql_params)-1}-${len(sql_params)-3}) + 0.5
-    )::int AS lonn,
+    )::int AS y,
     mode() WITHIN GROUP (ORDER BY items.marker_color) AS color
 FROM
 """
@@ -198,39 +133,45 @@ WHERE
         + where
         + """
 GROUP BY
-    latn,
-    lonn
+    x, y
 """
     )
 
-    features = []
-    for row in await db.fetch(sql, *sql_params):
-        count, x, y, color = row
-        count = max(
-            int(
-                math.log(count)
-                / math.log(limit / ((z - 4 + 1 + math.sqrt(COUNT)) ** 2))
-                * 255
-            ),
-            1 if count > 0 else 0,
-        )
-        if count > 0:
-            count = 255 if count > 255 else count
-            features.append(
-                {
-                    "geometry": Polygon(
-                        [(x, y), (x - 1, y), (x - 1, y - 1), (x, y - 1)]
-                    ),
-                    "properties": {"color": int(color[1:], 16), "count": count},
-                }
-            )
-
-    return mvtResponse(
-        {
-            "content": [{"name": "issues", "features": features}],
-            "extents": COUNT,
-        }
+    sql_params += [params.limit, params.zoom]
+    sql = f"""
+    WITH
+    grid AS ({sql}),
+    grid_count AS (
+        SELECT
+            greatest(
+                (
+                    log(count)
+                    / log(${len(sql_params)-1} / ((${len(sql_params)} - 4 + 1 + sqrt(${len(sql_params)-2})) ^ 2))
+                    * 255
+                )::int,
+                CASE WHEN count > 0 THEN 1 ELSE 0 END
+            ) AS count,
+            x AS x, ${len(sql_params)-2} - y AS y, color
+        FROM
+            grid
+    ),
+    a AS (
+        SELECT
+            least(count, 255) AS count,
+            ('0x' || substring(color, 2))::int AS color,
+            ST_MakeEnvelope(x, y, x+1, y+1) AS geom
+        FROM
+            grid_count
+        WHERE
+            count > 0
     )
+    SELECT ST_AsMVT(a, 'issues', ${len(sql_params)-2}::int, 'geom') FROM a
+    """
+    results = await db.fetchval(sql, *sql_params)
+    if results is None or len(results) == 0:
+        return Response(status_code=204)
+    else:
+        return MVTResponse(results)
 
 
 def _issues_params(
@@ -277,10 +218,11 @@ async def issues_mvt(
     if params.zoom > 18 or params.zoom < 7:
         return Response(status_code=204)
 
-    results = await query._gets(db, params)
-    lon1, lat2 = tiles.tile2lonlat(x, y, z)
-    lon2, lat1 = tiles.tile2lonlat(x + 1, y + 1, z)
-    return mvtResponse(_errors_mvt(results, z, lon1, lat1, lon2, lat2, params.limit))
+    results = await query._gets(db, params, mvt=True)
+    if results is None or len(results) == 0:
+        return Response(status_code=204)
+    else:
+        return MVTResponse(results)
 
 
 @router.get(
