@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+from typing import Any, Dict, Iterable, List, Optional, Tuple, Union
 
 from asyncpg import Connection
 
@@ -260,7 +260,9 @@ def fixes_default(fixes: List[List[Dict[str, Any]]]) -> List[List[Dict[str, Any]
     )
 
 
-async def _gets(db: Connection, params: Params) -> List[Dict[str, Any]]:
+async def _gets(
+    db: Connection, params: Params, mvt: bool = False
+) -> Union[List[Dict[str, Any]], bytes]:
     sqlbase = """
     SELECT
         uuid_to_bigint(uuid) as id,
@@ -335,6 +337,40 @@ async def _gets(db: Connection, params: Params) -> List[Dict[str, Any]]:
         ${len(sql_params)}"""
 
     sql = sqlbase % (join, where)
+
+    if mvt:
+        sql_params.extend([params.limit, params.zoom, params.tilex, params.tiley])
+        sql = f"""
+        WITH
+        query AS ({sql}),
+        issues AS (
+            SELECT
+                (id >> 32)::integer AS id, uuid, coalesce(item, 0) AS item, coalesce(class, 0) AS class,
+                ST_AsMVTGeom(
+                    ST_Transform(ST_SetSRID(ST_MakePoint(lon, lat), 4326), 3857),
+                    ST_TileEnvelope(${len(sql_params)-2}, ${len(sql_params)-1}, ${len(sql_params)}),
+                    4096, 0, false
+                ) AS geom
+            FROM query
+        ),
+        limit_ AS (
+            SELECT
+                ST_AsMVTGeom(
+                    ST_Centroid(ST_TileEnvelope(${len(sql_params)-2}, ${len(sql_params)-1}, ${len(sql_params)})),
+                    ST_TileEnvelope(${len(sql_params)-2}, ${len(sql_params)-1}, ${len(sql_params)}),
+                    4096, 0, false
+                ) AS geom
+            WHERE (SELECT COUNT(*) FROM query) >= ${len(sql_params)-3}
+        ),
+        layers AS (
+            SELECT ST_AsMVT(issues, 'issues', 4096, 'geom', 'id') AS layer FROM issues
+            UNION ALL
+            SELECT ST_AsMVT(limit_, 'limit', 4096, 'geom') AS layer FROM limit_
+        )
+        SELECT string_agg(layer, ''::bytea) FROM layers
+        """
+        return await db.fetchval(sql, *sql_params)
+
     results = list(await db.fetch(sql, *sql_params))
     return list(
         map(

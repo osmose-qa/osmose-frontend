@@ -2,8 +2,6 @@ asyncpg
 matplotlib >= 1.1
 requests >= 2.0
 polib
-protobuf < 4 # 4.x binary not yet compatible with system package, deps of mapbox-vector-tile
-mapbox-vector-tile
 pyclipper
 fastapi
 fastapi-sessions
