@@ -98,8 +98,6 @@ export const mapOverlay = {
   heatmap: 'Osmose Issues Heatmap',
 }
 
-const API_URL = 'https://osmose.openstreetmap.fr'
-
 export const glStyle = {
   version: 8,
   sources: {
