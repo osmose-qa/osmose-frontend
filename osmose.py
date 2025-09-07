@@ -58,6 +58,16 @@ def sprite_png():
     return Response(open("web_api/public/assets/sprite.png", "rb").read())
 
 
+@app.get("/assets/marker-gl-sprite.json")
+def sprite_png():
+    return Response(open("web_api/public/assets/marker-gl-sprite.json", "rb").read())
+
+
+@app.get("/assets/marker-gl-sprite.png")
+def sprite_png():
+    return Response(open("web_api/public/assets/marker-gl-sprite.png", "rb").read())
+
+
 @app.get("/images/markers/{filename:path}.png")
 def marker(filename):
     file_path = f"web_api/static/images/markers/{filename}.png"
