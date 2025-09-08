@@ -1,4 +1,4 @@
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
 from asyncpg import Connection
 from fastapi import APIRouter, Depends, HTTPException, Request, Response
@@ -51,12 +51,7 @@ def _errors_geojson(
         return features_collection
 
 
-@router.get(
-    "/0.3/issues/{z}/{x}/{y}.heat.mvt",
-    response_class=MVTResponse,
-    response_model=None,
-    tags=["tiles"],
-)
+@router.get("/0.3/issues/{z}/{x}/{y}.heat.mvt", tags=["tiles"])
 async def heat(
     request: Request,
     z: int,
@@ -64,7 +59,7 @@ async def heat(
     y: int,
     db: Connection = Depends(database.db),
     params=Depends(commons_params.params),
-) -> Optional[Response]:
+) -> Response:
     COUNT = 32
 
     lon1, lat2 = tiles.tile2lonlat(x, y, z)
@@ -76,9 +71,9 @@ async def heat(
     params.zoom = z
 
     if params.zoom > 18:
-        return None
+        return Response(status_code=204)
 
-    limit = await db.fetchrow(
+    limit = await db.fetchval(
         """
 SELECT
     SUM((SELECT SUM(t) FROM UNNEST(number) t))
@@ -88,9 +83,7 @@ WHERE
 """
         + items
     )
-    if limit and limit[0]:
-        limit = float(limit[0])
-    else:
+    if limit is None:
         raise HTTPException(status_code=404)
 
     join, where, sql_params = query._build_param(
@@ -199,13 +192,13 @@ async def _issues(
 ) -> List[Dict[str, Any]]:
     params = _issues_params(z, x, y, db, params)
 
-    if params.zoom > 18 or params.zoom < 7:
+    if params.zoom is None or params.zoom > 18 or params.zoom < 7:
         return []
 
     return await query._gets(db, params)
 
 
-@router.get("/0.3/issues/{z}/{x}/{y}.mvt", response_class=MVTResponse, tags=["tiles"])
+@router.get("/0.3/issues/{z}/{x}/{y}.mvt", tags=["tiles"])
 async def issues_mvt(
     z: int,
     x: int,
@@ -215,30 +208,28 @@ async def issues_mvt(
 ) -> Response:
     params = _issues_params(z, x, y, db, params)
 
-    if params.zoom > 18 or params.zoom < 7:
+    if params.zoom is None or params.zoom > 18 or params.zoom < 7:
         return Response(status_code=204)
 
-    results = await query._gets(db, params, mvt=True)
+    results = await query._gets_mvt(db, params)
     if results is None or len(results) == 0:
         return Response(status_code=204)
     else:
         return MVTResponse(results)
 
 
-@router.get(
-    "/0.3/issues/{z}/{x}/{y}.geojson", response_class=GeoJSONResponse, tags=["tiles"]
-)
+@router.get("/0.3/issues/{z}/{x}/{y}.geojson", tags=["tiles"])
 async def issues_geojson(
     z: int,
     x: int,
     y: int,
     db: Connection = Depends(database.db),
     params: commons_params.Params = Depends(commons_params.params),
-) -> GeoJSONFeatureCollection:
+) -> Response:
     params = _issues_params(z, x, y, db, params)
 
-    if params.zoom > 18 or params.zoom < 7:
+    if params.zoom is None or params.zoom > 18 or params.zoom < 7:
         return Response(status_code=204)
 
     results = await query._gets(db, params)
-    return _errors_geojson(results, z, params.limit)
+    return GeoJSONResponse(_errors_geojson(results, z, params.limit))

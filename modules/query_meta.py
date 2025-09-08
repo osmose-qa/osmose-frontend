@@ -103,7 +103,7 @@ async def _items(
     items = await db.fetch(sql, *sql_params)
     items = list(
         map(
-            lambda r: dict(
+            lambda r: dict(  # type: ignore
                 r,
                 title=i10n_select(r["title"], langs),
                 levels=r["number"]
@@ -155,7 +155,7 @@ async def _items(
     classses = await db.fetch(sql, *sql_params)
     classses = list(
         map(
-            lambda c: dict(
+            lambda c: dict(  # type: ignore
                 dict(c),
                 title=i10n_select(c["title"], langs),
                 detail=i10n_select(c["detail"], langs),

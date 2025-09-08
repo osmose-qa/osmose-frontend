@@ -26,7 +26,7 @@ FROM
 ORDER BY
     updates_last.timestamp DESC
 """
-    return dict(list=await db.fetch(sql))
+    return dict(list=await db.fetch(sql))  # type: ignore
 
 
 @router.get("/update_matrix.json", tags=["insight"])
@@ -268,4 +268,4 @@ WHERE
 ORDER BY
     timestamp DESC
 """
-    return dict(list=await db.fetch(sql, source))
+    return dict(list=await db.fetch(sql, source))  # type: ignore

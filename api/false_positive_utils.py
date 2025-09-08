@@ -56,4 +56,7 @@ async def _get(
         )
         marker = await db.fetchrow(sql, status, uuid)
 
-    return (marker, columns)
+    return (
+        dict(marker) if marker is not None else None,
+        columns,
+    )
