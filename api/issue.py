@@ -19,43 +19,6 @@ router = APIRouter()
 Status = Literal["done", "false"]
 
 
-async def _remove_bug_err_id(db: Connection, error_id: int, status: Status) -> int:
-    # find source
-    source_id = None
-    sql = "SELECT uuid,source_id,class FROM markers WHERE uuid_to_bigint(uuid) = $1"
-    for res in await db.fetch(sql, error_id):
-        uuid = res["uuid"]
-        source_id = res["source_id"]
-        class_id = res["class"]
-
-    if not source_id:
-        return -1
-
-    async with db.transaction():
-        await db.execute("DELETE FROM markers_status WHERE uuid=$1", uuid)
-
-        await db.execute(
-            """INSERT INTO markers_status
-                            (source_id,item,class,elems,date,status,lat,lon,subtitle,uuid)
-                        SELECT source_id,item,class,elems,NOW(),$1,
-                                lat,lon,subtitle,uuid
-                        FROM markers
-                        WHERE uuid = $2
-                        ON CONFLICT DO NOTHING""",
-            status,
-            uuid,
-        )
-
-        await db.execute("DELETE FROM markers WHERE uuid = $1", uuid)
-        await db.execute(
-            "UPDATE markers_counts SET count = count - 1 WHERE source_id = $1 AND class = $2",
-            source_id,
-            class_id,
-        )
-
-    return 0
-
-
 async def _remove_bug_uuid(db: Connection, uuid: UUID, status: Status) -> int:
     # find source
     source_id = None
@@ -160,19 +123,6 @@ async def fresh_elems_uuid_num(
         elem["tags"] = expand_tags(elem["tags"])
 
     return ret
-
-
-@router.get("/0.2/error/{err_id}", tags=["0.2"])
-async def error_err_id(
-    err_id: int, db: Connection = Depends(database.db)
-) -> Dict[str, Any]:
-    return _error(
-        2,
-        db,
-        ["en"],
-        None,
-        await _get(db, err_id=err_id),
-    )
 
 
 @router.get("/0.3/issue/{uuid}", tags=["issues"])
@@ -295,19 +245,6 @@ def _error(
             "elems": elems,
             "new_elems": new_elems,
         }
-
-
-@router.get("/0.2/error/{err_id}/{status}", tags=["0.2"])
-async def status_err_id(
-    request: Request,
-    err_id: int,
-    status: Status,
-    db: Connection = Depends(database.db_rw),
-) -> None:
-    if await _remove_bug_err_id(db, err_id, status) == 0:
-        return None
-    else:
-        raise HTTPException(status_code=410, detail="FAIL")
 
 
 @router.get("/0.3/issue/{uuid}/{status}", tags=["issues"])

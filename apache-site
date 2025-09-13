@@ -128,7 +128,6 @@
 #	RewriteCond %{REQUEST_URI} !/maintenance.html$
 #	RewriteRule !^maintenance.html$ maintenance.html [R=302,L]
 
-	RewriteRule "^(/api/0.2/.*)" "/en$1" [PT]
 	RewriteRule "^/([a-z_]+)(/api/0\.3/.*)" "$2?%{QUERY_STRING}&langs=$1" [PT]
 	RewriteRule "^/([a-z_]+)/error/(.*)" "/$1/issue/$2?%{QUERY_STRING}" [R,L]
 	RewriteRule "^/([a-z_]+)/errors/done(.*)" "/$1/issues/done$2" [R,L]

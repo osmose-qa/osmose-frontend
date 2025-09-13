@@ -1,5 +1,4 @@
 import json
-from collections import OrderedDict
 from itertools import groupby
 from typing import Any, Dict, List, Literal, Tuple
 
@@ -49,92 +48,6 @@ class NLJSONResponse(Response):
         return ("\x1e" + "\n\x1e".join([json.dumps(line) for line in content])).encode(
             "utf-8"
         )
-
-
-@router.get("/0.2/errors", tags=["0.2"])
-async def errors(
-    request: Request,
-    db: Connection = Depends(database.db),
-    params=Depends(commons_params.params),
-) -> Dict[str, Any]:
-    results = await query._gets(db, params)
-    out: Dict[str, Any] = OrderedDict()
-
-    if not params.full:
-        out["description"] = ["lat", "lon", "error_id", "item"]
-    else:
-        out["description"] = [
-            "lat",
-            "lon",
-            "error_id",
-            "item",
-            "source",
-            "class",
-            "elems",
-            "subclass",
-            "subtitle",
-            "title",
-            "level",
-            "update",
-            "username",
-        ]
-    out["errors"] = []
-
-    for res in results:
-        lat = res["lat"]
-        lon = res["lon"]
-        error_id = res["id"]
-        item = res["item"] or 0
-
-        if not params.full:
-            out["errors"].append([str(lat), str(lon), str(error_id), str(item)])
-        else:
-            source = res["source_id"]
-            classs = res["class"]
-            elems = "_".join(
-                map(
-                    lambda elem: {"N": "node", "W": "way", "R": "relation"}[
-                        elem["type"]
-                    ]
-                    + str(elem["id"]),
-                    res["elems"] or [],
-                )
-            )
-            subclass = 0
-
-            subtitle_auto = utils.i10n_select(res["subtitle"], ["en"])
-            subtitle = subtitle_auto and subtitle_auto["auto"] or ""
-
-            title_auto = utils.i10n_select(res["title"], ["en"])
-            title = title_auto and title_auto["auto"] or ""
-
-            level = res["level"]
-            update = res["timestamp"]
-            username = ",".join(
-                map(
-                    lambda elem: "username" in elem and elem["username"] or "",
-                    res["elems"] or [],
-                )
-            )
-            out["errors"].append(
-                [
-                    str(lat),
-                    str(lon),
-                    str(error_id),
-                    str(item),
-                    str(source),
-                    str(classs),
-                    str(elems),
-                    str(subclass),
-                    subtitle,
-                    title,
-                    str(level),
-                    str(update),
-                    username,
-                ]
-            )
-
-    return out
 
 
 @router.get("/0.3/issues", tags=["issues"])

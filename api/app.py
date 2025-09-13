@@ -10,8 +10,7 @@ from . import false_positive, issue, issues, issues_tiles, meta_0_3, user
 
 openapi_tags = [
     {
-        "name": "0.2",
-        "description": "The 0.2 part of the API is deprecated.",
+        "name": "0.3",
     },
 ]
 
