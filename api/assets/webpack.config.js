@@ -6,11 +6,11 @@ module.exports = (env, argv) => {
         entry: {
         },
         output: {
-            path: path.resolve(__dirname, '../public/assets'),
+            path: path.resolve(__dirname, '.'),
         },
         plugins: [
             new SpritezeroWebpackPlugin({
-                source: '../web_api/static/images/**/*.svg',
+                source: '{markers/*.svg,limit.svg}',
                 output: 'marker-gl-',
             })
         ],

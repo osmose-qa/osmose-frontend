@@ -211,7 +211,7 @@ async def main():
         all_items += g["items"]
     # all_items = [{"item":9999, "marker_flag":"=-", "marker_color":"#ff0000"}] # Test
 
-    marker_folder = os.path.join("..", "web_api", "static", "images", "markers")
+    marker_folder = os.path.join("..", "api", "assets", "markers")
     subprocess.getstatusoutput("rm " + os.path.join(marker_folder, "*.png"))
     css = "/* sprite-loader-enable */\n"
     for i in all_items:

@@ -12,7 +12,7 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "marker_css": "cd ../../tools && ./make-markers.py && cd - && mkdir -p ../public/assets && cd ../public/assets && postcss ../../static/images/markers/*.css -o sprites.css",
+    "marker_css": "cd ../../tools && ./make-markers.py && cd - && postcss markers/*.css -o sprites.css",
     "marker-gl-sprite": "webpack --mode=production",
     "build": "npm run marker_css && npm run marker-gl-sprite"
   },

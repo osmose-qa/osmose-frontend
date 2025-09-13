@@ -108,8 +108,8 @@ Check data base parameter into `modules/utils.py`.
 
 To package web assets, including previously generated markers, run
 ```
-(cd web     && npm install && npm run build)
-(cd web_api && npm install && npm run build)
+(cd web        && npm install && npm run build)
+(cd api/assets && npm install && npm run build)
 ```
 
 

@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+import os
+
+from fastapi import FastAPI, HTTPException, Response
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.utils import get_openapi
 
@@ -106,3 +108,35 @@ app.include_router(issue.router)
 app.include_router(issues.router)
 app.include_router(issues_tiles.router)
 app.include_router(false_positive.router)
+
+
+@app.get("/0.3/assets/sprites.css")
+def sprites_css():
+    file_path = "api/assets/sprites.css"
+    if os.path.isfile(file_path):
+        return Response(open(file_path, "rb").read())
+    else:
+        raise HTTPException(status_code=404)
+
+
+@app.get("/0.3/assets/sprite.png")
+def sprite_png():
+    return Response(open("api/assets/sprite.png", "rb").read())
+
+
+@app.get("/0.3/assets/marker-gl-sprite.json")
+def marker_gl_sprite_json():
+    return Response(open("api/assets/marker-gl-sprite.json", "rb").read())
+
+
+@app.get("/0.3/assets/marker-gl-sprite.png")
+def marker_gl_sprite_png():
+    return Response(open("api/assets/marker-gl-sprite.png", "rb").read())
+
+
+@app.get("/0.3/assets/markers/{filename:path}.png")
+def marker(filename):
+    file_path = f"api/markers/{filename}.png"
+    if not os.path.isfile(file_path):
+        file_path = "api/markers/marker-b-0.png"
+    return Response(open(file_path, "rb").read())

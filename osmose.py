@@ -44,38 +44,6 @@ def index(request: Request, langs: LangsNegociation = Depends(langs.langs)):
     return responses.RedirectResponse(url=path)
 
 
-@app.get("/assets/sprites.css")
-def sprites_css():
-    file_path = "web_api/public/assets/sprites.css"
-    if os.path.isfile(file_path):
-        return Response(open(file_path, "rb").read())
-    else:
-        raise HTTPException(status_code=404)
-
-
-@app.get("/assets/sprite.png")
-def sprite_png():
-    return Response(open("web_api/public/assets/sprite.png", "rb").read())
-
-
-@app.get("/assets/marker-gl-sprite.json")
-def sprite_png():
-    return Response(open("web_api/public/assets/marker-gl-sprite.json", "rb").read())
-
-
-@app.get("/assets/marker-gl-sprite.png")
-def sprite_png():
-    return Response(open("web_api/public/assets/marker-gl-sprite.png", "rb").read())
-
-
-@app.get("/images/markers/{filename:path}.png")
-def marker(filename):
-    file_path = f"web_api/static/images/markers/{filename}.png"
-    if not os.path.isfile(file_path):
-        file_path = "web_api/static/images/markers/marker-b-0.png"
-    return Response(open(file_path, "rb").read())
-
-
 @app.get("/{path_name:path}")
 async def catch_all(path_name: str):
     file_path = f"web/public/{path_name}"

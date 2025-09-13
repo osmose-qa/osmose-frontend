@@ -1,5 +1,9 @@
 __pycache__
 
+api/assets/markers/*.svg
+api/assets/marker-gl-sprite*
+api/assets/node_modules/
+
 web/po/mo
 web/po/osmose-frontend.pot.tmp
 web/po/tmp.tpl
@@ -11,15 +15,7 @@ web_api/public/
 web_api/static/images
 web_api/static/node_modules
 
-web/static/.webassets-cache/
-web/static/gen/
-web/static/osmose-coverage.json*
-web/static/osmose-coverage.topojson.pbf*
-
-web/node_modules
 osmose-frontend-venv
-
-web/public/assets
 
 .mypy_cache
 

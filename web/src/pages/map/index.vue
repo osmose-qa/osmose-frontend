@@ -232,7 +232,7 @@ export default VueParent.extend({
   created(): void {
     document.querySelector(
       'head'
-    ).innerHTML += `<link rel="stylesheet" href="${API_URL}/assets/sprites.css" type="text/css"/>`
+    ).innerHTML += `<link rel="stylesheet" href="${API_URL}/api/0.3/assets/sprites.css" type="text/css"/>`
     this.initializeItemState()
     this.initializeMapState()
   },
