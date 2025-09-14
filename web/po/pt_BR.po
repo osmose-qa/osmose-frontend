@@ -16,16 +16,17 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2014-04-28 19:22+0000\n"
-"Last-Translator: ViriatoLusitano <marcosoliveira.2405@gmail.com>, 2014\n"
-"Language-Team: Portuguese (Brazil) (http://app.transifex.com/openstreetmap-"
-"france/osmose/language/pt_BR/)\n"
+"PO-Revision-Date: 2025-09-14 16:42+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"osmose/frontend/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
 "1000000 == 0 ? 1 : 2;\n"
+"X-Generator: Weblate 5.14-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -1555,8 +1556,8 @@ msgid ""
 msgstr ""
 "A adição de novas funcionalidades do \"Editor Osmose\", o suporte inicial a "
 "dispositivos móveis e o melhoramento da documentação foram fundados pela "
-"região de Aquitânia, na França; que faz parte do projeto gerido por \"Les "
-"Petits Débrouillards d'Aquitaine\"."
+"região de Aquitânia, na França; que faz parte do projeto gerido por "
+"\"Les Petits Débrouillards d'Aquitaine\"."
 
 #: ../src/components/issues-list.vue:196
 msgid "delete issue #{uuid}"
@@ -1621,8 +1622,7 @@ msgstr ""
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
-msgstr ""
-"Desenvolvimento do Osmose é feito como software livre por {volunteers}."
+msgstr "Desenvolvimento do Osmose é feito como software livre por {volunteers}."
 
 #: ../src/pages/translation.vue:65
 msgid ""
