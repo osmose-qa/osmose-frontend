@@ -134,12 +134,12 @@ def marker_gl_sprite_png():
 
 
 @app.get("/0.3/assets/marker-gl-sprite@2x.json")
-def marker_gl_sprite_json():
+def marker_gl_sprite_2x_json():
     return Response(open("api/assets/marker-gl-sprite@2x.json", "rb").read())
 
 
 @app.get("/0.3/assets/marker-gl-sprite@2x.png")
-def marker_gl_sprite_png():
+def marker_gl_sprite_2x_png():
     return Response(open("api/assets/marker-gl-sprite@2x.png", "rb").read())
 
 
