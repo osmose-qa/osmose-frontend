@@ -368,7 +368,7 @@
               </td>
               <td>
                 <img
-                  :src="api_url + `/images/markers/marker-l-${res.item}.png`"
+                  :src="api_url + `/api/0.3/markers/marker-l-${res.item}.png`"
                   :alt="res.item"
                 />
                 <router-link
@@ -598,7 +598,7 @@ export default VueParent.extend({
           if (res) {
             title += ' - ' + res.menu.auto
             const favicon = document.getElementById('favicon')
-            this.favicon = API_URL + `/images/markers/marker-l-${this.item}.png`
+            this.favicon = API_URL + `/api/0.3/markers/marker-l-${this.item}.png`
             favicon.href = this.favicon
           }
 
