@@ -304,7 +304,7 @@ export default VueParent.extend({
     },
 
     getMakerImgSrc(issue: Issue) {
-      return API_URL + `/images/markers/marker-l-${issue.item}.png`
+      return API_URL + `/api/0.3/assets/markers/marker-l-${issue.item}.png`
     },
 
     issue_action(event: MouseEvent) {

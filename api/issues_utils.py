@@ -239,7 +239,7 @@ def kml(
                 E.IconStyle(
                     E.Icon(
                         E.href(
-                            "https://osmose.openstreetmap.fr/images/markers/marker-b-1070.png"
+                            "https://osmose.openstreetmap.fr/api/0.3/assets/markers/marker-b-1070.png"
                         )
                     ),
                 ),
