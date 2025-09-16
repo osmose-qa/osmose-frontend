@@ -157,7 +157,7 @@ export default VueParent.extend({
 
         const favicon = document.getElementById('favicon') as HTMLAnchorElement
         favicon.href =
-          API_URL + `/api/0.3/markers/marker-l-${this.marker.item}.png`
+          API_URL + `/api/0.3/assets/markers/marker-l-${this.marker.item}.png`
       }
     )
   },

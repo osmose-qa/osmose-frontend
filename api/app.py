@@ -145,7 +145,7 @@ def marker_gl_sprite_2x_png():
 
 @app.get("/0.3/assets/markers/{filename:path}.png")
 def marker(filename):
-    file_path = f"api/markers/{filename}.png"
+    file_path = f"api/assets/markers/{filename}.png"
     if not os.path.isfile(file_path):
-        file_path = "api/markers/marker-b-0.png"
+        file_path = "api/assets/markers/marker-b-0.png"
     return Response(open(file_path, "rb").read())
