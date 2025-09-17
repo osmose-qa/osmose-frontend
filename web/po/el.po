@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-09-14 16:42+0000\n"
+"PO-Revision-Date: 2025-09-17 21:01+0000\n"
 "Last-Translator: Jim Kats <jim-kats@hotmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/osmose/frontend/el/"
 ">\n"
@@ -936,7 +936,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:92
 msgid "roundabout as area"
-msgstr ""
+msgstr "κυκλικός κόμβος ως περιοχή"
 
 #: ../../tools/database/items_menu.txt:126
 msgid "road"
