@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-11-03 22:51+0000\n"
+"PO-Revision-Date: 2025-11-04 00:51+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -878,7 +878,7 @@ msgstr ""
 #: ../../web_api/byuser.py:83
 #, python-brace-format
 msgid "Number of level {level} issues: {count}"
-msgstr ""
+msgstr "Antal nivå {level}-problem : {count}"
 
 #: ../src/pages/byuser/index.vue:3
 msgid "Osmose allows you to control your own issues."
