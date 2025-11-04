@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-11-04 00:51+0000\n"
+"PO-Revision-Date: 2025-11-04 17:51+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -1769,7 +1769,7 @@ msgstr ""
 
 #: ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr ""
+msgstr "Zooma in för att se problem."
 
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
@@ -1781,11 +1781,11 @@ msgstr ""
 
 #: ../../web_api/byuser.py:96
 msgid "Statistics for user {}"
-msgstr ""
+msgstr "Statistik för användaren {}"
 
 #: ../src/pages/issues/index.vue:281
 msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
-msgstr ""
+msgstr "{{ showAnalyserCount }} / {{ errors_groups.length }} rader. Visa mer."
 
 #: ../../tools/database/items_menu.txt:62
 msgid "small land use"
@@ -1793,13 +1793,14 @@ msgstr "liten landanvändning"
 
 #: ../src/pages/contact.vue:99
 msgid "Chat with Osmose-QA developers and community at {matrix} on Matrix."
-msgstr ""
+msgstr "Chatta med Osmose-QA utvecklare och community på {matrix} via Matrix."
 
 #: ../src/pages/contact.vue:85
 msgid ""
 "Keep in touch by watching at {twitter} on Twitter or at {mastodon} on "
 "Mastodon."
 msgstr ""
+"Håll dig uppdaterad via {twitter} på X/Twitter eller {mastodon} på Mastodon."
 
 #: ../src/components/confirmFalsePositive.vue
 msgid ""
@@ -1814,6 +1815,16 @@ msgid ""
 "If Osmose reports lots of issues similar to this one and you disagree with "
 "this, please fill a Github issue and let us try to fix it."
 msgstr ""
+"Rapportera problemet som felaktigt.\n"
+"\n"
+"Gör detta ifall att problemet som Osmose flaggar faktiskt inte är ett fel i "
+"OSM-datat.\n"
+"\n"
+"Varning: problemet kommer inte heller fortsätta visas för andra användare. "
+"Om du är osäker, lämna Osmose-problemet öppet.\n"
+"\n"
+"Om Osmose flaggar många liknande problem som du anser inte borde flaggas, "
+"rapportera det via GitHub och låt oss försöka fixa det."
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
@@ -1864,6 +1875,14 @@ msgid ""
 "- https://wiki.openstreetmap.org/wiki/"
 "What%27s_the_problem_with_mechanical_edits%3F"
 msgstr ""
+"Du har gjort ett stort antal förbättringar, härligt!\n"
+"\n"
+"Det kanske inte gäller dig, men kom ihåg att Osmose-QA inte är tänkt att "
+"användas för så kallat automatiserade eller mekaniska ändringar. Läs gärna "
+"vad OSM skriver om detta här:\n"
+"- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
+"- https://wiki.openstreetmap.org/wiki/"
+"What%27s_the_problem_with_mechanical_edits%3F"
 
 #: ../src/pages/translation.vue:21
 msgid "Translation is done on {Weblate}"
