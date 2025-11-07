@@ -432,12 +432,6 @@
       "rank": "normal"
     },
     {
-      "key": "Key:contact:website",
-      "url": "https://webcache.googleusercontent.com/search?q=cache:$1",
-      "source": "wikidata:P3303",
-      "rank": "normal"
-    },
-    {
       "key": "Key:contact:yelp",
       "url": "https://www.yelp.com/biz/$1",
       "source": "osmwiki:P8",
@@ -2510,12 +2504,6 @@
     {
       "key": "Key:website",
       "url": "https://web.archive.org/web/*/$1/",
-      "source": "wikidata:P3303",
-      "rank": "normal"
-    },
-    {
-      "key": "Key:website",
-      "url": "https://webcache.googleusercontent.com/search?q=cache:$1",
       "source": "wikidata:P3303",
       "rank": "normal"
     },
