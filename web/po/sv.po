@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-11-08 21:51+0000\n"
+"PO-Revision-Date: 2025-11-12 06:51+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -872,7 +872,7 @@ msgstr "Fixade problem"
 #. TRANSLATORS: link to help in appropriate language
 #: ../src/pages/map/top.vue:18
 msgid "Issues by user"
-msgstr ""
+msgstr "Problem utifrån användare"
 
 #: ../../web_api/byuser.py:69 ../../web_api/byuser.py:76
 #: ../../web_api/byuser.py:83
@@ -882,7 +882,7 @@ msgstr "Antal nivå {level}-problem : {count}"
 
 #: ../src/pages/byuser/index.vue:3
 msgid "Osmose allows you to control your own issues."
-msgstr ""
+msgstr "Osmose möjliggör att kontrollera dina egna problem."
 
 #: ../src/pages/byuser/index.vue:5
 msgid ""
