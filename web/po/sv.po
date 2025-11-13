@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-11-12 06:51+0000\n"
+"PO-Revision-Date: 2025-11-13 21:51+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -891,6 +891,11 @@ msgid ""
 "attaches issues to username is not perfect, as Osmose only checks the last "
 "contributor of the relevant erroneous elements."
 msgstr ""
+"Genom att ange ditt OSM-användarnamn i fältet kan du se de problem som kan "
+"vara kopplade till dig. Tänk på att metoden för att associera ett problem "
+"med en användare inte alltid betyder att den användaren orsakat problemet, "
+"då Osmose bara tittar på den användare som senast redigerat det aktuella "
+"objektet."
 
 #: ../src/pages/issues/index.vue:297
 msgid "Show more issues"
@@ -898,7 +903,7 @@ msgstr "Visa fler problem"
 
 #: ../src/components/issues-list.vue:266
 msgid "information on issue"
-msgstr ""
+msgstr "information om problem"
 
 #: ../src/components/issues-list.vue:103
 msgid "issue n°"
@@ -906,7 +911,7 @@ msgstr "problem n°"
 
 #: ../src/pages/index.vue:6
 msgid "Map of issues"
-msgstr ""
+msgstr "Karta över problem"
 
 #: ../src/pages/index.vue:16
 msgid "Information on issues database"
@@ -934,7 +939,7 @@ msgstr "inomhus"
 
 #: ../../tools/database/items_menu.txt:92
 msgid "roundabout as area"
-msgstr ""
+msgstr "cirkulationsplats som yta"
 
 #: ../../tools/database/items_menu.txt:126
 msgid "road"
@@ -950,11 +955,11 @@ msgstr "Osmose QA startsida"
 
 #: ../../tools/database/items_menu.txt:23
 msgid "far from water"
-msgstr ""
+msgstr "långt från vatten"
 
 #: ../../tools/database/items_menu.txt:85
 msgid "fixme import"
-msgstr ""
+msgstr "fixme import"
 
 #: ../../tools/database/items_menu.txt:26
 msgid "objects intersection"
@@ -991,7 +996,7 @@ msgstr "samåkning, uppdatering behövs"
 
 #: ../src/pages/control/update_summary_by_analyser.vue:7
 msgid "Analyser"
-msgstr ""
+msgstr "Analyserare"
 
 #: ../src/pages/control/update_summary_by_analyser.vue:8
 msgid "Count"
@@ -1043,7 +1048,7 @@ msgstr "nästan sammankoppling"
 
 #: ../../tools/database/items_menu.txt:44
 msgid "public_transport route"
-msgstr ""
+msgstr "public_transport rutt"
 
 #: ../../tools/database/items_menu.txt:75
 msgid "recycling container"
@@ -1055,7 +1060,7 @@ msgstr "duplicerad wikipedia"
 
 #: ../../tools/database/items_menu.txt:76
 msgid "route access mismatch"
-msgstr ""
+msgstr "rutt-tillträde matchar inte"
 
 #: ../../tools/database/items_menu.txt:101
 msgid "similar name"
@@ -1071,7 +1076,7 @@ msgstr "telefonnummer"
 
 #: ../../tools/database/items_menu.txt:194
 msgid "traffic signs"
-msgstr ""
+msgstr "vägmärken"
 
 #: ../../tools/database/items_menu.txt:196
 msgid "traffic sign limitation"
@@ -1173,7 +1178,7 @@ msgstr "Objekt ändrade"
 #: ../src/pages/map/popup.vue:103
 #, python-brace-format
 msgid "Show Object on {where}"
-msgstr ""
+msgstr "Visa objekt i {where}"
 
 #: ../src/pages/map/popup.vue:120 ../src/pages/map/popup.vue:129
 #: ../src/pages/map/popup.vue:138 ../src/pages/map/popup.vue:147
@@ -1181,11 +1186,11 @@ msgstr ""
 #: ../src/pages/map/popup.vue:172
 #, python-brace-format
 msgid "Edit Object with {where}"
-msgstr ""
+msgstr "Redigera objekt med {where}"
 
 #: ../src/pages/map/popup.vue:173 ../src/pages/map/popup.vue:200
 msgid "online Osmose Editor"
-msgstr ""
+msgstr "online Osmose-editor"
 
 #: ../src/pages/map/popup.vue:193 ../src/pages/map/popup.vue:199
 #, python-brace-format
@@ -1195,17 +1200,17 @@ msgstr ""
 #: ../src/pages/map/popup.vue:280
 #, python-brace-format
 msgid "Add the new object in {where}"
-msgstr ""
+msgstr "Lägg till det nya objektet i {where}"
 
 #: ../src/pages/map/popup.vue:331
 #, python-brace-format
 msgid "Show the area on {where}"
-msgstr ""
+msgstr "Visa området i {where}"
 
 #: ../src/pages/map/popup.vue:336 ../src/pages/map/popup.vue:342
 #, python-brace-format
 msgid "Edit the area on {where}"
-msgstr ""
+msgstr "Redigera området i {where}"
 
 #: ../src/pages/map/popup.vue:134
 msgid "details"
@@ -1213,7 +1218,7 @@ msgstr "detaljer"
 
 #: ../src/pages/map/popup.vue:139
 msgid "Issue reported on:"
-msgstr ""
+msgstr "Problem rapporterat:"
 
 #: ../src/pages/map/popup.vue:388
 msgid ""
