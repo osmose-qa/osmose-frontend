@@ -27,8 +27,8 @@
       </p>
       <p>
         <translate>
-          In no case Osmose-QA should provide you the absolute right way to map,
-          always keep a critical eye.
+          In no case does Osmose-QA tell you the absolute right way to map.
+          Always keep a critical eye.
         </translate>
       </p>
       <p>
