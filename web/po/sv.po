@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-11-13 21:51+0000\n"
+"PO-Revision-Date: 2025-11-22 22:51+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -1470,7 +1470,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:217
 msgid "milestone"
-msgstr ""
+msgstr "milsten"
 
 #: ../../tools/database/items_menu.txt:218
 msgid "milestone, could be integrated"
@@ -1482,7 +1482,7 @@ msgstr "utsiktsplats"
 
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
-msgstr ""
+msgstr "picknick"
 
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
@@ -1506,11 +1506,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:153
 msgid "place of worship"
-msgstr ""
+msgstr "plats för religiös utövning"
 
 #: ../../tools/database/items_menu.txt:222
 msgid "cemetery"
-msgstr ""
+msgstr "begravningsplats"
 
 #: ../../tools/database/items_menu.txt:223
 msgid "man made"
@@ -1538,7 +1538,7 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:196
 msgid "delete issue #{uuid}"
-msgstr ""
+msgstr "radera problem #{uuid}"
 
 #: ../src/pages/issue/index.vue
 msgid "Information on issue {uuid}"
@@ -1546,11 +1546,11 @@ msgstr "Information om problem {uuid}"
 
 #: ../src/pages/issues/matrix.vue
 msgid "Issue counts matrix"
-msgstr ""
+msgstr "Matris över antal problem"
 
 #: ../src/components/issues-list.vue:178
 msgid "Mark issue #{uuid} as false positive"
-msgstr ""
+msgstr "Markera problem #{uuid} som falsk positiv"
 
 #: ../src/components/issues-list.vue:188
 msgid "Mark issue #{uuid} as fixed"
@@ -1562,7 +1562,7 @@ msgstr "Antal hittade problem: {count}"
 
 #: ../src/pages/byuser/byuser.vue:58
 msgid "Number of found issues: more than {count}"
-msgstr ""
+msgstr "Antal hittade problem: fler än {count}"
 
 #: ../src/pages/byuser/byuser.vue
 msgid "Statistics for user {user}"
@@ -1573,14 +1573,17 @@ msgid ""
 "This page shows issues on elements that were last modified by '{users}'. "
 "This doesn't mean that this user is responsible for all these issues."
 msgstr ""
+"Den här sidan visar problem för objekt som senast ändrades av '{users}'. Det "
+"betyder inte att denna användare är ansvarig för att ha skapat alla dessa "
+"problem."
 
 #: ../src/pages/byuser/byuser.vue:7
 msgid "User statistics for {users}"
-msgstr ""
+msgstr "Användarstatistik för {users}"
 
 #: ../src/pages/translation.vue:82
 msgid "{osmose-frontend} can be used to report any issue with translations."
-msgstr ""
+msgstr "{osmose-frontend} kan användas för att rapportera fel i översättningar."
 
 #: ../src/pages/contact.vue:5
 msgid ""
@@ -1591,16 +1594,16 @@ msgstr ""
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
-msgstr ""
+msgstr "Utveckling av Osmose görs som fri programvara av {volunteers}."
 
 #: ../src/pages/translation.vue:65
 msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
-msgstr ""
+msgstr "För nya länder kan vi kontaktas direkt via e-post till {email}."
 
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
-msgstr ""
+msgstr "Vi kan kontaktas direkt via e-post till {email}."
 
 #: ../src/pages/contact.vue:61
 msgid ""
@@ -1608,6 +1611,9 @@ msgid ""
 "others by contributors around the world. The servers for North America and "
 "other areas are funded by Mapbox."
 msgstr ""
+"Servrarna som analyserar datat tillhandahålls av OpenStreetMap Frankrike och "
+"vissa andra av bidragsgivare runt världen. Servrar för Nordamerika "
+"finansieras av Mapbox."
 
 #: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
 msgid "volunteers"
@@ -1664,12 +1670,12 @@ msgstr ""
 #. TRANSLATORS: this should be replaced by a abbreviation for 'class'
 #: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:222
 msgid "cl"
-msgstr ""
+msgstr "kl"
 
 #: ../src/pages/issues/index.vue:139 ../src/pages/map/items-filters.vue:86
 #: ../src/pages/map/items-filters.vue:31
 msgid "Class id"
-msgstr ""
+msgstr "Klass id"
 
 #: ../src/pages/map/index.vue
 msgid "Control, verification and correction of {project} issues"
