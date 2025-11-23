@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-11-22 22:51+0000\n"
+"PO-Revision-Date: 2025-11-23 23:51+0000\n"
 "Last-Translator: Jacob <jacob@carlbacker.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/osmose/frontend/"
 "sv/>\n"
@@ -171,11 +171,11 @@ msgstr "Sätt"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for class
 msgid "class (abbreviation)"
-msgstr ""
+msgstr "kl"
 
 #: ../src/components/issues-list.vue:21 ../src/pages/issues/index.vue:218
 msgid "item"
-msgstr ""
+msgstr "objekt"
 
 #: ../src/pages/issues/index.vue:228
 msgid "title"
@@ -316,11 +316,11 @@ msgstr "Wiki-sida"
 
 #: ../src/pages/translation.vue:17
 msgid "Osmose pages"
-msgstr ""
+msgstr "Osmose-sidor"
 
 #: ../src/pages/translation.vue:78
 msgid "Bug tracking system"
-msgstr ""
+msgstr "Buggrapporteringssystem"
 
 #: ../../tools/database/categories_menu.txt:1
 msgid "Structure"
@@ -495,7 +495,7 @@ msgstr "wikipedia"
 
 #: ../../tools/database/items_menu.txt:51
 msgid "multiple tags"
-msgstr ""
+msgstr "flera taggar"
 
 #: ../../tools/database/items_menu.txt:52
 msgid "saint hyphen"
@@ -559,7 +559,7 @@ msgstr "postnummer"
 
 #: ../../tools/database/items_menu.txt:81
 msgid "disused"
-msgstr ""
+msgstr "nedlagd"
 
 #: ../../tools/database/items_menu.txt:82
 msgid "on junction=roundabout"
@@ -591,7 +591,7 @@ msgstr "felaktig användning"
 
 #: ../../tools/database/items_menu.txt:94
 msgid "orthograph"
-msgstr ""
+msgstr "språkvård"
 
 #: ../../tools/database/items_menu.txt:95
 msgid "way type"
@@ -603,7 +603,7 @@ msgstr "två namn"
 
 #: ../../tools/database/items_menu.txt:97
 msgid "toponymy"
-msgstr ""
+msgstr "toponymer"
 
 #: ../../tools/database/items_menu.txt:102
 msgid "open polygon"
@@ -814,7 +814,7 @@ msgstr "bensinstation"
 
 #: ../src/pages/map/editor.vue:5
 msgid "You must be logged in to use the tag editor"
-msgstr ""
+msgstr "Du behöver vara inloggad för att använda tagg-editorn"
 
 #: ../src/pages/map/editor-modal.vue:2
 msgid "Save changeset"
@@ -859,7 +859,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:41
 msgid "missing object kind"
-msgstr ""
+msgstr "saknar objekttyp"
 
 #: ../../tools/database/items_menu.txt:99
 msgid "local language"
@@ -1080,7 +1080,7 @@ msgstr "vägmärken"
 
 #: ../../tools/database/items_menu.txt:196
 msgid "traffic sign limitation"
-msgstr ""
+msgstr "vägmärkesbegränsning"
 
 #: ../src/pages/issues/index.vue:96 ../src/pages/map/items-filters.vue:9
 msgid "High"
@@ -1165,7 +1165,7 @@ msgstr "Land"
 
 #: ../src/pages/issues/index.vue:80
 msgid "Item"
-msgstr ""
+msgstr "Objekt"
 
 #: ../src/components/issues-list.vue:318
 msgid "False positive / Done"
@@ -1195,7 +1195,7 @@ msgstr "online Osmose-editor"
 #: ../src/pages/map/popup.vue:193 ../src/pages/map/popup.vue:199
 #, python-brace-format
 msgid "Load the fix in {where}"
-msgstr ""
+msgstr "Ladda in åtgärdsförslag i {where}"
 
 #: ../src/pages/map/popup.vue:280
 #, python-brace-format
@@ -1231,6 +1231,8 @@ msgid ""
 "After fixing the issue in the OSM data, mark it as done. It will also "
 "disappear automatically on the next check."
 msgstr ""
+"När problemet är löst i OSM-datat, markera det som åtgärdat. Det kommer även "
+"automatiskt försvinna vid nästa kontroll."
 
 #: ../../tools/database/items_menu.txt:45
 msgid "zone:maxspeed"
@@ -1683,7 +1685,7 @@ msgstr ""
 
 #: ../src/pages/map/top.vue:266
 msgid "Delay:"
-msgstr ""
+msgstr "Fördröjning:"
 
 #: ../src/pages/map/doc.vue:64
 msgid "Do not want to see {title} markers?"
@@ -1692,7 +1694,7 @@ msgstr ""
 #. TRANSLATORS: this should be replaced by a abbreviation for 'elements'
 #: ../src/components/issues-list.vue:37
 msgid "elms"
-msgstr ""
+msgstr "obj"
 
 #: ../src/pages/map/doc.vue:71
 msgid "Hide from map"
@@ -1718,7 +1720,7 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:270
 msgid "location"
-msgstr ""
+msgstr "plats"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'level'
 #: ../src/components/issues-list.vue:15
@@ -1732,7 +1734,7 @@ msgstr "Fler filter"
 #: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
 #: ../src/pages/map/items-filters.vue:45
 msgid "No (Default)"
-msgstr ""
+msgstr "Nej (standard)"
 
 #: ../src/pages/issues/index.vue:168 ../src/pages/map/items-filters.vue:106
 #: ../src/pages/map/items-filters.vue:51
@@ -1756,7 +1758,7 @@ msgstr "Visa dolda objekt"
 #: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
 #: ../src/pages/map/items-filters.vue:22
 msgid "Source id"
-msgstr ""
+msgstr "Källans id"
 
 #: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
 msgid "tag"
@@ -1784,7 +1786,7 @@ msgstr "Zooma in för att se problem."
 
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
-msgstr ""
+msgstr "villkorlig restriktion"
 
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
@@ -1839,7 +1841,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
-msgstr ""
+msgstr "landanvändning byggnad"
 
 #: ../../tools/database/items_menu.txt:165
 msgid "cycle parking, need update"
