@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-09-14 16:42+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-11 12:00+0000\n"
+"Last-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/osmose/frontend/"
 "ca/>\n"
 "Language: ca\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -85,6 +85,8 @@ msgid ""
 "Patches can be provided via merge requests on Github. This is the preferred "
 "way of handling patches."
 msgstr ""
+"Els pedaços es poden proporcionar a través de les sol·licituds de fusió a "
+"Github. Aquesta és la manera preferida de gestionar els pedaços."
 
 #: ../src/pages/contact.vue:39
 msgid "Development"
@@ -308,7 +310,7 @@ msgid ""
 "current translations, and add new translations"
 msgstr ""
 "Per a fer de l'Osmose una eina autènticament multillenguatge, ens cal la "
-"vostra ajuda per a millorar les traduccions actuals, i afegir-ne de noves."
+"vostra ajuda per a millorar les traduccions actuals, i afegir-ne de noves"
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
@@ -456,7 +458,7 @@ msgstr "elevació"
 
 #: ../../tools/database/items_menu.txt:34
 msgid "oneway"
-msgstr "oneway"
+msgstr "sentit únic"
 
 #: ../../tools/database/items_menu.txt:36
 msgid "parent tag"
@@ -469,7 +471,7 @@ msgstr "numeració de carrers"
 #: ../../tools/database/items_menu.txt:38
 #: ../../tools/database/items_menu.txt:233
 msgid "highway"
-msgstr "highway"
+msgstr "autovia"
 
 #: ../../tools/database/items_menu.txt:39
 msgid "highway crossing"
@@ -490,7 +492,7 @@ msgstr "etiqueta de font incorrecta"
 
 #: ../../tools/database/items_menu.txt:49
 msgid "tagwatch cleaner"
-msgstr ""
+msgstr "netejador de tagwatch"
 
 #: ../../tools/database/items_menu.txt:50
 #: ../../tools/database/items_menu.txt:240
@@ -503,7 +505,7 @@ msgstr "etiquetes múltiples"
 
 #: ../../tools/database/items_menu.txt:52
 msgid "saint hyphen"
-msgstr ""
+msgstr "guionet sant"
 
 #: ../../tools/database/items_menu.txt:53
 msgid "incorrect tag"
@@ -543,7 +545,7 @@ msgstr "error tipogràfic a l'etiqueta"
 
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
-msgstr "incorrecte"
+msgstr "incorrecte "
 
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
@@ -834,7 +836,7 @@ msgstr "àrea"
 
 #: ../../tools/database/items_menu.txt:73
 msgid "noexit"
-msgstr "noexit"
+msgstr "sense sortida"
 
 #: ../../tools/database/items_menu.txt:91
 msgid "incorrect layer"
@@ -911,7 +913,7 @@ msgstr "Informació del problema"
 
 #: ../src/components/issues-list.vue:103
 msgid "issue n°"
-msgstr "problema núm."
+msgstr "problema nº"
 
 #: ../src/pages/index.vue:6
 msgid "Map of issues"
@@ -1112,77 +1114,77 @@ msgstr "Només baix"
 #: ../src/pages/map/top.vue:323
 #, python-brace-format
 msgid "Level {level} issues ({count})"
-msgstr ""
+msgstr "Problemes del nivell {level} ({count})"
 
 #: ../../tools/database/categories_menu.txt:9
 msgid "JOSM validator"
-msgstr ""
+msgstr "Validador JOSM"
 
 #: ../../tools/database/items_menu.txt:228
 msgid "seamark"
-msgstr ""
+msgstr "marca de mar"
 
 #: ../../tools/database/items_menu.txt:229
 msgid "addresses"
-msgstr ""
+msgstr "adreces"
 
 #: ../../tools/database/items_menu.txt:230
 msgid "combinations"
-msgstr ""
+msgstr "combinacions"
 
 #: ../../tools/database/items_menu.txt:231
 msgid "deprecated"
-msgstr ""
+msgstr "obsolet"
 
 #: ../../tools/database/items_menu.txt:232
 msgid "geometry"
-msgstr ""
+msgstr "geometria"
 
 #: ../../tools/database/items_menu.txt:234
 msgid "multiple"
-msgstr ""
+msgstr "múltiple"
 
 #: ../../tools/database/items_menu.txt:235
 msgid "numeric"
-msgstr ""
+msgstr "numèric"
 
 #: ../../tools/database/items_menu.txt:236
 msgid "relation"
-msgstr ""
+msgstr "relació"
 
 #: ../../tools/database/items_menu.txt:237
 msgid "religion"
-msgstr ""
+msgstr "religió"
 
 #: ../../tools/database/items_menu.txt:238
 msgid "territories"
-msgstr ""
+msgstr "territoris"
 
 #: ../../tools/database/items_menu.txt:239
 msgid "unnecessary"
-msgstr ""
+msgstr "innecessari"
 
 #: ../src/pages/issues/index.vue:68 ../src/pages/map/items-filters.vue:62
 #: ../src/pages/map/items-filters.vue:7
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #: ../src/pages/issues/index.vue:80
 msgid "Item"
-msgstr ""
+msgstr "Element"
 
 #: ../src/components/issues-list.vue:318
 msgid "False positive / Done"
-msgstr ""
+msgstr "Fals positiu / Fet"
 
 #: ../src/pages/map/editor-modal.vue:7
 msgid "Objects edited"
-msgstr ""
+msgstr "Objectes editats"
 
 #: ../src/pages/map/popup.vue:103
 #, python-brace-format
 msgid "Show Object on {where}"
-msgstr ""
+msgstr "Mostra l'objecte a {where}"
 
 #: ../src/pages/map/popup.vue:120 ../src/pages/map/popup.vue:129
 #: ../src/pages/map/popup.vue:138 ../src/pages/map/popup.vue:147
@@ -1190,345 +1192,359 @@ msgstr ""
 #: ../src/pages/map/popup.vue:172
 #, python-brace-format
 msgid "Edit Object with {where}"
-msgstr ""
+msgstr "Edita l'objecte amb {where}"
 
 #: ../src/pages/map/popup.vue:173 ../src/pages/map/popup.vue:200
 msgid "online Osmose Editor"
-msgstr ""
+msgstr "Editor d'Osmose en línia"
 
 #: ../src/pages/map/popup.vue:193 ../src/pages/map/popup.vue:199
 #, python-brace-format
 msgid "Load the fix in {where}"
-msgstr ""
+msgstr "Carrega la correcció a {where}"
 
 #: ../src/pages/map/popup.vue:280
 #, python-brace-format
 msgid "Add the new object in {where}"
-msgstr ""
+msgstr "Afegeix l'objecte nou a {where}"
 
 #: ../src/pages/map/popup.vue:331
 #, python-brace-format
 msgid "Show the area on {where}"
-msgstr ""
+msgstr "Mostra l'àrea a {where}"
 
 #: ../src/pages/map/popup.vue:336 ../src/pages/map/popup.vue:342
 #, python-brace-format
 msgid "Edit the area on {where}"
-msgstr ""
+msgstr "Edita l'àrea a {where}"
 
 #: ../src/pages/map/popup.vue:134
 msgid "details"
-msgstr ""
+msgstr "detalls"
 
 #: ../src/pages/map/popup.vue:139
 msgid "Issue reported on:"
-msgstr ""
+msgstr "S'ha informat de la incidència:"
 
 #: ../src/pages/map/popup.vue:388
 msgid ""
 "Report the issue as improper, if it is not an issue according to you. The "
 "issue will not be displayed to anyone anymore."
 msgstr ""
+"Informar l'assumpte com a impropi, si no és un problema segons vostè. El "
+"problema ja no es mostrarà a ningú."
 
 #: ../src/pages/map/popup.vue:402
 msgid ""
 "After fixing the issue in the OSM data, mark it as done. It will also "
 "disappear automatically on the next check."
 msgstr ""
+"Després d'arreglar el problema a les dades OSM, marqueu-lo com s'ha fet. "
+"També desapareixerà automàticament en la següent comprovació."
 
 #: ../../tools/database/items_menu.txt:45
 msgid "zone:maxspeed"
-msgstr ""
+msgstr "zona:maxspeed"
 
 #: ../../tools/database/items_menu.txt:248
 msgid "power transformer"
-msgstr ""
+msgstr "transformador d'energia"
 
 #: ../../tools/database/items_menu.txt:77
 msgid "opening hours"
-msgstr ""
+msgstr "horaris d'obertura"
 
 #: ../../tools/database/items_menu.txt:197
 msgid "hospital"
-msgstr ""
+msgstr "hospital"
 
 #: ../../tools/database/items_menu.txt:199
 msgid "social facility"
-msgstr ""
+msgstr "instal·lació social"
 
 #: ../../tools/database/items_menu.txt:201
 msgid "medical lab"
-msgstr ""
+msgstr "laboratori mèdic"
 
 #: ../../tools/database/items_menu.txt:198
 msgid "hospital, could be integrated"
-msgstr ""
+msgstr "hospital, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:200
 msgid "social facility, could be integrated"
-msgstr ""
+msgstr "instal·lació social, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:202
 msgid "medical lab, could be integrated"
-msgstr ""
+msgstr "laboratori mèdic, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:176
 msgid "police, need update"
-msgstr ""
+msgstr "policia, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:57
 msgid "swimming pool"
-msgstr ""
+msgstr "piscina"
 
 #: ../../tools/database/items_menu.txt:98
 msgid "potential misspelling"
-msgstr ""
+msgstr "error ortogràfic potencial"
 
 #: ../../tools/database/items_menu.txt:29
 msgid "enforcement"
-msgstr ""
+msgstr "compliment"
 
 #: ../../tools/database/items_menu.txt:61
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../tools/database/items_menu.txt:203
 msgid "street objects"
-msgstr ""
+msgstr "objectes de carrer"
 
 #: ../../tools/database/items_menu.txt:242
 msgid "openrailwaymap"
-msgstr ""
+msgstr "OpenRailwayMap"
 
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
-msgstr ""
+msgstr "ferrocarrils"
 
 #: ../../tools/database/items_menu.txt:188
 msgid "power plant"
-msgstr ""
+msgstr "central"
 
 #: ../src/pages/translation.vue:4
 msgid ""
 "Osmose tool is mainly developped by french people, and we aim to add more "
 "languages."
 msgstr ""
+"L'eina Osmose està desenvolupada principalment per gent francesa, i el "
+"nostre objectiu és afegir més idiomes."
 
 #: ../../tools/database/items_menu.txt:204
 msgid "defibrillator"
-msgstr ""
+msgstr "desfibril·lador"
 
 #: ../../tools/database/items_menu.txt:208
 msgid "radio support"
-msgstr ""
+msgstr "suport per ràdio"
 
 #: ../../tools/database/items_menu.txt:209
 msgid "radio support, could be integrated"
-msgstr ""
+msgstr "suport de ràdio, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:210
 msgid "radio support, need update"
-msgstr ""
+msgstr "suport de ràdio, cal actualitzar"
 
 #: ../src/pages/map/doc.vue:47 ../src/pages/map/doc.vue:1
 msgid "How to Fix"
-msgstr ""
+msgstr "Com solucionar"
 
 #: ../src/pages/map/doc.vue:52 ../src/pages/map/doc.vue:1
 msgid "Trap to avoid"
-msgstr ""
+msgstr "Trampa per evitar"
 
 #: ../src/pages/map/doc.vue:57 ../src/pages/map/doc.vue:1
 msgid "Example"
-msgstr ""
+msgstr "Exemple"
 
 #: ../src/pages/map/doc.vue:75 ../src/pages/map/doc.vue:1
 msgid "Source Code"
-msgstr ""
+msgstr "Codi font"
 
 #: ../src/pages/map/doc.vue:82 ../src/pages/map/doc.vue:1
 msgid "Resource used"
-msgstr ""
+msgstr "Recurs utilitzat"
 
 #: ../src/pages/map/doc.vue:90
 msgid "Want to improve this control or this doc?"
-msgstr ""
+msgstr "Vols millorar aquest control o aquest document?"
 
 #: ../src/pages/map/doc.vue:5
 msgid "Welcome to Osmose-QA"
-msgstr ""
+msgstr "Benvingut a Osmose-QA"
 
 #: ../src/pages/map/doc.vue:26
 msgid ""
 "In no case Osmose-QA should provide you the absolute right way to map, "
 "always keep a critical eye."
 msgstr ""
+"En cap cas Osmose-QA ha de proporcionar-li la forma absoluta correcta de "
+"mapar, sempre mantenir un ull crític."
 
 #: ../src/pages/map/doc.vue:32
 msgid "You can find help on the wiki:"
-msgstr ""
+msgstr "Podeu trobar ajuda al wiki:"
 
 #: ../../tools/database/items_menu.txt:213
 msgid "charging station"
-msgstr ""
+msgstr "estació de càrrega"
 
 #: ../../tools/database/items_menu.txt:214
 msgid "charging station, could be integrated"
-msgstr ""
+msgstr "estació de càrrega, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:215
 msgid "charging station, need update"
-msgstr ""
+msgstr "estació de càrrega, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:30
 msgid "related objects"
-msgstr ""
+msgstr "objectes relacionats"
 
 #: ../../tools/database/items_menu.txt:205
 msgid "wastewater"
-msgstr ""
+msgstr "aigües residuals"
 
 #: ../../tools/database/items_menu.txt:206
 msgid "wastewater, could be integrated"
-msgstr ""
+msgstr "aigües residuals, que es podrien integrar"
 
 #: ../../tools/database/items_menu.txt:207
 msgid "wastewater, need update"
-msgstr ""
+msgstr "aigües residuals, cal actualitzar"
 
 #: ../src/components/issues-list.vue:324
 msgid "delete issue"
-msgstr ""
+msgstr "suprimeix la incidència"
 
 #: ../src/pages/map/popup.vue:347
 msgid "Issue details"
-msgstr ""
+msgstr "Detalls de la incidència"
 
 #: ../src/pages/map/popup.vue:360
 msgid "Report based on data from date"
-msgstr ""
+msgstr "Informe basat en dades a partir de la data"
 
 #: ../../tools/database/items_menu.txt:182
 msgid "pharmacy, need update"
-msgstr ""
+msgstr "farmàcia, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:191
 msgid "power substation, need update"
-msgstr ""
+msgstr "subestació d'energia, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
-msgstr ""
+msgstr "botiga"
 
 #: ../src/pages/map/editor-modal.vue
 msgid "Fixed with Osmose"
-msgstr ""
+msgstr "Corregit amb Osmose"
 
 #: ../src/pages/map/editor.vue:132
 msgid "Done"
-msgstr ""
+msgstr "Fet"
 
 #: ../src/pages/map/doc.vue:7
 msgid ""
 "Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
 "data."
 msgstr ""
+"Osmose-QA és una eina de garantia de qualitat que detecta problemes en les "
+"dades d'OpenStreetMap."
 
 #: ../src/pages/map/doc.vue:13
 msgid ""
 "It detects a very wide range of issue types. It is also useful for "
 "integrating third-party data sets by conflation."
 msgstr ""
+"Detecta una gamma molt àmplia de tipus d'emissió. També és útil per integrar "
+"conjunts de dades de tercers per conflació."
 
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
-msgstr ""
+msgstr "IVA"
 
 #: ../../tools/database/items_menu.txt:211
 msgid "health centre"
-msgstr ""
+msgstr "centre de salut"
 
 #: ../../tools/database/items_menu.txt:212
 msgid "health centre, could be integrated"
-msgstr ""
+msgstr "centre de salut, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:216
 msgid "tourism"
-msgstr ""
+msgstr "turisme"
 
 #: ../src/pages/map/doc.vue:19
 msgid ""
 "Feel free to report any problem, idea or new open data you want to add to "
 "Osmose on our Github:"
 msgstr ""
+"No dubteu a informar de qualsevol problema, idea o nova dada oberta que "
+"vulgueu afegir a Osmose al nostre Github:"
 
 #: ../../tools/database/items_menu.txt:151
 msgid "fire hydrant"
-msgstr ""
+msgstr "boca d'incendis"
 
 #: ../../tools/database/items_menu.txt:152
 msgid "fire hydrant, could be integrated"
-msgstr ""
+msgstr "Hidratant de foc, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:217
 msgid "milestone"
-msgstr ""
+msgstr "fita"
 
 #: ../../tools/database/items_menu.txt:218
 msgid "milestone, could be integrated"
-msgstr ""
+msgstr "fita, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:219
 msgid "viewpoint"
-msgstr ""
+msgstr "mirador"
 
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
-msgstr ""
+msgstr "pícnic"
 
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
-msgstr ""
+msgstr "infraestructura de bicicletes"
 
 #: ../src/pages/issues/index.vue
 msgid "Information"
-msgstr ""
+msgstr "Informació"
 
 #: ../../tools/database/items_menu.txt:132
 msgid "monument, megalith, museum"
-msgstr ""
+msgstr "monument, megàlit, museu"
 
 #: ../../tools/database/items_menu.txt:133
 msgid "monument, megalith, museum, could be integrated"
-msgstr ""
+msgstr "monument, megàlit, museu, es podria integrar"
 
 #: ../../tools/database/items_menu.txt:134
 msgid "monument, megalith, museum, need update"
-msgstr ""
+msgstr "monument, megàlit, museu, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:153
 msgid "place of worship"
-msgstr ""
+msgstr "lloc de culte"
 
 #: ../../tools/database/items_menu.txt:222
 msgid "cemetery"
-msgstr ""
+msgstr "cementiri"
 
 #: ../../tools/database/items_menu.txt:223
 msgid "man made"
-msgstr ""
+msgstr "home fet"
 
 #: ../../tools/database/items_menu.txt:224
 msgid "water infrastructure"
-msgstr ""
+msgstr "infraestructura d'aigua"
 
 #: ../../tools/database/items_menu.txt:225
 msgid "water"
-msgstr ""
+msgstr "aigua"
 
 #: ../../tools/database/items_menu.txt:226
 msgid "fire station"
-msgstr ""
+msgstr "estació de bombers"
 
 #: ../src/pages/contact.vue:53
 msgid ""
@@ -1537,52 +1553,61 @@ msgid ""
 "France; part of the OpenAquiMap project leading by \"Les Petits "
 "Débrouillards d'Aquitaine\"."
 msgstr ""
+"Afegint nova funcionalitat de \"Osmose Editor\", el suport inicial del "
+"dispositiu mòbil i la millora de la documentació va ser finançat per la "
+"regió d'Aquitaine, França; part del projecte OpenAquiMap liderat per \"Les "
+"Petits Débrouillards d'Aquitaine\"."
 
 #: ../src/components/issues-list.vue:196
 msgid "delete issue #{uuid}"
-msgstr ""
+msgstr "suprimeix la incidència #{uuid}"
 
 #: ../src/pages/issue/index.vue
 msgid "Information on issue {uuid}"
-msgstr ""
+msgstr "Informació sobre la incidència {uuid}"
 
 #: ../src/pages/issues/matrix.vue
 msgid "Issue counts matrix"
-msgstr ""
+msgstr "Matriu de recomptes de números"
 
 #: ../src/components/issues-list.vue:178
 msgid "Mark issue #{uuid} as false positive"
-msgstr ""
+msgstr "Marqueu la incidència #{uuid} com a falsa positiva"
 
 #: ../src/components/issues-list.vue:188
 msgid "Mark issue #{uuid} as fixed"
-msgstr ""
+msgstr "Marqueu la incidència #{uuid} com a corregida"
 
 #: ../src/pages/byuser/byuser.vue:53
 msgid "Number of found issues: {count}"
-msgstr ""
+msgstr "Nombre de problemes trobats: {count}"
 
 #: ../src/pages/byuser/byuser.vue:58
 msgid "Number of found issues: more than {count}"
-msgstr ""
+msgstr "Nombre de problemes trobats: més de {count}"
 
 #: ../src/pages/byuser/byuser.vue
 msgid "Statistics for user {user}"
-msgstr ""
+msgstr "Estadístiques per a l'usuari {user}"
 
 #: ../src/pages/byuser/byuser.vue:45
 msgid ""
 "This page shows issues on elements that were last modified by '{users}'. "
 "This doesn't mean that this user is responsible for all these issues."
 msgstr ""
+"Aquesta pàgina mostra problemes en els elements que van ser modificats per "
+"darrera vegada per «{users}». Això no vol dir que aquest usuari sigui "
+"responsable de tots aquests problemes."
 
 #: ../src/pages/byuser/byuser.vue:7
 msgid "User statistics for {users}"
-msgstr ""
+msgstr "Estadístiques d'usuari per a {users}"
 
 #: ../src/pages/translation.vue:82
 msgid "{osmose-frontend} can be used to report any issue with translations."
 msgstr ""
+"{osmose-frontend} es pot utilitzar per informar de qualsevol problema amb "
+"les traduccions."
 
 #: ../src/pages/contact.vue:5
 msgid ""
@@ -1590,19 +1615,26 @@ msgid ""
 "or on {osmose-backend} for issues on the reported issues on OSM data, or for "
 "suggestion about analyses."
 msgstr ""
+"S'ha d'informar d'error a {osmose-frontend} per a problemes al voltant del "
+"lloc web, o a {osmose-backend} per a problemes sobre els problemes reportats "
+"a les dades OSM, o per a suggeriments sobre les anàlisis."
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
 msgstr ""
+"El desenvolupament d'Osmose està fet com a programari lliure per {volunteers}"
+"."
 
 #: ../src/pages/translation.vue:65
 msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
 msgstr ""
+"Per a nous països, ens podeu contactar a través d'un correu electrònic "
+"directe a {email}."
 
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
-msgstr ""
+msgstr "Podem ser contactats a través d'un correu electrònic directe a {email}."
 
 #: ../src/pages/contact.vue:61
 msgid ""
@@ -1610,203 +1642,211 @@ msgid ""
 "others by contributors around the world. The servers for North America and "
 "other areas are funded by Mapbox."
 msgstr ""
+"Els servidors que analitzen les dades són proporcionats per OpenStreetMap-"
+"France i alguns altres per col·laboradors de tot el món. Els servidors "
+"d'Amèrica del Nord i altres àrees estan finançats per Mapbox."
 
 #: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
 msgid "volunteers"
-msgstr ""
+msgstr "voluntaris"
 
 #: ../../tools/database/items_menu.txt:113
 msgid "post office, ref not integrated"
-msgstr ""
+msgstr "oficina de correus, ref no integrada"
 
 #: ../../tools/database/items_menu.txt:114
 msgid "post box, ref not integrated"
-msgstr ""
+msgstr "bústia de correu, la ref no està integrada"
 
 #: ../../tools/database/items_menu.txt:116
 msgid "school, ref not integrated"
-msgstr ""
+msgstr "escola, ref no integrada"
 
 #: ../../tools/database/items_menu.txt:123
 msgid "transport sharing, ref not integrated"
-msgstr ""
+msgstr "transport sharing, ref no integrat"
 
 #: ../../tools/database/items_menu.txt:124
 msgid "pharmacy, ref not integrated"
-msgstr ""
+msgstr "farmàcia, ref no integrada"
 
 #: ../../tools/database/items_menu.txt:125
 msgid "postal code, ref not integrated"
-msgstr ""
+msgstr "codi postal, ref no integrat"
 
 #: ../../tools/database/items_menu.txt:127
 msgid "power substation, ref not integrated"
-msgstr ""
+msgstr "subestació d'energia, ref no integrada"
 
 #: ../../tools/database/items_menu.txt:128
 msgid "hospital, ref not integrated"
-msgstr ""
+msgstr "hospital, ref no integrat"
 
 #: ../../tools/database/items_menu.txt:129
 msgid "social facility, ref not integrated"
-msgstr ""
+msgstr "instal·lació social, ref no integrada"
 
 #: ../../tools/database/items_menu.txt:130
 msgid "medical lab, ref not integrated"
-msgstr ""
+msgstr "laboratori mèdic, ref no integrat"
 
 #: ../../tools/database/items_menu.txt:131
 msgid "gas station, ref not integrated"
-msgstr ""
+msgstr "gasolinera, ref no integrada"
 
 #: ../src/pages/issues/index.vue:185
 msgid "BBox"
-msgstr ""
+msgstr "BBox"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'class'
 #: ../src/components/issues-list.vue:25 ../src/pages/issues/index.vue:222
 msgid "cl"
-msgstr ""
+msgstr "cl"
 
 #: ../src/pages/issues/index.vue:139 ../src/pages/map/items-filters.vue:86
 #: ../src/pages/map/items-filters.vue:31
 msgid "Class id"
-msgstr ""
+msgstr "Id de classe"
 
 #: ../src/pages/map/index.vue
 msgid "Control, verification and correction of {project} issues"
-msgstr ""
+msgstr "Control, verificació i correcció de problemes de {project}"
 
 #: ../src/pages/map/top.vue:266
 msgid "Delay:"
-msgstr ""
+msgstr "Retard:"
 
 #: ../src/pages/map/doc.vue:64
 msgid "Do not want to see {title} markers?"
-msgstr ""
+msgstr "No voleu veure {title} marcadors?"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'elements'
 #: ../src/components/issues-list.vue:37
 msgid "elms"
-msgstr ""
+msgstr "elem"
 
 #: ../src/pages/map/doc.vue:71
 msgid "Hide from map"
-msgstr ""
+msgstr "Amaga del mapa"
 
 #: ../src/pages/map/doc.vue:61
 msgid "Hide markers"
-msgstr ""
+msgstr "Amaga els marcadors"
 
 #: ../src/pages/map/items-list.vue
 msgid "Item #{item}"
-msgstr ""
+msgstr "Element #{item}"
 
 #: ../src/pages/issues/index.vue:123 ../src/pages/map/items-filters.vue:57
 #: ../src/pages/map/items-filters.vue:2
 msgid "Less filters"
-msgstr ""
+msgstr "Menys filtres"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'location'
 #: ../src/components/issues-list.vue:32
 msgid "loc"
-msgstr ""
+msgstr "loc"
 
 #: ../src/components/issues-list.vue:270
 msgid "location"
-msgstr ""
+msgstr "ubicació"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'level'
 #: ../src/components/issues-list.vue:15
 msgid "lvl"
-msgstr ""
+msgstr "niv"
 
 #: ../src/pages/issues/index.vue:119 ../src/pages/map/items-filters.vue:122
 msgid "More filters"
-msgstr ""
+msgstr "Més filtres"
 
 #: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
 #: ../src/pages/map/items-filters.vue:45
 msgid "No (Default)"
-msgstr ""
+msgstr "No (predeterminat)"
 
 #: ../src/pages/issues/index.vue:168 ../src/pages/map/items-filters.vue:106
 #: ../src/pages/map/items-filters.vue:51
 msgid "Only"
-msgstr ""
+msgstr "Només"
 
 #: ../src/pages/issues/index.vue:13
 msgid "Open"
-msgstr ""
+msgstr "Obre"
 
 #: ../src/pages/issues/index.vue:178 ../src/pages/map/items-filters.vue:113
 #: ../src/pages/map/items-filters.vue:58
 msgid "OSM Username"
-msgstr ""
+msgstr "Nom d'usuari OSM"
 
 #: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
 #: ../src/pages/map/items-filters.vue:40
 msgid "Show hidden items"
-msgstr ""
+msgstr "Mostra els elements ocults"
 
 #: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
 #: ../src/pages/map/items-filters.vue:22
 msgid "Source id"
-msgstr ""
+msgstr "ID d'origen"
 
 #: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
 msgid "tag"
-msgstr ""
+msgstr "etiqueta"
 
 #: ../src/pages/issues/index.vue:146
 msgid "Tag"
-msgstr ""
+msgstr "Etiqueta"
 
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
-msgstr ""
+msgstr "lavabos, es podrien integrar"
 
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
-msgstr ""
+msgstr "lavabos, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:227
 msgid "natural"
-msgstr ""
+msgstr "natural"
 
 #: ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr ""
+msgstr "Amplia per veure els problemes."
 
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
-msgstr ""
+msgstr "restricció condicional"
 
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
-msgstr ""
+msgstr "lateral"
 
 #: ../../web_api/byuser.py:96
 msgid "Statistics for user {}"
-msgstr ""
+msgstr "Estadístiques de l'usuari {}"
 
 #: ../src/pages/issues/index.vue:281
 msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
 msgstr ""
+"{{ showAnalyserCount }} / {{ errors.groups.length }} files. Mostra'n més."
 
 #: ../../tools/database/items_menu.txt:62
 msgid "small land use"
-msgstr ""
+msgstr "petit ús de la terra"
 
 #: ../src/pages/contact.vue:99
 msgid "Chat with Osmose-QA developers and community at {matrix} on Matrix."
 msgstr ""
+"Xateja amb els desenvolupadors d'Osmose-QA i la comunitat a {matrix} a "
+"Matrix."
 
 #: ../src/pages/contact.vue:85
 msgid ""
 "Keep in touch by watching at {twitter} on Twitter or at {mastodon} on "
 "Mastodon."
 msgstr ""
+"Mantingueu-vos en contacte mirant a {twitter} a Twitter o a {mastodon} a "
+"Mastodon."
 
 #: ../src/components/confirmFalsePositive.vue
 msgid ""
@@ -1821,38 +1861,48 @@ msgid ""
 "If Osmose reports lots of issues similar to this one and you disagree with "
 "this, please fill a Github issue and let us try to fix it."
 msgstr ""
+"Denuncieu l'assumpte com a impròpia.\n"
+"\n"
+"Utilitzeu-ho només si el problema reportat per Osmose no és de fet un "
+"problema en les dades OSM.\n"
+"\n"
+"Avís: el problema ja no es mostrarà a altres col·laboradors. Si no n'esteu "
+"segur, deixeu que aquest problema d'Osmose s'obri.\n"
+"\n"
+"Si Osmose informa de molts problemes similars a aquest i no hi esteu "
+"d'acord, ompliu un problema de Github i proveu-nos d'arreglar-lo."
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
-msgstr ""
+msgstr "ús del sòl per a la construcció"
 
 #: ../../tools/database/items_menu.txt:165
 msgid "cycle parking, need update"
-msgstr ""
+msgstr "aparcament de bicicletes, cal actualitzar"
 
 #: ../../tools/database/items_menu.txt:243
 msgid "openrailwaymap in Germany"
-msgstr ""
+msgstr "openrailwaymap a Alemanya"
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
-msgstr ""
+msgstr "Rússia específica"
 
 #: ../../tools/database/items_menu.txt:245
 msgid "specific Brazil"
-msgstr ""
+msgstr "Brasil específic"
 
 #: ../../tools/database/items_menu.txt:246
 msgid "specific France"
-msgstr ""
+msgstr "França específica"
 
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
-msgstr ""
+msgstr "Països Baixos específics"
 
 #: ../src/pages/map/top.vue:360
 msgid "Number of closed makers in this session"
-msgstr ""
+msgstr "Nombre de fabricants tancats en aquesta sessió"
 
 #: ../src/pages/map/index.vue
 msgid ""
@@ -1860,6 +1910,9 @@ msgid ""
 "saving your changes. You can save multiple times while keeping the same "
 "changeset."
 msgstr ""
+"Heu fet un gran nombre de canvis amb l'editor d'etiquetes. Penseu en desar "
+"els vostres canvis. Podeu desar diverses vegades mantenint el mateix conjunt "
+"de canvis."
 
 #: ../src/pages/map/index.vue
 msgid ""
@@ -1871,14 +1924,22 @@ msgid ""
 "- https://wiki.openstreetmap.org/wiki/"
 "What%27s_the_problem_with_mechanical_edits%3F"
 msgstr ""
+"Han fet un gran nombre de correccions. Això és genial!\n"
+"\n"
+"Potser aquest no sigui el vostre cas, però tingueu en compte que Osmose-QA "
+"no està destinat a ser utilitzat per a l'edició mecànica. Fes un cop d'ull a "
+"això a:\n"
+"- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
+"- https://wiki.openstreetmap.org/wiki/"
+"What%27s_the_problem_with_mechanical_edits%3F"
 
 #: ../src/pages/translation.vue:21
 msgid "Translation is done on {Weblate}"
-msgstr ""
+msgstr "La traducció s'ha fet a {Weblate}"
 
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
-msgstr ""
+msgstr "Podeu crear un idioma nou directament a {Weblate}."
 
 #~ msgid "out of boundary"
 #~ msgstr "fora del límit"
