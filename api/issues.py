@@ -50,6 +50,38 @@ class NLJSONResponse(Response):
         )
 
 
+async def _issues(
+    db: Connection,
+    langs: LangsNegociation,
+    params: commons_params.Params,
+    _: i18n.Translator,
+) -> Tuple[str, List[Any]]:
+    if params.status == "false":
+        title = _("False positives")
+    elif params.status == "done":
+        title = _("Fixed issues")
+    else:
+        title = _("Open issues")
+
+    items = await query_meta._items_menu(db, langs)
+    for res in items:
+        if params.item == str(res["item"]):
+            menu_auto = i10n_select_auto(res["menu"], langs)
+            if menu_auto:
+                title += " - " + menu_auto
+
+    params.full = True
+    params.limit = min(params.limit, 100000)
+    issues = await query._gets(db, params)
+
+    for issue in issues:
+        issue["subtitle"] = i10n_select_auto(issue["subtitle"], langs)
+        issue["title"] = i10n_select_auto(issue["title"], langs)
+        issue["menu"] = i10n_select_auto(issue["menu"], langs)
+
+    return (title, issues)
+
+
 @router.get("/0.3/issues", tags=["issues"])
 @router.get("/0.3/issues.json", tags=["issues"])
 async def issues(
@@ -95,7 +127,7 @@ async def issues(
 
     return {
         "issues": [
-            {k: v for k, v in issue.items() if outprops == None or k in outprops}
+            {k: v for k, v in issue.items() if outprops is None or k in outprops}
             for issue in issues
         ]
     }
