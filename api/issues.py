@@ -59,14 +59,13 @@ async def issues(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> Dict[Literal["issues"], List[Dict[str, Any]]]:
-
     title, issues = await _issues(db, langs, params, i18n)
 
     outprops = {"lat", "lon", "id", "item"}
     if params.full:
         outprops = None
-        
-    #Left here for retrocompat
+
+    # Left here for retrocompat
     for issue in issues:
         issue["id"]: issue["uuid"]
 
@@ -94,12 +93,12 @@ async def issues(
             )
             issue.pop("timestamp", None)
 
-    return {"issues":[
-        {
-            k: v for k, v in issue.items() if outprops==None or k in outprops
-        }
-        for issue in issues
-    ]}
+    return {
+        "issues": [
+            {k: v for k, v in issue.items() if outprops == None or k in outprops}
+            for issue in issues
+        ]
+    }
 
 
 @router.get("/0.3/issues.josm", tags=["issues"])
