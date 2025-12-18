@@ -11,16 +11,16 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-09-17 21:01+0000\n"
+"PO-Revision-Date: 2025-12-19 23:02+0000\n"
 "Last-Translator: Jim Kats <jim-kats@hotmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/osmose/frontend/el/"
-">\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/osmose/frontend/"
+"el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -396,7 +396,7 @@ msgstr "ανοικτή περιοχή"
 
 #: ../../tools/database/items_menu.txt:12
 msgid "bad *_link highway"
-msgstr ""
+msgstr "κακό *_link δρόμου"
 
 #: ../../tools/database/items_menu.txt:13
 msgid "broken highway continuity"
@@ -444,7 +444,7 @@ msgstr "διπλή γεωμετρία"
 
 #: ../../tools/database/items_menu.txt:32
 msgid "junction=roundabout"
-msgstr ""
+msgstr "junction=roundabout"
 
 #: ../../tools/database/items_menu.txt:33
 msgid "elevation"
@@ -639,7 +639,7 @@ msgstr "σχήμα κτηρίου"
 
 #: ../../tools/database/items_menu.txt:110
 msgid "bridge to tag"
-msgstr ""
+msgstr "γέφυρα σε ετικέτα"
 
 #: ../../tools/database/items_menu.txt:111
 msgid "admin boundary"
@@ -655,7 +655,7 @@ msgstr "ταχυδρομείο"
 
 #: ../../tools/database/items_menu.txt:115
 msgid "ODbL migration change"
-msgstr ""
+msgstr "αλλαγή μετεγκατάστασης ODbL"
 
 #: ../../tools/database/items_menu.txt:117
 msgid "monument"
@@ -672,7 +672,7 @@ msgstr "σταθμός τρένου"
 
 #: ../../tools/database/items_menu.txt:120
 msgid "TMC"
-msgstr ""
+msgstr "TMC"
 
 #: ../../tools/database/items_menu.txt:121
 msgid "relation type=boundary"
@@ -861,7 +861,7 @@ msgstr "οινοποιείο"
 
 #: ../../tools/database/items_menu.txt:41
 msgid "missing object kind"
-msgstr ""
+msgstr "λείπει το είδος αντικειμένου"
 
 #: ../../tools/database/items_menu.txt:99
 msgid "local language"
