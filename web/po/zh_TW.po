@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-09-14 16:42+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-12-26 17:00+0000\n"
+"Last-Translator: Supaplex <bejokeup@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/osmose/frontend/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.15.1\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -305,8 +305,9 @@ msgstr "如何幫忙翻譯"
 msgid ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
-msgstr "要讓 Osmose "
-"成為真正的多語工具，我們需要你的協助來改善已有的翻譯、增加新的翻譯。"
+msgstr ""
+"要讓 Osmose 成為真正的多語工具，我們需要你的協助來改善已有的翻譯、增加新的翻"
+"譯"
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
@@ -541,7 +542,7 @@ msgstr "標籤拼寫錯誤"
 
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
-msgstr "不正確"
+msgstr "不正確 "
 
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
@@ -561,7 +562,7 @@ msgstr "郵遞區號"
 
 #: ../../tools/database/items_menu.txt:81
 msgid "disused"
-msgstr "disused"
+msgstr "未使用"
 
 #: ../../tools/database/items_menu.txt:82
 msgid "on junction=roundabout"
@@ -1200,17 +1201,17 @@ msgstr "在 {where} 載入 fix"
 #: ../src/pages/map/popup.vue:280
 #, python-brace-format
 msgid "Add the new object in {where}"
-msgstr "在  {where} 新增物件"
+msgstr "在 {where} 新增物件"
 
 #: ../src/pages/map/popup.vue:331
 #, python-brace-format
 msgid "Show the area on {where}"
-msgstr "在  {where} 顯示區域"
+msgstr "在 {where} 顯示區域"
 
 #: ../src/pages/map/popup.vue:336 ../src/pages/map/popup.vue:342
 #, python-brace-format
 msgid "Edit the area on {where}"
-msgstr "在  {where} 編輯區域"
+msgstr "在 {where} 編輯區域"
 
 #: ../src/pages/map/popup.vue:134
 msgid "details"
@@ -1235,7 +1236,7 @@ msgstr "在修復OSM資料數據問題後，請將其標記為已完成。如果
 
 #: ../../tools/database/items_menu.txt:45
 msgid "zone:maxspeed"
-msgstr "zone:maxspeed"
+msgstr "zone:最大速限"
 
 #: ../../tools/database/items_menu.txt:248
 msgid "power transformer"
@@ -1864,7 +1865,7 @@ msgstr "特別是荷蘭"
 
 #: ../src/pages/map/top.vue:360
 msgid "Number of closed makers in this session"
-msgstr ""
+msgstr "這次期間關閉的標記"
 
 #: ../src/pages/map/index.vue
 msgid ""
@@ -1872,6 +1873,8 @@ msgid ""
 "saving your changes. You can save multiple times while keeping the same "
 "changeset."
 msgstr ""
+"您已經用了標籤編輯器做出大量編輯了，請先儲存您的變更，您可以使用同一編輯變動"
+"之下多次儲存。"
 
 #: ../src/pages/map/index.vue
 msgid ""
@@ -1883,18 +1886,20 @@ msgid ""
 "- https://wiki.openstreetmap.org/wiki/"
 "What%27s_the_problem_with_mechanical_edits%3F"
 msgstr ""
+"您已經做出大量修正，這樣很好！\n"
+"\n"
+"也許並非您意圖，但 Osmose-QA 並非設計來做出大量編輯，請參閱：\n"
+"- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
+"- https://wiki.openstreetmap.org/wiki/"
+"What%27s_the_problem_with_mechanical_edits%3F"
 
 #: ../src/pages/translation.vue:21
-#, fuzzy
-#| msgid "Translation is done on {Transifex}"
 msgid "Translation is done on {Weblate}"
-msgstr "在 {Transifex} 平台進行翻譯"
+msgstr "在 {Weblate} 平台進行翻譯"
 
 #: ../src/pages/translation.vue:55
-#, fuzzy
-#| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
-msgstr "你可以直接在 {Transifex} 新增語言。"
+msgstr "你可以直接在 {Weblate} 新增語言。"
 
 #~ msgid "out of boundary"
 #~ msgstr "超出邊界"
