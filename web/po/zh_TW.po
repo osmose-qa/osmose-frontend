@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-12-26 17:00+0000\n"
+"PO-Revision-Date: 2025-12-30 06:00+0000\n"
 "Last-Translator: Supaplex <bejokeup@gmail.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/osmose/frontend/zh_Hant/>\n"
@@ -1591,8 +1591,8 @@ msgid ""
 "or on {osmose-backend} for issues on the reported issues on OSM data, or for "
 "suggestion about analyses."
 msgstr ""
-"有關網站的問題，或是有關 {osmose-backend}  回報 OSM "
-"資料問題的問題，還是有關分析的建議，都應當在 {osmose-frontend} 回報臭蟲。"
+"有關網站的問題，或是有關 {osmose-backend} 回報 OSM 資料問題的問題，還是有關分"
+"析的建議，都應當在 {osmose-frontend} 回報臭蟲。"
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
@@ -1605,7 +1605,7 @@ msgstr "對於新的國家，我們可以透過寄郵件至 {email} 的方式來
 
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
-msgstr "你可以直接透過寄送電子郵件到  {email} 來聯繫我們。"
+msgstr "你可以直接透過寄送電子郵件到 {email} 來聯繫我們。"
 
 #: ../src/pages/contact.vue:61
 msgid ""
@@ -1780,7 +1780,7 @@ msgstr "自然"
 
 #: ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr "放大來檢視問題"
+msgstr "放大來檢視問題。"
 
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
