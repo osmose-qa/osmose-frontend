@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-12-11 12:00+0000\n"
+"PO-Revision-Date: 2026-02-09 13:09+0000\n"
 "Last-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/osmose/frontend/"
 "es/>\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -800,7 +800,7 @@ msgstr "Exportar"
 
 #: ../src/pages/map/top.vue:36
 msgid "Html list"
-msgstr "Lista HTML"
+msgstr "Lista Html"
 
 #: ../../tools/database/items_menu.txt:25
 msgid "one-node way"
