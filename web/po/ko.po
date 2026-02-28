@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-09-14 16:42+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-03-01 03:09+0000\n"
+"Last-Translator: quaalun lawlu <quaalun@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/osmose/frontend/"
 "ko/>\n"
 "Language: ko\n"
@@ -17,56 +17,57 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.14-dev\n"
+"X-Generator: Weblate 5.16.1-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
-msgstr ""
+msgstr "오탐지"
 
 #. TRANSLATORS: link to source code
 #: ../src/pages/map/top.vue:25
 msgid "Statistics"
-msgstr ""
+msgstr "통계"
 
 #: ../src/pages/contact.vue ../src/pages/map/top.vue:83
 msgid "Contact"
-msgstr ""
+msgstr "연락처"
 
 #: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
-msgstr ""
+msgstr "위키의 도움말"
 
 #: ../src/pages/index.vue:28 ../src/pages/translation.vue:123
+#, fuzzy
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
-msgstr ""
+msgstr "http://wiki.openstreetmap.org/wiki/Osmose"
 
 #: ../src/pages/map/top.vue:93
 msgid "Copyright"
-msgstr ""
+msgstr "저작권"
 
 #: ../src/pages/map/top.vue:98
 msgid "Sources"
-msgstr ""
+msgstr "출처"
 
 #: ../src/pages/map/top.vue:103
 msgid "Translation"
-msgstr ""
+msgstr "번역"
 
 #: ../src/pages/byuser/index.vue
 msgid "Statistics for user"
-msgstr ""
+msgstr "사용자 통계:"
 
 #: ../src/pages/byuser/index.vue:2
 msgid "User statistics"
-msgstr ""
+msgstr "사용자 통계"
 
 #: ../src/pages/byuser/index.vue:13
 msgid "Username:"
-msgstr ""
+msgstr "사용자 이름:"
 
 #: ../src/pages/contact.vue:2
 msgid "Bug tracker"
-msgstr ""
+msgstr "버그 추적"
 
 #: ../src/pages/contact.vue:23
 msgid "Providing patches"
@@ -80,24 +81,24 @@ msgstr ""
 
 #: ../src/pages/contact.vue:39
 msgid "Development"
-msgstr ""
+msgstr "개발"
 
 #: ../src/pages/contact.vue:70
 msgid "Contacting maintainers"
-msgstr ""
+msgstr "개발자와 연락하기"
 
 #: ../src/pages/control/update_matrix.vue
 msgid "Last updates"
-msgstr ""
+msgstr "마지막 업데이트"
 
 #: ../../tools/database/items_menu.txt:35 ../src/components/issues-list.vue:10
 #: ../src/pages/control/update.vue:7 ../src/pages/issues/index.vue:211
 msgid "source"
-msgstr ""
+msgstr "출처"
 
 #: ../src/pages/control/update.vue
 msgid "Update"
-msgstr ""
+msgstr "업데이트"
 
 #: ../src/pages/control/update.vue:8
 msgid "remote url"
@@ -109,35 +110,35 @@ msgstr ""
 
 #: ../src/pages/copyright.vue
 msgid "Copyright information"
-msgstr ""
+msgstr "저작권 정보"
 
 #: ../src/pages/copyright.vue:2
 msgid "License"
-msgstr ""
+msgstr "라이선스"
 
 #: ../src/pages/copyright.vue:20
 msgid "Authors"
-msgstr ""
+msgstr "저자"
 
 #: ../src/pages/copyright.vue:25
 msgid "And contributors"
-msgstr ""
+msgstr "와 기여자"
 
 #: ../src/components/marker-details.vue:4 ../src/pages/issue/index.vue:15
 #: ../src/pages/issue/index.vue:58 ../src/pages/issue/index.vue:6
 #: ../src/pages/issue/index.vue:8
 msgid "key"
-msgstr ""
+msgstr "키"
 
 #: ../src/components/marker-details.vue:5 ../src/pages/issue/index.vue:16
 #: ../src/pages/issue/index.vue:59 ../src/pages/issue/index.vue:7
 #: ../src/pages/issue/index.vue:9
 msgid "value"
-msgstr ""
+msgstr "값"
 
 #: ../src/pages/issue/index.vue:5
 msgid "Marker"
-msgstr ""
+msgstr "마커"
 
 #: ../src/pages/issue/index.vue:10 ../src/pages/issue/index.vue:1
 msgid "Elements"
@@ -149,15 +150,15 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:18
 msgid "Fixed"
-msgstr ""
+msgstr "수정됨"
 
 #: ../src/pages/issues/index.vue:28
 msgid "Graph"
-msgstr ""
+msgstr "그래프"
 
 #: ../src/pages/byuser/byuser.vue:16 ../src/pages/issues/index.vue:33
 msgid "Map"
-msgstr ""
+msgstr "지도"
 
 #. #-#-#-#-#  osmose-frontend.pot.nofiles (PACKAGE VERSION)  #-#-#-#-#
 #. TRANSLATORS: 'Set' is used to choose a specific country/item on /errors
@@ -175,7 +176,7 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:228
 msgid "title"
-msgstr ""
+msgstr "제목"
 
 #: ../src/pages/byuser/byuser.vue:22 ../src/pages/issues/index.vue:231
 msgid "count"
@@ -187,108 +188,108 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:43
 msgid "subtitle"
-msgstr ""
+msgstr "부제목"
 
 #: ../../tools/database/items_menu.txt:58 ../src/components/issues-list.vue:47
 msgid "date"
-msgstr ""
+msgstr "날짜"
 
 #: ../src/pages/index.vue:11
 msgid "Help on OSM wiki"
-msgstr ""
+msgstr "OSM 위키의 도움말"
 
 #: ../src/pages/index.vue:20
 msgid "False positives list"
-msgstr ""
+msgstr "오탐지 목록"
 
 #: ../src/pages/index.vue:25
 msgid "Last analysis updates"
-msgstr ""
+msgstr "최근 분석 업데이트"
 
 #: ../src/pages/map/editor.vue:18
 msgid "Tags Editor"
-msgstr ""
+msgstr "태그 편집기"
 
 #: ../src/pages/map/editor-modal.vue:38 ../src/pages/map/editor-modal.vue:56
 #: ../src/pages/map/editor.vue:60 ../src/pages/map/editor.vue:126
 msgid "Cancel"
-msgstr ""
+msgstr "취소"
 
 #: ../src/pages/issues/index.vue:92 ../src/pages/map/items-filters.vue:4
 msgid "Severity"
-msgstr ""
+msgstr "심각도"
 
 #: ../src/pages/issues/index.vue:192 ../src/pages/map/items-filters.vue:30
 msgid "Fixable"
-msgstr ""
+msgstr "수정 가능함"
 
 #: ../src/pages/map/items-filters.vue:164
 msgid "Show only markers with correction suggestions"
-msgstr ""
+msgstr "수정 제안이 있는 마커만 보기"
 
 #: ../src/pages/issues/index.vue:196 ../src/pages/map/items-filters.vue:35
 msgid "Online"
-msgstr ""
+msgstr "온라인"
 
 #: ../src/pages/map/items-filters.vue:43
 msgid "Topic"
-msgstr ""
+msgstr "주제"
 
 #: ../src/pages/map/items-list.vue:3
 msgid "Select:"
-msgstr ""
+msgstr "선택:"
 
 #: ../src/pages/map/items-list.vue:5 ../src/pages/map/items-list.vue:25
 msgid "all"
-msgstr ""
+msgstr "모두 선택"
 
 #: ../src/pages/map/items-list.vue:8 ../src/pages/map/items-list.vue:28
 msgid "nothing"
-msgstr ""
+msgstr "모두 해제"
 
 #: ../src/pages/map/items-list.vue:11
 msgid "invert"
-msgstr ""
+msgstr "선택 반전"
 
 #: ../src/pages/map/top.vue:5
 msgid "Change language"
-msgstr ""
+msgstr "언어 변경"
 
 #: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:79
 msgid "Help"
-msgstr ""
+msgstr "도움말"
 
 #: ../src/pages/map/top.vue:157 ../src/pages/map/top.vue:39
 msgid "Logout"
-msgstr ""
+msgstr "로그아웃"
 
 #: ../src/pages/map/editor.vue:8 ../src/pages/map/top.vue:163
 msgid "Login"
-msgstr ""
+msgstr "로그인"
 
 #: ../src/pages/map/editor-menu.vue:3 ../src/pages/map/editor-modal.vue:41
 msgid "Save"
-msgstr ""
+msgstr "저장"
 
 #: ../src/pages/map/editor-modal.vue:19
 msgid "Source"
-msgstr ""
+msgstr "출처"
 
 #: ../src/pages/map/editor-modal.vue:25
 msgid "Type"
-msgstr ""
+msgstr "타입"
 
 #: ../src/pages/map/editor-modal.vue:32
 msgid "Reuse changeset"
-msgstr ""
+msgstr "변경집합 재사용"
 
 #: ../src/pages/map/popup.vue:400
 msgid "corrected"
-msgstr ""
+msgstr "수정됨"
 
 #: ../src/pages/map/popup.vue:386
 msgid "false positive"
-msgstr ""
+msgstr "오탐지"
 
 #: ../src/pages/translation.vue:2 ../src/pages/translation.vue
 msgid "How to help translation"
@@ -314,7 +315,7 @@ msgstr ""
 
 #: ../src/pages/translation.vue:78
 msgid "Bug tracking system"
-msgstr ""
+msgstr "버그 추적 시스템"
 
 #: ../../tools/database/categories_menu.txt:1
 msgid "Structure"
@@ -322,7 +323,7 @@ msgstr ""
 
 #: ../../tools/database/categories_menu.txt:2
 msgid "Missing tags"
-msgstr ""
+msgstr "누락된 태그"
 
 #: ../../tools/database/categories_menu.txt:3
 msgid "Bad tag"
@@ -354,15 +355,15 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:3
 msgid "duplicated node"
-msgstr ""
+msgstr "중복된 점"
 
 #: ../../tools/database/items_menu.txt:4
 msgid "way one node"
-msgstr ""
+msgstr "점이 하나뿐인 길"
 
 #: ../../tools/database/items_menu.txt:5
 msgid "invalid polygon"
-msgstr ""
+msgstr "잘못된 다각형"
 
 #: ../../tools/database/items_menu.txt:6
 msgid "reverse roundabout"
@@ -370,7 +371,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:7
 msgid "boundary intersect"
-msgstr ""
+msgstr "경계선이 교차함"
 
 #: ../../tools/database/items_menu.txt:8
 msgid "objects overlap"
@@ -378,7 +379,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:9
 msgid "orphan nodes"
-msgstr ""
+msgstr "부모 없는 점"
 
 #: ../../tools/database/items_menu.txt:10
 msgid "sudden highway type change"
@@ -386,7 +387,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:11
 msgid "unclosed area"
-msgstr ""
+msgstr "닫혀있지 않은 영역"
 
 #: ../../tools/database/items_menu.txt:12
 msgid "bad *_link highway"
@@ -398,7 +399,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:14
 msgid "missing tag or role"
-msgstr ""
+msgstr "누락된 태그나 역할"
 
 #: ../../tools/database/items_menu.txt:15
 msgid "surface intersection"
@@ -406,11 +407,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:16
 msgid "big relation"
-msgstr ""
+msgstr "너무 큰 관계"
 
 #: ../../tools/database/items_menu.txt:17
 msgid "multipolygon"
-msgstr ""
+msgstr "다중 다각형"
 
 #: ../../tools/database/items_menu.txt:18
 msgid "double cycleway"
@@ -418,11 +419,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:19
 msgid "approximate way"
-msgstr ""
+msgstr "대강 그려진 길"
 
 #: ../../tools/database/items_menu.txt:20
 msgid "1-member relation"
-msgstr ""
+msgstr "구성원이 하나뿐인 관계"
 
 #: ../../tools/database/items_menu.txt:21
 msgid "not-connected highway/cycleway"
@@ -446,7 +447,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:34
 msgid "oneway"
-msgstr ""
+msgstr "일방통행"
 
 #: ../../tools/database/items_menu.txt:36
 msgid "parent tag"
@@ -468,7 +469,7 @@ msgstr ""
 #: ../../tools/database/items_menu.txt:40
 #: ../../tools/database/items_menu.txt:180
 msgid "pharmacy"
-msgstr ""
+msgstr "약국"
 
 #: ../../tools/database/items_menu.txt:47
 msgid "highway roundabout"
@@ -485,11 +486,11 @@ msgstr ""
 #: ../../tools/database/items_menu.txt:50
 #: ../../tools/database/items_menu.txt:240
 msgid "wikipedia"
-msgstr ""
+msgstr "위키피디아"
 
 #: ../../tools/database/items_menu.txt:51
 msgid "multiple tags"
-msgstr ""
+msgstr "여러 태그"
 
 #: ../../tools/database/items_menu.txt:52
 msgid "saint hyphen"
@@ -497,31 +498,31 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:53
 msgid "incorrect tag"
-msgstr ""
+msgstr "잘못된 태그"
 
 #: ../../tools/database/items_menu.txt:54
 msgid "bad tag key"
-msgstr ""
+msgstr "잘못된 태그의 키"
 
 #: ../../tools/database/items_menu.txt:55
 msgid "similar values"
-msgstr ""
+msgstr "비슷한 값"
 
 #: ../../tools/database/items_menu.txt:56
 msgid "multiple values"
-msgstr ""
+msgstr "여러 값"
 
 #: ../../tools/database/items_menu.txt:59
 msgid "numeric value"
-msgstr ""
+msgstr "숫자 값"
 
 #: ../../tools/database/items_menu.txt:63
 msgid "note"
-msgstr ""
+msgstr "노트"
 
 #: ../../tools/database/items_menu.txt:64
 msgid "tree"
-msgstr ""
+msgstr "나무"
 
 #: ../../tools/database/items_menu.txt:65
 msgid "brand in name"
@@ -537,11 +538,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
-msgstr ""
+msgstr "주차장 통로"
 
 #: ../../tools/database/items_menu.txt:69
 msgid "relation role"
-msgstr ""
+msgstr "관계의 역할"
 
 #: ../../tools/database/items_menu.txt:70
 msgid "relation type=restriction"
@@ -549,11 +550,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:71
 msgid "postcode"
-msgstr ""
+msgstr "우편번호"
 
 #: ../../tools/database/items_menu.txt:81
 msgid "disused"
-msgstr ""
+msgstr "사용되지 않음"
 
 #: ../../tools/database/items_menu.txt:82
 msgid "on junction=roundabout"
@@ -565,23 +566,23 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:84
 msgid "ref in name"
-msgstr ""
+msgstr "이름에 ref 값이 있음"
 
 #: ../../tools/database/items_menu.txt:87
 msgid "construction"
-msgstr ""
+msgstr "건설 중"
 
 #: ../../tools/database/items_menu.txt:88
 msgid "duplicate object"
-msgstr ""
+msgstr "중복된 개체"
 
 #: ../../tools/database/items_menu.txt:89
 msgid "unwanted tag on node"
-msgstr ""
+msgstr "점에 적절하지 않은 태그"
 
 #: ../../tools/database/items_menu.txt:90
 msgid "bad usage"
-msgstr ""
+msgstr "잘못된 사용"
 
 #: ../../tools/database/items_menu.txt:94
 msgid "orthograph"
@@ -589,7 +590,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:95
 msgid "way type"
-msgstr ""
+msgstr "길의 타입"
 
 #: ../../tools/database/items_menu.txt:96
 msgid "two names"
@@ -601,15 +602,15 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:102
 msgid "open polygon"
-msgstr ""
+msgstr "열린 다각형"
 
 #: ../../tools/database/items_menu.txt:103
 msgid "duplicated way"
-msgstr ""
+msgstr "중복된 길"
 
 #: ../../tools/database/items_menu.txt:104
 msgid "place without name"
-msgstr ""
+msgstr "이름 없는 장소"
 
 #: ../../tools/database/items_menu.txt:105
 msgid "INSEE code"
@@ -645,7 +646,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:135
 msgid "post office"
-msgstr ""
+msgstr "우체국"
 
 #: ../../tools/database/items_menu.txt:115
 msgid "ODbL migration change"
@@ -662,7 +663,7 @@ msgstr ""
 #: ../../tools/database/items_menu.txt:119
 #: ../../tools/database/items_menu.txt:146
 msgid "train station"
-msgstr ""
+msgstr "기차역"
 
 #: ../../tools/database/items_menu.txt:120
 msgid "TMC"
@@ -670,11 +671,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:121
 msgid "relation type=boundary"
-msgstr ""
+msgstr "type=boundary 관계"
 
 #: ../../tools/database/items_menu.txt:122
 msgid "tunnel/bridge"
-msgstr ""
+msgstr "터널/다리"
 
 #: ../../tools/database/items_menu.txt:136
 msgid "post office, could be integrated"
@@ -682,7 +683,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:140
 msgid "school"
-msgstr ""
+msgstr "학교"
 
 #: ../../tools/database/items_menu.txt:141
 msgid "school, could be integrated"
@@ -692,7 +693,7 @@ msgstr ""
 #: ../../tools/database/items_menu.txt:143
 #: ../../tools/database/items_menu.txt:241
 msgid "public transport"
-msgstr ""
+msgstr "대중교통"
 
 #: ../../tools/database/items_menu.txt:144
 msgid "public transport, could be integrated"
@@ -712,7 +713,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:150
 msgid "postal address"
-msgstr ""
+msgstr "우편 주소"
 
 #: ../../tools/database/items_menu.txt:154
 msgid "public service"
@@ -728,7 +729,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:158
 msgid "parking"
-msgstr ""
+msgstr "주차"
 
 #: ../../tools/database/items_menu.txt:159
 msgid "parking, could be integrated"
@@ -776,23 +777,23 @@ msgstr ""
 
 #: ../src/pages/map/top.vue:32
 msgid "Export"
-msgstr ""
+msgstr "내보내기"
 
 #: ../src/pages/map/top.vue:36
 msgid "Html list"
-msgstr ""
+msgstr "Html 목록"
 
 #: ../../tools/database/items_menu.txt:25
 msgid "one-node way"
-msgstr ""
+msgstr "점이 하나뿐인 길"
 
 #: ../../tools/database/items_menu.txt:171
 msgid "toilets"
-msgstr ""
+msgstr "화장실"
 
 #: ../../tools/database/items_menu.txt:174
 msgid "police"
-msgstr ""
+msgstr "경찰"
 
 #: ../../tools/database/items_menu.txt:175
 msgid "police, could be integrated"
@@ -804,27 +805,28 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:177
 msgid "gas station"
-msgstr ""
+msgstr "주유소"
 
 #: ../src/pages/map/editor.vue:5
+#, fuzzy
 msgid "You must be logged in to use the tag editor"
-msgstr ""
+msgstr "태그 편집기를 사용하려면 로그인해야합니다"
 
 #: ../src/pages/map/editor-modal.vue:2
 msgid "Save changeset"
-msgstr ""
+msgstr "변경사항 저장"
 
 #: ../src/pages/map/editor-modal.vue:13
 msgid "Comment"
-msgstr ""
+msgstr "코멘트"
 
 #: ../../tools/database/items_menu.txt:72
 msgid "area"
-msgstr ""
+msgstr "영역"
 
 #: ../../tools/database/items_menu.txt:73
 msgid "noexit"
-msgstr ""
+msgstr "출구 없음"
 
 #: ../../tools/database/items_menu.txt:91
 msgid "incorrect layer"
@@ -833,7 +835,7 @@ msgstr ""
 #: ../src/pages/control/update_summary.vue
 #: ../src/pages/control/update_summary_by_analyser.vue
 msgid "Updates summary"
-msgstr ""
+msgstr "요약 업데이트하기"
 
 #: ../../tools/database/items_menu.txt:183
 msgid "postal code, could be integrated"
@@ -841,11 +843,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:184
 msgid "library"
-msgstr ""
+msgstr "도서관"
 
 #: ../../tools/database/items_menu.txt:185
 msgid "restaurant"
-msgstr ""
+msgstr "식당"
 
 #: ../../tools/database/items_menu.txt:186
 msgid "winery"
@@ -857,11 +859,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:99
 msgid "local language"
-msgstr ""
+msgstr "현지 언어"
 
 #: ../src/pages/issues/index.vue
 msgid "Fixed issues"
-msgstr ""
+msgstr "수정된 문제"
 
 #. TRANSLATORS: link to help in appropriate language
 #: ../src/pages/map/top.vue:18
@@ -888,7 +890,7 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:297
 msgid "Show more issues"
-msgstr ""
+msgstr "더 많은 문제 보기"
 
 #: ../src/components/issues-list.vue:266
 msgid "information on issue"
@@ -908,7 +910,7 @@ msgstr ""
 
 #: ../src/pages/control/update.vue:10
 msgid "version"
-msgstr ""
+msgstr "버전"
 
 #: ../../tools/database/items_menu.txt:187
 msgid "geodesic"
@@ -916,7 +918,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:138
 msgid "post box"
-msgstr ""
+msgstr "우체통"
 
 #: ../../tools/database/items_menu.txt:139
 msgid "post box, could be integrated"
@@ -924,7 +926,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:42
 msgid "indoor"
-msgstr ""
+msgstr "실내"
 
 #: ../../tools/database/items_menu.txt:92
 msgid "roundabout as area"
@@ -932,7 +934,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:126
 msgid "road"
-msgstr ""
+msgstr "길"
 
 #: ../../tools/database/items_menu.txt:2
 msgid "split building"
@@ -1101,7 +1103,7 @@ msgstr ""
 
 #: ../../tools/database/categories_menu.txt:9
 msgid "JOSM validator"
-msgstr ""
+msgstr "JOSM 유효성 체크"
 
 #: ../../tools/database/items_menu.txt:228
 msgid "seamark"
@@ -1109,7 +1111,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:229
 msgid "addresses"
-msgstr ""
+msgstr "주소"
 
 #: ../../tools/database/items_menu.txt:230
 msgid "combinations"
@@ -1117,7 +1119,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:231
 msgid "deprecated"
-msgstr ""
+msgstr "더 이상 사용되지 않음"
 
 #: ../../tools/database/items_menu.txt:232
 msgid "geometry"
@@ -1150,7 +1152,7 @@ msgstr ""
 #: ../src/pages/issues/index.vue:68 ../src/pages/map/items-filters.vue:62
 #: ../src/pages/map/items-filters.vue:7
 msgid "Country"
-msgstr ""
+msgstr "국가"
 
 #: ../src/pages/issues/index.vue:80
 msgid "Item"
@@ -1207,7 +1209,7 @@ msgstr ""
 
 #: ../src/pages/map/popup.vue:139
 msgid "Issue reported on:"
-msgstr ""
+msgstr "문제 보고됨:"
 
 #: ../src/pages/map/popup.vue:388
 msgid ""
@@ -1274,16 +1276,18 @@ msgid "enforcement"
 msgstr ""
 
 #: ../../tools/database/items_menu.txt:61
+#, fuzzy
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../tools/database/items_menu.txt:203
 msgid "street objects"
 msgstr ""
 
 #: ../../tools/database/items_menu.txt:242
+#, fuzzy
 msgid "openrailwaymap"
-msgstr ""
+msgstr "openrailwaymap"
 
 #: ../../tools/database/items_menu.txt:46
 msgid "railways"
@@ -1291,7 +1295,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:188
 msgid "power plant"
-msgstr ""
+msgstr "발전소"
 
 #: ../src/pages/translation.vue:4
 msgid ""
@@ -1329,7 +1333,7 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:75 ../src/pages/map/doc.vue:1
 msgid "Source Code"
-msgstr ""
+msgstr "소스 코드"
 
 #: ../src/pages/map/doc.vue:82 ../src/pages/map/doc.vue:1
 msgid "Resource used"
@@ -1341,7 +1345,7 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:5
 msgid "Welcome to Osmose-QA"
-msgstr ""
+msgstr "Osmose-QA에 오신 것을 환영합니다"
 
 #: ../src/pages/map/doc.vue:26
 msgid ""
@@ -1351,11 +1355,11 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:32
 msgid "You can find help on the wiki:"
-msgstr ""
+msgstr "위키에서 도움을 구할 수 있습니다:"
 
 #: ../../tools/database/items_menu.txt:213
 msgid "charging station"
-msgstr ""
+msgstr "충전소"
 
 #: ../../tools/database/items_menu.txt:214
 msgid "charging station, could be integrated"
@@ -1367,7 +1371,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:30
 msgid "related objects"
-msgstr ""
+msgstr "관련 개체"
 
 #: ../../tools/database/items_menu.txt:205
 msgid "wastewater"
@@ -1383,11 +1387,11 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:324
 msgid "delete issue"
-msgstr ""
+msgstr "삭제된 이슈"
 
 #: ../src/pages/map/popup.vue:347
 msgid "Issue details"
-msgstr ""
+msgstr "상세한 문제"
 
 #: ../src/pages/map/popup.vue:360
 msgid "Report based on data from date"
@@ -1395,7 +1399,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:182
 msgid "pharmacy, need update"
-msgstr ""
+msgstr "약국, 갱신이 필요함"
 
 #: ../../tools/database/items_menu.txt:191
 msgid "power substation, need update"
@@ -1403,15 +1407,15 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:195
 msgid "shop"
-msgstr ""
+msgstr "가게"
 
 #: ../src/pages/map/editor-modal.vue
 msgid "Fixed with Osmose"
-msgstr ""
+msgstr "Osmose로 수정함"
 
 #: ../src/pages/map/editor.vue:132
 msgid "Done"
-msgstr ""
+msgstr "완료됨"
 
 #: ../src/pages/map/doc.vue:7
 msgid ""
@@ -1457,7 +1461,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:217
 msgid "milestone"
-msgstr ""
+msgstr "이정표"
 
 #: ../../tools/database/items_menu.txt:218
 msgid "milestone, could be integrated"
@@ -1469,11 +1473,11 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
-msgstr ""
+msgstr "소풍"
 
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
-msgstr ""
+msgstr "자전거 인프라"
 
 #: ../src/pages/issues/index.vue
 msgid "Information"
@@ -1493,7 +1497,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:153
 msgid "place of worship"
-msgstr ""
+msgstr "종교 지역"
 
 #: ../../tools/database/items_menu.txt:222
 msgid "cemetery"
@@ -1513,7 +1517,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:226
 msgid "fire station"
-msgstr ""
+msgstr "소방서"
 
 #: ../src/pages/contact.vue:53
 msgid ""
@@ -1537,19 +1541,19 @@ msgstr ""
 
 #: ../src/components/issues-list.vue:178
 msgid "Mark issue #{uuid} as false positive"
-msgstr ""
+msgstr "#{uuid} 문제를 오탐으로 표시"
 
 #: ../src/components/issues-list.vue:188
 msgid "Mark issue #{uuid} as fixed"
-msgstr ""
+msgstr "#{uuid} 문제를 수정됨으로 표시"
 
 #: ../src/pages/byuser/byuser.vue:53
 msgid "Number of found issues: {count}"
-msgstr ""
+msgstr "발견된 문제의 수: {count}"
 
 #: ../src/pages/byuser/byuser.vue:58
 msgid "Number of found issues: more than {count}"
-msgstr ""
+msgstr "발견된 문제의 수: {count} 이상"
 
 #: ../src/pages/byuser/byuser.vue
 msgid "Statistics for user {user}"
@@ -1598,7 +1602,7 @@ msgstr ""
 
 #: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
 msgid "volunteers"
-msgstr ""
+msgstr "자원봉사자"
 
 #: ../../tools/database/items_menu.txt:113
 msgid "post office, ref not integrated"
@@ -1677,11 +1681,11 @@ msgstr ""
 
 #: ../src/pages/map/doc.vue:71
 msgid "Hide from map"
-msgstr ""
+msgstr "지도에서 숨기기"
 
 #: ../src/pages/map/doc.vue:61
 msgid "Hide markers"
-msgstr ""
+msgstr "마커 숨기기"
 
 #: ../src/pages/map/items-list.vue
 msgid "Item #{item}"
@@ -1727,7 +1731,7 @@ msgstr ""
 #: ../src/pages/issues/index.vue:178 ../src/pages/map/items-filters.vue:113
 #: ../src/pages/map/items-filters.vue:58
 msgid "OSM Username"
-msgstr ""
+msgstr "OSM 사용자명"
 
 #: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
 #: ../src/pages/map/items-filters.vue:40
@@ -1741,11 +1745,11 @@ msgstr ""
 
 #: ../src/pages/issues/index.vue:488 ../src/pages/map/items-filters.vue:201
 msgid "tag"
-msgstr ""
+msgstr "태그"
 
 #: ../src/pages/issues/index.vue:146
 msgid "Tag"
-msgstr ""
+msgstr "태그"
 
 #: ../../tools/database/items_menu.txt:172
 msgid "toilets, could be integrated"
@@ -1753,15 +1757,15 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:173
 msgid "toilets, need update"
-msgstr ""
+msgstr "화장실, 업데이트가 필요함"
 
 #: ../../tools/database/items_menu.txt:227
 msgid "natural"
-msgstr ""
+msgstr "자연물"
 
 #: ../src/pages/map/items.vue:5
 msgid "Zoom in to see issues."
-msgstr ""
+msgstr "문제를 보려면 확대하세요."
 
 #: ../../tools/database/items_menu.txt:79
 msgid "conditional restriction"
@@ -1769,7 +1773,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:80
 msgid "sideway"
-msgstr ""
+msgstr "인도"
 
 #: ../../web_api/byuser.py:96
 msgid "Statistics for user {}"
@@ -1859,8 +1863,8 @@ msgstr ""
 
 #: ../src/pages/translation.vue:21
 msgid "Translation is done on {Weblate}"
-msgstr ""
+msgstr "{Weblate}에서 번역이 완료됨"
 
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
-msgstr ""
+msgstr "{Weblate}에서 새 언어를 직접 추가할 수 있습니다."
