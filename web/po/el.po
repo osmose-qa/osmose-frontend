@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-02-27 23:09+0000\n"
+"PO-Revision-Date: 2026-03-14 01:11+0000\n"
 "Last-Translator: Jim Kats <jim-kats@hotmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/osmose/frontend/"
 "el/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -1678,7 +1678,7 @@ msgstr "Καθυστέρηση:"
 
 #: ../src/pages/map/doc.vue:64
 msgid "Do not want to see {title} markers?"
-msgstr ""
+msgstr "Δεν θέλετε να βλέπετε δείκτες {title};"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'elements'
 #: ../src/components/issues-list.vue:37
