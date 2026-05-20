@@ -96,7 +96,7 @@
               <td>
                 <router-link
                   v-if="res.lat !== undefined && res.lon !== undefined"
-                  :to="`/map/#${query}&amp;item=${res.item}&amp;zoom=17&amp;lat=${res.lat}&amp;lon=${res.lon}&amp;level=${res.level}&tags=&fixable=&issue_uuid=${res.uuid}`"
+                  :to="`/${$route.params.lang}/map/#${query}&amp;item=${res.item}&amp;zoom=17&amp;lat=${res.lat}&amp;lon=${res.lon}&amp;level=${res.level}&tags=&fixable=&issue_uuid=${res.uuid}`"
                 >
                   {{ res.lon.toFixed(2) }}&nbsp;{{ res.lat.toFixed(2) }}
                 </router-link>
