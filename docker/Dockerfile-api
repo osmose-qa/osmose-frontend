@@ -1,4 +1,4 @@
-FROM python:3.13
+FROM python:3.14
 MAINTAINER Frédéric Rodrigo <fred.rodrigo@gmail.com>
 
 RUN mkdir -p /data/work/root/results/
@@ -6,16 +6,10 @@ RUN mkdir -p /data/work/root/results/
 RUN apt update && \
     apt install -y --no-install-recommends \
         bzip2 \
-        gettext \
-        librsvg2-bin \
-        npm \
         postgresql-client && \
     apt-get clean
 
 WORKDIR /data/project/osmose/frontend
-ADD web_api/static/package.json web_api/static/package.json
-ADD web_api/static/package-lock.json web_api/static/package-lock.json
-RUN cd web_api/static && npm install && cd -
 ADD ./requirements.txt requirements.txt
 RUN pip install uvicorn && pip install -r requirements.txt
 
