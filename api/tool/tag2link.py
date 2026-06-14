@@ -1,7 +1,7 @@
 # https://raw.githubusercontent.com/JOSM/tag2link/master/index.json
 
 import json
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 
 class tag2link:
