@@ -7,7 +7,7 @@ from typing import Dict, List, Tuple
 class tag2link:
     def __init__(self, rulesFiles: str):
         rules_json = json.load(open(rulesFiles, "r", encoding="utf-8"))
-        self.rules: Dict[Tuple[str, str], str] = {}
+        self.rules: Dict[str, str] = {}
         for rule in rules_json:
             key = rule["key"]
             if not key.startswith("Key:"):
