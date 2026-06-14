@@ -1,7 +1,9 @@
 .git
 .venv
 .mypy_cache
+**/__pycache__
 venv
 web/node_modules
 web/public/assets
 docker/.env
+web_api/session_

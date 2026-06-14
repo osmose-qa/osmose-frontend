@@ -9,11 +9,14 @@ web/po/osmose-frontend.pot.tmp
 web/po/tmp.tpl
 web/po/python.pot
 web/po/vue.pot
+web/webpack.stats.json
+web/public/assets/
 
 web_api/session/
 web_api/public/
 web_api/static/images
 web_api/static/node_modules
+web_api/session_
 
 osmose-frontend-venv
 
