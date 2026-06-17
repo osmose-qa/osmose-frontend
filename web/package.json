@@ -9,6 +9,7 @@
   "dependencies": {
     "@maplibre/maplibre-gl-geocoder": "^1.5.0",
     "@types/geojson": "^7946.0.14",
+    "@types/nprogress": "^0.2.3",
     "babel-preset-typescript-vue": "^1.1.1",
     "bootstrap": "^4.6.0",
     "geobuf": "^3.0.2",
@@ -16,13 +17,13 @@
     "lodash": "^4.17.21",
     "maplibre-gl": "^4.3.2",
     "marked": "^12.0.2",
+    "nprogress": "^0.2.0",
     "numeral": "^2.0.6",
     "vue": "^2.6.12",
     "vue-filter-number-format": "^3.0.1",
     "vue-i18n": "^8.24.2",
     "vue-router": "^3.5.1",
     "vue-sorted-table": "^1.3.0",
-    "vue-top-progress": "^0.7.0",
     "vue2-timeago": "^1.2.10"
   },
   "devDependencies": {

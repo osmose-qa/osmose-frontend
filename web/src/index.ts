@@ -1,8 +1,9 @@
+import 'nprogress/nprogress.css'
+
 import numeral from 'numeral'
 import Vue from 'vue'
 import numFormat from 'vue-filter-number-format'
 import SortedTablePlugin from 'vue-sorted-table'
-import vueTopprogress from 'vue-top-progress'
 
 import App from './app.vue'
 import TranslateSlot from './components/translate-slot.vue'
@@ -10,7 +11,6 @@ import Translate from './components/translate.vue'
 import { i18n, loadLanguageAsync } from './i18n'
 import { router } from './router'
 
-Vue.use(vueTopprogress)
 Vue.use(SortedTablePlugin)
 Vue.filter('numFormat', numFormat(numeral))
 Vue.component('Translate', Translate)

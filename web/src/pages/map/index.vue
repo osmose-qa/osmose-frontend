@@ -1,6 +1,5 @@
 <template>
   <div>
-    <vue-topprogress ref="topProgress"></vue-topprogress>
     <div v-if="error">{{ error }}</div>
     <div>
       <top

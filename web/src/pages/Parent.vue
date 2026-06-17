@@ -1,4 +1,5 @@
 <script lang="ts">
+import NProgress from 'nprogress'
 import Vue from 'vue'
 
 export default Vue.extend({
@@ -35,15 +36,15 @@ export default Vue.extend({
     },
 
     fetchJsonProgress(url, callback = (response: Object) => {}) {
-      this.$refs.topProgress.start()
+      NProgress.start()
       this.fetchJson(
         url,
         (response) => {
-          this.$refs.topProgress.done()
+          NProgress.done()
           callback(response)
         },
         () => {
-          this.$refs.topProgress.done()
+          NProgress.done()
         }
       )
     },

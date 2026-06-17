@@ -1,6 +1,5 @@
 <template>
   <div style="font-size: 50%">
-    <vue-topprogress ref="topProgress"></vue-topprogress>
     <div v-if="error">{{ error }}</div>
     <table
       v-else
