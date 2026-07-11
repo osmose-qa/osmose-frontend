@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2025-12-06 13:00+0000\n"
-"Last-Translator: Lukas <ox86udoo@duck.com>\n"
+"PO-Revision-Date: 2026-07-12 23:01+0000\n"
+"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/osmose/frontend/"
 "pl/>\n"
 "Language: pl\n"
@@ -35,7 +35,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.15-dev\n"
+"X-Generator: Weblate 2026.7.1.dev0\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -554,7 +554,7 @@ msgstr "literówka w tagu"
 
 #: ../../tools/database/items_menu.txt:67
 msgid "incorrect "
-msgstr "niepoprawne"
+msgstr "niepoprawne "
 
 #: ../../tools/database/items_menu.txt:68
 msgid "parking lane"
@@ -920,7 +920,7 @@ msgstr "informacja o błędzie"
 
 #: ../src/components/issues-list.vue:103
 msgid "issue n°"
-msgstr "problem nr "
+msgstr "problem nr"
 
 #: ../src/pages/index.vue:6
 msgid "Map of issues"
@@ -1487,7 +1487,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:151
 msgid "fire hydrant"
-msgstr "hydrant [FR]"
+msgstr "hydrant pożarowy"
 
 #: ../../tools/database/items_menu.txt:152
 msgid "fire hydrant, could be integrated"
@@ -1877,7 +1877,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
-msgstr ""
+msgstr "obszar budynków"
 
 #: ../../tools/database/items_menu.txt:165
 msgid "cycle parking, need update"
@@ -1885,23 +1885,23 @@ msgstr "parkingi rowerowe wymagają aktualizacji"
 
 #: ../../tools/database/items_menu.txt:243
 msgid "openrailwaymap in Germany"
-msgstr ""
+msgstr "openrailwaymap w Niemczech"
 
 #: ../../tools/database/items_menu.txt:244
 msgid "specific Russia"
-msgstr ""
+msgstr "specyficzne dla Rosji"
 
 #: ../../tools/database/items_menu.txt:245
 msgid "specific Brazil"
-msgstr ""
+msgstr "specyficzne dla Brazylii"
 
 #: ../../tools/database/items_menu.txt:246
 msgid "specific France"
-msgstr ""
+msgstr "specyficzne dla Francji"
 
 #: ../../tools/database/items_menu.txt:247
 msgid "specific Netherlands"
-msgstr ""
+msgstr "specyficzne dla Niderlandów"
 
 #: ../src/pages/map/top.vue:360
 msgid "Number of closed makers in this session"
@@ -1913,6 +1913,8 @@ msgid ""
 "saving your changes. You can save multiple times while keeping the same "
 "changeset."
 msgstr ""
+"Wprowadziłeś dużą liczbę zmian w edytorze tagów. Zastanów się nad zapisaniem "
+"zmian. Możesz je zapisać wielokrotnie, zachowując ten sam zestaw zmian."
 
 #: ../src/pages/map/index.vue
 msgid ""
@@ -1926,16 +1928,12 @@ msgid ""
 msgstr ""
 
 #: ../src/pages/translation.vue:21
-#, fuzzy
-#| msgid "Translation is done on {Transifex}"
 msgid "Translation is done on {Weblate}"
-msgstr "Tłumaczenia są zarządzane na {Transifex}."
+msgstr "Tłumaczenia są zarządzane przez {Weblate}"
 
 #: ../src/pages/translation.vue:55
-#, fuzzy
-#| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
-msgstr "Nowy język można dodać bezpośrednio na {Transifex}"
+msgstr "Nowy język można dodać bezpośrednio na {Weblate}."
 
 #~ msgid "out of boundary"
 #~ msgstr "poza granicą"
