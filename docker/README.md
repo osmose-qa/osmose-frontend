@@ -1,6 +1,6 @@
 # Docker
 
-Copy `.env.template` as `.env` and adjustcontent, only required to enable loggin from osm.org.
+Copy `.env.template` as `.env` and adjust content, only required to enable loggin from osm.org.
 
 Build the Docker image, within the docker directory:
 ```
