@@ -94,8 +94,6 @@ async def issues(
     title, issues = await _issues(db, langs, params, i18n)
 
     outprops = {"lat", "lon", "id", "item"}
-    if params.full:
-        outprops = None
 
     # Left here for retrocompat
     for issue in issues:
@@ -127,7 +125,7 @@ async def issues(
 
     return {
         "issues": [
-            {k: v for k, v in issue.items() if outprops is None or k in outprops}
+            {k: v for k, v in issue.items() if params.full or k in outprops}
             for issue in issues
         ]
     }
