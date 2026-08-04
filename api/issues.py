@@ -99,19 +99,19 @@ async def issues(
 
     # Left here for retrocompat
     for issue in issues:
-        issue["id"]: issue["uuid"]
+        issue["id"] = issue["uuid"]
 
         issue.pop("uuid", None)
 
         if params.full:
-            issue["update"]: str(issue["timestamp"])
-            issue["usernames"]: list(
+            issue["update"] = str(issue["timestamp"])
+            issue["usernames"] = list(
                 map(
                     lambda elem: "username" in elem and elem["username"] or "",
                     issue["elems"] or [],
                 )
             )
-            issue["osm_ids"]: dict(
+            issue["osm_ids"] = dict(
                 map(
                     lambda k_g: (
                         {"N": "nodes", "W": "ways", "R": "relations"}[k_g[0]],

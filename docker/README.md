@@ -4,11 +4,7 @@ Copy `.env.template` as `.env` and adjust content, only required to enable loggi
 
 Build the Docker image, within the docker directory:
 ```
-<<<<<<< HEAD
 curl -L https://osmose.openstreetmap.fr/export/osmose-menu.sql.bz2 | bzcat > osmose-menu.sql
-=======
-curl https://osmose.openstreetmap.fr/export/osmose-menu.sql.bz2 | bzcat > osmose-menu.sql
->>>>>>> 609544ad (Add full tags to 0.3 issues API JSON response)
 docker compose build
 ```
 
