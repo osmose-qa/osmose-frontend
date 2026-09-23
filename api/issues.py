@@ -100,6 +100,7 @@ async def issues(
                             ),
                         )
                     ),
+                    "elems": res["elems"],
                 }
             )
         out.append(i)
