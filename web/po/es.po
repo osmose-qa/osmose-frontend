@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-02-09 13:09+0000\n"
-"Last-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\n"
+"PO-Revision-Date: 2026-09-23 14:56+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/osmose/frontend/"
 "es/>\n"
 "Language: es\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -50,7 +50,7 @@ msgstr "Contacto"
 
 #: ../src/pages/map/top.vue:88
 msgid "Help on wiki"
-msgstr "Ayuda en la wiki"
+msgstr "Ayuda en el wiki"
 
 #: ../src/pages/index.vue:28 ../src/pages/translation.vue:123
 msgid "http://wiki.openstreetmap.org/wiki/Osmose"
@@ -82,11 +82,11 @@ msgstr "Nombre de usuario:"
 
 #: ../src/pages/contact.vue:2
 msgid "Bug tracker"
-msgstr "Rastreador de errores"
+msgstr "Gestor de incidencias"
 
 #: ../src/pages/contact.vue:23
 msgid "Providing patches"
-msgstr "Proporcionando parches"
+msgstr "Proporcionar parches"
 
 #: ../src/pages/contact.vue:25
 msgid ""
@@ -119,11 +119,11 @@ msgstr "Actualización"
 
 #: ../src/pages/control/update.vue:8
 msgid "remote url"
-msgstr "url remota"
+msgstr "url remoto"
 
 #: ../src/pages/control/update.vue:9
 msgid "timestamp"
-msgstr "marca de tiempo"
+msgstr "cronomarcador"
 
 #: ../src/pages/copyright.vue
 msgid "Copyright information"
@@ -213,7 +213,7 @@ msgstr "fecha"
 
 #: ../src/pages/index.vue:11
 msgid "Help on OSM wiki"
-msgstr "Ayuda en la wiki OSM"
+msgstr "Ayuda en el wiki de OSM"
 
 #: ../src/pages/index.vue:20
 msgid "False positives list"
@@ -234,11 +234,11 @@ msgstr "Cancelar"
 
 #: ../src/pages/issues/index.vue:92 ../src/pages/map/items-filters.vue:4
 msgid "Severity"
-msgstr "Severidad"
+msgstr "Criticidad"
 
 #: ../src/pages/issues/index.vue:192 ../src/pages/map/items-filters.vue:30
 msgid "Fixable"
-msgstr "Corregible"
+msgstr "Corregibles"
 
 #: ../src/pages/map/items-filters.vue:164
 msgid "Show only markers with correction suggestions"
@@ -270,7 +270,7 @@ msgstr "invertir"
 
 #: ../src/pages/map/top.vue:5
 msgid "Change language"
-msgstr "Cambiar el idioma"
+msgstr "Cambiar idioma"
 
 #: ../src/pages/map/popup.vue:377 ../src/pages/map/top.vue:79
 msgid "Help"
@@ -282,7 +282,7 @@ msgstr "Salir"
 
 #: ../src/pages/map/editor.vue:8 ../src/pages/map/top.vue:163
 msgid "Login"
-msgstr "Ingresar"
+msgstr "Acceder"
 
 #: ../src/pages/map/editor-menu.vue:3 ../src/pages/map/editor-modal.vue:41
 msgid "Save"
@@ -310,15 +310,15 @@ msgstr "falso positivo"
 
 #: ../src/pages/translation.vue:2 ../src/pages/translation.vue
 msgid "How to help translation"
-msgstr "Cómo ayudar a la traducción"
+msgstr "Cómo ayudar con la traducción"
 
 #: ../src/pages/translation.vue:10
 msgid ""
 "To make Osmose a real multi-lingual tool, we need your help to improve "
 "current translations, and add new translations"
 msgstr ""
-"Para hacer a Osmose una verdadera herramienta multilingüe, necesitamos tu "
-"ayuda para mejorar las traducciones actuales, y añadir nuevas traducciones"
+"Para que Osmose sea una herramienta verdaderamente multilingüe, necesitamos "
+"su ayuda para mejorar las traducciones actuales y añadir nuevas"
 
 #: ../src/pages/translation.vue:16
 msgid "Pages to translate"
@@ -326,15 +326,15 @@ msgstr "Páginas por traducir"
 
 #: ../src/pages/translation.vue:42
 msgid "Wiki pages"
-msgstr "Páginas wiki"
+msgstr "Páginas del wiki"
 
 #: ../src/pages/translation.vue:17
 msgid "Osmose pages"
-msgstr "Páginas Osmose"
+msgstr "Páginas de Osmose"
 
 #: ../src/pages/translation.vue:78
 msgid "Bug tracking system"
-msgstr "Sistema de seguimiento de errores"
+msgstr "Sistema de gestión de incidencias"
 
 #: ../../tools/database/categories_menu.txt:1
 msgid "Structure"
@@ -362,7 +362,7 @@ msgstr "Administrativo"
 
 #: ../../tools/database/categories_menu.txt:7
 msgid "To map"
-msgstr "Por mapear"
+msgstr "Por cartografiar"
 
 #: ../../tools/database/categories_menu.txt:8
 msgid "Integration"
@@ -382,7 +382,7 @@ msgstr "vía en un nodo"
 
 #: ../../tools/database/items_menu.txt:5
 msgid "invalid polygon"
-msgstr "polígono inválido"
+msgstr "polígono no válido"
 
 #: ../../tools/database/items_menu.txt:6
 msgid "reverse roundabout"
@@ -792,7 +792,7 @@ msgstr "Progreso de la traducción: osmose"
 
 #: ../src/pages/translation.vue:51
 msgid "For new language or countries"
-msgstr "Para nuevo idioma o países"
+msgstr "Para idiomas o países nuevos"
 
 #: ../src/pages/map/top.vue:32
 msgid "Export"
@@ -828,7 +828,7 @@ msgstr "gasolinera"
 
 #: ../src/pages/map/editor.vue:5
 msgid "You must be logged in to use the tag editor"
-msgstr "Debe estar conectado para poder utilizar el editor de etiquetas"
+msgstr "Debe acceder a su cuenta para poder usar el editor de etiquetas"
 
 #: ../src/pages/map/editor-modal.vue:2
 msgid "Save changeset"
@@ -1034,7 +1034,7 @@ msgstr "años"
 
 #: ../../tools/database/items_menu.txt:100
 msgid "invalid character"
-msgstr "caracter inválido"
+msgstr "carácter no válido"
 
 #: ../../tools/database/items_menu.txt:179
 msgid "gas station, could be integrated"
@@ -1369,19 +1369,19 @@ msgstr "Recurso utilizado"
 
 #: ../src/pages/map/doc.vue:90
 msgid "Want to improve this control or this doc?"
-msgstr "¿Quieres mejorar este control o este documento?"
+msgstr "¿Quiere mejorar este control o este documento?"
 
 #: ../src/pages/map/doc.vue:5
 msgid "Welcome to Osmose-QA"
-msgstr "Bienvenido a Osmose-QA"
+msgstr "Le damos la bienvenida a Osmose-QA"
 
 #: ../src/pages/map/doc.vue:26
 msgid ""
 "In no case Osmose-QA should provide you the absolute right way to map, "
 "always keep a critical eye."
 msgstr ""
-"En ningún caso, Osmose-QA debe proporcionarle la forma correcta de mapear, "
-"siempre tenga un ojo crítico."
+"En ningún caso Osmose-QA pretende ofrecerle la única forma correcta de "
+"cartografiar; mantenga siempre una actitud crítica."
 
 #: ../src/pages/map/doc.vue:32
 msgid "You can find help on the wiki:"
@@ -1417,11 +1417,11 @@ msgstr "aguas residuales, necesita actualización"
 
 #: ../src/components/issues-list.vue:324
 msgid "delete issue"
-msgstr "borrar problema"
+msgstr "eliminar problema"
 
 #: ../src/pages/map/popup.vue:347
 msgid "Issue details"
-msgstr "detalles problema"
+msgstr "Detalles del problema"
 
 #: ../src/pages/map/popup.vue:360
 msgid "Report based on data from date"
@@ -1460,8 +1460,8 @@ msgid ""
 "It detects a very wide range of issue types. It is also useful for "
 "integrating third-party data sets by conflation."
 msgstr ""
-"Detecta un amplio rango de tipos de problemas. También es útil para integrar "
-"conjuntos de datos o datos de terceros por fusión."
+"Detecta una amplia variedad de tipos de problemas. También resulta útil para "
+"integrar conjuntos de datos de terceros mediante fusión."
 
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
@@ -1615,7 +1615,7 @@ msgstr "Estadísticas de usuario para {users}"
 #: ../src/pages/translation.vue:82
 msgid "{osmose-frontend} can be used to report any issue with translations."
 msgstr ""
-"{osmose-frontend} puede ser usado para informar cualquier problema con las "
+"Se puede usar {osmose-frontend} para informar de cualquier problema con las "
 "traducciones."
 
 #: ../src/pages/contact.vue:5
@@ -1636,13 +1636,14 @@ msgstr "El desarrollo de Osmose se hace como software libre por {volunteers}."
 msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
 msgstr ""
-"Para nuevos países, podemos ser contactados a través de un correo "
-"electrónico directo a {email}."
+"Para países nuevos, puede ponerse en contacto con nosotros enviando un "
+"mensaje electrónico directamente a {email}."
 
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
 msgstr ""
-"Podemos ser contactados a través de un correo electrónico directo a {email}."
+"Puede ponerse en contacto con nosotros enviando un mensaje electrónico "
+"directamente a {email}."
 
 #: ../src/pages/contact.vue:61
 msgid ""
@@ -1650,9 +1651,9 @@ msgid ""
 "others by contributors around the world. The servers for North America and "
 "other areas are funded by Mapbox."
 msgstr ""
-"Los servidores que analizan los datos son proporcionados por OpenStreetMap-"
-"France y algunos otros por colaboradores de todo el mundo. Los servidores "
-"para Norteamérica y otras áreas son financiados por Mapbox."
+"Los servidores que analizan los datos los proporciona OpenStreetMap-France "
+"y, en algunos casos, por colaboradores de todo el mundo. Los servidores para "
+"América del Norte y otras zonas los financia Mapbox."
 
 #: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
 msgid "volunteers"
@@ -1722,11 +1723,11 @@ msgstr "Control, comprobación y corrección de las incidencias de {project}"
 
 #: ../src/pages/map/top.vue:266
 msgid "Delay:"
-msgstr "Retraso:"
+msgstr "Demora:"
 
 #: ../src/pages/map/doc.vue:64
 msgid "Do not want to see {title} markers?"
-msgstr "¿No quieres ver el {title} de los marcadores?"
+msgstr "¿No quiere ver marcadores {title}?"
 
 #. TRANSLATORS: this should be replaced by a abbreviation for 'elements'
 #: ../src/components/issues-list.vue:37
@@ -1771,7 +1772,7 @@ msgstr "Más filtros"
 #: ../src/pages/issues/index.vue:162 ../src/pages/map/items-filters.vue:100
 #: ../src/pages/map/items-filters.vue:45
 msgid "No (Default)"
-msgstr "No (Defecto)"
+msgstr "No (predeterminado)"
 
 #: ../src/pages/issues/index.vue:168 ../src/pages/map/items-filters.vue:106
 #: ../src/pages/map/items-filters.vue:51
@@ -1918,8 +1919,8 @@ msgid ""
 "saving your changes. You can save multiple times while keeping the same "
 "changeset."
 msgstr ""
-"Has realizado muchos cambios con el editor de etiquetas. Considera guardar "
-"los cambios. Puedes guardarlos varias veces y conservar el mismo conjunto de "
+"Ha realizado muchos cambios con el editor de etiquetas. Considere guardar "
+"los cambios. Puede guardarlos varias veces y conservar el mismo conjunto de "
 "cambios."
 
 #: ../src/pages/map/index.vue
@@ -1932,10 +1933,10 @@ msgid ""
 "- https://wiki.openstreetmap.org/wiki/"
 "What%27s_the_problem_with_mechanical_edits%3F"
 msgstr ""
-"Has hecho muchas correcciones. ¡Genial!\n"
+"Ha hecho muchas correcciones. ¡Genial!\n"
 "\n"
-"Puede que no sea tu caso, pero ten en cuenta que Osmose-QA no está diseñado "
-"para edición mecánica. Consulta más información en:\n"
+"Puede que no sea su caso, pero tenga en cuenta que Osmose-QA no está "
+"diseñado para edición mecánica. Consulte más información en:\n"
 "- https://wiki.openstreetmap.org/wiki/Automated_edits\n"
 "- https://wiki.openstreetmap.org/wiki/"
 "What%27s_the_problem_with_mechanical_edits%3F"
@@ -1946,7 +1947,7 @@ msgstr "La traducción se realiza en {Weblate}"
 
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
-msgstr "Puedes crear un nuevo idioma directamente en {Weblate}."
+msgstr "Puede crear un idioma nuevo directamente en {Weblate}."
 
 #~ msgid "out of boundary"
 #~ msgstr "fuera del límite"
