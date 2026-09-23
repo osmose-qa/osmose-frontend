@@ -50,91 +50,6 @@ class NLJSONResponse(Response):
         )
 
 
-@router.get("/0.3/issues", tags=["issues"])
-@router.get("/0.3/issues.json", tags=["issues"])
-async def issues(
-    request: Request,
-    db: Connection = Depends(database.db),
-    langs: LangsNegociation = Depends(langs.langs),
-    params=Depends(commons_params.params),
-) -> Dict[Literal["issues"], List[Dict[str, Any]]]:
-    params.limit = min(params.limit, 100000)
-    results = await query._gets(db, params)
-
-    out = []
-    for res in results:
-        i = {
-            "lat": float(res["lat"]),
-            "lon": float(res["lon"]),
-            "id": res["uuid"],
-            "item": str(res["item"]),
-        }
-        if params.full:
-            i.update(
-                {
-                    "lat": float(res["lat"]),
-                    "lon": float(res["lon"]),
-                    "id": res["uuid"],
-                    "item": str(res["item"]),
-                    "source": res["source_id"],
-                    "class": res["class"],
-                    "subtitle": utils.i10n_select(res["subtitle"], langs),
-                    "title": utils.i10n_select(res["title"], langs),
-                    "level": res["level"],
-                    "update": str(res["timestamp"]),
-                    "usernames": list(
-                        map(
-                            lambda elem: "username" in elem and elem["username"] or "",
-                            res["elems"] or [],
-                        )
-                    ),
-                    "osm_ids": dict(
-                        map(
-                            lambda k_g: (
-                                {"N": "nodes", "W": "ways", "R": "relations"}[k_g[0]],
-                                list(map(lambda g: g["id"], k_g[1])),
-                            ),
-                            groupby(
-                                sorted(res["elems"] or [], key=lambda e: e["type"]),
-                                lambda e: e["type"],
-                            ),
-                        )
-                    ),
-                }
-            )
-        out.append(i)
-
-    return {"issues": out}
-
-
-@router.get("/0.3/issues.josm", tags=["issues"])
-async def issues_josm(
-    db: Connection = Depends(database.db),
-    params=Depends(commons_params.params),
-) -> RedirectResponse:
-    params.full = True
-    params.limit = min(params.limit, 100000)
-    results = await query._gets(db, params)
-
-    objects = set(
-        sum(
-            map(
-                lambda error: list(
-                    map(
-                        lambda elem: elem["type"].lower() + str(elem["id"]),
-                        error["elems"] or [],
-                    )
-                ),
-                results,
-            ),
-            [],
-        )
-    )
-    return RedirectResponse(
-        url=f"http://localhost:8111/load_object?objects={','.join(objects)}"
-    )
-
-
 async def _issues(
     db: Connection,
     langs: LangsNegociation,
@@ -167,6 +82,83 @@ async def _issues(
     return (title, issues)
 
 
+@router.get("/0.3/issues", tags=["issues"])
+@router.get("/0.3/issues.json", tags=["issues"])
+async def issues(
+    request: Request,
+    db: Connection = Depends(database.db),
+    langs: LangsNegociation = Depends(langs.langs),
+    params=Depends(commons_params.params),
+    i18n: i18n.Translator = Depends(i18n.i18n),
+) -> Dict[Literal["issues"], List[Dict[str, Any]]]:
+    title, issues = await _issues(db, langs, params, i18n)
+
+    outprops = {"lat", "lon", "id", "item"}
+
+    # Left here for retrocompat
+    for issue in issues:
+        issue["id"] = issue["uuid"]
+
+        issue.pop("uuid", None)
+
+        if params.full:
+            issue["update"] = str(issue["timestamp"])
+            issue["usernames"] = list(
+                map(
+                    lambda elem: "username" in elem and elem["username"] or "",
+                    issue["elems"] or [],
+                )
+            )
+            issue["osm_ids"] = dict(
+                map(
+                    lambda k_g: (
+                        {"N": "nodes", "W": "ways", "R": "relations"}[k_g[0]],
+                        list(map(lambda g: g["id"], k_g[1])),
+                    ),
+                    groupby(
+                        sorted(issue["elems"] or [], key=lambda e: e["type"]),
+                        lambda e: e["type"],
+                    ),
+                )
+            )
+            issue.pop("timestamp", None)
+
+    return {
+        "issues": [
+            {k: v for k, v in issue.items() if params.full or k in outprops}
+            for issue in issues
+        ]
+    }
+
+
+@router.get("/0.3/issues.josm", tags=["issues"])
+async def issues_josm(
+    db: Connection = Depends(database.db),
+    params=Depends(commons_params.params),
+) -> RedirectResponse:
+    params.full = True
+    params.limit = min(params.limit, 100000)
+    results = await query._gets(db, params)
+
+    objects = set(
+        sum(
+            map(
+                lambda error: list(
+                    map(
+                        lambda elem: elem["type"].lower() + str(elem["id"]),
+                        error["elems"] or [],
+                    )
+                ),
+                results,
+            ),
+            [],
+        )
+    )
+    return RedirectResponse(
+        url=f"http://localhost:8111/load_object?objects={','.join(objects)}"
+    )
+
+
 @router.get("/0.3/issues.rss", response_class=RSSResponse, tags=["issues"])
 async def issues_rss(
     request: Request,
@@ -175,6 +167,7 @@ async def issues_rss(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> RSSResponse:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return RSSResponse(
         rss(
@@ -199,6 +192,7 @@ async def issues_gpx(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> GPXResponse:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return GPXResponse(
         gpx(
@@ -223,6 +217,7 @@ async def issues_kml(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> KMLResponse:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return KMLResponse(
         kml(
@@ -247,6 +242,7 @@ async def issues_csv(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> str:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return csv(
         title=title,
@@ -268,6 +264,7 @@ async def issues_geojson(
     params=Depends(commons_params.params),
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> GeoJSONFeatureCollection:
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     return {
         "type": "FeatureCollection",
@@ -301,6 +298,7 @@ async def issues_maproulette_jsonl(
     i18n: i18n.Translator = Depends(i18n.i18n),
 ) -> List[Any]:
     params.limit = 100000
+    params.full = True
     title, issues = await _issues(db, langs, params, i18n)
     type_map = {"N": "node", "W": "way", "R": "relation"}
     return [
