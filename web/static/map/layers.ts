@@ -375,7 +375,11 @@ export const glStyle = {
       source: 'markers',
       'source-layer': 'issues',
       layout: {
-        'icon-image': ['concat', 'marker-b-', ['get', 'item']],
+        'icon-image': [
+          'coalesce',
+          ['image', ['concat', 'marker-b-', ['get', 'item']]],
+          'marker-b-0',
+        ],
         'icon-anchor': 'bottom',
         'icon-allow-overlap': true,
         visibility: 'none',
