@@ -71,14 +71,16 @@
           <tbody>
             <tr v-for="res in sort.values" :key="res.uuid">
               <td :title="`${res.country}-${res.analyser}`">
-                <router-link :to="`?${page_args}source=${res.source_id}`">
+                <router-link
+                  :to="{ query: queryFor({ source: res.source_id }) }"
+                >
                   {{ res.source_id }}
                 </router-link>
               </td>
               <td>{{ res.level }}</td>
               <td>
                 <img :src="getMakerImgSrc(res)" :alt="res.item" />
-                <router-link :to="`?${page_args}item=${res.item}`">
+                <router-link :to="{ query: queryFor({ item: res.item }) }">
                   {{ res.item }}
                 </router-link>
                 <span v_if="res.menu">{{ res['menu'] }}</span>
@@ -270,6 +272,13 @@ export default VueParent.extend({
   },
 
   methods: {
+    queryFor(overrides: Record<string, unknown>) {
+      return this.queryWith({
+        ...Object.fromEntries(new URLSearchParams(this.page_args)),
+        ...overrides,
+      })
+    },
+
     render() {
       this.fetchJsonProgress(
         `${API_URL}/api/0.3/issues.geojson?full=true&${this.page_args}${this.query}`,

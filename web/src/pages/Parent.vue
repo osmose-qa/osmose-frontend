@@ -61,6 +61,14 @@ export default Vue.extend({
         callback(response)
       })
     },
+
+    queryWith(overrides: Record<string, unknown>) {
+      return Object.fromEntries(
+        Object.entries({ ...this.$route.query, ...overrides }).filter(
+          ([, value]) => value !== undefined && value !== null && value !== ''
+        )
+      )
+    },
   },
 })
 </script>

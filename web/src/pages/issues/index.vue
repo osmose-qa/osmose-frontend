@@ -353,13 +353,17 @@
               :key="res.source_id + '|' + res.class"
             >
               <td>
-                <router-link :to="`?source=${res.source_id}`">
+                <router-link
+                  :to="{ query: queryWith({ source: res.source_id }) }"
+                >
                   {{ res.source_id }}
                 </router-link>
               </td>
               <td>
                 {{ res.analyser }}-
-                <router-link :to="`?country=${res.country}`">
+                <router-link
+                  :to="{ query: queryWith({ country: res.country }) }"
+                >
                   {{ res.country }}
                 </router-link>
               </td>
@@ -372,7 +376,9 @@
                   :alt="res.item"
                 />
                 <router-link
-                  :to="`?item=${res.item}&amp;country=${res.country}`"
+                  :to="{
+                    query: queryWith({ item: res.item, country: res.country }),
+                  }"
                 >
                   {{ res.item }}
                 </router-link>
@@ -380,7 +386,13 @@
               </td>
               <td>
                 <router-link
-                  :to="`?item=${res.item}&amp;class=${res.class}&amp;country=${res.country}`"
+                  :to="{
+                    query: queryWith({
+                      item: res.item,
+                      class: res.class,
+                      country: res.country,
+                    }),
+                  }"
                 >
                   {{ res.class }}
                 </router-link>
@@ -388,7 +400,13 @@
               <td>{{ res.title }}</td>
               <td>
                 <router-link
-                  :to="`?source=${res.source_id}&amp;item=${res.item}&amp;class=${res.class}`"
+                  :to="{
+                    query: queryWith({
+                      source: res.source_id,
+                      item: res.item,
+                      class: res.class,
+                    }),
+                  }"
                 >
                   {{ res.count === -1 ? 'N/A' : res.count }}
                 </router-link>

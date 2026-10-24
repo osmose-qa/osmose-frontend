@@ -17,7 +17,12 @@
             class="country"
           >
             <div class="rotate-90">
-              <router-link :to="`../issues/open?country=${country}`">
+              <router-link
+                :to="{
+                  path: '../issues/open',
+                  query: queryWith({ country }),
+                }"
+              >
                 {{ country }}
               </router-link>
             </div>
