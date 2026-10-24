@@ -332,7 +332,11 @@ That may not be your case, but note that Osmose-QA is not intended to be used fo
 
       const vars = this.getUrlVars()
       this.issueUuid = vars.issue_uuid
-      const urlState = this.filter(keys, vars)
+      let urlState = this.filter(keys, vars)
+
+      if (!urlState.level && Object.entries(urlState).some(([k, v]) => k !== 'level' && v != null && v !== '')) {
+        urlState.level = '1,2,3'
+      }
 
       let localStorageState = {}
       if (
