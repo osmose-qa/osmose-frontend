@@ -65,10 +65,7 @@ async def _items(
     WHERE
         1 = 1 """
         + (
-            """AND id = CASE
-            WHEN $1 < 1000 THEN 10
-            ELSE ($1 / 1000)::int * 10
-         END"""
+            """AND id = ($1 / 1000)::int * 10"""
             if item is not None
             else ""
         )

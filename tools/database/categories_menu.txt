@@ -1,3 +1,4 @@
+    00 | _("Building")
     10 | _("Structure")
     20 | _("Missing tags")
     30 | _("Bad tag")
