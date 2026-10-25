@@ -64,11 +64,7 @@ async def _items(
         categories
     WHERE
         1 = 1 """
-        + (
-            """AND id = ($1 / 1000)::int * 10"""
-            if item is not None
-            else ""
-        )
+        + ("""AND id = ($1 / 1000)::int * 10""" if item is not None else "")
         + """
     ORDER BY
         id

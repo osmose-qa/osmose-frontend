@@ -53,7 +53,7 @@ async def i18n(
     request: Request,
     langs: LangsNegociation = Depends(langs.langs),
 ) -> Translator:
-    (languages, redirect) = get_languages(request)
+    languages, redirect = get_languages(request)
 
     k = ",".join(languages)
     if k in cache:

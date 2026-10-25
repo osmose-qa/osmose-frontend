@@ -73,16 +73,13 @@ async def heat(
     if params.zoom > 18:
         return Response(status_code=204)
 
-    limit = await db.fetchval(
-        """
+    limit = await db.fetchval("""
 SELECT
     SUM((SELECT SUM(t) FROM UNNEST(number) t))
 FROM
     items
 WHERE
-"""
-        + items
-    )
+""" + items)
     if limit is None:
         raise HTTPException(status_code=404)
 

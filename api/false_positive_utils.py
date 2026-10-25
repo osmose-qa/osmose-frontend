@@ -24,10 +24,7 @@ async def _get(
     ]
 
     if err_id:
-        sql = (
-            "SELECT "
-            + ",".join(columns)
-            + """
+        sql = "SELECT " + ",".join(columns) + """
         FROM
             markers_status
             JOIN class ON
@@ -37,13 +34,9 @@ async def _get(
             status = $1 AND
             uuid_to_bigint(uuid) = $2
         """
-        )
         marker = await db.fetchrow(sql, status, err_id)
     else:
-        sql = (
-            "SELECT "
-            + ",".join(columns)
-            + """
+        sql = "SELECT " + ",".join(columns) + """
         FROM
             markers_status
         JOIN class ON
@@ -53,7 +46,6 @@ async def _get(
             status = $1 AND
             uuid = $2
         """
-        )
         marker = await db.fetchrow(sql, status, uuid)
 
     return (

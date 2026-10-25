@@ -140,9 +140,7 @@ def _build_param(
     if "items" in tables:
         join += """
         %sJOIN items ON
-            markers.item = items.item""" % (
-            "LEFT " if "items" in tablesLeft else ""
-        )
+            markers.item = items.item""" % ("LEFT " if "items" in tablesLeft else "")
 
     if "updates_last" in tables:
         join += """
@@ -167,13 +165,11 @@ def _build_param(
 
     if bbox:
         params += bbox
-        where.append(
-            f"""
+        where.append(f"""
             point(markers.lon, markers.lat) <@ box(
                 point(${len(params)-3}, ((${len(params)-2})::numeric + 180) % 360 - 180),
                 point(${len(params)-1}, ((${len(params)})::numeric + 180) % 360 - 180)
-            )"""
-        )
+            )""")
 
     if country is not None:
         if len(country) >= 1 and country[-1] == "*":
@@ -229,12 +225,10 @@ def _build_param(
             f"ARRAY[${len(params)}::bigint] <@ marker_elem_ids(elems)"
         )  # Match the index
         params += [osm_type[0].upper(), osm_id]
-        where.append(
-            f"""(SELECT
+        where.append(f"""(SELECT
                     bool_or(elem->>'type' = ${len(params)-1} AND
                     (elem->>'id')::bigint = ${len(params)})
-                FROM (SELECT unnest(elems)) AS t(elem))"""
-        )  # Recheck with type
+                FROM (SELECT unnest(elems)) AS t(elem))""")  # Recheck with type
 
     return (join, " AND\n        ".join(where), params)
 
@@ -288,9 +282,7 @@ def _get_sql(db: Connection, params: Params) -> Tuple[str, List[Any]]:
             sqlbase += """,
         NULL AS fixes,
         markers.date,"""
-    sqlbase = (
-        sqlbase[0:-1]
-        + """
+    sqlbase = sqlbase[0:-1] + """
     FROM
         %s
         JOIN updates_last ON
@@ -299,7 +291,6 @@ def _get_sql(db: Connection, params: Params) -> Tuple[str, List[Any]]:
         %s AND
         updates_last.timestamp > (now() - interval '3 months')
     """
-    )
 
     if params.full:
         forceTable = ["class", "sources"]

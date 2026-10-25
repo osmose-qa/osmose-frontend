@@ -208,8 +208,7 @@ async def update_class(
 async def table_merge_class_tmp(
     _db: Connection,
 ) -> None:
-    await _db.execute(
-        """
+    await _db.execute("""
 INSERT INTO class (class, item, title, level, tags, detail, fix, trap, example, source, resource, timestamp)
 SELECT
     *
@@ -242,12 +241,10 @@ WHERE
         class.source IS DISTINCT FROM excluded.source OR
         class.resource IS DISTINCT FROM excluded.resource
     )
-"""
-    )
+""")
     await _db.execute("DROP TABLE class_tmp")
 
-    await _db.execute(
-        """
+    await _db.execute("""
 INSERT INTO markers_counts (source_id, class, item)
 SELECT
     *
@@ -259,16 +256,14 @@ UPDATE SET
 WHERE
     markers_counts.source_id = excluded.source_id AND
     markers_counts.class = excluded.class
-"""
-    )
+""")
     await _db.execute("DROP TABLE markers_counts_tmp")
 
 
 async def table_create_tmp(
     _db: Connection,
 ) -> None:
-    await _db.execute(
-        """
+    await _db.execute("""
 CREATE TEMP TABLE class_tmp (
     class integer NOT NULL,
     item integer NOT NULL,
@@ -283,21 +278,17 @@ CREATE TEMP TABLE class_tmp (
     resource text,
     timestamp timestamp without time zone
 )
-"""
-    )
+""")
 
-    await _db.execute(
-        """
+    await _db.execute("""
 CREATE TEMP TABLE markers_counts_tmp (
     source_id integer,
     class integer NOT NULL,
     item integer
 )
-"""
-    )
+""")
 
-    await _db.execute(
-        """
+    await _db.execute("""
 CREATE TEMP TABLE markers_tmp (
     source_id integer NOT NULL,
     class integer NOT NULL,
@@ -310,8 +301,7 @@ CREATE TEMP TABLE markers_tmp (
     fixes jsonb[],
     subtitle jsonb
 )
-"""
-    )
+""")
 
 
 async def update_issue(

@@ -53,10 +53,7 @@ async def _get(
         )
         marker = await db.fetchrow(sql, err_id)
     else:
-        sql = (
-            "SELECT "
-            + ",".join(columns_marker)
-            + """
+        sql = "SELECT " + ",".join(columns_marker) + """
         FROM
             markers
             JOIN class ON
@@ -67,7 +64,6 @@ async def _get(
         WHERE
             uuid = $1
         """
-        )
         marker = await db.fetchrow(sql, uuid)
 
     if not marker:

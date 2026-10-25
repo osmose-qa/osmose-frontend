@@ -69,7 +69,7 @@ ORDER BY
     stats_analyser: Dict[str, Tuple[float, float, float]] = {}
     stats_country: Dict[str, Tuple[float, float, float, int]] = {}
     for res in await db.fetch(sql, *params):
-        (source, age, country, analyser) = (res[0], res[1], res[2], res[3])
+        source, age, country, analyser = (res[0], res[1], res[2], res[3])
         if analyser and country:
             keys_count[country] += 1
             matrix[analyser][country] = (age / 60 / 60 / 24, source)
@@ -88,7 +88,7 @@ ORDER BY
                 max_c = v
                 n_c = 1
             else:
-                (min_c, sum_c, max_c, n_c) = stats_country[country]
+                min_c, sum_c, max_c, n_c = stats_country[country]
                 min_c = v if v < min_c else min_c
                 max_c = v if v > max_c else max_c
                 sum_c += v
@@ -230,7 +230,7 @@ ORDER BY
     summary: Dict[str, Dict[str, Any]] = {}
     max_versions = None
     for res in await db.fetch(sql):
-        (analyser, count, min_age, max_age, min_version, max_version) = res
+        analyser, count, min_age, max_age, min_version, max_version = res
         max_versions = (
             max_version
             if max_versions is None or max_version > max_versions
