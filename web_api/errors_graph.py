@@ -216,7 +216,7 @@ def plot(data, title: str, format: str) -> Union[str, bytes]:
         opens = [q[1] for q in data]
         fig = matplotlib.pyplot.figure()
         ax = fig.add_subplot(111)
-        ax.plot_date(dates, opens, "-", color="r")
+        ax.plot(dates, opens, "-", color="r")
         ax.set_title(title)
         # format the ticks
         ax.relim()
