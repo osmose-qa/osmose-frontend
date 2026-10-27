@@ -1,11 +1,14 @@
 asyncpg
-matplotlib >= 1.1
-requests >= 2.0
-polib
-pyclipper
+Authlib
+cairosvg
 fastapi
 fastapi-sessions
-python-multipart
-Authlib
 httpx
 lxml
+matplotlib >= 1.1
+Pillow
+polib
+pyclipper
+python-multipart
+rectpack
+requests >= 2.0
