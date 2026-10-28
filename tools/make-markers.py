@@ -141,7 +141,7 @@ def get_marker(contour, symbole, couleur):
         int(int(couleur[3:5], 16) * 0.75),
         int(int(couleur[5:7], 16) * 0.75),
     )
-    if contour == "L":  # Legend
+    if contour == "l":  # Legend
         height = 12
         width = height
         g = "translate(-2,-2) scale(1,1)"
@@ -160,7 +160,7 @@ def get_marker(contour, symbole, couleur):
     d='M 0.5,0.5 L 0.5,11.5 L 11.5,11.5 L 11.5,0.5 L 0.5,0.5 z' />
 """
         m = get_symb(symbole)
-    if contour == "B":  # bubble
+    if contour == "b":  # bubble
         height = 32
         width = 16
         g = "translate(0,1) scale(1,1)"
@@ -215,12 +215,12 @@ async def main():
     subprocess.getstatusoutput("rm " + os.path.join(marker_folder, "*.png"))
     for i in all_items:
         print(i)
-        for m in "LB":
+        for m in "lb":
             file_svg = os.path.join(
-                marker_folder, f"marker-{m.lower()}-{i['item']}.svg"
+                marker_folder, f"marker-{m}-{i['item']}.svg"
             )
             file_png = os.path.join(
-                marker_folder, f"marker-{m.lower()}-{i['item']}.png"
+                marker_folder, f"marker-{m}-{i['item']}.png"
             )
             open(file_svg, "w").write(get_marker(m, i["flag"], i["color"]))
             # subprocess.getstatusoutput(f"rsvg {file_svg} {file_png}")
