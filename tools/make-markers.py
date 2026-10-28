@@ -213,7 +213,6 @@ async def main():
 
     marker_folder = os.path.join("..", "api", "assets", "markers")
     subprocess.getstatusoutput("rm " + os.path.join(marker_folder, "*.png"))
-    css = "/* sprite-loader-enable */\n"
     for i in all_items:
         print(i)
         for m in "LB":
@@ -226,10 +225,6 @@ async def main():
             open(file_svg, "w").write(get_marker(m, i["flag"], i["color"]))
             # subprocess.getstatusoutput(f"rsvg {file_svg} {file_png}")
             subprocess.getstatusoutput(f"rsvg-convert {file_svg} > {file_png}")
-        css += ".marker-l-{0} {{ background-image: url(marker-l-{0}.png); }}\n".format(
-            i["item"]
-        )
-    open(os.path.join(marker_folder, "markers-l.css"), "w").write(css)
 
 
 if __name__ == "__main__":
