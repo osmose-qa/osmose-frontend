@@ -219,12 +219,12 @@ async def main():
             file_svg = os.path.join(
                 marker_folder, f"marker-{m}-{i['item']}.svg"
             )
-            file_png = os.path.join(
-                marker_folder, f"marker-{m}-{i['item']}.png"
-            )
             open(file_svg, "w").write(get_marker(m, i["flag"], i["color"]))
-            # subprocess.getstatusoutput(f"rsvg {file_svg} {file_png}")
-            subprocess.getstatusoutput(f"rsvg-convert {file_svg} > {file_png}")
+            if m == "l":
+                file_png = os.path.join(
+                    marker_folder, f"marker-{m}-{i['item']}.png"
+                )
+                subprocess.getstatusoutput(f"rsvg-convert {file_svg} > {file_png}")
 
 
 if __name__ == "__main__":
