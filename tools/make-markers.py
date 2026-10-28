@@ -2,10 +2,15 @@
 # -*- coding: utf-8 -*-
 
 import asyncio
+import glob
+import io
+import json
+import math
 import os
-import subprocess
 
 import cairosvg
+from PIL import Image
+from rectpack import newPacker
 
 from modules import query_meta
 from modules.dependencies import database
@@ -206,6 +211,133 @@ def get_marker(contour, symbole, couleur):
     )
 
 
+ASSETS_FOLDER = os.path.join("..", "api", "assets")
+MARKERS_FOLDER = os.path.join(ASSETS_FOLDER, "markers")
+LIMIT_SVG = "limit.svg"
+
+
+os.makedirs(ASSETS_FOLDER, exist_ok=True)
+os.makedirs(MARKERS_FOLDER, exist_ok=True)
+
+def svg_to_png(svg, scale=1.0):
+    png = cairosvg.svg2png(bytestring=svg.encode("utf-8"), scale=scale)
+    return Image.open(io.BytesIO(png))
+
+
+def make_html_sprite(items, assets_folder):
+    items.sort(key=lambda it: it["name"])
+
+    tile_w, tile_h = 12, 12
+    cols = 16
+    n_items = len(items)
+    rows = int(math.ceil(n_items / float(cols))) if n_items else 0
+    sheet_w = cols * tile_w
+    sheet_h = rows * tile_h if rows > 0 else 0
+
+    sprite_canvas = Image.new("RGBA", (sheet_w, sheet_h), (0, 0, 0, 0))
+    positions = {}
+    for i, item in enumerate(items):
+        col = i % cols
+        row_idx = i // cols
+        x = col * tile_w
+        y = row_idx * tile_h
+        sprite_canvas.paste(item["img"], (x, y))
+        suffix = item["name"].replace("marker-l-", "", 1)
+        positions[item["name"]] = {
+            "suffix": suffix,
+            "x": x,
+            "y": y,
+        }
+
+    with open(os.path.join(assets_folder, "sprite.png"), "wb") as f:
+        sprite_canvas.save(f, "PNG")
+
+    with open(os.path.join(assets_folder, "sprites.css"), "w") as f:
+        f.write("/* sprite-loader-enable */\n")
+        for item in items:
+            pos = positions[item["name"]]
+            suffix = pos["suffix"]
+            x = pos["x"]
+            y = pos["y"]
+            f.write(
+                f".marker-l-{suffix} {{ background-image: url(sprite.png); background-position: -{x}px -{y}px; background-size: {sheet_w}px {sheet_h}px; }}\n"
+            )
+
+
+def make_gl_sprites(items, assets_folder):
+    svg_sources = list(items)
+    with open(LIMIT_SVG) as f:
+        svg_sources.append({"name": "limit", "svg": f.read()})
+
+    sort_items = []
+    for item in svg_sources:
+        try:
+            img = svg_to_png(item["svg"], 1.0)
+            sort_items.append({"name": item["name"], "svg": item["svg"], "h1": img.height})
+        except Exception:
+            continue
+    sort_items.sort(key=lambda it: (-it["h1"], it["name"]))
+
+    for pixel_ratio in [1, 2]:
+        print(f"generate {pixel_ratio}x")
+        items = []
+        for it in sort_items:
+            try:
+                img = svg_to_png(it["svg"], float(pixel_ratio))
+                items.append({"name": it["name"], "img": img})
+            except Exception:
+                continue
+        icons_data = items
+        w = 64
+        h = 64
+        rectangles = []
+        while True:
+            print(f"trying {w}x{h}")
+            packer = newPacker(rotation=False)
+            for index, item in enumerate(items):
+                packer.add_rect(item["img"].width, item["img"].height, index)
+            packer.add_bin(w, h)
+            packer.pack()
+            rectangles = packer.rect_list()
+            if len(rectangles) == len(items):
+                print("packed all")
+                break
+            if w >= 4096 and h >= 4096:
+                break
+            if w < h:
+                w *= 2
+            else:
+                h *= 2
+            if w > 8192:
+                w = 8192
+            if h > 8192:
+                h = 8192
+        if not rectangles:
+            continue
+        max_x = max(r[1] + r[3] for r in rectangles)
+        max_y = max(r[2] + r[4] for r in rectangles)
+        sprite_canvas = Image.new("RGBA", (max_x, max_y), (0, 0, 0, 0))
+        sprite_json = {}
+        for rect in rectangles:
+            _, x, y, width, height, icon_idx = rect
+            icon = icons_data[icon_idx]
+            img = icon["img"]
+            sprite_canvas.paste(img, (x, y))
+            sprite_json[icon["name"]] = {
+                "width": width,
+                "height": height,
+                "x": x,
+                "y": y,
+                "pixelRatio": pixel_ratio,
+            }
+        suffix = f"@{pixel_ratio}x" if pixel_ratio > 1 else ""
+        with open(os.path.join(assets_folder, f"marker-gl-sprite{suffix}.png"), "wb") as f:
+            sprite_canvas.save(f, "PNG")
+        with open(os.path.join(assets_folder, f"marker-gl-sprite{suffix}.json"), "w") as f:
+            json.dump(sprite_json, f)
+        print(f"done {suffix}")
+
+
 async def main():
     db = await database.get_dbconn()
     all_items = []
@@ -213,20 +345,19 @@ async def main():
         all_items += g["items"]
     # all_items = [{"item":9999, "marker_flag":"=-", "marker_color":"#ff0000"}] # Test
 
-    marker_folder = os.path.join("..", "api", "assets", "markers")
-    subprocess.getstatusoutput("rm " + os.path.join(marker_folder, "*.png"))
+    legend_items = []
+    bubble_items = []
     for i in all_items:
-        print(i)
-        for m in "lb":
-            file_svg = os.path.join(
-                marker_folder, f"marker-{m}-{i['item']}.svg"
-            )
-            open(file_svg, "w").write(get_marker(m, i["flag"], i["color"]))
-            if m == "l":
-                file_png = os.path.join(
-                    marker_folder, f"marker-{m}-{i['item']}.png"
-                )
-                cairosvg.svg2png(url=file_svg, write_to=file_png, scale=1.0)
+        # print(i)
+        name_l = f"marker-l-{i['item']}"
+        img_l = svg_to_png(get_marker("l", i["flag"], i["color"]))
+        img_l.save(os.path.join(MARKERS_FOLDER, f"{name_l}.png"), "PNG")
+        legend_items.append({"name": name_l, "img": img_l})
+        name_b = f"marker-b-{i['item']}"
+        bubble_items.append({"name": name_b, "svg": get_marker("b", i["flag"], i["color"])})
+
+    make_html_sprite(legend_items, ASSETS_FOLDER)
+    make_gl_sprites(bubble_items, ASSETS_FOLDER)
 
 
 if __name__ == "__main__":

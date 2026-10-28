@@ -1,10 +1,6 @@
 __pycache__
 
-api/assets/markers/*.svg
-api/assets/marker-gl-sprite*.png
-api/assets/marker-gl-sprite*.json
-api/assets/sprite.png
-api/assets/sprites.css
+api/assets/
 
 web/po/mo
 web/po/osmose-frontend.pot.tmp

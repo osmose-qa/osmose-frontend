@@ -99,6 +99,8 @@ Check data base parameter into `modules/utils.py`.
 
 
 ### Generate markers
+
+Generate marker PNGs and sprites:
 ```
 (cd tools && ./make-markers.py)
 ```
@@ -109,7 +111,6 @@ Check data base parameter into `modules/utils.py`.
 To package web assets, including previously generated markers, run
 ```
 (cd web        && npm install && npm run build)
-(cd api/assets && ./marker-gl-sprites.py)
 ```
 
 
