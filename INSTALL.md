@@ -24,7 +24,7 @@ apt install apache2 libapache2-mod-wsgi-py3
 #### Internationalisation and SVG rendering
 
 ```
-apt install gettext librsvg2-bin
+apt install gettext
 ```
 
 ### Initialisation

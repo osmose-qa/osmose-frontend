@@ -5,6 +5,8 @@ import asyncio
 import os
 import subprocess
 
+import cairosvg
+
 from modules import query_meta
 from modules.dependencies import database
 
@@ -224,7 +226,7 @@ async def main():
                 file_png = os.path.join(
                     marker_folder, f"marker-{m}-{i['item']}.png"
                 )
-                subprocess.getstatusoutput(f"rsvg-convert {file_svg} > {file_png}")
+                cairosvg.svg2png(url=file_svg, write_to=file_png, scale=1.0)
 
 
 if __name__ == "__main__":
