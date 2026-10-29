@@ -1,0 +1,53 @@
+services:
+  postgres:
+    image: postgis/postgis:18-3.6-alpine
+    environment:
+      - POSTGRES_PASSWORD=osmose
+    volumes:
+      - frontend_pgdata:/var/lib/postgresql/18/docker
+      - ./tools/database/schema.sql:/schema.sql
+      - ./docker-postgres-init.sh:/docker-entrypoint-initdb.d/postgres-init.sh
+    healthcheck:
+      # Test if the database is ready and has been initialized with the osmose_frontend database and items table
+      test: pg_isready && psql -U postgres -d osmose_frontend -c "SELECT count(*) FROM items" > /dev/null
+      start_interval: 1s
+      start_period: 30s
+      interval: 30s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
+  api:
+    image: osmose-qa/osmose_frontend_api
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - DB_HOST=postgres
+      - OSM_CLIENT_ID=${OSM_CLIENT_ID}
+      - OSM_CLIENT_SECRET=${OSM_CLIENT_SECRET}
+      - COOKIE_SIGN_KEY=${COOKIE_SIGN_KEY}
+    volumes:
+      - ./api/assets:/app/assets
+    ports:
+      - 20009:20009
+    restart: unless-stopped
+
+  web:
+    image: osmose-qa/osmose_frontend_web
+    build:
+      context: web
+    environment:
+      - API_URL=${API_URL:-http://localhost:20009}
+    ports:
+      - 8080:8080
+
+volumes:
+  frontend_pgdata:
+    ## To keep the data on local directory
+    # driver: local
+    # driver_opts:
+    #   type: none
+    #   o: bind
+    #   device: ./pgdata

@@ -1,0 +1,10 @@
+services:
+  postgres:
+    environment:
+      - LOAD_MENU=true
+
+  api:
+    environment:
+      - OSMOSE_UNLOCKED_UPDATE=true
+    entrypoint: /data/project/osmose/frontend/docker-api-entrypoint.sh
+    command: uvicorn osmose:app --host 0.0.0.0 --port 20009 --reload --reload-delay 10

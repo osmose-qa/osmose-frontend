@@ -1,0 +1,7 @@
+.dockerignore
+node_modules
+po/mo
+public/assets
+public/config.js
+Dockerfile
+README.md

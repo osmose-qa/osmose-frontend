@@ -1,0 +1,22 @@
+services:
+  postgres:
+    environment:
+      - LOAD_MENU=true
+
+  api:
+    volumes:
+      - .:/data/project/osmose/frontend
+    entrypoint: /data/project/osmose/frontend/docker-api-entrypoint.sh
+    command: uvicorn osmose:app --host 0.0.0.0 --port 20009 --reload --reload-delay 10
+
+  web:
+    volumes:
+      - ./web:/data/project/osmose/frontend/web
+      - /data/project/osmose/frontend/web/node_modules
+      - /data/project/osmose/frontend/web/public/assets
+      # - /data/project/osmose/frontend/web/public/config.js
+      # - /data/project/osmose/frontend/web/public/index.html
+      # For i18n .pot file update
+      - ./tools:/data/project/osmose/frontend/tools
+      - ./web_api:/data/project/osmose/frontend/web_api
+    command: npm run dev-server

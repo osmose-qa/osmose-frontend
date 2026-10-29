@@ -1,4 +1,8 @@
-__pycache__
+.env
+.mypy_cache
+venv
+osmose-frontend-venv
+**/__pycache__
 
 api/assets/
 
@@ -9,15 +13,10 @@ web/po/python.pot
 web/po/vue.pot
 web/webpack.stats.json
 web/public/assets/
+web/public/config.js
+web/public/index.html
+web/node_modules/
 
 web_api/session/
-web_api/public/
-web_api/static/images
-web_api/static/node_modules
-web_api/session_
 
-osmose-frontend-venv
-
-.mypy_cache
-
-docker/.env
+osmose-menu.sql
