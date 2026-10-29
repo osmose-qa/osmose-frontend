@@ -386,9 +386,6 @@ That may not be your case, but note that Osmose-QA is not intended to be used fo
       this.fetchJsonProgressAssign(
         API_URL + window.location.pathname + '.json' + window.location.search,
         (response) => {
-          // Legacy global variables
-          window.API_URL = API_URL
-
           document.title = 'Osmose'
           const description = document.getElementById('description')
           if (description) {

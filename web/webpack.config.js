@@ -104,7 +104,7 @@ module.exports = (env, argv) => {
                 filename: "index.html"
             }),
             new webpack.DefinePlugin({
-                API_URL: JSON.stringify(env.API_URL)
+                API_URL: '(window.API_URL || "")',
             }),
             new VueLoaderPlugin(),
         ],
