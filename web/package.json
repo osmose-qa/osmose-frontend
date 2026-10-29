@@ -62,12 +62,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frodrigo/osmose-frontend.git"
+    "url": "git+https://github.com/osmose-qa/osmose-frontend.git"
   },
   "author": "",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/frodrigo/osmose-frontend/issues"
+    "url": "https://github.com/osmose-qa/osmose-frontend/issues"
   },
-  "homepage": "https://github.com/frodrigo/osmose-frontend#readme"
+  "homepage": "https://github.com/osmose-qa/osmose-frontend"
 }
