@@ -16,7 +16,7 @@ from modules.dependencies import database, langs
 from modules.utils import LangsNegociation
 
 from . import byuser, editor, false_positive, issue, issues, map
-from .tool.session import SessionData, backend, cookie, verifier
+from .tool.session import SESSION_SIGN_KEY, SessionData, backend, cookie, verifier
 
 openapi_tags = [
     {
@@ -42,7 +42,7 @@ def custom_openapi() -> Dict[str, Any]:
 
 app.openapi = custom_openapi  # type: ignore
 
-app.add_middleware(SessionMiddleware, secret_key=os.getenv("COOKIE_SIGN_KEY", ""))
+app.add_middleware(SessionMiddleware, secret_key=SESSION_SIGN_KEY)
 
 oauth = OAuth(
     Config(
