@@ -1,5 +1,7 @@
 import json
+import os
 import pathlib
+import secrets
 from typing import Any, Dict, Generic, Optional, TypeVar, Union
 from uuid import UUID
 
@@ -16,6 +18,12 @@ from fastapi_sessions.frontends.session_frontend import FrontendError  # type: i
 from fastapi_sessions.session_verifier import SessionVerifier  # type: ignore
 from itsdangerous import BadSignature, SignatureExpired
 from pydantic import BaseModel
+
+
+# Session cookie signing key. Production sets COOKIE_SIGN_KEY (see
+# docker/.env.template and docker-compose.yml); without it, a random
+# per-process key is used, so no repo-readable key ever signs cookies.
+SESSION_SIGN_KEY = os.getenv("COOKIE_SIGN_KEY") or secrets.token_hex(32)
 
 
 class SessionData(BaseModel):
@@ -68,7 +76,7 @@ cookie = OptionalSessionCookie(
     cookie_name="cookie",
     identifier="general_verifier",
     auto_error=True,
-    secret_key="vaisieYei6aerae2aimaizohxeeM0og3",
+    secret_key=SESSION_SIGN_KEY,
     # cookie_params=CookieParameters(),
     cookie_params=EternalCookieParameters(),
 )
