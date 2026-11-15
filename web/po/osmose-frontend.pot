@@ -1928,6 +1928,18 @@ msgid ""
 "keep a critical eye."
 msgstr ""
 
-#: ../src/pages/map/top.vue:261
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
 msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+msgid "Building"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:153
+msgid "Not an issue"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:18
+msgid "Reported on"
 msgstr ""

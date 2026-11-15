@@ -1,23 +1,33 @@
 <template>
   <div id="popupTpl">
-    <div v-if="status == 'clean'"></div>
-    <div v-if="status == 'error'">{{ error }}</div>
-    <div v-if="status == 'loading'">
+    <div v-if="status == 'clean'" class="bulle_other"></div>
+    <div v-if="status == 'error'" class="bulle_other">{{ error }}</div>
+    <div v-if="status == 'loading'" class="bulle_other">
       <center>
         <img src="~../../../static/images/throbbler.gif" alt="downloading" />
       </center>
     </div>
     <div v-if="status == 'fill'">
       <div class="bulle_msg">
-        <div class="bulle_err">
-          <b>{{ title.auto }}</b>
-          <br />
-          <span v-if="subtitle">{{ subtitle.auto }}</span>
+        <div class="bulle_row bulle_err">
+          <h5>
+            <span :class="`severity-level severity-level-${level}`"></span>{{ title.auto }}
+          </h5>
+          <div v-if="subtitle">{{ subtitle.auto }}</div>
+          <a
+            :href="`../issue/${uuid}`"
+            target="_blank"
+            :title="$t('Issue details')"
+          >
+            <span style="display: block; text-align: right;" :title="$t('Report based on data from date')">
+              <translate>Reported on</translate> {{ b_date }}
+            </span>
+          </a>
         </div>
         <div
           v-for="elem in elems"
           :key="`${elem.type}/${elem.id}`"
-          class="bulle_elem"
+          class="bulle_row bulle_elem"
         >
           <template v-if="!elem.infos">
             <b>
@@ -163,7 +173,7 @@
             </span>
           </div>
         </div>
-        <div v-for="fix in new_elems" :key="fix.num" class="bulle_elem">
+        <div v-for="fix in new_elems" :key="fix.num" class="bulle_row bulle_elem">
           <div class="fix">
             <div class="fix_links">
               <a
@@ -203,20 +213,20 @@
           </div>
         </div>
       </div>
-      <div class="bulle_verif">
+      <div id="bulle_editor" class="bulle_row">
         <a
           :href="main_website + `?mlat=${lat}&mlon=${lon}#map=18/${lat}/${lon}`"
           target="popup_osm"
           :title="$t('Show the area on {where}', { where: main_website })"
         >
-          osm-show</a
+          osm.org</a
         >
         <a
           :href="main_website + `edit#map=18/${lat}/${lon}`"
           target="_blank"
           :title="$t('Edit the area on {where}', { where: main_website })"
         >
-          iD-zone</a
+          iD-area</a
         >
         <a
           :href="`http://localhost:8111/load_and_zoom?left=${minlon}&bottom=${minlat}&right=${maxlon}&top=${maxlat}`"
@@ -224,22 +234,10 @@
           class="josm"
           :title="$t('Edit the area on {where}', { where: 'JOSM' })"
         >
-          josm-zone</a
-        >
-        <a
-          :href="`../issue/${uuid}`"
-          target="_blank"
-          :title="$t('Issue details')"
-        >
-          <translate>details</translate></a
+          josm-area</a
         >
       </div>
-      <div id="bulle_footer">
-        <div id="bulle_maj">
-          <span :title="$t('Report based on data from date')">
-            <translate>Issue reported on:</translate> {{ b_date }}
-          </span>
-        </div>
+      <div id="bulle_footer" class="bulle_row">
         <div id="bulle_button">
           <div class="btn-group" role="group">
             <a
@@ -249,7 +247,7 @@
               :title="$t('Help')"
               @click.stop.prevent="doc(item, classs)"
             >
-              ℹ
+              ℹ <translate>Help</translate>
             </a>
             <a
               class="false_positive btn btn-danger btn-sm"
@@ -265,7 +263,7 @@
               "
               @click="setFalsePositive(uuid)"
             >
-              ✘
+              ✘ <translate>Not an issue</translate>
             </a>
             <a
               class="corrected btn btn-success btn-sm"
@@ -281,7 +279,7 @@
               "
               @click="setDone(uuid)"
             >
-              ✔
+              ✔ <translate>Fixed</translate>
             </a>
           </div>
         </div>
@@ -325,6 +323,7 @@ export default Vue.extend({
     status: 'clean' | 'error' | 'loading' | 'fill'
     error?: string
     uuid?: string
+    level?: number
     item?: number
     class?: number
     title?: string
@@ -345,6 +344,7 @@ export default Vue.extend({
       status: 'clean',
       error: null,
       uuid: null,
+      level: null,
       item: null,
       class: null,
       title: null,
@@ -514,22 +514,41 @@ export default Vue.extend({
 
 .maplibregl-popup-content {
   box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
-  border-radius: 12px;
+  border-radius: 6px;
+  padding: 0px;
 }
 
 .maplibregl-popup-content .btn {
   color: #fff;
 }
-.maplibregl-popup-content .bulle_msg a,
-.maplibregl-popup-content .bulle_verif a {
+.maplibregl-popup-content .bulle_msg a {
   text-decoration: underline;
 }
 </style>
 
 <style scoped>
+.bulle_other {
+  min-width: 200px;
+  max-height: 100px;
+  padding: 5px;
+}
+
+.bulle_row {
+  padding: 0px 10px;
+}
+
+.bulle_row:first-child {
+  padding-top: 10px;
+  border-radius: 6px 6px 0px 0px;
+}
+.bulle_row:last-child {
+  padding-bottom: 10px;
+  border-radius: 0px 0px 6px 6px;
+}
+
 .bulle_msg {
   min-width: 200px;
-  max-height: 200px;
+  max-height: 250px;
   overflow: auto;
   word-wrap: break-word;
 }
@@ -555,24 +574,13 @@ export default Vue.extend({
   color: #d1d1d1;
 }
 
-.bulle_err,
-a.bulle_err:link,
-a.bulle_err:visited,
-a.bulle_err:hover {
-  color: #ff5555;
+.bulle_err {
+  background-color: #f3f3f3;
+  border-bottom: solid 1px lightgray;
 }
 
 .bulle_elem {
   direction: ltr;
-}
-
-.bulle_elem,
-.bulle_elem a:link,
-.bulle_elem a:visited {
-  color: #5555ff;
-}
-.bulle_elem a:hover {
-  color: #5555ff;
 }
 
 .bulle_elem .fix {
@@ -591,24 +599,14 @@ a.bulle_err:hover {
   color: red;
 }
 
-.bulle_verif {
-  font-size: 90%;
-}
-.bulle_verif a:link,
-.bulle_verif a:visited,
-.bulle_verif a:hover {
-  color: #55aa55;
+#bulle_editor {
+  display: block;
+  text-align: right;
 }
 
 #bulle_footer {
   display: table;
   width: 100%;
-}
-
-#bulle_maj {
-  display: table-cell;
-  font-size: 80%;
-  vertical-align: top;
 }
 
 #bulle_button {
@@ -635,5 +633,11 @@ html[dir='rtl'] #bulle_button {
 }
 .bulle_elem .mod b:before {
   content: ' ~ ';
+}
+
+.severity-level {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 2px 0px 0px;
 }
 </style>
