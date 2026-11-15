@@ -160,3 +160,42 @@ export default Vue.extend({
   },
 })
 </script>
+
+<style>
+.severity-level-1 {
+  background: url('~../../../static/images/levels.png') no-repeat;
+  background-position: 0px 0px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.severity-level-2 {
+  background: url('~../../../static/images/levels.png') no-repeat;
+  background-position: -16px 0px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.severity-level-3 {
+  background: url('~../../../static/images/levels.png') no-repeat;
+  background-position: -32px 0px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.severity-level-1.disabled {
+  background: url('~../../../static/images/levels.png') no-repeat;
+  background-position: 0px -16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.severity-level-2.disabled {
+  background: url('~../../../static/images/levels.png') no-repeat;
+  background-position: -16px -16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+.severity-level-3.disabled {
+  background: url('~../../../static/images/levels.png') no-repeat;
+  background-position: -32px -16px;
+  min-width: 16px;
+  min-height: 16px;
+}
+</style>

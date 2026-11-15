@@ -44,7 +44,7 @@
               <div
                 v-if="item.levels_format[level]"
                 :key="level"
-                :class="`level-${level} ${
+                :class="`severity-level-${level} ${
                   active_levels.indexOf(level.toString()) >= 0 ? '' : 'disabled'
                 }`"
               >
@@ -374,31 +374,6 @@ div.test_group div.level div:hover span {
   padding: 5px;
   z-index: 20;
   overflow: visible;
-}
-
-div.level-1 {
-  background: url('~../../../static/images/levels.png') no-repeat;
-  background-position: 0px 0px;
-}
-div.level-2 {
-  background: url('~../../../static/images/levels.png') no-repeat;
-  background-position: -16px 0px;
-}
-div.level-3 {
-  background: url('~../../../static/images/levels.png') no-repeat;
-  background-position: -32px 0px;
-}
-div.level-1.disabled {
-  background: url('~../../../static/images/levels.png') no-repeat;
-  background-position: 0px -16px;
-}
-div.level-2.disabled {
-  background: url('~../../../static/images/levels.png') no-repeat;
-  background-position: -16px -16px;
-}
-div.level-3.disabled {
-  background: url('~../../../static/images/levels.png') no-repeat;
-  background-position: -32px -16px;
 }
 
 .class_detail {

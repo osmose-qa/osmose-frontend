@@ -17,6 +17,7 @@ async def _get(
     db: Connection, err_id: Optional[int] = None, uuid: Optional[UUID] = None
 ) -> Optional[Dict[str, Any]]:
     columns_marker = [
+        "class.level",
         "markers.item",
         "markers.source_id",
         "markers.class",

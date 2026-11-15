@@ -240,6 +240,7 @@ def _error(
             "title": title,
             "subtitle": subtitle,
             "b_date": b_date.strftime("%Y-%m-%d"),
+            "level": marker["level"],
             "item": item,
             "class": classs,
             "elems": elems,
