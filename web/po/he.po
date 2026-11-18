@@ -1865,3 +1865,25 @@ msgstr ""
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr ""
+
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+msgid "Building"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:153
+msgid "Not an issue"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:18
+msgid "Reported on"
+msgstr ""

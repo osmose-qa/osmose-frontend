@@ -1446,7 +1446,8 @@ msgstr "完了"
 msgid ""
 "Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
 "data."
-msgstr "Osmose-QA は、OpenStreetMapのデータの問題を検出する品質改善ツールです。"
+msgstr ""
+"Osmose-QA は、OpenStreetMapのデータの問題を検出する品質改善ツールです。"
 
 #: ../src/pages/map/doc.vue:13
 msgid ""
@@ -1636,9 +1637,9 @@ msgid ""
 "others by contributors around the world. The servers for North America and "
 "other areas are funded by Mapbox."
 msgstr ""
-"サーバー分析データはオープンストリートマップ・フランスにより提供されています"
-"。また世界中の貢献者により提供されているデータもあります。北米および他地域向"
-"けサーバーはMapbox社の提供です。"
+"サーバー分析データはオープンストリートマップ・フランスにより提供されていま"
+"す。また世界中の貢献者により提供されているデータもあります。北米および他地域"
+"向けサーバーはMapbox社の提供です。"
 
 #: ../src/pages/contact.vue:47 ../src/pages/contact.vue:2
 msgid "volunteers"
@@ -1912,6 +1913,40 @@ msgstr "翻訳は{Transifex}で行われています。"
 #| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
 msgstr "新しい言語は {Transifex}から直接作成できます。"
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Osmose-QAがいつでも絶対正しいマッピング方法を提供するはずだと期待してはいけま"
+"せん。常に批判的な目を忘れずに。"
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "建物の形状"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "関連情報"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "報告日:"
 
 #~ msgid "out of boundary"
 #~ msgstr "境界線外"

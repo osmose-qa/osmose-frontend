@@ -1622,8 +1622,8 @@ msgstr ""
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
 msgstr ""
-"El desenvolupament d'Osmose està fet com a programari lliure per {volunteers}"
-"."
+"El desenvolupament d'Osmose està fet com a programari lliure per "
+"{volunteers}."
 
 #: ../src/pages/translation.vue:65
 msgid ""
@@ -1634,7 +1634,8 @@ msgstr ""
 
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
-msgstr "Podem ser contactats a través d'un correu electrònic directe a {email}."
+msgstr ""
+"Podem ser contactats a través d'un correu electrònic directe a {email}."
 
 #: ../src/pages/contact.vue:61
 msgid ""
@@ -1940,6 +1941,40 @@ msgstr "La traducció s'ha fet a {Weblate}"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Podeu crear un idioma nou directament a {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"En cap cas Osmose-QA ha de proporcionar-li la forma absoluta correcta de "
+"mapar, sempre mantenir un ull crític."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "forma d'edifici"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "Informació del problema"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "S'ha informat de la incidència:"
 
 #~ msgid "out of boundary"
 #~ msgstr "fora del límit"

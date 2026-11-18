@@ -1430,7 +1430,8 @@ msgstr "完成"
 msgid ""
 "Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
 "data."
-msgstr "Osmose-QA 是一个质量管理工具，可以检测 OpenStreetMap 数据中存在的问题。"
+msgstr ""
+"Osmose-QA 是一个质量管理工具，可以检测 OpenStreetMap 数据中存在的问题。"
 
 #: ../src/pages/map/doc.vue:13
 msgid ""
@@ -1536,8 +1537,8 @@ msgid ""
 "Débrouillards d'Aquitaine\"."
 msgstr ""
 "“Osmose 编辑器”添加的新功能、对移动设备的初步支持和文档改进由法国阿基坦地区资"
-"助； 由“Les Petits Débrouillards d'Aquitaine”领导的 OpenAquiMap 项目的一部分"
-"。"
+"助； 由“Les Petits Débrouillards d'Aquitaine”领导的 OpenAquiMap 项目的一部"
+"分。"
 
 #: ../src/components/issues-list.vue:196
 msgid "delete issue #{uuid}"
@@ -1892,6 +1893,38 @@ msgstr "翻译是通过 {Transifex} 完成的。"
 #| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
 msgstr "你可以直接在 {Transifex} 上新增一种语言。"
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr "Osmose-QA 不能提供绝对正确的绘图方式，请保持清晰的判断。"
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "建筑形状"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "问题的信息"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "报告问题："
 
 #~ msgid "out of boundary"
 #~ msgstr "超出边界"

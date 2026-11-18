@@ -1873,7 +1873,8 @@ msgstr "Statistiques pour l'utilisateur {}"
 
 #: ../src/pages/issues/index.vue:281
 msgid "{{ showAnalyserCount }} / {{ errors_groups.length }} rows. Show more."
-msgstr "{{ showAnalyserCount }} / {{ errors_groups.length }} lignes. Voir plus."
+msgstr ""
+"{{ showAnalyserCount }} / {{ errors_groups.length }} lignes. Voir plus."
 
 #: ../../tools/database/items_menu.txt:62
 msgid "small land use"
@@ -1975,6 +1976,40 @@ msgstr "La traduction est faite sur {Weblate}"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Vous pouvez créer une nouvelle langue directement sur {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"En aucun cas, Osmose-QA ne devrait vous fournir la meilleure façon de "
+"cartographier, gardez toujours un œil critique."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "bâtiment spéciaux"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "Infos sur le signalement"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Signalement du :"
 
 #~ msgid "out of boundary"
 #~ msgstr "hors des frontières"

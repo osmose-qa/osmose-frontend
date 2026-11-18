@@ -1591,8 +1591,8 @@ msgid ""
 "This page shows issues on elements that were last modified by '{users}'. "
 "This doesn't mean that this user is responsible for all these issues."
 msgstr ""
-"Ez az oldal azon elemek lehetséges hibáit jeleníti meg, amelyeket utoljára '"
-"{users}' módosított. Ez nem jelenti azt, hogy ez a felhasználó lenne a "
+"Ez az oldal azon elemek lehetséges hibáit jeleníti meg, amelyeket utoljára "
+"'{users}' módosított. Ez nem jelenti azt, hogy ez a felhasználó lenne a "
 "felelő mindezen hibákért."
 
 #: ../src/pages/byuser/byuser.vue:7
@@ -1835,8 +1835,8 @@ msgid ""
 "Keep in touch by watching at {twitter} on Twitter or at {mastodon} on "
 "Mastodon."
 msgstr ""
-"Tartsa velünk a kapcsolatot a Twitteren ({twitter}) vagy a Mastodonon ("
-"{mastodon})."
+"Tartsa velünk a kapcsolatot a Twitteren ({twitter}) vagy a Mastodonon "
+"({mastodon})."
 
 #: ../src/components/confirmFalsePositive.vue
 msgid ""
@@ -1929,6 +1929,40 @@ msgstr "A fordítás a {Weblate}-en készül"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Létrehozhatsz egy nyelvet közvetlenül itt: {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Az Osmose-QA semmiképpen sem képes megmutatni a térképezés tökéletes módját: "
+"az eredményeket mindig kritikus szemmel nézze."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "épület körvonala"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "információ a lehetséges hibáról"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Hiba bejelentésének ideje:"
 
 #~ msgid "out of boundary"
 #~ msgstr "határ(vonal)on kívül"

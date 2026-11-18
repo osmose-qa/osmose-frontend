@@ -1225,7 +1225,8 @@ msgstr "問題發現日期："
 msgid ""
 "Report the issue as improper, if it is not an issue according to you. The "
 "issue will not be displayed to anyone anymore."
-msgstr "若你認為此問題無不適切之處，請回報此問題為不適當。 此問題將不再顯示予任何人。"
+msgstr ""
+"若你認為此問題無不適切之處，請回報此問題為不適當。 此問題將不再顯示予任何人。"
 
 #: ../src/pages/map/popup.vue:402
 msgid ""
@@ -1437,7 +1438,8 @@ msgstr "Osmose-QA 是一款品質管理工具，能夠偵測開放街圖資料�
 msgid ""
 "It detects a very wide range of issue types. It is also useful for "
 "integrating third-party data sets by conflation."
-msgstr "這套工具偵測各種不同類型的問題，而且還能藉由整併方便整合其他第三方資料集。"
+msgstr ""
+"這套工具偵測各種不同類型的問題，而且還能藉由整併方便整合其他第三方資料集。"
 
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
@@ -1832,8 +1834,8 @@ msgstr ""
 "\n"
 "只有在 Osmose 回報的問題事實上不是 OSM 資料問題時才使用。\n"
 "\n"
-"警告：問題不會在其他貢獻者那邊顯示，如果你不確定，請保持 Osmose 問題開啟狀態"
-"。\n"
+"警告：問題不會在其他貢獻者那邊顯示，如果你不確定，請保持 Osmose 問題開啟狀"
+"態。\n"
 "\n"
 "如果 Osmose 回報許多類似問題，而你並不同意，請在 Github 上提出問題，我們會嘗"
 "試修復。"
@@ -1903,6 +1905,38 @@ msgstr "在 {Weblate} 平台進行翻譯"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "你可以直接在 {Weblate} 新增語言。"
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr "不論如何，Osmose-QA 應當提供你正確畫地圖，能夠保持清晰的眼光。"
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "建物的形狀"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "問題的資訊"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "問題發現日期："
 
 #~ msgid "out of boundary"
 #~ msgstr "超出邊界"

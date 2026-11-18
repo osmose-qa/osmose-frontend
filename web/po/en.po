@@ -2043,6 +2043,32 @@ msgstr "Translation status of frontend"
 msgid "You can create a new language directly on {Weblate}."
 msgstr ""
 
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+msgid "Building"
+msgstr ""
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on error"
+msgid "Not an issue"
+msgstr "information on error"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Error reported on: "
+msgid "Reported on"
+msgstr "Error reported on: "
+
 #, python-brace-format
 #~ msgid "{day}d, {hour}h, {minute}m ago"
 #~ msgstr "{day}d, {hour}h, {minute}m ago"
@@ -2152,11 +2178,11 @@ msgstr ""
 #~ msgstr "Source code for translations of backend (.po files)"
 
 #~ msgid ""
-#~ "Source code for translations (database files for menu) - categ_menu_en."
-#~ "txt and item_menu_en.txt are the reference ones."
+#~ "Source code for translations (database files for menu) - "
+#~ "categ_menu_en.txt and item_menu_en.txt are the reference ones."
 #~ msgstr ""
-#~ "Source code for translations (database files for menu) - categ_menu_en."
-#~ "txt and item_menu_en.txt are the reference ones."
+#~ "Source code for translations (database files for menu) - "
+#~ "categ_menu_en.txt and item_menu_en.txt are the reference ones."
 
 #~ msgid "Valid & Corrected"
 #~ msgstr "Valid & Corrected"

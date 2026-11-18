@@ -1619,9 +1619,9 @@ msgid ""
 "or on {osmose-backend} for issues on the reported issues on OSM data, or for "
 "suggestion about analyses."
 msgstr ""
-"Problemy związane ze interfejsem można zgłaszać na stronie {osmose-frontend}"
-", a problemy dotyczące błędów w danych OSM lub propozycje nowych analiz na "
-"stronie {osmose-backend}."
+"Problemy związane ze interfejsem można zgłaszać na stronie {osmose-"
+"frontend}, a problemy dotyczące błędów w danych OSM lub propozycje nowych "
+"analiz na stronie {osmose-backend}."
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
@@ -1934,6 +1934,40 @@ msgstr "Tłumaczenia są zarządzane przez {Weblate}"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Nowy język można dodać bezpośrednio na {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Osmose tylko podpowiada, gdzie mogą występować błędy. Nie poprawiaj mapy pod "
+"to narzędzie, a tylko błędy, które rozumiesz i wiesz jak poprawić."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "kształt budynku"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "informacja o błędzie"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Problem wykryto:"
 
 #~ msgid "out of boundary"
 #~ msgstr "poza granicą"

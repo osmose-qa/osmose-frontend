@@ -1949,6 +1949,40 @@ msgstr "La traducción se realiza en {Weblate}"
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Puede crear un idioma nuevo directamente en {Weblate}."
 
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"En ningún caso Osmose-QA pretende ofrecerle la única forma correcta de "
+"cartografiar; mantenga siempre una actitud crítica."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "forma del edificio"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "información del problema"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Problema informado el:"
+
 #~ msgid "out of boundary"
 #~ msgstr "fuera del límite"
 
