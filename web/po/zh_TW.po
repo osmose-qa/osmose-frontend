@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-09-23 14:59+0000\n"
-"Last-Translator: Steve Lee <stevel2520@gmail.com>\n"
+"PO-Revision-Date: 2026-11-19 19:30+0000\n"
+"Last-Translator: Supaplex <supaplex@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/osmose/frontend/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -1907,36 +1907,26 @@ msgid "You can create a new language directly on {Weblate}."
 msgstr "你可以直接在 {Weblate} 新增語言。"
 
 #: ../src/pages/map/doc.vue:26
-#, fuzzy
-#| msgid ""
-#| "In no case Osmose-QA should provide you the absolute right way to map, "
-#| "always keep a critical eye."
 msgid ""
 "In no case does Osmose-QA tell you the absolute right way to map. Always "
 "keep a critical eye."
-msgstr "不論如何，Osmose-QA 應當提供你正確畫地圖，能夠保持清晰的眼光。"
+msgstr "不論如何，Osmose-QA 提供你正確畫地圖的方式，能夠保持清晰的眼光。"
 
 #: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
 msgid "Median latency of issues from original OSM data."
-msgstr ""
+msgstr "源自原始 OSM 資料之問題的中位數延遲時間。"
 
 #: ../../tools/database/categories_menu.txt:1
-#, fuzzy
-#| msgid "building shape"
 msgid "Building"
-msgstr "建物的形狀"
+msgstr "建物"
 
 #: ../src/pages/map/popup.vue:153
-#, fuzzy
-#| msgid "information on issue"
 msgid "Not an issue"
-msgstr "問題的資訊"
+msgstr "不是問題"
 
 #: ../src/pages/map/popup.vue:18
-#, fuzzy
-#| msgid "Issue reported on:"
 msgid "Reported on"
-msgstr "問題發現日期："
+msgstr "發現日期："
 
 #~ msgid "out of boundary"
 #~ msgstr "超出邊界"
