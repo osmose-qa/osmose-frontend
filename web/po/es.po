@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-11-19 19:29+0000\n"
+"PO-Revision-Date: 2026-11-21 07:51+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/osmose/frontend/"
 "es/>\n"
@@ -74,7 +74,7 @@ msgstr "Estadísticas por usuario"
 
 #: ../src/pages/byuser/index.vue:2
 msgid "User statistics"
-msgstr "Estadísticas del usuario"
+msgstr "Estadísticas de usuario"
 
 #: ../src/pages/byuser/index.vue:13
 msgid "Username:"
@@ -1509,7 +1509,7 @@ msgstr "mirador"
 
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
-msgstr "picnic"
+msgstr "pícnic"
 
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
@@ -1541,7 +1541,7 @@ msgstr "cementerio"
 
 #: ../../tools/database/items_menu.txt:223
 msgid "man made"
-msgstr "hecho por el hombre"
+msgstr "elementos artificiales"
 
 #: ../../tools/database/items_menu.txt:224
 msgid "water infrastructure"
@@ -1791,7 +1791,7 @@ msgstr "Usuario OSM"
 #: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
 #: ../src/pages/map/items-filters.vue:40
 msgid "Show hidden items"
-msgstr "Mostrar ítems ocultos"
+msgstr "Mostrar elementos ocultos"
 
 #: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
 #: ../src/pages/map/items-filters.vue:22
