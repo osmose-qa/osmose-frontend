@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-09-23 14:59+0000\n"
-"Last-Translator: Steve Lee <stevel2520@gmail.com>\n"
+"PO-Revision-Date: 2026-11-19 19:30+0000\n"
+"Last-Translator: Supaplex <supaplex@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/osmose/frontend/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -1225,7 +1225,8 @@ msgstr "問題發現日期："
 msgid ""
 "Report the issue as improper, if it is not an issue according to you. The "
 "issue will not be displayed to anyone anymore."
-msgstr "若你認為此問題無不適切之處，請回報此問題為不適當。 此問題將不再顯示予任何人。"
+msgstr ""
+"若你認為此問題無不適切之處，請回報此問題為不適當。 此問題將不再顯示予任何人。"
 
 #: ../src/pages/map/popup.vue:402
 msgid ""
@@ -1437,7 +1438,8 @@ msgstr "Osmose-QA 是一款品質管理工具，能夠偵測開放街圖資料�
 msgid ""
 "It detects a very wide range of issue types. It is also useful for "
 "integrating third-party data sets by conflation."
-msgstr "這套工具偵測各種不同類型的問題，而且還能藉由整併方便整合其他第三方資料集。"
+msgstr ""
+"這套工具偵測各種不同類型的問題，而且還能藉由整併方便整合其他第三方資料集。"
 
 #: ../../tools/database/items_menu.txt:78
 msgid "VAT"
@@ -1832,8 +1834,8 @@ msgstr ""
 "\n"
 "只有在 Osmose 回報的問題事實上不是 OSM 資料問題時才使用。\n"
 "\n"
-"警告：問題不會在其他貢獻者那邊顯示，如果你不確定，請保持 Osmose 問題開啟狀態"
-"。\n"
+"警告：問題不會在其他貢獻者那邊顯示，如果你不確定，請保持 Osmose 問題開啟狀"
+"態。\n"
 "\n"
 "如果 Osmose 回報許多類似問題，而你並不同意，請在 Github 上提出問題，我們會嘗"
 "試修復。"
@@ -1903,6 +1905,28 @@ msgstr "在 {Weblate} 平台進行翻譯"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "你可以直接在 {Weblate} 新增語言。"
+
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr "不論如何，Osmose-QA 提供你正確畫地圖的方式，能夠保持清晰的眼光。"
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr "源自原始 OSM 資料之問題的中位數延遲時間。"
+
+#: ../../tools/database/categories_menu.txt:1
+msgid "Building"
+msgstr "建物"
+
+#: ../src/pages/map/popup.vue:153
+msgid "Not an issue"
+msgstr "不是問題"
+
+#: ../src/pages/map/popup.vue:18
+msgid "Reported on"
+msgstr "發現日期："
 
 #~ msgid "out of boundary"
 #~ msgstr "超出邊界"

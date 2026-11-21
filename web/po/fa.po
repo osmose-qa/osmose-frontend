@@ -1232,8 +1232,8 @@ msgid ""
 "After fixing the issue in the OSM data, mark it as done. It will also "
 "disappear automatically on the next check."
 msgstr ""
-"پس از اینکه مشکل داده‌ها اصلاح شد، آن را در حالت حل‌شده قرار دهید. در بررسی بعدی"
-"، اگر مسئلهٔ دیگری نداشته باشد، به‌طور خودکار ناپدید می‌شود."
+"پس از اینکه مشکل داده‌ها اصلاح شد، آن را در حالت حل‌شده قرار دهید. در بررسی "
+"بعدی، اگر مسئلهٔ دیگری نداشته باشد، به‌طور خودکار ناپدید می‌شود."
 
 #: ../../tools/database/items_menu.txt:45
 msgid "zone:maxspeed"
@@ -1882,6 +1882,40 @@ msgstr ""
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr ""
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"هرگز نباید Osmose-QA را ملاک درست و دقیق برای نقشه‌کشی بدانید. همیشه نگاه "
+"انتقادی داشته باشید."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "شکل ساختمان"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "اطلاعاتی دربارهٔ مسئله"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "تاریخ گزارش:"
 
 #~ msgid "out of boundary"
 #~ msgstr "بیرون از مرز"

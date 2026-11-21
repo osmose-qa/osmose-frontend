@@ -1622,7 +1622,8 @@ msgstr ""
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
-msgstr "Desenvolvimento do Osmose é feito como software livre por {volunteers}."
+msgstr ""
+"Desenvolvimento do Osmose é feito como software livre por {volunteers}."
 
 #: ../src/pages/translation.vue:65
 msgid ""
@@ -1918,6 +1919,40 @@ msgstr "A tradução é feita com {Transifex}"
 #| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Você pode criar um novo idioma diretamente em {Transifex}."
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Em nenhuma circunstância o Osmose-QA deve dizer o jeito correto de mapear, "
+"mantenha-se sempre crítico."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "formato do edifício"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "informação do erro"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Erro reportado em:"
 
 #~ msgid "out of boundary"
 #~ msgstr "fora da fronteira"

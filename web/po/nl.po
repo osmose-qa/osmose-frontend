@@ -26,8 +26,8 @@ msgstr ""
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
 "PO-Revision-Date: 2026-09-23 14:57+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/osmose/frontend/"
-"nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/osmose/frontend/nl/"
+">\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1940,6 +1940,40 @@ msgstr "Vertaling wordt gedaan in {Transifex}"
 #| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
 msgstr "U kunt rechtstreeks op {Transifex} een nieuwe taal aanmaken. "
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Osmose-QA kan u in geen geval de juiste manier bieden om in kaart te "
+"brengen, houd altijd een oogje in het zeil. "
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "vorm van gebouw"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "Informatie over melding"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Melding gemeld op:"
 
 #~ msgid "out of boundary"
 #~ msgstr "buiten de grenzen"

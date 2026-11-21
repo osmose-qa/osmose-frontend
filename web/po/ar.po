@@ -1364,8 +1364,8 @@ msgid ""
 "In no case Osmose-QA should provide you the absolute right way to map, "
 "always keep a critical eye."
 msgstr ""
-"لا ينبغي بأي حال من الأحوال أن يوفر لك Osmose-QA الطريقة الصحيحة المطلقة للرسم"
-"، لذا حافظ دائمًا على نظرة نقدية وابحث عن أفضل الطرق."
+"لا ينبغي بأي حال من الأحوال أن يوفر لك Osmose-QA الطريقة الصحيحة المطلقة "
+"للرسم، لذا حافظ دائمًا على نظرة نقدية وابحث عن أفضل الطرق."
 
 #: ../src/pages/map/doc.vue:32
 msgid "You can find help on the wiki:"
@@ -1436,7 +1436,8 @@ msgid ""
 "Osmose-QA is a quality assurance tool that detects issues in OpenStreetMap "
 "data."
 msgstr ""
-"Osmose-QA هي أداة لضمان الجودة تكتشف المشكلات في بيانات خريطة الشارع المفتوحة."
+"Osmose-QA هي أداة لضمان الجودة تكتشف المشكلات في بيانات خريطة الشارع "
+"المفتوحة."
 
 #: ../src/pages/map/doc.vue:13
 msgid ""
@@ -1467,8 +1468,8 @@ msgid ""
 "Feel free to report any problem, idea or new open data you want to add to "
 "Osmose on our Github:"
 msgstr ""
-"لا تتردد في الإبلاغ عن أي مشكلة أو فكرة أو بيانات مفتوحة جديدة تريد إضافتها إلى "
-"Osmose على Github الخاص بنا:"
+"لا تتردد في الإبلاغ عن أي مشكلة أو فكرة أو بيانات مفتوحة جديدة تريد إضافتها "
+"إلى Osmose على Github الخاص بنا:"
 
 #: ../../tools/database/items_menu.txt:151
 msgid "fire hydrant"
@@ -1545,9 +1546,9 @@ msgid ""
 "France; part of the OpenAquiMap project leading by \"Les Petits "
 "Débrouillards d'Aquitaine\"."
 msgstr ""
-"تم تمويل إضافة وظيفة جديدة لـ \"محرر Osmose\"، والدعم الأولي للأجهزة المحمولة، "
-"وتحسين التوثيق من قبل منطقة أكيتين، فرنسا؛ كجزء من مشروع OpenAquiMap الذي "
-"يقوده \"Les Petits Débrouillards d'Aquitaine\"."
+"تم تمويل إضافة وظيفة جديدة لـ \"محرر Osmose\"، والدعم الأولي للأجهزة "
+"المحمولة، وتحسين التوثيق من قبل منطقة أكيتين، فرنسا؛ كجزء من مشروع "
+"OpenAquiMap الذي يقوده \"Les Petits Débrouillards d'Aquitaine\"."
 
 #: ../src/components/issues-list.vue:196
 msgid "delete issue #{uuid}"
@@ -1603,9 +1604,9 @@ msgid ""
 "or on {osmose-backend} for issues on the reported issues on OSM data, or for "
 "suggestion about analyses."
 msgstr ""
-"يجب الإبلاغ عن الأخطاء على {osmose-frontend} للمشكلات المتعلقة بالموقع الإلكتروني"
-"، أو على {osmose-backend} للمشكلات المتعلقة بالمشكلات التي تم الإبلاغ عنها على "
-"بيانات OSM، أو للاقتراحات حول التحليلات."
+"يجب الإبلاغ عن الأخطاء على {osmose-frontend} للمشكلات المتعلقة بالموقع "
+"الإلكتروني، أو على {osmose-backend} للمشكلات المتعلقة بالمشكلات التي تم "
+"الإبلاغ عنها على بيانات OSM، أو للاقتراحات حول التحليلات."
 
 #: ../src/pages/contact.vue:42
 msgid "Development of Osmose is made as free software by {volunteers}."
@@ -1615,8 +1616,8 @@ msgstr "يتم تطوير Osmose كبرنامج حر بواسطة {volunteers}."
 msgid ""
 "For new countries, we can be contacted through a direct email to {email}."
 msgstr ""
-"بالنسبة للبلدان الجديدة ، يمكن الاتصال بنا عبر بريد إلكتروني مباشر إلى {email}"
-"."
+"بالنسبة للبلدان الجديدة ، يمكن الاتصال بنا عبر بريد إلكتروني مباشر إلى "
+"{email}."
 
 #: ../src/pages/contact.vue:73
 msgid "We can be contacted through a direct email to {email}."
@@ -1853,8 +1854,8 @@ msgstr ""
 "تحذير: لن يتم عرض المشكلة أيضًا للمساهمين الآخرين. إذا لم تكن متأكدًا، اترك "
 "مشكلة Osmose هذه مفتوحة.\n"
 "\n"
-"إذا أبلغت Osmose عن الكثير من المشكلات المماثلة لهذه المشكلة وكنت لا توافق على "
-"ذلك، فيرجى ملء مشكلة على Github ودعنا نحاول إصلاحها."
+"إذا أبلغت Osmose عن الكثير من المشكلات المماثلة لهذه المشكلة وكنت لا توافق "
+"على ذلك، فيرجى ملء مشكلة على Github ودعنا نحاول إصلاحها."
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
@@ -1917,6 +1918,40 @@ msgstr "تتم الترجمة على {Transifex}"
 #| msgid "You can create a new language directly on {Transifex}."
 msgid "You can create a new language directly on {Weblate}."
 msgstr "يمكنك إنشاء لغة جديدة مباشرة على {Transifex}."
+
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"لا ينبغي بأي حال من الأحوال أن يوفر لك Osmose-QA الطريقة الصحيحة المطلقة "
+"للرسم، لذا حافظ دائمًا على نظرة نقدية وابحث عن أفضل الطرق."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "شكل المبنى"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "معلومات عن المشكلة"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "تم الإبلاغ عن المشكلة في:"
 
 #~ msgid "out of boundary"
 #~ msgstr "خارج الحدود"

@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-09-23 14:57+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-11-19 19:30+0000\n"
+"Last-Translator: Babos Gábor <gbab@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/osmose/"
 "frontend/hu/>\n"
 "Language: hu\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -1591,8 +1591,8 @@ msgid ""
 "This page shows issues on elements that were last modified by '{users}'. "
 "This doesn't mean that this user is responsible for all these issues."
 msgstr ""
-"Ez az oldal azon elemek lehetséges hibáit jeleníti meg, amelyeket utoljára '"
-"{users}' módosított. Ez nem jelenti azt, hogy ez a felhasználó lenne a "
+"Ez az oldal azon elemek lehetséges hibáit jeleníti meg, amelyeket utoljára "
+"'{users}' módosított. Ez nem jelenti azt, hogy ez a felhasználó lenne a "
 "felelő mindezen hibákért."
 
 #: ../src/pages/byuser/byuser.vue:7
@@ -1835,8 +1835,8 @@ msgid ""
 "Keep in touch by watching at {twitter} on Twitter or at {mastodon} on "
 "Mastodon."
 msgstr ""
-"Tartsa velünk a kapcsolatot a Twitteren ({twitter}) vagy a Mastodonon ("
-"{mastodon})."
+"Tartsa velünk a kapcsolatot a Twitteren ({twitter}) vagy a Mastodonon "
+"({mastodon})."
 
 #: ../src/components/confirmFalsePositive.vue
 msgid ""
@@ -1929,6 +1929,30 @@ msgstr "A fordítás a {Weblate}-en készül"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Létrehozhatsz egy nyelvet közvetlenül itt: {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Az Osmose-QA soha sem az egyetlen helyes módját adja meg a térképezésnek. "
+"Mindig kritikus szemmel nézze a dolgokat."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr "Az eredeti OSM-adatokból származó problémák medián késése."
+
+#: ../../tools/database/categories_menu.txt:1
+msgid "Building"
+msgstr "Épület"
+
+#: ../src/pages/map/popup.vue:153
+msgid "Not an issue"
+msgstr "Nem probléma"
+
+#: ../src/pages/map/popup.vue:18
+msgid "Reported on"
+msgstr "Bejelentve ekkor:"
 
 #~ msgid "out of boundary"
 #~ msgstr "határ(vonal)on kívül"

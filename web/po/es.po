@@ -23,8 +23,8 @@ msgstr ""
 "Project-Id-Version: Osmose\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-03-18 22:25+0100\n"
-"PO-Revision-Date: 2026-09-23 14:56+0000\n"
-"Last-Translator: Hugoren Martinako <aumpfbahn@gmail.com>\n"
+"PO-Revision-Date: 2026-11-21 07:51+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fito@libreoffice.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/osmose/frontend/"
 "es/>\n"
 "Language: es\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
 "0) ? 1 : 2);\n"
-"X-Generator: Weblate 2026.10.dev0\n"
+"X-Generator: Weblate 2026.12.dev0\n"
 
 #: ../src/pages/issues/index.vue:23 ../src/pages/issues/index.vue
 msgid "False positives"
@@ -74,7 +74,7 @@ msgstr "Estadísticas por usuario"
 
 #: ../src/pages/byuser/index.vue:2
 msgid "User statistics"
-msgstr "Estadísticas del usuario"
+msgstr "Estadísticas de usuario"
 
 #: ../src/pages/byuser/index.vue:13
 msgid "Username:"
@@ -649,7 +649,7 @@ msgstr "edificio geodésico"
 
 #: ../../tools/database/items_menu.txt:109
 msgid "building shape"
-msgstr "forma del edificio"
+msgstr "forma de edificación"
 
 #: ../../tools/database/items_menu.txt:110
 msgid "bridge to tag"
@@ -1509,7 +1509,7 @@ msgstr "mirador"
 
 #: ../../tools/database/items_menu.txt:220
 msgid "picnic"
-msgstr "picnic"
+msgstr "pícnic"
 
 #: ../../tools/database/items_menu.txt:221
 msgid "bicycle infrastructure"
@@ -1541,7 +1541,7 @@ msgstr "cementerio"
 
 #: ../../tools/database/items_menu.txt:223
 msgid "man made"
-msgstr "hecho por el hombre"
+msgstr "elementos artificiales"
 
 #: ../../tools/database/items_menu.txt:224
 msgid "water infrastructure"
@@ -1791,7 +1791,7 @@ msgstr "Usuario OSM"
 #: ../src/pages/issues/index.vue:158 ../src/pages/map/items-filters.vue:95
 #: ../src/pages/map/items-filters.vue:40
 msgid "Show hidden items"
-msgstr "Mostrar ítems ocultos"
+msgstr "Mostrar elementos ocultos"
 
 #: ../src/pages/issues/index.vue:132 ../src/pages/map/items-filters.vue:77
 #: ../src/pages/map/items-filters.vue:22
@@ -1883,7 +1883,7 @@ msgstr ""
 
 #: ../../tools/database/items_menu.txt:31
 msgid "building landuse"
-msgstr "edificio uso del suelo"
+msgstr "uso de suelo de edificación"
 
 #: ../../tools/database/items_menu.txt:165
 msgid "cycle parking, need update"
@@ -1948,6 +1948,32 @@ msgstr "La traducción se realiza en {Weblate}"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Puede crear un idioma nuevo directamente en {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"En ningún caso Osmose-QA pretende ofrecerle la única forma correcta de "
+"cartografiar. Mantenga siempre una actitud crítica."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+"Latencia media de los problemas detectados a partir de los datos originales "
+"de OSM."
+
+#: ../../tools/database/categories_menu.txt:1
+msgid "Building"
+msgstr "Edificación"
+
+#: ../src/pages/map/popup.vue:153
+msgid "Not an issue"
+msgstr "No es problema"
+
+#: ../src/pages/map/popup.vue:18
+msgid "Reported on"
+msgstr "Informado el"
 
 #~ msgid "out of boundary"
 #~ msgstr "fuera del límite"

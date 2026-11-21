@@ -1928,6 +1928,39 @@ msgstr "Завершение перевода на {Transifex}"
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Вы можете создать новый язык прямо на {Transifex}."
 
+#: ../src/pages/map/doc.vue:26
+#, fuzzy
+#| msgid ""
+#| "In no case Osmose-QA should provide you the absolute right way to map, "
+#| "always keep a critical eye."
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+"Ни в коем случае не считайте Osmose-QA руководством по правильному маппингу."
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "форма здания"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "Информация о проблеме"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Проблема обнаружена:"
+
 #~ msgid "out of boundary"
 #~ msgstr "вне границ"
 

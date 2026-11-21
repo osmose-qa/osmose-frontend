@@ -1585,7 +1585,8 @@ msgstr "Användarstatistik för {users}"
 
 #: ../src/pages/translation.vue:82
 msgid "{osmose-frontend} can be used to report any issue with translations."
-msgstr "{osmose-frontend} kan användas för att rapportera fel i översättningar."
+msgstr ""
+"{osmose-frontend} kan användas för att rapportera fel i översättningar."
 
 #: ../src/pages/contact.vue:5
 msgid ""
@@ -1907,6 +1908,34 @@ msgstr "Översättning görs på {Weblate}"
 #: ../src/pages/translation.vue:55
 msgid "You can create a new language directly on {Weblate}."
 msgstr "Du kan skapa ett nytt språk direkt på {Weblate}."
+
+#: ../src/pages/map/doc.vue:26
+msgid ""
+"In no case does Osmose-QA tell you the absolute right way to map. Always "
+"keep a critical eye."
+msgstr ""
+
+#: ../src/pages/map/top.vue:261 ../src/pages/map/top.vue:262
+msgid "Median latency of issues from original OSM data."
+msgstr ""
+
+#: ../../tools/database/categories_menu.txt:1
+#, fuzzy
+#| msgid "building shape"
+msgid "Building"
+msgstr "byggnadsform"
+
+#: ../src/pages/map/popup.vue:153
+#, fuzzy
+#| msgid "information on issue"
+msgid "Not an issue"
+msgstr "information om problem"
+
+#: ../src/pages/map/popup.vue:18
+#, fuzzy
+#| msgid "Issue reported on:"
+msgid "Reported on"
+msgstr "Problem rapporterat:"
 
 #~ msgid "openrailwaymap in germany"
 #~ msgstr "openrailwaymap i Tyskland"
